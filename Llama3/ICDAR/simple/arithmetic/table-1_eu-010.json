@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference between the total amount of signed TA (EUR m) in Morocco and Algeria?",
+    "Answer": "18.90",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting the value in cell 0 (6.19) from the value in cell 5 (21.09)",
+    "GT": "14.9"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average amount of signed TA (EUR m) in the countries with the highest and lowest values?",
+    "Answer": "22.71",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average is calculated by adding the values in cells 5 (21.09) and 7 (33.42) and dividing by 2",
+    "GT": "18.00"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage difference between the total amount of signed TA (EUR m) and the amount in Egypt?",
+    "Answer": "50.77%",
+    "QuestionType": "percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by dividing the difference between the total amount (98.46) and the amount in Egypt (6.60) by the amount in Egypt, and multiplying by 100",
+    "GT": "174.97%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total amount of signed TA (EUR m) in the countries with a value greater than the regional average?",
+    "Answer": "63.71",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing the values in cells 5 (21.09), 7 (33.42), and 8 (14.50)",
+    "GT": "69.01"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the total amount of signed TA (EUR m) and the amount in the Gaza & West Bank?",
+    "Answer": "95.86",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting the value in cell 2 (2.60) from the value in cell 9 (98.46)",
+    "GT": "95.86"
+  }
+]

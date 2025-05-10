@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total population in 1996?",
+    "Answer": "12,849",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The total population in 1996 can be found in the 'Actual' row and 'Total' column.",
+    "GT": "12,849"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage change in the White population from 1996 to 2000?",
+    "Answer": "0.54% (8,530 to 8,750)",
+    "QuestionType": "calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "The percentage change is calculated by dividing the difference in the White population (8,750 - 8,530 = 220) by the initial value (8,530) and multiplying by 100.",
+    "GT": "2.58%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "In what year did the Hispanic population exceed 2,000?",
+    "Answer": "1998",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The Hispanic population exceeded 2,000 in 1998, as shown in the 'Actual' row and 'Hispanic' column.",
+    "GT": "2001"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the projected total population in 2012?",
+    "Answer": "14,752",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The projected total population in 2012 can be found in the 'Projected' row and 'Total' column.",
+    "GT": "14,752"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average annual growth rate of the Asian population from 2000 to 2015?",
+    "Answer": "3.43% (601 to 822)",
+    "QuestionType": "calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "The average annual growth rate is calculated by dividing the difference in the Asian population (822 - 601 = 221) by the initial value (601) and multiplying by 100, then dividing by the number of years (15).",
+    "GT": "2.08%"
+  }
+]

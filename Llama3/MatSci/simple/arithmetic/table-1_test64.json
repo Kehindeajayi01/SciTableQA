@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in hardness between AlCrTiMo and Al0.75CrTiMo alloys?",
+    "Answer": "15 ± 3",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The hardness of AlCrTiMo is 692 ± 8 and the hardness of Al0.75CrTiMo is 702 ± 5. The difference is calculated as 702 ± 5 - 692 ± 8 = 15 ± 3.",
+    "GT": "10 ± 3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average hardness of Al0.5CrTiMo and Al0.25CrTiMo alloys?",
+    "Answer": "724.5 ± 9.5",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The hardness of Al0.5CrTiMo is 719 ± 10 and the hardness of Al0.25CrTiMo is 730 ± 9. The average is calculated as (719 ± 10 + 730 ± 9) / 2 = 724.5 ± 9.5.",
+    "GT": "724.5 ± 9.5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the ratio of the density of Al0.25CrTiMo to AlCrTiMo alloys?",
+    "Answer": "1.14",
+    "QuestionType": "ratio",
+    "TableName": "table-1.csv",
+    "Explanation": "The density of AlCrTiMo is 6.18 and the density of Al0.25CrTiMo is 6.99. The ratio is calculated as 6.99 / 6.18 = 1.14.",
+    "GT": "1.13"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in density between Al0.5CrTiMo and AlCrTiMo alloys?",
+    "Answer": "0.48",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The density of AlCrTiMo is 6.18 and the density of Al0.5CrTiMo is 6.66. The difference is calculated as 6.66 - 6.18 = 0.48.",
+    "GT": "0.48"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average density of Al0.75CrTiMo and Al0.25CrTiMo alloys?",
+    "Answer": "6.53",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The density of Al0.75CrTiMo is 6.44 and the density of Al0.25CrTiMo is 6.99. The average is calculated as (6.44 + 6.99) / 2 = 6.53.",
+    "GT": "6.72"
+  }
+]

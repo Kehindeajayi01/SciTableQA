@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average E_corr value for the two materials?",
+    "Answer": "-0.68825",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average E_corr value is calculated by adding the E_corr values for both materials and dividing by 2: (-0.6485 + -0.7280) / 2 = -0.68825",
+    "GT": "-0.68825"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the i_corr values of the two materials?",
+    "Answer": "0.0669",
+    "QuestionType": "difference",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference between the i_corr values is calculated by subtracting the i_corr value of the first material from the i_corr value of the second material: 0.6971 - 0.6300 = 0.0669",
+    "GT": "0.0671"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the ratio of the i_corr values of the two materials?",
+    "Answer": "1.1053",
+    "QuestionType": "ratio",
+    "TableName": "table-2.csv",
+    "Explanation": "The ratio of the i_corr values is calculated by dividing the i_corr value of the second material by the i_corr value of the first material: 0.6971 / 0.6300 = 1.1053",
+    "GT": "1.1065"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average of the absolute values of the E_corr values?",
+    "Answer": "0.68025",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average of the absolute values of the E_corr values is calculated by adding the absolute values of the E_corr values and dividing by 2: abs(-0.6485) + abs(-0.7280) / 2 = 0.68025",
+    "GT": "0.68825"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the average E_corr value and the average i_corr value?",
+    "Answer": "-0.0005",
+    "QuestionType": "difference",
+    "TableName": "table-2.csv",
+    "Explanation": "The average E_corr value is (-0.68825), the average i_corr value is (0.6635) (calculated by averaging the i_corr values), and the difference is calculated by subtracting the average E_corr value from the average i_corr value: 0.6635 - (-0.68825) = -0.0005",
+    "GT": "0.6214"
+  }
+]

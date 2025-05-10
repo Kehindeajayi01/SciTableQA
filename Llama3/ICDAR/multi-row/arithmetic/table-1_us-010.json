@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of data sets available after 1 year of launching the initiative?",
+    "Answer": "272,768",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the difference between the total data sets available on May 21, 2009 (0) and May 21, 2010 (272,768).",
+    "GT": "272,768"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of data sets developed by the public and government per year?",
+    "Answer": "540.4",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the difference between the number of applications and mashups developed by the public and government in FY 2010 (1,079) and FY 2011 (237), divided by the number of years (2).",
+    "GT": "658"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of data set downloads after 2 years of launching the initiative?",
+    "Answer": "2,348,928",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the difference between the total data set downloads in FY 2010 (652,412) and FY 2011 (2,348,928).",
+    "GT": "2,348,928"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage increase in the number of states offering open data sites in 1 year?",
+    "Answer": "175%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the difference between the number of states offering open data sites in FY 2010 (8) and FY 2011 (29), divided by the initial value and multiplied by 100.",
+    "GT": "262.5%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of cities in North America with open data sites after 1 year of launching the initiative?",
+    "Answer": "8",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the difference between the number of cities in North America with open data sites on May 21, 2009 (0) and May 21, 2010 (8).",
+    "GT": "8"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average increase in Public PK-12 enrollment from 1996 to 2010?",
+    "Answer": "4,880",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average increase in Public PK-12 enrollment from 1996 to 2010 can be calculated by taking the average of the differences between each consecutive year's enrollment. This is done by subtracting the 1996 enrollment from the 2010 enrollment and then dividing by the number of years (15).",
+    "GT": "277"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total enrollment in Private PK-12 schools in 2001?",
+    "Answer": "6,320",
+    "QuestionType": "lookup",
+    "TableName": "table-1.csv",
+    "Explanation": "The total enrollment in Private PK-12 schools in 2001 can be found by looking up the value in the 'Private PK-12' column for the row corresponding to the year 2001.",
+    "GT": "6,320"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average difference in enrollment between Public and Private PK-8 schools from 1996 to 2005?",
+    "Answer": "1,141",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference in enrollment between Public and Private PK-8 schools from 1996 to 2005 can be calculated by taking the average of the differences between each consecutive year's enrollment. This is done by subtracting the Public PK-8 enrollment from the Private PK-8 enrollment for each year and then dividing by the number of years (10).",
+    "GT": "82,459"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total enrollment in Public 9-12 schools in 2006?",
+    "Answer": "49,316",
+    "QuestionType": "lookup",
+    "TableName": "table-1.csv",
+    "Explanation": "The total enrollment in Public 9-12 schools in 2006 can be found by looking up the value in the 'Public 9-12' column for the row corresponding to the year 2006.",
+    "GT": "15,081"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average increase in Private PK-8 enrollment from 2000 to 2015?",
+    "Answer": "4.65",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average increase in Private PK-8 enrollment from 2000 to 2015 can be calculated by taking the average of the differences between each consecutive year's enrollment. This is done by subtracting the 2000 enrollment from the 2015 enrollment and then dividing by the number of years (15).",
+    "GT": "-44.25"
+  }
+]

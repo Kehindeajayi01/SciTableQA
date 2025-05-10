@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average PED value for the RS-PED method?",
+    "Answer": "0.189",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average PED value for the RS-PED method is calculated by taking the mean of the PED values in the RS-PED column.",
+    "GT": "0.189"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest CED value?",
+    "Answer": "Our CJS",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The CED value for each method is compared, and the method with the highest value is determined to be Our CJS.",
+    "GT": "MMD (Borgwardt et al. 2006)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the average PED values for PED and RS-PED methods?",
+    "Answer": "0.008",
+    "QuestionType": "cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average PED value for PED is 0.197, and the average PED value for RS-PED is 0.189. The difference between these two values is calculated as 0.197 - 0.189 = 0.008.",
+    "GT": "0.008"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which method has the lowest PCS value?",
+    "Answer": "Our RS-CJS",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The PCS values for each method are compared, and the method with the lowest value is determined to be Our RS-CJS.",
+    "GT": "Our RS-CJS"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average PJS value for the MMD method?",
+    "Answer": "0.201",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average PJS value for the MMD method is calculated by taking the mean of the PJS values in the MMD column.",
+    "GT": "0.201"
+  }
+]

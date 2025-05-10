@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of schools in the table that follow the English program?",
+    "Answer": "4",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question is answered by counting the number of schools that have 'English' in the 'Sentence' column, which is 4 (Post Id 35639076, 32448901, 31704366, and 27971261).",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many schools in the table offer French lessons?",
+    "Answer": "3",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question is answered by counting the number of schools that have 'French' in the 'Sentence' column, which is 3 (Post Id 35639076, 32448901, and 31704366).",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of schools in the table that follow the British curriculum?",
+    "Answer": "9",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question is answered by counting the number of schools that have 'British' in the 'Sentence' column, which is 9 (Post Id 31704366 and 27971261).",
+    "GT": "9"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many schools in the table offer Arabic lessons?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question is answered by counting the number of schools that have 'Arabic' in the 'Sentence' column, which is 1 (Post Id 35639076).",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of schools in the table that offer lessons in more than one language?",
+    "Answer": "2",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question is answered by counting the number of schools that have more than one language mentioned in the 'Sentence' column, which is 2 (Post Id 35639076 and 31704366).",
+    "GT": "3"
+  }
+]

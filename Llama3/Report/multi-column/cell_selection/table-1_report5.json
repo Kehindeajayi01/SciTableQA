@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total green power usage (kWh) for the City of Houston, TX?",
+    "Answer": "623,013,375",
+    "QuestionType": "cell selection",
+    "TableName": "Annual Green Power Usage",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell at row 1 and column 1.",
+    "GT": "623,013,375"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of total electricity use is green power for the District of Columbia?",
+    "Answer": "100%",
+    "QuestionType": "cell selection",
+    "TableName": "Annual Green Power Usage",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell at row 3 and column 2.",
+    "GT": "100%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which city has the highest green power usage (kWh) among the listed cities?",
+    "Answer": "City of Houston, TX",
+    "QuestionType": "cell selection",
+    "TableName": "Annual Green Power Usage",
+    "Explanation": "The answer can be directly obtained from the table by identifying the city with the highest value in column 1.",
+    "GT": "City of Houston, TX"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total green power usage (kWh) for the City of Portland, OR?",
+    "Answer": "40,454,055",
+    "QuestionType": "cell selection",
+    "TableName": "Annual Green Power Usage",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell at row 24 and column 1.",
+    "GT": "40,454,055"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What percentage of total electricity use is green power for the City of Boston, MA?",
+    "Answer": "25%",
+    "QuestionType": "cell selection",
+    "TableName": "Annual Green Power Usage",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell at row 26 and column 2.",
+    "GT": "25%"
+  }
+]

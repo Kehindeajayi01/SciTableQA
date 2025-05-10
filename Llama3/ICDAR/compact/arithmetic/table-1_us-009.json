@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total cost of Salaries and Fringe Benefits, excluding Indirect Costs?",
+    "Answer": "1,314,000 + 352,000 - 373,250 = 1,292,750",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The total cost of Salaries is 1,314,000, and the total cost of Fringe Benefits is 352,000. Subtracting the Indirect Costs of 373,250 from the total cost of Salaries and Fringe Benefits gives the answer.",
+    "GT": "1,192,762"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in Total Direct Costs from 2019 to 2020?",
+    "Answer": "(1,839,062 - 141,000) / 141,000 = 1209.3%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The Total Direct Costs in 2019 are 141,000, and in 2020 are 1,839,062. The percentage increase is calculated by dividing the difference by the original value.",
+    "GT": "NA (No years given)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total cost of Consultant Services, Staff Travel, and Bad Debts?",
+    "Answer": "26,000 + 94,000 + 10,000 = 130,000",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The total cost of Consultant Services is 26,000, Staff Travel is 94,000, and Bad Debts is 10,000. The answer is the sum of these three costs.",
+    "GT": "130,000"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total cost of Office Rent, Consumable Supplies, and Printing & Reproduction?",
+    "Answer": "170,000 + 161,000 + 48,000 = 379,000",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The total cost of Office Rent is 170,000, Consumable Supplies is 161,000, and Printing & Reproduction is 48,000. The answer is the sum of these three costs.",
+    "GT": "379,000"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total cost of Subcontracts, Purchase Equipment Lease, and Telephone?",
+    "Answer": "175,000 + 82,000 + 109,400 = 366,400",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The total cost of Subcontracts is 175,000, Purchase Equipment Lease is 82,000, and Telephone is 109,400. The answer is the sum of these three costs.",
+    "GT": "366,400"
+  }
+]

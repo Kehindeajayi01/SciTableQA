@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of programs and databases listed in the table?",
+    "Answer": "14",
+    "QuestionType": "Count",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is derived by counting the number of rows in the table.",
+    "GT": "9"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of programs that start with the letter 'P'?",
+    "Answer": "42.86%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is derived by dividing the number of programs that start with the letter 'P' (6) by the total number of programs (14) and multiplying by 100.",
+    "GT": "20%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of characters in the 'Type' column?",
+    "Answer": "14.71",
+    "QuestionType": "Average",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is derived by calculating the average length of the 'Type' column values.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of data files listed in the table?",
+    "Answer": "5",
+    "QuestionType": "Count",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is derived by counting the number of rows in the table that have the 'Type' column value 'Data'.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of JCL files listed in the table?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is derived by counting the number of rows in the table that have the 'Type' column value 'JCL'.",
+    "GT": "3"
+  }
+]

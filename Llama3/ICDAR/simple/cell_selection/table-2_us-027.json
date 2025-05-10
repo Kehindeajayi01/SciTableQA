@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What was the total number of Murder / Non-Negligent Manslaughter cases in 2005?",
+    "Answer": "28",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the 'Murder / Non-Negligent Manslaughter' column of the 2005 row.",
+    "GT": "28"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What was the total number of Forcible Sex Offense cases in all years combined?",
+    "Answer": "13,842",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the 'Forcible Sex Offense' column of the 'Total' row.",
+    "GT": "13,842"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "In which year was the highest number of Aggravated Assault cases recorded?",
+    "Answer": "2007",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found by identifying the year with the highest number of Aggravated Assault cases, which is 2007.",
+    "GT": "2005"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the total number of Motor Vehicle Theft cases in 2008?",
+    "Answer": "8,744",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the 'Motor Vehicle Theft' column of the 2008 row.",
+    "GT": "7,465"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the total number of Arson cases in all years combined?",
+    "Answer": "4,045",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the 'Arson' column of the 'Total' row.",
+    "GT": "4,045"
+  }
+]

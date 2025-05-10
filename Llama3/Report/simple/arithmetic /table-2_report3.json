@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of government websites that are not active yet?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "Domain Name",
+    "Explanation": "I arrived at the answer by counting the number of websites that are under development and not active yet, which is 1, and then dividing it by the total number of websites, which is 4.",
+    "GT": "25%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of redirects for the government websites?",
+    "Answer": "2",
+    "QuestionType": "Arithmetic",
+    "TableName": "Domain Name",
+    "Explanation": "I arrived at the answer by counting the number of redirects, which is 2, and then dividing it by the total number of websites, which is 4.",
+    "GT": "0.5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of government websites that are not public websites?",
+    "Answer": "2",
+    "QuestionType": "Comparison",
+    "TableName": "Domain Name",
+    "Explanation": "I arrived at the answer by counting the number of websites that are not public websites, which is 2.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of government websites that are public websites?",
+    "Answer": "0",
+    "QuestionType": "Comparison",
+    "TableName": "Domain Name",
+    "Explanation": "I arrived at the answer by counting the number of public websites, which is 0, and then dividing it by the total number of websites, which is 4.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of government websites that are under development?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "Domain Name",
+    "Explanation": "I arrived at the answer by counting the number of websites that are under development, which is 1.",
+    "GT": "1"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of words in a document at time epoch t?",
+    "Answer": "N_i / K",
+    "QuestionType": "calculation",
+    "TableName": "table-1",
+    "Explanation": "The average number of words in a document at time epoch t is calculated by dividing the total number of words in the corpus (N_i) by the number of latent topics (K)",
+    "GT": "N_i / K"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of words in the corpus?",
+    "Answer": "N",
+    "QuestionType": "lookup",
+    "TableName": "table-1",
+    "Explanation": "The total number of words in the corpus is directly obtained from the table as N",
+    "GT": "N"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average weighting factor for the mth scale in the past at time epoch t?",
+    "Answer": "\u03bc_m",
+    "QuestionType": "lookup",
+    "TableName": "table-1",
+    "Explanation": "The average weighting factor for the mth scale in the past at time epoch t is directly obtained from the table as \u03bc_m",
+    "GT": "\u03bc_m"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of words in the ith document at time epoch t?",
+    "Answer": "N_i",
+    "QuestionType": "lookup",
+    "TableName": "table-1",
+    "Explanation": "The total number of words in the ith document at time epoch t is directly obtained from the table as N_i",
+    "GT": "N_i"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of the number of words in the ith document at time epoch t to the total number of words in the corpus?",
+    "Answer": "N_i / N",
+    "QuestionType": "calculation",
+    "TableName": "table-1",
+    "Explanation": "The ratio of the number of words in the ith document at time epoch t to the total number of words in the corpus is calculated by dividing N_i by N",
+    "GT": "N_i / N"
+  }
+]

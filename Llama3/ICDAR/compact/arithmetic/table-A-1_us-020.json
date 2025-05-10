@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average weighted school participation rate before substitution for the top 5 countries with the highest weighted school participation rate after substitution?",
+    "Answer": "95.4",
+    "QuestionType": "comparison",
+    "TableName": "table-A-1.csv",
+    "Explanation": "To calculate this, we need to first sort the table by the weighted school participation rate after substitution in descending order. Then, we take the average of the weighted school participation rate before substitution for the top 5 countries, which are Australia, Austria, Azerbaijan, Belgium (French), and Canada.",
+    "GT": "96 (Took the first five countries with 100 in the weighted school participation rate after substitution)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the weighted school participation rate before substitution for countries with a national desired population coverage of 100% and those with a national desired population coverage less than 100%?",
+    "Answer": "5.4",
+    "QuestionType": "comparison",
+    "TableName": "table-A-1.csv",
+    "Explanation": "We first separate the countries into two groups: those with a national desired population coverage of 100% and those with a national desired population coverage less than 100%. Then, we calculate the average weighted school participation rate before substitution for each group. The difference between these two averages is 5.4.",
+    "GT": "NA (No national desired population coverage of 100%)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the weighted school participation rate after substitution for countries with a weighted student response rate of 95% or higher?",
+    "Answer": "97.4",
+    "QuestionType": "comparison",
+    "TableName": "table-A-1.csv",
+    "Explanation": "We first separate the countries into two groups: those with a weighted student response rate of 95% or higher and those with a weighted student response rate less than 95%. Then, we calculate the average weighted school participation rate after substitution for each group. The average for the first group is 97.4.",
+    "GT": "98.3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average weighted school participation rate before substitution for countries with a weighted student response rate of 90% or higher and a weighted school participation rate after substitution of 95% or higher?",
+    "Answer": "96.2",
+    "QuestionType": "comparison",
+    "TableName": "table-A-1.csv",
+    "Explanation": "We first separate the countries into three groups: those with a weighted student response rate of 90% or higher, those with a weighted school participation rate after substitution of 95% or higher, and those that meet both conditions. Then, we calculate the average weighted school participation rate before substitution for the second group. The average for this group is 96.2.",
+    "GT": "94.4"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average weighted school participation rate after substitution for countries with a national desired population coverage of 100% and a weighted student response rate of 95% or higher?",
+    "Answer": "96.9",
+    "QuestionType": "comparison",
+    "TableName": "table-A-1.csv",
+    "Explanation": "We first separate the countries into two groups: those with a national desired population coverage of 100% and those with a national desired population coverage less than 100%. Then, we separate each group into two subgroups: those with a weighted student response rate of 95% or higher and those with a weighted student response rate less than 95%. We calculate the average weighted school participation rate after substitution for the subgroup of countries with a national desired population coverage of 100% and a weighted student response rate of 95% or higher. The average for this subgroup is 96.9.",
+    "GT": "NA (No national desired population coverage of 100%)"
+  }
+]

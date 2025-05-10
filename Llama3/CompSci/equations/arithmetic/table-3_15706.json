@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average MAE for FilmTrust with d = 5 and d = 10?",
+    "Answer": "0.688 (\u00b1 0.0087) and 0.677 (\u00b1 0.0101)",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average MAE for FilmTrust with d = 5 is 0.688 (\u00b1 0.0087) and for d = 10 is 0.677 (\u00b1 0.0101)",
+    "GT": "0.6825"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which algorithm has the lowest MAE for Flixster with d = 5?",
+    "Answer": "SocialMF",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The MAE for SocialMF is 0.753 (\u00b1 0.0088) which is lower than the other algorithms for Flixster with d = 5",
+    "GT": "SREPS"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average RMSE for Epinions with d = 5 and d = 10?",
+    "Answer": "1.077 (\u00b1 0.0090) and 1.198 (\u00b1 0.0105)",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average RMSE for Epinions with d = 5 is 1.077 (\u00b1 0.0090) and for d = 10 is 1.198 (\u00b1 0.0105)",
+    "GT": "1.077 (\u00b1 0.0090) and 1.198 (\u00b1 0.0105)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which algorithm has the highest MAE for Ciao with d = 10?",
+    "Answer": "TrustMF",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The MAE for TrustMF is 0.823 (\u00b1 0.0130) which is higher than the other algorithms for Ciao with d = 10",
+    "GT": "PMF"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in MAE between FilmTrust and Flixster with d = 5?",
+    "Answer": "0.128 (0.816 - 0.688)",
+    "QuestionType": "arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference in MAE between FilmTrust and Flixster with d = 5 is calculated as 0.816 - 0.688 = 0.128",
+    "GT": "0.128 (0.816 - 0.688)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average productivity of pasture and crops/leafy vegetables in kg/m\u00b2, considering the values in columns 9 and 10?",
+    "Answer": "0.498",
+    "QuestionType": "comparison",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The average productivity is calculated by adding the productivity values in columns 9 and 10 and dividing by 2.",
+    "GT": "0.498"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total exposure period for pasture and crops/leafy vegetables in hours, considering the values in columns 7 and 8?",
+    "Answer": "1722.0",
+    "QuestionType": "arithmetic",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The total exposure period is calculated by adding the exposure periods in columns 7 and 8.",
+    "GT": "144,720"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average consumption delay time for milk and meat in days, considering the values in columns 14 and 19?",
+    "Answer": "11.0",
+    "QuestionType": "comparison",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The average consumption delay time is calculated by adding the consumption delay times in columns 14 and 19 and dividing by 2.",
+    "GT": "11.0"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total utilization rate for vegetables, milk, and meat in kg/year, considering the values in columns 15, 16, and 17?",
+    "Answer": "373.0",
+    "QuestionType": "arithmetic",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The total utilization rate is calculated by adding the utilization rates in columns 15, 16, and 17.",
+    "GT": "215.0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of the consumption rate for feed or forage to the productivity for pasture in kg-dry/day and kg/m\u00b2, considering the values in columns 13 and 9?",
+    "Answer": "54.86",
+    "QuestionType": "ratio",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The ratio is calculated by dividing the consumption rate for feed or forage in column 13 by the productivity for pasture in column 9.",
+    "GT": "55.71"
+  }
+]

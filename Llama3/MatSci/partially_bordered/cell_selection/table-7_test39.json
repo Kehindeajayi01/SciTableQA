@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of ΔSm for NbTiZr at 0°C?",
+    "Answer": "9.1",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The value of ΔSm for NbTiZr at 0°C can be found in the first row and first column of the table.",
+    "GT": "9.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the value of Ω for NbTiZr?",
+    "Answer": "8.0",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The value of Ω for NbTiZr can be found in the third row and third column of the table.",
+    "GT": "8.0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of ΔH_f/ΔH_m for NbTiZrVMo?",
+    "Answer": "0.60",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The value of ΔH_f/ΔH_m for NbTiZrVMo can be found in the fourth row and fourth column of the table.",
+    "GT": "3.06"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of k_1 (1273 K) for NbTiZrVTa?",
+    "Answer": "8.62",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The value of k_1 (1273 K) for NbTiZrVTa can be found in the fifth row and fifth column of the table.",
+    "GT": "8.62"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of ΔHmin for NbTiZrVAl0.24?",
+    "Answer": "12.6",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The value of ΔHmin for NbTiZrVAl0.24 can be found in the first row and sixth column of the table.",
+    "GT": "-43.7"
+  }
+]

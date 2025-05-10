@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average CWT (kg) of the individuals with the highest and lowest EMA (cm2)?",
+    "Answer": "432.45",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To find the answer, I sorted the table by EMA (cm2) in ascending and descending order, and then calculated the mean CWT (kg) for the top and bottom 5% of the data.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average BFT (mm) of the individuals with MS score of 1 and 9?",
+    "Answer": "10.50",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To find the answer, I filtered the table to only include rows with MS score of 1 and 9, and then calculated the mean BFT (mm) for each group.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the average CWT (kg) and BFT (mm) of the entire population?",
+    "Answer": "435.20",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To find the answer, I subtracted the mean BFT (mm) from the mean CWT (kg) for the entire population.",
+    "GT": "434.20"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of individuals with CWT (kg) above the average EMA (cm2)?",
+    "Answer": "44.45%",
+    "QuestionType": "proportion",
+    "TableName": "table-2.csv",
+    "Explanation": "To find the answer, I calculated the percentage of individuals with CWT (kg) above the mean EMA (cm2) by dividing the number of individuals above the mean EMA (cm2) by the total number of individuals.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the standard deviation of the MS score?",
+    "Answer": "1.88",
+    "QuestionType": "descriptive",
+    "TableName": "table-2.csv",
+    "Explanation": "To find the answer, I simply looked up the standard deviation of the MS score in the table.",
+    "GT": "1.88"
+  }
+]

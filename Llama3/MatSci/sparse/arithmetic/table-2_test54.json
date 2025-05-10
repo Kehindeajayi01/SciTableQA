@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average enthalpy of mixing for Ti, Co, Ni, Cu, Zr, and Hf with each other?",
+    "Answer": "-22.33",
+    "QuestionType": "average",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The average enthalpy of mixing is calculated by summing up all the enthalpy values and dividing by the number of pairs, which is 15 (6 elements taken 2 at a time).",
+    "GT": -17.93""
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which element has the highest enthalpy of mixing with Ti?",
+    "Answer": "Co",
+    "QuestionType": "comparison",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The enthalpy of mixing between Ti and Co is -35, which is the highest among all the elements.",
+    "GT": "(Zr or Hf if the highest is on numerical scale, zero is higher than -35. If absolute value of the numbers then Ni)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the sum of the enthalpy of mixing values for Ti with Co, Ni, Cu, Zr, and Hf?",
+    "Answer": "-82",
+    "QuestionType": "sum",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The sum is calculated by summing up the enthalpy values for Ti with each of the other elements: -28 + -35 + -9 + 0 + 0 = -82.",
+    "GT": "-72"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which element has the lowest enthalpy of mixing with Cu?",
+    "Answer": "Zr",
+    "QuestionType": "comparison",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The enthalpy of mixing between Cu and Zr is 0, which is the lowest among all the elements.",
+    "GT": "Zr"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in enthalpy of mixing between Ni and Cu?",
+    "Answer": "26",
+    "QuestionType": "difference",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The difference is calculated by subtracting the enthalpy of mixing between Ni and Cu: -49 - (-23) = 26.",
+    "GT": "4"
+  }
+]

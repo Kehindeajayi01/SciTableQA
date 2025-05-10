@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the proportion of people aged 20-29 years in the total population, and how does it compare to the proportion of people aged 30-39 years?",
+    "Answer": "0.1803 (20-29 years) vs 0.1392 (30-39 years)",
+    "QuestionType": "Comparison",
+    "TableName": "Age groups",
+    "Explanation": "The answer is derived by referencing cells 6 and 7, which provide the proportions of people in each age group.",
+    "GT": "0.1803 (20-29 years) vs 0.1392 (30-39 years)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of people aged 6-11 years, and what is the proportion of this age group in the total population?",
+    "Answer": "20,834,439, 0.0920",
+    "QuestionType": "Arithmetic",
+    "TableName": "Age groups",
+    "Explanation": "The answer is derived by referencing cell 4, which provides the total number of people in the 6-11 years age group, and cell 13, which provides the total population.",
+    "GT": "20,834,439, 0.0920"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in the proportion of people aged 40-49 years and 50-59 years?",
+    "Answer": "0.0025 (0.1005 - 0.1030)",
+    "QuestionType": "Comparison",
+    "TableName": "Age groups",
+    "Explanation": "The answer is derived by referencing cells 8 and 9, which provide the proportions of people in each age group.",
+    "GT": "0.0025 (0.1005 - 0.1030)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the proportion of people aged 12-19 years in the total population, and how does it compare to the proportion of people aged 20-29 years?",
+    "Answer": "0.1418 (12-19 years) vs 0.1803 (20-29 years)",
+    "QuestionType": "Comparison",
+    "TableName": "Age groups",
+    "Explanation": "The answer is derived by referencing cells 5 and 6, which provide the proportions of people in each age group.",
+    "GT": "0.1418 (12-19 years) vs 0.1803 (20-29 years)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the proportion of people aged 70-79 years in the total population, and how does it compare to the proportion of people aged 80 years plus?",
+    "Answer": "0.0512 (70-79 years) vs 0.0228 (80 years plus)",
+    "QuestionType": "Comparison",
+    "TableName": "Age groups",
+    "Explanation": "The answer is derived by referencing cells 11 and 12, which provide the proportions of people in each age group.",
+    "GT": "0.0512 (70-79 years) vs 0.0228 (80 years plus)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total GHGI emissions in 2002 and 2003?",
+    "Answer": "37,136,714 + 37,089,437 = 74,226,151",
+    "QuestionType": "Comparison",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The total GHGI emissions in 2002 is 37,136,714 and in 2003 is 37,089,437. The question is asking for the total emissions in both years, which is the sum of these two values.",
+    "GT": "37,136,714 + 37,089,437 = 74,226,151"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average GHGI emissions from 2002 to 2012?",
+    "Answer": "(37,136,714 + 34,317,060) / 11 = 35,726,887",
+    "QuestionType": "Calculation",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is asking for the average GHGI emissions from 2002 to 2012. The average is calculated by summing the emissions in these years and dividing by the number of years (11).",
+    "GT": "32,428,594.6"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total Gas STAR emissions in 2005 and 2006?",
+    "Answer": "-1,279 + 13,146,432 + 2,669,488 = 15,824,641",
+    "QuestionType": "Comparison",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is asking for the total Gas STAR emissions in 2005 and 2006. The emissions in 2005 are -1,279 (from Pipeline Leaks) and 13,146,432 (from M&R Stations), and in 2006 are 2,669,488 (from GHGI). The total emissions are the sum of these values.",
+    "GT": "-2,778,360"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total GHGI emissions from Pressure Relief Valve and Releases from 2004 to 2013?",
+    "Answer": "27,884 + 66,156 + 64,161 + 66,471 + 64,936 + 64,053 + 56,376 + 67,137 = 502,134",
+    "QuestionType": "Calculation",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is asking for the total GHGI emissions from Pressure Relief Valve and Releases from 2004 to 2013. The emissions from Pressure Relief Valve are 27,884 in 2004, 28,916 in 2007, 29,073 in 2008, 29,327 in 2009, 29,560 in 2010, 29,779 in 2011, and 30,163 in 2013. The emissions from Releases are 66,156 in 2004, 64,161 in 2007, 66,471 in 2008, 64,936 in 2009, 64,053 in 2010, 56,376 in 2011, and 67,137 in 2013. The total emissions are the sum of these values.",
+    "GT": "291,207"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total Gas STAR emissions from Mishaps (Dig-Ins) from 2002 to 2013?",
+    "Answer": "-534 + (-1,749) + (-5,869) + (-6,373) + (-7,695) + (-9,196) + (-10,731) + (-20,009) + (-19,830) + (-117,178) + (-17,771) + (-21,150) = -204,351",
+    "QuestionType": "Comparison",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is asking for the total Gas STAR emissions from Mishaps (Dig-Ins) from 2002 to 2013. The emissions from Mishaps (Dig-Ins) are -534 in 2002, -1,749 in 2003, -5,869 in 2004, -6,373 in 2005, -7,695 in 2006, -9,196 in 2007, -10,731 in 2008, -20,009 in 2009, -19,830 in 2010, -117,178 in 2011, and -17,771 in 2012, and -21,150 in 2013. The total emissions are the sum of these values.",
+    "GT": "-238,085"
+  }
+]

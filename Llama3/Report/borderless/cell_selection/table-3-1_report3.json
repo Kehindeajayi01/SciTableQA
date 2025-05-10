@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the name of the program that provides tabulations of predicted health impacts from radioactive airborne effluents?",
+    "Answer": "DARTAB2.FOR",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is found in the 'Type' column of the table, where DARTAB2.FOR is listed as a program.",
+    "GT": "DARTAB2.FOR"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the format of the meteorological data file used by AIRDOS-EPA (AIRDOS2)?",
+    "Answer": "STAR",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is found in the 'Description of Program or Database' column of the table, where SAMPLE.STAR is listed as a sample of meteorological data file in STAR format.",
+    "GT": "STAR"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the type of file that provides dose and risk factors used by DARTAB (DARTAB2)?",
+    "Answer": "Binary",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is found in the 'Description of Program or Database' column of the table, where RADRISK.BIN is listed as a binary file.",
+    "GT": "Binary"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the name of the job control language used to run SECPOP3A?",
+    "Answer": "GETPOP",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is found in the 'Description of Program or Database' column of the table, where GETPOP is listed as a job control language used to run SECPOP3A.",
+    "GT": "GETPOP"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the name of the sample output file from CAP-88 (DARTAB2)?",
+    "Answer": "SAMPLE.OUTPUT",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-1.csv",
+    "Explanation": "The answer is found in the 'Description of Program or Database' column of the table, where SAMPLE.OUTPUT is listed as a sample CAP-88 (DARTAB2) output file.",
+    "GT": "SAMPLE.OUTPUT"
+  }
+]

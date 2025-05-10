@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the composition of the sample in table-1.csv?",
+    "Answer": "Hf0.5Nb0.5Ta0.5Ti1.5Zr1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the first row of the table, where the composition is listed.",
+    "GT": "Hf0.5Nb0.5Ta0.5Ti1.5Zr1 (If first sample)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the atomic percentage of Hf in the sample?",
+    "Answer": ".1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the first column of the table, where the atomic percentage of Hf is listed.",
+    "GT": "12.5 (If first sample)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the atomic percentage of Nb in the sample?",
+    "Answer": ".2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the second column of the table, where the atomic percentage of Nb is listed.",
+    "GT": "12.5 (If first sample)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the atomic percentage of Mo in the sample?",
+    "Answer": "-",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the last column of the table, where the atomic percentage of Mo is listed, which is empty.",
+    "GT": "- (If first sample)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total atomic percentage of Ti in the sample?",
+    "Answer": "37.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the fourth column of the table, where the atomic percentage of Ti is listed.",
+    "GT": "37.5 (If first sample)"
+  }
+]

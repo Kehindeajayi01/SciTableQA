@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average accuracy of JT-BS training method across different social media platforms?",
+    "Answer": "94.53%",
+    "QuestionType": "cell selection",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The average accuracy is calculated by taking the average of the values in the JT-BS row (94.59%, 92.93%, 94.17%, 96.07%).",
+    "GT": "94.44%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which training method has the highest accuracy on Douban platform?",
+    "Answer": "ST-BC",
+    "QuestionType": "cell selection",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The answer is obtained by identifying the training method with the highest accuracy value in the Douban column, which is 97.14% for ST-BC.",
+    "GT": "ST-BC"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in accuracy between JT-BS and JT-BC training methods on Weibo platform?",
+    "Answer": "0.28%",
+    "QuestionType": "cell calculation",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The difference in accuracy is calculated by subtracting the accuracy value of JT-BS (94.17%) from the accuracy value of JT-BC (94.19%).",
+    "GT": "0.02%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which social media platform has the lowest average accuracy across all training methods?",
+    "Answer": "Twitter",
+    "QuestionType": "cell selection",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The answer is obtained by identifying the social media platform with the lowest average accuracy value, which is 93.91% for Twitter (average of 92.93%, 93.78%, 94.19%, 95.02%).",
+    "GT": "Twitter"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average accuracy of ST-BC training method on Facebook and Twitter platforms?",
+    "Answer": "95.51%",
+    "QuestionType": "cell selection",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The average accuracy is calculated by taking the average of the values in the ST-BC row for Facebook and Twitter platforms (96.24%, 95.02%).",
+    "GT": "95.63%"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the hardness, HV of TiZrVNb alloy?",
+    "Answer": "434.9",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The hardness, HV of TiZrVNb alloy can be found in the first row of the table.",
+    "GT": "434.9"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest tensile ductility?",
+    "Answer": "Ti2ZrVNb",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The tensile ductility values are compared across the rows, and Ti2ZrVNb has the highest value of 12.3.",
+    "GT": "Ti2ZrVNb"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the tensile yield strength of Ti1.5ZrVNb alloy?",
+    "Answer": "1101",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The tensile yield strength value for Ti1.5ZrVNb alloy can be found in the second row of the table.",
+    "GT": "1101"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the highest tensile fracture strength?",
+    "Answer": "TiZrVNb",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The tensile fracture strength values are compared across the rows, and TiZrVNb has the highest value of 1447.",
+    "GT": "TiZrVNb"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the density of Ti2ZrVNb alloy?",
+    "Answer": "6.12",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The density value for Ti2ZrVNb alloy can be found in the second row of the table.",
+    "GT": "6.12"
+  }
+]

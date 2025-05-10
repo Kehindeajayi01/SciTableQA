@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the number of sentences in the English (PTB) dataset?",
+    "Answer": "39,831",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is directly obtained from the 'Sents' column of the English (PTB) row in the table.",
+    "GT": "39,831"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the number of tokens in the Chinese (CTB) test dataset?",
+    "Answer": "25k",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is directly obtained from the 'Toks' column of the Chinese (CTB) test row in the table.",
+    "GT": "25k"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of training sentences across all languages?",
+    "Answer": "57,903",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is the sum of the 'Sents' column values of the 'train' row for each language, which are 39,831 (English) + 18,072 (Chinese).",
+    "GT": "57,903"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of training tokens to test tokens in the English (PTB) dataset?",
+    "Answer": "154.22",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is calculated by dividing the 'Toks' value of the 'train' row by the 'Toks' value of the 'test' row, both for the English (PTB) dataset.",
+    "GT": "16.75"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of development tokens across all languages?",
+    "Answer": "106k",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is the sum of the 'Toks' column values of the 'dev' row for each language, which are 84k (English) + 22k (Chinese).",
+    "GT": "106k"
+  }
+]

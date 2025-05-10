@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest Wildlife Criterion (pg/L) recorded in the table?",
+    "Answer": "2880",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The highest Wildlife Criterion (pg/L) is found in the first row of the table, which corresponds to the species 'Mink'.",
+    "GT": "2880"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which species has the lowest Wildlife Criterion (pg/L) value?",
+    "Answer": "Kingfisher",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The lowest Wildlife Criterion (pg/L) value is found in the third row of the table, which corresponds to the species 'Kingfisher'.",
+    "GT": "Kingfisher"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Wildlife Criterion (pg/L) value for all species?",
+    "Answer": "1163.2",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average Wildlife Criterion (pg/L) value is calculated by summing up all the values and dividing by the number of species. The sum of the values is 1038 + 764 + 598 + 1498 + 1818 = 5912, and the number of species is 5. The average is 5912 / 5 = 1163.2.",
+    "GT": "1,942.5 (GLWQI), 956.2 (Mercury)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which species has a Wildlife Criterion (pg/L) value greater than 2000?",
+    "Answer": "Mink, Osprey, Eagle",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The species with a Wildlife Criterion (pg/L) value greater than 2000 are 'Mink', 'Osprey', and 'Eagle', which are found in the first, fourth, and fifth rows of the table, respectively.",
+    "GT": "Mink"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of species for which the Wildlife Criterion (pg/L) value is not available?",
+    "Answer": "1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The species for which the Wildlife Criterion (pg/L) value is not available is 'Other', which is found in the second row of the table.",
+    "GT": "1"
+  }
+]

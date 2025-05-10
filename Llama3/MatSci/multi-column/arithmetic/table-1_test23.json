@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average volume fraction of B2 phase in the alloys with Al content between 20% and 25%?",
+    "Answer": "52.5\u00b11.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "The average volume fraction of B2 phase is calculated by averaging the values in cells 1 and 5, which are 69\u00b12 and 64\u00b11 respectively, and then averaging the Al content in cells 1 and 5, which are 22.2% and 19.5% respectively. The result is 52.5\u00b11.5.",
+    "GT": "55.5%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in volume fraction of C14 Laves phase between the alloys with Ti content greater than 25% and those with Ti content less than 25%?",
+    "Answer": "12\u00b12",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "The volume fraction of C14 Laves phase is 36\u00b11 for the alloy with Ti content 28.7% (cell 2) and 58\u00b12 for the alloy with Ti content 11.4% (cell 10). The difference is 12\u00b12.",
+    "GT": "16%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Cr content in the alloys with volume fraction of B2 phase greater than 60%?",
+    "Answer": "11.5%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "The volume fraction of B2 phase is 69\u00b12 for the alloy with Cr content 8.2% (cell 1) and 64\u00b11 for the alloy with Cr content 14.9% (cell 5). The average Cr content is 11.5%.",
+    "GT": "15.35%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average Nb content in the alloys with Al content less than 25%?",
+    "Answer": "20.5%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "The Al content is 20% for the alloy with Nb content 30.2% (cell 5) and 24% for the alloy with Nb content 25.1% (cell 7). The average Nb content is 20.5%.",
+    "GT": "18.5%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Zr content in the alloys with volume fraction of C14 Laves phase greater than 50%?",
+    "Answer": "20.6%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "The volume fraction of C14 Laves phase is 36\u00b11 for the alloy with Zr content 22.3% (cell 2) and 58\u00b12 for the alloy with Zr content 26.0% (cell 10). The average Zr content is 20.6%.",
+    "GT": "22.3%"
+  }
+]

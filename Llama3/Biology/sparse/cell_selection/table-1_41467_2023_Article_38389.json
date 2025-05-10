@@ -1,0 +1,46 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the clinical indication for XL-228?",
+    "Answer": "cancer",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The clinical indication for XL-228 is found in the 'Clinical indication' column of the table.",
+    "GT": "cancer"
+  {
+    "QuestionID": "Q2",
+    "Question": "Which drug is an antagonist for IL4R?",
+    "Answer": "dupilumab",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The drug dupilumab is an antagonist for IL4R, as indicated in the 'Type' column of the table.",
+    "GT": "dupilumab"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the effect of ENMD-981693 on immune-mediated diseases?",
+    "Answer": "protective",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The effect of ENMD-981693 on immune-mediated diseases is found in the 'Application in immune-mediated diseases' column of the table.",
+    "GT": "protective"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which drug is an inhibitor for CTLA4?",
+    "Answer": "zalifrelimab",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The drug zalifrelimab is an inhibitor for CTLA4, as indicated in the 'Type' column of the table.",
+    "GT": "zalifrelimab, quavonlimab, erfonrilimab, cadonilimab, tremelimumab, and ipilmumab"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the application of ipilimumab?",
+    "Answer": "cancer",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The application of ipilimumab is found in the 'Clinical indication' column of the table.",
+    "GT": "cancer"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of substitutes for Ice Skating Rinks (Retrofit) in the Refrigeration Conditioning sector?",
+    "Answer": "2",
+    "QuestionType": "count",
+    "TableName": "table-1",
+    "Explanation": "The question involves counting the number of substitutes for Ice Skating Rinks (Retrofit) in the Refrigeration Conditioning sector, which is 2 (R-448A and R-449A)",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of substitutes for Foam Blowing  Rigid Polyurethane and Polyisocyanurate Laminated Boardstock in the Aerosols sector?",
+    "Answer": "1",
+    "QuestionType": "count",
+    "TableName": "table-1",
+    "Explanation": "The question involves counting the number of substitutes for Foam Blowing  Rigid Polyurethane and Polyisocyanurate Laminated Boardstock in the Aerosols sector, which is 1 (Acetone/Isopentane blend)",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of substitutes for Ice Skating Rinks (New & Retrofit) in the Refrigeration Conditioning sector?",
+    "Answer": "2",
+    "QuestionType": "count",
+    "TableName": "table-1",
+    "Explanation": "The question involves counting the number of substitutes for Ice Skating Rinks (New & Retrofit) in the Refrigeration Conditioning sector, which is 2 (R-450A and R-513A)",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of substitutes for Aerosol Solvents in the Aerosols sector?",
+    "Answer": "1",
+    "QuestionType": "count",
+    "TableName": "table-1",
+    "Explanation": "The question involves counting the number of substitutes for Aerosol Solvents in the Aerosols sector, which is 1 (HFO-1336mzz(Z))",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of substitutes for Cleaning Solvents in the Cleaning Solvents sector?",
+    "Answer": "1",
+    "QuestionType": "count",
+    "TableName": "table-1",
+    "Explanation": "The question involves counting the number of substitutes for Cleaning Solvents in the Cleaning Solvents sector, which is 1 (HFO-1336mzz(Z))",
+    "GT": "1"
+  }
+]

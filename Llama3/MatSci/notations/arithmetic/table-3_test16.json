@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average specific yield strength of the materials with \u03c3_y (MPa) values above 2000?",
+    "Answer": "276.67",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average specific yield strength, I filtered the table for rows with \u03c3_y (MPa) values above 2000 and then calculated the average of the specific yield strength values.",
+    "GT": "292.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in hardness (HV) between the materials with the highest and lowest hardness values?",
+    "Answer": "195",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the difference in hardness, I found the highest and lowest hardness values in the table, which are 741 and 101, respectively, and then subtracted the lower value from the higher value.",
+    "GT": "301"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average density (g/cm\u00b3) of the materials with \u03c3_max (MPa) values above 1300?",
+    "Answer": "8.63",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average density, I filtered the table for rows with \u03c3_max (MPa) values above 1300 and then calculated the average of the density values.",
+    "GT": "7.56"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of the specific yield strength to the hardness for the material with the highest \u03c3_y (MPa) value?",
+    "Answer": "1.12",
+    "QuestionType": "Ratio",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the ratio, I found the material with the highest \u03c3_y (MPa) value, which is 2368, and then divided it by the hardness value of 591.",
+    "GT": "0.451"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average \u03c3_y (MPa) value of the materials with specific yield strength values above 250?",
+    "Answer": "2041.25",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average \u03c3_y (MPa) value, I filtered the table for rows with specific yield strength values above 250 and then calculated the average of the \u03c3_y (MPa) values.",
+    "GT": "2,271.33"
+  }
+]

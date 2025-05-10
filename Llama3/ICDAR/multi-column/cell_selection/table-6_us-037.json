@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average body weight (in g) of male mice at postnatal day 1?",
+    "Answer": "39",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The average body weight of male mice at postnatal day 1 can be found in the row labeled '1' and column 'Body Weight (g)'.",
+    "GT": "5.8g"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the relative weight of male mice at postnatal day 14 compared to controls, when exposed to 2,000 ppm?",
+    "Answer": "101",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The relative weight of male mice at postnatal day 14 compared to controls, when exposed to 2,000 ppm, can be found in the row labeled '6' and column 'Weight Relative to Controls (%)'.",
+    "GT": "96%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the concentration (in ppm) that shows the lowest relative body weight for male mice at postnatal day 20?",
+    "Answer": "4,000",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The concentration that shows the lowest relative body weight for male mice at postnatal day 20 can be found by comparing the values in the column 'Weight Relative to Controls (%)' and identifying the lowest value, which corresponds to a concentration of 4,000 ppm.",
+    "GT": "4,000"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average body weight (in g) of female mice at postnatal day 4?",
+    "Answer": "23",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The average body weight of female mice at postnatal day 4 can be found in the row labeled '9' and column 'Body Weight (g)'.",
+    "GT": "8.1g"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the relative body weight of female mice at postnatal day 20 compared to controls, when exposed to 500 ppm?",
+    "Answer": "100",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The relative body weight of female mice at postnatal day 20 compared to controls, when exposed to 500 ppm, can be found in the row labeled '11' and column 'Weight Relative to Controls (%)'.",
+    "GT": "100%"
+  }
+]

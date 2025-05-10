@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of RET for Cox method?",
+    "Answer": "0.5552",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer can be found by looking at the cell where the method is 'Cox' and the column is 'RET'.",
+    "GT": "0.5552"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest average value of NEU?",
+    "Answer": "Log-Logistic",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer can be found by looking at the column 'NEU' and identifying the method with the highest average value.",
+    "GT": "Cox"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of VAS for Regression method?",
+    "Answer": "0.4510",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer can be found by looking at the cell where the method is 'Regression' and the column is 'VAS'.",
+    "GT": "0.495"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which method has the lowest average value of HYPER?",
+    "Answer": "Poisson",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer can be found by looking at the column 'HYPER' and identifying the method with the lowest average value.",
+    "GT": ""
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of avg for Log-normal method?",
+    "Answer": "0.5156",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer can be found by looking at the cell where the method is 'Log-normal' and the column is 'avg'.",
+    "GT": "0.5156"
+  }
+]

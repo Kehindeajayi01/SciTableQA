@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the Intercept Coeff. for the 2002-2006 period?",
+    "Answer": "0",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The Intercept Coeff. is the first value in the table, which corresponds to the 2002-2006 period.",
+    "GT": "Irrelevant question",
+    "RV": ""
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest ρ value for the 2006-2010 period?",
+    "Answer": "βNP",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The ρ value is highest for the βNP model in the 2006-2010 period.",
+    "GT": "βNP, βPLAND, and βFL",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the AIC value for the BDMFL model in the 2002-2010 period?",
+    "Answer": "16,537",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The AIC value for the BDMFL model in the 2002-2010 period is the third value in the table.",
+    "GT": "16,537",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the lowest Z-value for the 2002-2006 period?",
+    "Answer": "βEG",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The Z-value is lowest for the βEG model in the 2002-2006 period.",
+    "GT": "βNP",
+    "RV": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ΔAIC value for the 2002-2010 period?",
+    "Answer": "0",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The ΔAIC value for the 2002-2010 period is the first value in the table.",
+    "GT": "Irrelevant question",
+    "RV": ""
+  }
+]

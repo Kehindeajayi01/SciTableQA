@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the method with the highest benchmark score?",
+    "Answer": "Gygli et al.",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The method with the highest benchmark score is Gygli et al. with a score of 39.7%",
+    "GT": "SASUM_sup"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the lowest benchmark score?",
+    "Answer": "dppLSTM",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The method with the lowest benchmark score is dppLSTM with a score of 38.6%",
+    "GT": "dppLSTM"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average benchmark score of SASUM?",
+    "Answer": "40.6\u00b10.2%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average benchmark score of SASUM is 40.6\u00b10.2%",
+    "GT": "40.6\u00b10.2%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which method has the highest TVSum benchmark score?",
+    "Answer": "SASUM_sup",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The method with the highest TVSum benchmark score is SASUM_sup with a score of 58.2\u00b10.2%",
+    "GT": "SASUM_sup"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in TVSum benchmark scores between SASUM_sup and dppLSTM?",
+    "Answer": "9.6\u00b10.4%",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference in TVSum benchmark scores between SASUM_sup and dppLSTM is 58.2\u00b10.2% - 54.7% = 9.6\u00b10.4%",
+    "GT": "9.6\u00b10.4%"
+  }
+]

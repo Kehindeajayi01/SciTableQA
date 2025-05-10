@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the HAP Emission Limit for Existing Open-Top processing?",
+    "Answer": "6.8",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the first row of the table under the 'Process' column, which is 'Existing Open-Top', and the corresponding value in the 'HAP Emission Limit (lb/ton)' column is 6.8.",
+    "GT": "6.8"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the HAP Emission Limit for New Closed Top processing?",
+    "Answer": "0.062",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the third row of the table under the 'Process' column, which is 'New Closed Top', and the corresponding value in the 'HAP Emission Limit (lb/ton)' column is 0.062.",
+    "GT": "0.062"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the HAP Emission Limit for Existing Not Processing Slag processing?",
+    "Answer": "0.13",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the eighth row of the table under the 'Process' column, which is 'Existing Not Processing Slag', and the corresponding value in the 'HAP Emission Limit (lb/ton)' column is 0.13.",
+    "GT": "0.13"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the HAP Emission Limit for Hydrogen Chloride in New Processing Slag processing?",
+    "Answer": "0.012",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the sixth row of the table under the 'Process' column, which is 'New Processing Slag', and the corresponding value in the 'Hydrogen Chloride' column is 0.012.",
+    "GT": "0.012"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the HAP Emission Limit for Formaldehyde in Vertical (Existing and New) processing?",
+    "Answer": "2.4",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the 12th row of the table under the 'Process' column, which is 'Vertical (Existing and New)', and the corresponding value in the 'Formaldehyde' column is 2.4.",
+    "GT": "2.4"
+  }
+]

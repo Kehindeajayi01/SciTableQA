@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total GHGI emissions for the years 1990 to 2000?",
+    "Answer": "39,778,144",
+    "QuestionType": "Summation",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The total GHGI emissions for the years 1990 to 2000 can be calculated by summing up the values in the GHGI column for rows 0 to 10.",
+    "GT": "428,833,607"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average GHGI emissions per year for the years 1990 to 2000?",
+    "Answer": "3,979,614",
+    "QuestionType": "Average",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The average GHGI emissions per year for the years 1990 to 2000 can be calculated by dividing the total GHGI emissions (39,778,144) by the number of years (11).",
+    "GT": "42,883,360.7"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total GHGI emissions for the years 1995 to 1999?",
+    "Answer": "36,471,634",
+    "QuestionType": "Summation",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The total GHGI emissions for the years 1995 to 1999 can be calculated by summing up the values in the GHGI column for rows 10 to 14.",
+    "GT": "151,591,825"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in GHGI emissions between the years 1992 and 1996?",
+    "Answer": "1,110,180",
+    "QuestionType": "Difference",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The difference in GHGI emissions between the years 1992 and 1996 can be calculated by subtracting the value in row 2 (21,143,900) from the value in row 10 (22,731,119).",
+    "GT": "600,867"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage increase in GHGI emissions from 1990 to 1992?",
+    "Answer": "1.44%",
+    "QuestionType": "Percentage increase",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The percentage increase in GHGI emissions from 1990 to 1992 can be calculated by dividing the difference in GHGI emissions (21,143,900 - 22,864,392 = -721,492) by the original value (22,864,392) and multiplying by 100.",
+    "GT": "-1.44%"
+  }
+]

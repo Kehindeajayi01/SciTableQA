@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the category of involvement in project preparation for the 'Involvement at the beginning of project preparation'?",
+    "Answer": "1a",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is directly obtained from the table, specifically from the 'Category' column for row 2.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the description of the 'No influence on project concept (presentation only)' category?",
+    "Answer": "1b",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is directly obtained from the table, specifically from the 'Description' column for row 3.",
+    "GT": "No influence on project concept (presentation only)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many categories of involvement in project preparation are present in the table?",
+    "Answer": "3",
+    "QuestionType": "cell count",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is directly obtained from the table, specifically by counting the number of unique categories in the 'Category' column.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the description of the 'Other presentation issues' category?",
+    "Answer": "3b",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is directly obtained from the table, specifically from the 'Description' column for row 7.",
+    "GT": "Other presentation issues"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Is there any category with a description containing the phrase 'influence on project concept'?",
+    "Answer": "Yes",
+    "QuestionType": "pattern detection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is directly obtained from the table, specifically by searching for rows where the 'Description' column contains the phrase 'influence on project concept'.",
+    "GT": "Yes"
+  }
+]

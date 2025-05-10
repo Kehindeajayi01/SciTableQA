@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average RMSE for SYNPOS + CONCRETENESS and SYNPOS + AMBIGUITY?",
+    "Answer": "0.6722 and 0.6729",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.csv",
+    "Explanation": "The average RMSE is calculated by averaging the RMSE values for SYNPOS + CONCRETENESS (0.6722) and SYNPOS + AMBIGUITY (0.6729)",
+    "GT": "0.67255"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in RMSE between SYNPOS + EMBEDDING and SYNPOS?",
+    "Answer": "0.0961",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.csv",
+    "Explanation": "The difference in RMSE is calculated by subtracting the RMSE value for SYNPOS (0.6733) from the RMSE value for SYNPOS + EMBEDDING (0.6484)",
+    "GT": "0.0249"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average RMSE for SYNPOS + SENTIMENT and SYNPOS + TOPIC?",
+    "Answer": "0.6728",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.csv",
+    "Explanation": "The average RMSE is calculated by averaging the RMSE values for SYNPOS + SENTIMENT (0.6728) and SYNPOS + TOPIC (0.6728)",
+    "GT": "0.6728"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average RMSE for SYNPOS + IMAGEABILITY and SYNPOS + Co-OCCURRENCE?",
+    "Answer": "0.6729",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.csv",
+    "Explanation": "The average RMSE is calculated by averaging the RMSE values for SYNPOS + IMAGEABILITY (0.6734) and SYNPOS + Co-OCCURRENCE (0.6729)",
+    "GT": "0.67315"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the highest RMSE value among all the feature sets?",
+    "Answer": "0.6734",
+    "QuestionType": "Maximum",
+    "TableName": "table-8.csv",
+    "Explanation": "The highest RMSE value is identified by comparing the RMSE values for all the feature sets",
+    "GT": "0.6734"
+  }
+]

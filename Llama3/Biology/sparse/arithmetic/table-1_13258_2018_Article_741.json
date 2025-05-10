@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average correlation coefficient between RL and SW?",
+    "Answer": "0.145",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is calculated by averaging the correlation coefficient between RL and SW, which is 0.145*",
+    "GT": "0.464**"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the correlation coefficient between RL and RT?",
+    "Answer": "0.222**",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is directly referenced from the table, showing the correlation coefficient between RL and RT as 0.222**",
+    "GT": "0.222**"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the correlation coefficient between RW and RT?",
+    "Answer": "0.144*",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is directly referenced from the table, showing the correlation coefficient between RW and RT as 0.144*",
+    "GT": "0.221**"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average correlation coefficient between RL and RW?",
+    "Answer": "0.385",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is calculated by averaging the correlation coefficient between RL and RW, which is (0.425** + 0.514**) / 2 = 0.385",
+    "GT": "0.514**"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the correlation coefficient between SW and RT?",
+    "Answer": "0.144*",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is directly referenced from the table, showing the correlation coefficient between SW and RT as 0.144*",
+    "GT": "0.145*"
+  }
+]

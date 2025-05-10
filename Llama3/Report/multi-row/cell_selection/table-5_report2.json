@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total cost of the Transfer Station (Wages + Benefits) per year?",
+    "Answer": "$84,500",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly taken from cell 0 of the table.",
+    "GT": "$84,500"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many workers are employed at the Transfer Station?",
+    "Answer": "2",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly taken from cell 0 of the table.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the estimated number of hours worked per week by the dump attendant and dump supervisor?",
+    "Answer": "80",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly taken from cell 0 of the table.",
+    "GT": "80"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of fringe benefits for the Transfer Station?",
+    "Answer": "45%",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly taken from cell 0 of the table.",
+    "GT": "45%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total cost of the Landfill Tipping Fee Hauling per year?",
+    "Answer": "$182,800",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly taken from cell 5 of the table.",
+    "GT": "$182,800"
+  }
+]

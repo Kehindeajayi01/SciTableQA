@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in death rate between Phased LSTM and Independent LSTM?",
+    "Answer": "0.0410 \u00b1 0.0005",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by subtracting the death rate of Phased LSTM (0.8474 \u00b1 0.0005) from the death rate of Independent LSTM (0.8771 \u00b1 0.0005)",
+    "GT": "0.0297 \u00b1 0.0005"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average difference in AUC between HE-LSTM and RETAIN?",
+    "Answer": "0.1551 \u00b1 0.0033",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by subtracting the AUC of RETAIN (0.8967 \u00b1 0.0011) from the AUC of HE-LSTM (0.9516 \u00b1 0.0003)",
+    "GT": "0.0549 \u00b1 0.0033"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average difference in AP between Independent LSTM and Clock-work RNN?",
+    "Answer": "0.4182 \u00b1 0.0003",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by subtracting the AP of Clock-work RNN (0.7181 \u00b1 0.0003) from the AP of Independent LSTM (0.8400 \u00b1 0.0001)",
+    "GT": "0.1608 \u00b1 0.0003"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average difference in lab test AUC between LSTM and Phased LSTM?",
+    "Answer": "0.0926 \u00b1 0.0020",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by subtracting the lab test AUC of Phased LSTM (0.7722 \u00b1 0.0007) from the lab test AUC of LSTM (0.7231 \u00b1 0.0028)",
+    "GT": "0.0491 \u00b1 0.0020"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average difference in Unknown_3 between HE-LSTM and Independent LSTM?",
+    "Answer": "0.2113 \u00b1 0.0008",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by subtracting the Unknown_3 of Independent LSTM (0.8064 \u00b1 0.0005) from the Unknown_3 of HE-LSTM (0.9516 \u00b1 0.0003)",
+    "GT": "0.2113 \u00b1 0.0008"
+  }
+]

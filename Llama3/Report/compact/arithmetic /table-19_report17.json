@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total concentration of SO2 and NOX when very low sulfur fuels are combusted, considering the maximum potential concentration (MPC)?",
+    "Answer": "SO2C + NOXC",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The question combines the SO2C and NOXC columns, which represent the concentration values of SO2 and NOX, respectively. The MPC is considered by referencing the SO2C and NOXC values.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total concentration of CO2, NOX, and O2 when very low sulfur fuels are combusted, considering the maximum potential concentration (MPC)?",
+    "Answer": "CO2C + NOXC + O2C",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The question combines the CO2C, NOXC, and O2C columns, which represent the concentration values of CO2, NOX, and O2, respectively. The MPC is considered by referencing the SO2C and NOXC values.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total concentration of SO2 and NOX when flue gases are routed through an unmonitored bypass stack, considering the maximum potential concentration (MPC)?",
+    "Answer": "SO2C + NOXC",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The question combines the SO2C and NOXC columns, which represent the concentration values of SO2 and NOX, respectively. The MPC is considered by referencing the SO2C and NOXC values.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total concentration of SO2, NOX, and O2 when very low sulfur fuels are combusted, considering the maximum potential concentration (MPC)?",
+    "Answer": "SO2C + NOXC + O2C",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The question combines the SO2C, NOXC, and O2C columns, which represent the concentration values of SO2, NOX, and O2, respectively. The MPC is considered by referencing the SO2C and NOXC values.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total concentration of CO2, NOX, and O2 when flue gases are routed through an unmonitored bypass stack, considering the maximum potential concentration (MPC)?",
+    "Answer": "CO2C + NOXC + O2C",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The question combines the CO2C, NOXC, and O2C columns, which represent the concentration values of CO2, NOX, and O2, respectively. The MPC is considered by referencing the SO2C and NOXC values.",
+    "GT": "Irrelevant question"
+  }
+]

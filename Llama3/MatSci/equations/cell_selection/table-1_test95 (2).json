@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the atomic percentage of Mo in the Ta1.0 sample?",
+    "Answer": "26.96",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the cell at row 1 and column 1 of the table.",
+    "GT": "26.96%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which sample has the highest atomic percentage of V?",
+    "Answer": "Ta0.25",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found by identifying the sample with the highest atomic percentage of V, which is 24.92 in the Ta0.25 sample.",
+    "GT": "Ta0.25"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average atomic percentage of Ta across all samples?",
+    "Answer": "19.55",
+    "QuestionType": "calculation",
+    "TableName": "Unknown_1",
+    "Explanation": "The average atomic percentage of Ta can be calculated by adding up the atomic percentages of Ta in each sample and dividing by the number of samples. The answer is the sum of 22.27, 18.66, 11.29, 4.60, and 24.75 divided by 5.",
+    "GT": "14.2%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the atomic percentage of Nb in the Ta0.75 sample?",
+    "Answer": "22.76",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the cell at row 2 and column 2 of the table.",
+    "GT": "22.76%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which sample has the highest atomic percentage of Ta?",
+    "Answer": "Ta1.0",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found by identifying the sample with the highest atomic percentage of Ta, which is 26.96 in the Ta1.0 sample.",
+    "GT": "Ta1.0"
+  }
+]

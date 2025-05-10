@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "Which method has the highest average AUC value for the 'death' column?",
+    "Answer": "LSTM",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The highest average AUC value for the 'death' column is found in the LSTM method, with a value of 0.9466 \u00b1 0.0002.",
+    "GT": "HE-LSTM"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average AP value for the 'lab test' column in the 'Independent LSTM' method?",
+    "Answer": "0.2969 \u00b1 0.0008",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The average AP value for the 'lab test' column in the 'Independent LSTM' method is found in the cell at row 1, column 4, with a value of 0.2969 \u00b1 0.0008.",
+    "GT": "0.2969 \u00b1 0.0008"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which method has the lowest average AP value for the 'Unknown_3' column?",
+    "Answer": "RETAIN",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The lowest average AP value for the 'Unknown_3' column is found in the RETAIN method, with a value of 0.1098 \u00b1 0.0005.",
+    "GT": "RETAIN"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average AUC value for the 'death' column in the 'Phased LSTM' method?",
+    "Answer": "0.8474 \u00b1 0.0005",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The average AUC value for the 'death' column in the 'Phased LSTM' method is found in the cell at row 3, column 2, with a value of 0.8474 \u00b1 0.0005.",
+    "GT": "0.8474 \u00b1 0.0005"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which method has the highest average AUC value for the 'AUC' column?",
+    "Answer": "HE-LSTM",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The highest average AUC value for the 'AUC' column is found in the HE-LSTM method, with a value of 0.9516 \u00b1 0.0003.",
+    "GT": "HE-LSTM"
+  }
+]

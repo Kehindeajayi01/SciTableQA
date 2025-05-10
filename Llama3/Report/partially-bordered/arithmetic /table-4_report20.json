@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total capacity of lead recovery through the use of glass furnaces compared to lead/copper smelters?",
+    "Answer": "Lead/copper smelters: 4, Glass furnaces: 2",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "This answer is derived by referencing cells 0, 1, and 4 in the table, which describe the capacity of lead recovery through glass furnaces and lead/copper smelters.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the estimated energy consumption of glass furnaces compared to concrete?",
+    "Answer": "Glass furnaces: High, Concrete: Not mentioned",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "This answer is derived by referencing cells 1 and 3 in the table, which describe the energy consumption of glass furnaces and concrete, respectively.",
+    "GT": "Glass furnaces: High, Concrete: Not mentioned"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the potential market size for CRT reuse compared to CRT recycling?",
+    "Answer": "CRT reuse: Niche market, CRT recycling: Declining market",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "This answer is derived by referencing cells 2 and 5 in the table, which describe the market size for CRT reuse and CRT recycling, respectively.",
+    "GT": "CRT reuse: Niche market, CRT recycling: Not mentioned"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What are the potential challenges associated with the use of retrievable storage for lead recovery?",
+    "Answer": "Funding needed/Need to devise a financial structure to account for recovery",
+    "QuestionType": "List",
+    "TableName": "table-4.csv",
+    "Explanation": "This answer is derived by referencing cell 6 in the table, which describes the potential challenges associated with retrievable storage.",
+    "GT": "Funding needed/Need to devise a financial structure to account for recovery, May create a legacy issue, Competes with viable ecovery technologies, Hazardous waste permit and regulations may apply, Seen as a 'kick the can down the road approach'"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What are the potential concerns associated with the use of concrete for lead recovery?",
+    "Answer": "Shifts the lead to concrete products, which may create legacy issue. Whether treatment process adequately prevents leaching. Permitting issues. Potential stigma issues",
+    "QuestionType": "List",
+    "TableName": "table-4.csv",
+    "Explanation": "This answer is derived by referencing cell 3 in the table, which describes the potential concerns associated with the use of concrete for lead recovery.",
+    "GT": "Shifts the lead to concrete products, which may create legacy issue. Whether treatment process adequately prevents leaching. Permitting issues. Potential stigma issues"
+  }
+]

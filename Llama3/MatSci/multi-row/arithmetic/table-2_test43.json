@@ -1,0 +1,48 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage of V, Nb, and Mo in the interdendrite region for all samples?",
+    "Answer": "26.93",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average percentage of V, Nb, and Mo in the interdendrite region for all samples is calculated by averaging the values in columns V, Nb, and Mo for rows 2, 6, and 10.",
+    "GT": "25.83%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How does the average K C_(dr)/C_(id) ratio for the dendrite region compare to the interdendrite region?",
+    "Answer": "Dendrite region: 1.13, Interdendrite region: 1.14",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average K C_(dr)/C_(id) ratio for the dendrite region is calculated by averaging the values in column K C_(dr)/C_(id) for rows 1, 5, and 9, while the average K C_(dr)/C_(id) ratio for the interdendrite region is calculated by averaging the values in column K C_(dr)/C_(id) for rows 2, 6, and 10.",
+    "GT": "Dendrite region: 0.47, Interdendrite region: 1.23"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of the percentage of V in the dendrite region for all samples?",
+    "Answer": "1.03",
+    "QuestionType": "standard deviation",
+    "TableName": "table-2.csv",
+    "Explanation": "The standard deviation of the percentage of V in the dendrite region for all samples is calculated using the values in column V for rows 1, 5, and 9.",
+    "GT": "5.68%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How does the average percentage of V in the interdendrite region compare to the nominal composition of V for the V0.5 sample?",
+    "Answer": "20.14",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average percentage of V in the interdendrite region is calculated by averaging the values in column V for rows 2, 6, and 10, while the nominal composition of V for the V0.5 sample is 14.29.",
+    "GT": "The interdendrite V (20.14%) is 5.85% higher than nominal V (14.29%) for 𝑉0.5
+"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average K C_(dr)/C_(id) ratio for the V0.75 sample?",
+    "Answer": "1.32",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average K C_(dr)/C_(id) ratio for the V0.75 sample is calculated by averaging the values in column K C_(dr)/C_(id) for rows 9 and 11.",
+    "GT": "1.065"
+  }
+]

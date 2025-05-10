@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total CO2e emissions for M&R stations with inlet pressure above 300 psig?",
+    "Answer": "3,105,893",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by referencing cells 2 and 3, which show the total CO2e emissions for M&R stations with inlet pressure above 300 psig.",
+    "GT": "3,105,893"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total CO2e emissions for Reg stations with inlet pressure between 100-300 psig?",
+    "Answer": "2,313,904",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by referencing cells 6 and 3, which show the total CO2e emissions for Reg stations with inlet pressure between 100-300 psig.",
+    "GT": "2,313,904"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total CO2e emissions for all stations with inlet pressure above 300 psig?",
+    "Answer": "6,163,530 (3,105,893 + 3,057,637)",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by referencing cells 2 and 5, which show the total CO2e emissions for M&R and Reg stations with inlet pressure above 300 psig, and adding them together.",
+    "GT": "6,177,949 (3,105,893 + 3,057,637 + 14,419)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of total CO2e emissions for M&R stations with inlet pressure above 300 psig?",
+    "Answer": "20.8% (3,105,893 / 14,869,412)",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by referencing cells 2 and 14, which show the total CO2e emissions for M&R stations with inlet pressure above 300 psig and the total CO2e emissions for all stations, respectively, and dividing the former by the latter.",
+    "GT": "20.9% (3,105,893 / 14,869,412)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total CO2e emissions for all stations?",
+    "Answer": "14,869,412",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by referencing cell 14, which shows the total CO2e emissions for all stations.",
+    "GT": "14,869,412"
+  }
+]

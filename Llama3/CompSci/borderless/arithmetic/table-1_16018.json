@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the ratio of tokens in the test set to tokens in the train set for the Chinese(CTB) language?",
+    "Answer": "1.25",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The ratio is calculated by dividing the number of tokens in the test set (25k) by the number of tokens in the train set (1,611k)",
+    "GT": "1.25"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in the number of sentences between the English(PTB) and Chinese(CTB) languages in the test set?",
+    "Answer": "2,068",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the number of sentences in Chinese(CTB) (348) from the number of sentences in English(PTB) (2,416)",
+    "GT": "2,068"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of tokens in the dev set compared to the total tokens in the train set for the English(PTB) language?",
+    "Answer": "3.43%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage is calculated by dividing the number of tokens in the dev set (84k) by the number of tokens in the train set (2,430k) and multiplying by 100",
+    "GT": "3.45%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of sentences in the dev set to sentences in the test set for the English(PTB) language?",
+    "Answer": "3.88",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The ratio is calculated by dividing the number of sentences in the dev set (1,346) by the number of sentences in the test set (2,416)",
+    "GT": "0.55"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in the number of tokens between the English(PTB) and Chinese(CTB) languages in the train set?",
+    "Answer": "1,819,000",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the number of tokens in Chinese(CTB) (1,611k) from the number of tokens in English(PTB) (2,430k)",
+    "GT": "819k"
+  }
+]

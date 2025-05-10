@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the F-score for the 'Enron' dataset in the 'R8.25' column?",
+    "Answer": "52.60",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The F-score for the 'Enron' dataset in the 'R8.25' column is directly available in the table.",
+    "GT": "52.60"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of Unknown_2 for the 'Datasets' column?",
+    "Answer": ".1",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The percentage of Unknown_2 for the 'Datasets' column is directly available in the table.",
+    "GT": ".1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value in the 'Unknown_2' column for the 'BigCLAM' row?",
+    "Answer": ".2",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The value in the 'Unknown_2' column for the 'BigCLAM' row is directly available in the table.",
+    "GT": ".2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the F-score for the 'R8.26' dataset in the 'Jaccard' column?",
+    "Answer": "37.28",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The F-score for the 'R8.26' dataset in the 'Jaccard' column is directly available in the table.",
+    "GT": "32.52"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value in the 'Unknown_2' column for the 'Ours' row?",
+    "Answer": ".4",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The value in the 'Unknown_2' column for the 'Ours' row is directly available in the table.",
+    "GT": ".4"
+  }
+]

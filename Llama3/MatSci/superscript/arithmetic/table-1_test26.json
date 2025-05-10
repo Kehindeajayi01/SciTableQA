@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average yield stress (σ_(0.2)) for the Ti20, Ti40, and Ti60 samples?",
+    "Answer": "841.33",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The average yield stress is calculated by summing the values for Ti20, Ti40, and Ti60 (600 + 821 + 1122) and dividing by 3.",
+    "GT": "971.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the ratio of the lattice constant (a) for Ti80 to Ti20?",
+    "Answer": "1.053",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The ratio is calculated by dividing the lattice constant for Ti80 (3.233) by the lattice constant for Ti20 (3.111).",
+    "GT": "1.039"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average grain size (d) for the Ti20, Ti40, and Ti80 samples?",
+    "Answer": "113.1",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The average grain size is calculated by summing the values for Ti20, Ti40, and Ti80 (80.1 + 83.4 + 145.8) and dividing by 3.",
+    "GT": "103.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in the calculated G (GPa) between Ti80 and Ti20?",
+    "Answer": "-7.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the calculated G for Ti20 (54) from the calculated G for Ti80 (46.5).",
+    "GT": "-7.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of the fracture strain for Ti60 to Ti20?",
+    "Answer": "8.33",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The ratio is calculated by dividing the fracture strain for Ti60 (>50%) by the fracture strain for Ti20 (27%).",
+    "GT": "Irrelevant question"
+  }
+]

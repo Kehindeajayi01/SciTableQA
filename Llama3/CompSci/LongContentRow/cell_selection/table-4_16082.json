@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of schools mentioned in the table?",
+    "Answer": "5",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by counting the number of rows in the table, which represents the total number of schools mentioned.",
+    "GT": "24"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country is mentioned as having bought a property in 1952?",
+    "Answer": "France",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the cell in the 'France' row and '1952' column.",
+    "GT": "france"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many schools in the table follow the British curriculum?",
+    "Answer": "9",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by counting the number of schools mentioned in the 'British curriculum' row, which is 7, and adding 2 more schools mentioned in the 'they include...' sentence.",
+    "GT": "9"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of schools with Arabic lessons?",
+    "Answer": "1",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the cell in the '1' row and 'Arabic lessons' column.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of schools with Indian curriculum?",
+    "Answer": "3",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by counting the number of schools mentioned in the 'Indian school' row and adding 2 more schools mentioned in the 'the new schools include...' sentence.",
+    "GT": "5"
+  }
+]

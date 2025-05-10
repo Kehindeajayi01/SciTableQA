@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What percentage of districts agree that a perceived benefit of having multiple accountability systems is that it gives a more complete picture of their effectiveness?",
+    "Answer": "69%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the table, specifically from the cell where the question 'Gives us a more complete picture of our effectiveness than a single accountability system' meets the 'Percent of Districts Agreeing' column.",
+    "GT": "69%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of schools agree that having multiple accountability systems results in staff confusion about their targets for student achievement?",
+    "Answer": "37%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the table, specifically from the cell where the question 'Results in staff confusion about our targets for student achievement' meets the 'Percent of Schools Agreeing' column.",
+    "GT": "37%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What percentage of districts agree that having multiple accountability systems reduces community support for public schools?",
+    "Answer": "23%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the table, specifically from the cell where the question 'Reduces community support for public schools' meets the 'Percent of Districts Agreeing' column.",
+    "GT": "23%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What percentage of schools agree that having multiple accountability systems helps them make effective decisions about how to improve student achievement?",
+    "Answer": "60%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the table, specifically from the cell where the question 'Helps us make effective decisions about how to improve student achievement' meets the 'Percent of Schools Agreeing' column.",
+    "GT": "60%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What percentage of districts agree that having multiple accountability systems allows them to focus on the goals that are most important to them?",
+    "Answer": "56%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the table, specifically from the cell where the question 'Allows us to focus on the goals that are most important to us' meets the 'Percent of Districts Agreeing' column.",
+    "GT": "56%"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of the first column for the alloy M2?",
+    "Answer": "25 °C",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the first column of the table for the alloy M2.",
+    "GT": "404.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the highest value in the second column for the alloy M3Fe?",
+    "Answer": "589/73.3",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the second column of the table for the alloy M3Fe.",
+    "GT": "589"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the lowest value in the third column for the alloy C-103 [8]?",
+    "Answer": "169/19.1",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the third column of the table for the alloy C-103 [8].",
+    "GT": "19.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average value of the fourth column for the alloys M2 and M3?",
+    "Answer": "250/31.3, 270/33.6",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the fourth column of the table for the alloys M2 and M3.",
+    "GT": "260/32.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the highest value in the last column for the alloy C-3009 [4]?",
+    "Answer": "388/37.7",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the last column of the table for the alloy C-3009 [4].",
+    "GT": "388"
+  }
+]

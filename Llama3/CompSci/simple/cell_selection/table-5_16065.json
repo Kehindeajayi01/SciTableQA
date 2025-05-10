@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average model accuracy for all models?",
+    "Answer": "75.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by selecting the average of the 'Model Accuracy' column.",
+    "GT": "63.08"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest AUC?",
+    "Answer": "75.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by selecting the highest value in the 'AUC' column.",
+    "GT": "all-LSTM"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the lowest true F-score among all models?",
+    "Answer": "43.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by selecting the lowest value in the 'True F-score' column.",
+    "GT": "43.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Is the model accuracy for 'frames only' lower than the model accuracy for 'discourse only'?",
+    "Answer": "True",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by comparing the 'Model Accuracy' values for 'frames only' (43.3) and 'discourse only' (54.6), and determining that the former is lower.",
+    "GT": "True"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which model has the lowest AUC among all models?",
+    "Answer": "43.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by selecting the lowest value in the 'AUC' column.",
+    "GT": "discourse only"
+  }
+]

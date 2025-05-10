@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of pathways for 'Organs or cancers' and 'Radionuclides'?",
+    "Answer": "6",
+    "QuestionType": "Count",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The question counts the number of pathways where 'Organs or cancers' and 'Radionuclides' are mentioned.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many times do 'Organs or cancers' and 'Radionuclides' appear together in the table?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The question counts the number of rows where both 'Organs or cancers' and 'Radionuclides' appear together.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of mentions of 'Pathways' in the table?",
+    "Answer": "4",
+    "QuestionType": "Count",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The question counts the number of times 'Pathways' is mentioned in the table.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many times does 'Radionuclides' appear in the table when not paired with 'Organs or cancers'?",
+    "Answer": "2",
+    "QuestionType": "Count",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The question counts the number of rows where 'Radionuclides' appears without 'Organs or cancers'.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of mentions of 'Organs or cancers' in the table?",
+    "Answer": "4",
+    "QuestionType": "Count",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The question counts the number of times 'Organs or cancers' is mentioned in the table.",
+    "GT": "6"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total CH4 Emissions (MT CO2e) for Unprotected Steel sources?",
+    "Answer": "6,221,338",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is calculated by summing up the CH4 Emissions (MT CO2e) for rows 1 and 6, which are the Unprotected Steel sources.",
+    "GT": "6,221,458"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average CH4 Emissions (MT CO2e) per mile for Protected Steel sources?",
+    "Answer": "0.148",
+    "QuestionType": "Average",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is calculated by dividing the total CH4 Emissions (MT CO2e) for Protected Steel sources (718,453) by the total miles (486,521).",
+    "GT": "1.625"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total CH4 Emissions (MT CO2e) for Plastic sources, excluding services?",
+    "Answer": "3,426,588",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is calculated by summing up the CH4 Emissions (MT CO2e) for rows 4 and 8, which are the Plastic sources excluding services.",
+    "GT": "3,219,958"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total CH4 Emissions (MT CO2e) for all sources, excluding Copper and Plastic services?",
+    "Answer": "7,799,117",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is calculated by summing up the CH4 Emissions (MT CO2e) for all sources, excluding Copper and Plastic services, which are rows 1-3, 5-7, and 9.",
+    "GT": "14,965,407"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total CH4 Emissions (MT CO2e) per service for all sources, excluding Copper?",
+    "Answer": "0.051",
+    "QuestionType": "Average",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is calculated by dividing the total CH4 Emissions (MT CO2e) for all sources, excluding Copper (7,799,117), by the total services (46,153,036 + 14,751,424 + 3,668,842).",
+    "GT": "2,167,433.86"
+  }
+]

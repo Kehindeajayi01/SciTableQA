@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of \u0394c_i for the first sample?",
+    "Answer": "2.31",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The value of \u0394c_i for the first sample can be found in row 2, column 5.",
+    "GT": "2.31"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average value of T_(m,i) for all samples?",
+    "Answer": "2750",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of T_(m,i) can be found by taking the mean of the values in column 7.",
+    "GT": "3303K"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which sample has the highest value of K=C_D/C_ID?",
+    "Answer": "27.10",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest value of K=C_D/C_ID can be found in row 28, column 4.",
+    "GT": "27.10"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of \u0394T_(m,i) for the sample with the highest value of T_(m,i)?",
+    "Answer": "409",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The sample with the highest value of T_(m,i) is found in row 30, column 7. The corresponding value of \u0394T_(m,i) is in row 32, column 6.",
+    "GT": "803 K"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which sample has the lowest value of D?",
+    "Answer": "4.60",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lowest value of D can be found in row 26, column 2.",
+    "GT": "MoTa0.25NbVTi"
+  }
+]

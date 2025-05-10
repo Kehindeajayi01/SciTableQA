@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total population of individuals under 1 year old?",
+    "Answer": "3,533,692",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer can be found in the first row of the table, in the 'Total population' column.",
+    "GT": "3,533,692"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total population of individuals between 20 and 24 years old?",
+    "Answer": "4,161,779 + 4,199,711 + 4,116,218 + 3,977,515 = 16,454,923",
+    "QuestionType": "Cell selection and calculation",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer can be found by summing up the total population of individuals between 20 and 24 years old, which is the sum of the values in rows 20-23.",
+    "GT": "4,387,100 + 4,285,763 + 4,284,351 + 4,199,711 + 4,161,779 = 25,434,922"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average population of individuals in the age range of 25-29 years old?",
+    "Answer": "(3,726,525 + 3,607,610 + 3,712,217 + 3,663,921) / 4 = 3,703,537.5",
+    "QuestionType": "Cell selection and calculation",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer can be found by summing up the total population of individuals in the age range of 25-29 years old, which is the sum of the values in rows 25-28, and then dividing by the number of rows (4).",
+    "GT": "(3,977,515 + 3,931,620 + 3,708,969 + 4,116,218) / 4 = 3,933,580.25"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total population of individuals between 30 and 39 years old?",
+    "Answer": "3,726,525 + 3,607,610 + 3,712,217 + 2,860,647 + 2,902,331 + 2,929,040 + 2,982,533 = 20,720,063",
+    "QuestionType": "Cell selection and calculation",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer can be found by summing up the total population of individuals between 30 and 39 years old, which is the sum of the values in rows 25-37.",
+    "GT": "3,726,525 + 3,607,610 + 3,712,217 + 3,653,921 + 2,860,647 + 2,902,331 + 2,929,040 + 2,982,533 + 2,598,636 + 2,552,762 = 31,526,222"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total population of individuals above 39 years old?",
+    "Answer": "2,552,762",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer can be found in the 39th row of the table, in the 'Total population' column.",
+    "GT": "81,721,497"
+  }
+]

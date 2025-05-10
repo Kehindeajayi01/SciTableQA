@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the concentration of Cr (Chromium) in sample 1?",
+    "Answer": "6.22",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell at row 1 and column 2.",
+    "GT": "6.22%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which element has the highest concentration in sample 0.5?",
+    "Answer": "Fe (Iron)",
+    "QuestionType": "cell comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be obtained by comparing the concentrations of each element in sample 0.5 and identifying the one with the highest value, which is Fe (23.97%).",
+    "GT": "Fe (Iron)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the change in C (Carbon) concentration from sample 0 to sample 2?",
+    "Answer": "1.08",
+    "QuestionType": "cell subtraction",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be obtained by subtracting the C concentration in sample 0 (0.03%) from the C concentration in sample 2 (2.11%).",
+    "GT": "2.08%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average concentration of Ni (Nickel) across all samples?",
+    "Answer": "23.24",
+    "QuestionType": "cell averaging",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be obtained by calculating the average of the Ni concentrations across all samples (23.46%, 22.24%, 23.34%, and 23.82%).",
+    "GT": "23.22%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which sample has the highest concentration of Mn (Manganese) and what is that concentration?",
+    "Answer": "Sample 1, 23.09%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be obtained by selecting the cell at row 1 and column 4, which corresponds to the highest concentration of Mn in any sample.",
+    "GT": "23.67%"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the primary objective of the U.S. EPA in addressing contaminated sediments?",
+    "Answer": "Reduce or control risks to human health and the environment.",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from cell 1, which explicitly states the primary objective of the U.S. EPA in addressing contaminated sediments.",
+    "GT": "Reduce or control risks to human health and the environment."
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What are some toxic substances found in contaminated sediments?",
+    "Answer": "PCBs and mercury",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from cells 1 and 5, which mention PCBs and mercury as toxic substances found in contaminated sediments.",
+    "GT": "PCBs and mercury"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the impact of toxic substances on the aquatic food chain?",
+    "Answer": "Contaminate fish and place wildlife and humans at risk through their consumption",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from cell 1, which explains the impact of toxic substances on the aquatic food chain.",
+    "GT": "Contaminate fish and place wildlife and humans at risk through their consumption"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the goal of developing treatment, recycling, or dredging technologies?",
+    "Answer": "To enhance cost-effective practices which strengthen the economy and protect the environment",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from cell 6, which states the goal of developing treatment, recycling, or dredging technologies.",
+    "GT": "To enhance cost-effective practices which strengthen the economy and protect the environment."
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the potential impact of contaminated sediments on the Great Lakes Basin Ecosystem?",
+    "Answer": "Impacts the chemical, physical, and biological integrity of the Great Lakes and connecting tributaries",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from cell 5, which explains the potential impact of contaminated sediments on the Great Lakes Basin Ecosystem.",
+    "GT": "Impacts the chemical, physical, and biological integrity of the Great Lakes and connecting tributaries"
+  }
+]

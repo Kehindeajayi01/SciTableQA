@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average precision of EditDist method?",
+    "Answer": "0.44",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average precision of EditDist method is calculated by averaging the precision values in the 'Precision' column for EditDist method.",
+    "GT": "0.44"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest recall value?",
+    "Answer": "GraphNav",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest recall value is found in the 'Recall' column for GraphNav method.",
+    "GT": "MaxEnt"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the F1 score of MaxEnt method in the GHS dataset?",
+    "Answer": "0.66",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The F1 score of MaxEnt method in the GHS dataset is found in the 'F1' column and is equal to 0.66.",
+    "GT": "0.66"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in precision between EditDist and MaxEnt methods?",
+    "Answer": "0.02",
+    "QuestionType": "cell calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in precision between EditDist and MaxEnt methods is calculated by subtracting the precision value of EditDist method (0.46) from the precision value of MaxEnt method (0.46).",
+    "GT": "0.02"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which method has the lowest F1 score in the BPI dataset?",
+    "Answer": "EditDist",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lowest F1 score in the BPI dataset is found in the 'F1' column for EditDist method.",
+    "GT": "MaxEnt"
+  }
+]

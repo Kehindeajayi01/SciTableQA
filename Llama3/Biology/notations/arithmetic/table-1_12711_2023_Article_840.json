@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in accuracy between h2u values of 0.05 and 0.1?",
+    "Answer": "0.022",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The accuracy for h2u = 0.05 is 0.173 and for h2u = 0.1 is 0.195, so the difference is 0.195 - 0.173 = 0.022",
+    "GT": "0.022",
+    "RV", "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the ratio of the standard deviation of σ2A for h2u = 0.2 to the standard deviation of σ2A for h2u = 0.05?",
+    "Answer": "5.8333",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The standard deviation of σ2A for h2u = 0.2 is 0.170 and for h2u = 0.05 is 0.0036, so the ratio is 0.170 / 0.0036 = 5.8333",
+    "GT": "Irrelevant question",
+    "RV": ""
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average difference between p\u0304(Aα = µα - 2σAα )c and p\u0304(Aα = µα + 2σAα )c for all h2u values?",
+    "Answer": "0.012",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference is calculated by taking the average of the differences between p\u0304(Aα = µα - 2σAα )c and p\u0304(Aα = µα + 2σAα )c for each h2u value, which is (0.008 + 0.006 + 0.004) / 3 = 0.012",
+    "GT": "0.010",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the maximum difference between accuracy and p\u0304(Aα = µα - 2σAα )c for all h2u values?",
+    "Answer": "0.241",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The maximum difference is 0.241, which is the difference between accuracy and p\u0304(Aα = µα - 2σAα )c for h2u = 0.2",
+    "GT": "0.237",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average accuracy for all h2u values except 0.2?",
+    "Answer": "0.1833",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average accuracy for all h2u values except 0.2 is (0.173 + 0.195) / 2 = 0.1833",
+    "GT": "0.184",
+    "RV": "2"
+  }
+]

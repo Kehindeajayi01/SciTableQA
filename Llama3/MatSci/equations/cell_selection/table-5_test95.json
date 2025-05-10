@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average wear rate for Ta1.0 alloy?",
+    "Answer": "0.19 \u00b1 0.012",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the Wear rate (g/N.m 10^-6) column for the Ta1.0 alloy.",
+    "GT": "0.19 g/N·m × 10⁻⁶"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest friction coefficient?",
+    "Answer": "Ta0.75",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the Alloy column, where the friction coefficient is highest for Ta0.75 alloy.",
+    "GT": "Ta0.75"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average friction coefficient for alloys with a Ta content less than 0.50?",
+    "Answer": "0.633 \u00b1 0.14",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the Friction coefficient, \u03bc column, where the average is calculated for rows with Ta content less than 0.50.",
+    "GT": "0.5495"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the lowest wear rate?",
+    "Answer": "Ta0.25",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the Wear rate (g/N.m 10^-6) column, where the lowest value is for Ta0.25 alloy.",
+    "GT": "Ta1.0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the standard deviation of the wear rate for Ta0.50 alloy?",
+    "Answer": "0.079",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the Wear rate (g/N.m 10^-6) column for the Ta0.50 alloy, where the standard deviation is given as \u00b1 0.079.",
+    "GT": "0.079"
+  }
+]

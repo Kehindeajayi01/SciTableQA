@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in atomic radius between Copper (Cu) and Titanium (Ti)?",
+    "Answer": "0.12 Å",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The atomic radius of Cu is 1.28 Å and the atomic radius of Ti is 1.46 Å, so the difference is 0.12 Å.",
+    "GT": "0.18 Å"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average melting point of the elements Co, Ni, and Cu?",
+    "Answer": "1491.67°C",
+    "QuestionType": "arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "The melting points of Co, Ni, and Cu are 1495°C, 1453°C, and 1083°C, respectively. The average is calculated by adding these values and dividing by 3",
+    "GT": "1343.67°C"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in melting point between Iron (Fe) and Silicon (Si)?",
+    "Answer": "457°C",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The melting point of Fe is 1538°C and the melting point of Si is 1410°C, so the difference is 457°C.",
+    "GT": "128°C"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the sum of the atomic radii of Co and Ni?",
+    "Answer": "2.49 Å",
+    "QuestionType": "arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "The atomic radius of Co is 1.25 Å and the atomic radius of Ni is 1.24 Å, so the sum is 1.25 + 1.24 = 2.49 Å.",
+    "GT": "2.49 Å"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average atomic radius of the elements Co, Ni, and Cu?",
+    "Answer": "1.23 Å",
+    "QuestionType": "arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "The atomic radii of Co, Ni, and Cu are 1.25 Å, 1.24 Å, and 1.28 Å, respectively. The average is calculated by adding these values and dividing by 3",
+    "GT": "1.26 Å"
+  }
+]

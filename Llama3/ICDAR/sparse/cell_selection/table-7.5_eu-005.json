@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in PBUK estimates between Austria and Germany?",
+    "Answer": "33.7",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.5.csv",
+    "Explanation": "The PBUK estimate for Austria is 79, while for Germany it is 41.5, so the difference is 37.5. The average of this difference is 33.7.",
+    "GT": "26.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average difference in LDA estimates between Finland and France?",
+    "Answer": "36.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.5.csv",
+    "Explanation": "The LDA estimate for Finland is 96, while for France it is 60.1, so the difference is 35.9. The average of this difference is 36.5.",
+    "GT": "28.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average of the average estimates for all countries?",
+    "Answer": "61.7",
+    "QuestionType": "Average",
+    "TableName": "table-7.5.csv",
+    "Explanation": "The average of the average estimates for all countries is 61.7, as shown in the last row of the table.",
+    "GT": "61.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in EH estimates between Denmark and Greece?",
+    "Answer": "30.1",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.5.csv",
+    "Explanation": "The EH estimate for Denmark is 78, while for Greece it is 58.7, so the difference is 19.3. The average of this difference is 30.1.",
+    "GT": "NA (No data for Denmark in EH estimate)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average of the AIM estimates for the countries with AIM data?",
+    "Answer": "54.5",
+    "QuestionType": "Average",
+    "TableName": "table-7.5.csv",
+    "Explanation": "The AIM estimates are available for countries 1, 4, 5, 8, 9, 11, and 13. The average of these estimates is 54.5.",
+    "GT": "46.8"
+  }
+]

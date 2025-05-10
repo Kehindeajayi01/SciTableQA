@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "Which gene has the highest fold change (FC) among the upregulated genes?",
+    "Answer": "CUTL2",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The highest FC value among the upregulated genes is 2.77, which belongs to the gene CUTL2.",
+    "GT": "CUTL2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average p-value of the downregulated genes?",
+    "Answer": "2.63E-03",
+    "QuestionType": "Statistical calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average p-value of the downregulated genes is calculated by taking the mean of the p-values for genes 11-25.",
+    "GT": "1.38E-03"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which gene has the lowest p-value among the downregulated genes?",
+    "Answer": "206662_at",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The lowest p-value among the downregulated genes is 2.70E-04, which belongs to the gene 206662_at.",
+    "GT": "CD24"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of genes with a FC greater than 2.0?",
+    "Answer": "13",
+    "QuestionType": "Counting",
+    "TableName": "table-1.csv",
+    "Explanation": "The number of genes with a FC greater than 2.0 is counted by selecting the genes with FC values greater than 2.0.",
+    "GT": "11"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which gene has the highest FC among the downregulated genes?",
+    "Answer": "-3.23 (CD24)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The highest FC value among the downregulated genes is -3.23, which belongs to the gene CD24.",
+    "GT": "CD24"
+  }
+]

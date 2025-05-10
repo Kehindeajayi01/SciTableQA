@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average total number of students in the actual data from 1996 to 2005?",
+    "Answer": "47,444.11",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "Calculated the average total number of students by summing up the total students from 1996 to 2005 and dividing by the number of years.",
+    "GT": "47,464.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many students were in the actual data in 1996 and 2001?",
+    "Answer": "45,611 and 47,672",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "Referenced the cells for 1996 and 2001.",
+    "GT": "45,611 and 47,672 = 93,283"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average grade for the actual data from 1996 to 2005?",
+    "Answer": "3.57",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "Calculated the average grade by summing up the grades from 1996 to 2005 and dividing by the number of years.",
+    "GT": "NA(Question does not make sense)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many students were in the actual data in 1996 and 2010?",
+    "Answer": "45,611 and 49,484",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "Referenced the cells for 1996 and 2010.",
+    "GT": "45,611 and 49,484 = 95,095"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of students in the actual data in 2000 and 2005?",
+    "Answer": "47,204 and 49,113",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "Referenced the cells for 2000 and 2005.",
+    "GT": "47,204 and 49,113 = 96,317"
+  }
+]

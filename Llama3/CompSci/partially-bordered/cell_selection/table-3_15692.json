@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest rating for the 'IND' method in the Epinions dataset?",
+    "Answer": "0.9563",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell where the method is 'IND' and the dataset is Epinions.",
+    "GT": "0.9563"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the lowest rating in the Ciao dataset?",
+    "Answer": "0.8332",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell where the rating is the lowest and the dataset is Ciao.",
+    "GT": "0.8332"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average rating for the 'M1' method across all datasets?",
+    "Answer": "0.9551",
+    "QuestionType": "average calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by averaging the ratings for the 'M1' method across all rows in the table.",
+    "GT": "0.9594"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which method has the highest rating in the TopK users dataset?",
+    "Answer": "0.9879",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell where the method is the highest and the dataset is TopK users.",
+    "GT": "0.9879"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lowest rating for the 'BPR' method across all datasets?",
+    "Answer": "0.8332",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell where the rating is the lowest and the method is 'BPR'.",
+    "GT": "0.8332"
+  }
+]

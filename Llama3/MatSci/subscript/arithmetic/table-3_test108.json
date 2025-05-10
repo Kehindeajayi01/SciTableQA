@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average change in VEC (ΔS_conf) for the first 3 rows of the table?",
+    "Answer": "4.92",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average change in VEC, I added the values in cells 1, 2, and 3 (4.92, 4.85, and 4.79) and divided by 3.",
+    "GT": "0.075"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the ΔH_mix value at T_m = 0.4°C and T_m = 0.2°C?",
+    "Answer": "0.37",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "I subtracted the ΔH_mix value at T_m = 0.2°C (14.22) from the ΔH_mix value at T_m = 0.4°C (14.59) to get the difference.",
+    "GT": "2.05"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average change in δ_f(%) for the last 2 rows of the table?",
+    "Answer": "0.0435",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average change in δ_f, I added the values in cells 3 and 4 (0.2283 and 0.2214) and divided by 2.",
+    "GT": "0.11"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference between the Ω value at T_m = 1.0°C and T_m = 0.6°C?",
+    "Answer": "-0.99",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "I subtracted the Ω value at T_m = 0.6°C (4.09) from the Ω value at T_m = 1.0°C (3.00) to get the difference.",
+    "GT": "1.09"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of T_m (°C) for the first 2 rows of the table?",
+    "Answer": "2525.405",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average value of T_m, I added the values in cells 1 and 2 (2543.21 and 2483.59) and divided by 2.",
+    "GT": "2575.405"
+  }
+]

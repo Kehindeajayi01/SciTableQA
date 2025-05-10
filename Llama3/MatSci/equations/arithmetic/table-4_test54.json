@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in a_c15(A) between Ti40Ni40-5 and Ti25Ni16.67-5?",
+    "Answer": "0.271",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference in a_c15(A) between Ti40Ni40-5 and Ti25Ni16.67-5 is calculated by subtracting the value in row 2 from the value in row 0, which is 11.833 - 11.562 = 0.271. The average is calculated by taking the mean of this difference, which is (0.271 + 0) / 2 = 0.271.",
+    "GT": "0.271 A˚"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average difference in a_B2 (A) between Ti30Ni30-5 and Ti20Ni20-6?",
+    "Answer": "0.012",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference in a_B2 (A) between Ti30Ni30-5 and Ti20Ni20-6 is calculated by subtracting the value in row 4 from the value in row 1, which is 3.136 - 3.108 = 0.028. The average is calculated by taking the mean of this difference, which is (0.028 + 0) / 2 = 0.012.",
+    "GT": "0.028 A˚"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of a_c15(A) for all alloys with a_B2 (A) > 3.13?",
+    "Answer": "11.813",
+    "QuestionType": "Filtering",
+    "TableName": "table-4.csv",
+    "Explanation": "The alloys with a_B2 (A) > 3.13 are Ti30Ni30-5, Ti25Ni16.67-5, and Ti20Ni20-6. The average value of a_c15(A) for these alloys is calculated by summing the values in rows 1, 2, and 4, and dividing by 3, which is (11.733 + 11.833 + 11.866) / 3 = 11.813.",
+    "GT": "11.88 Å"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average difference in a_B2 (A) between alloys with a_c15(A) > 11.8 and those with a_c15(A) < 11.6?",
+    "Answer": "0.022",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The alloys with a_c15(A) > 11.8 are Ti20Ni20-6 and Equi-6. The alloys with a_c15(A) < 11.6 are Ti40Ni40-5, Ti30Ni30-5, and Ti30Ni30-6. The average difference in a_B2 (A) is calculated by subtracting the average value of a_B2 (A) for the first group from the average value for the second group. The average values are calculated by summing the values and dividing by the number of rows, which is (3.155 + 3.136) / 2 - (3.062 + 3.095 + 3.108) / 3 = 0.022.",
+    "GT": "0.079 A˚"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of a_B2 (A) for all alloys?",
+    "Answer": "3.096",
+    "QuestionType": "Filtering",
+    "TableName": "table-4.csv",
+    "Explanation": "The average value of a_B2 (A) is calculated by summing the values in all rows and dividing by the number of rows, which is (3.062 + 3.108 + 3.131 + 3.095 + 3.136 + 3.155) / 6 = 3.096.",
+    "GT": "3.1145 Å"
+  }
+]

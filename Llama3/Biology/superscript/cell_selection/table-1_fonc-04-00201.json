@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the number of experiments performed for the cell line SY5Y?",
+    "Answer": "3",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Number of experiments' column for the cell line SY5Y (row 1)",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which cell line has the highest number of single tumor cells isolated?",
+    "Answer": "Kelly",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Single tumor cells isolated' column, where Kelly has the highest value (43)",
+    "GT": "Kelly"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the tumor antigen or selection method used for the cell line CHLA90?",
+    "Answer": "Bright field",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Tumor antigen or selection method' column for the cell line CHLA90 (row 5)",
+    "GT": "Bright field"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which cell line has an ALK mutation?",
+    "Answer": "SY5Y, Kelly, NB1643/1643M, and LAN5",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Mutation' column, where ALK mutations are detected for these cell lines",
+    "GT": "SY5Y, Kelly, NB1643/1643M, LAN5, and CHLA90"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of single tumor cells isolated for the cell line SW480?",
+    "Answer": "12",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Single tumor cells isolated' column for the cell line SW480 (row 9)",
+    "GT": "12"
+  }
+]

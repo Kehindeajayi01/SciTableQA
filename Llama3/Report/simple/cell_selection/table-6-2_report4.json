@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the surface buildup time in days?",
+    "Answer": "3.65E+4",
+    "QuestionType": "cell selection",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The surface buildup time is directly mentioned in the table as 3.65E+4, which is equivalent to 36500 days.",
+    "GT": "3.65E+4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the time delay for pasture grass in hours?",
+    "Answer": "0.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The time delay for pasture grass is directly mentioned in the table as 0.0 hours.",
+    "GT": "0.0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the productivity of crops and leafy vegetables in kg/m\u00b2?",
+    "Answer": "0.716",
+    "QuestionType": "cell selection",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The productivity of crops and leafy vegetables is directly mentioned in the table as 0.716 kg/m\u00b2.",
+    "GT": "0. 716"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the feed or forage consumption rate in kg-dry/day?",
+    "Answer": "15.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The feed or forage consumption rate is directly mentioned in the table as 15.6 kg-dry/day.",
+    "GT": "15.6"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the milk utilization rate in kg/y?",
+    "Answer": "112.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-6-2.csv",
+    "Explanation": "The milk utilization rate is directly mentioned in the table as 112.0 kg/y.",
+    "GT": "112.0"
+  }
+]

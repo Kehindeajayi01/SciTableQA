@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average composition of Alloy Region D?",
+    "Answer": "24.46 Ti, 35.95 Zr, 23.61 V, 15.98 Nb",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The question asks for the average composition of Alloy Region D, which can be found by looking at the corresponding cells in the table.",
+    "GT": "29.56 Ti, 26.34 Zr, 23.82 V, 19.30 Nb"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the highest Ti content in any of the alloys?",
+    "Answer": "40.59",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The question asks for the highest Ti content, which can be found by looking at the Ti column in the table.",
+    "GT": "40.59"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Zr content of all alloys?",
+    "Answer": "25.33",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The question asks for the average Zr content, which can be found by adding up the Zr values and dividing by the number of rows in the table.",
+    "GT": "26.07"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the alloy with the highest V content?",
+    "Answer": "Ti2ZrNb",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The question asks for the alloy with the highest V content, which can be found by looking at the V column in the table.",
+    "GT": "Ti2ZrNb"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Nb content of alloys with ID?",
+    "Answer": "20.39",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The question asks for the average Nb content of alloys with ID, which can be found by adding up the Nb values of rows 1 and 4 and dividing by 2.",
+    "GT": "20.30"
+  }
+]

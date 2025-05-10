@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average precision of DDCMH-1 for 16-bit MIRFlickr-25K?",
+    "Answer": "0.7227",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the cell at row 1, column 2 of the table.",
+    "GT": "0.7227"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest average precision for 64-bit NUS-WIDE?",
+    "Answer": "DDCMH",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the cell at row 3, column 6 of the table, where DDCMH has the highest average precision for 64-bit NUS-WIDE.",
+    "GT": "DDCMH"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average precision of DDCMH-2 for 32-bit MIRFlickr-25K?",
+    "Answer": "0.6979",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the cell at row 2, column 4 of the table.",
+    "GT": "0.7322"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average precision of DDCMH for 16-bit NUS-WIDE?",
+    "Answer": "0.6867",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the cell at row 3, column 2 of the table.",
+    "GT": "0.6867"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which method has the lowest average precision for 16-bit MIRFlickr-25K?",
+    "Answer": "DDCMH-2",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly taken from the cells at row 2, column 2 of the table, where DDCMH-2 has the lowest average precision for 16-bit MIRFlickr-25K.",
+    "GT": "DDCMH-2"
+  }
+]

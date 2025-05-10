@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the correlation coefficient between SL and RL?",
+    "Answer": "0.514",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The correlation coefficient between SL and RL can be found in the table by selecting the cell at the intersection of the SL and RL columns.",
+    "GT": "0.245**"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the correlation coefficient between SW and RT?",
+    "Answer": "0.144",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The correlation coefficient between SW and RT can be found in the table by selecting the cell at the intersection of the SW and RT columns.",
+    "GT": "0.145*"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which two variables have the highest correlation coefficient?",
+    "Answer": "SW and RL",
+    "QuestionType": "pattern recognition",
+    "TableName": "table-1.csv",
+    "Explanation": "By examining the table, we can see that the correlation coefficient between SW and RL (0.855*) is the highest among all pairs of variables.",
+    "GT": "RW and SW"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the correlation coefficient between RL and RT?",
+    "Answer": "0.222",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The correlation coefficient between RL and RT can be found in the table by selecting the cell at the intersection of the RL and RT columns.",
+    "GT": "0.222**"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which variable has the lowest correlation coefficient with all other variables?",
+    "Answer": "SL",
+    "QuestionType": "pattern recognition",
+    "TableName": "table-1.csv",
+    "Explanation": "By examining the table, we can see that SL has the lowest correlation coefficient with all other variables, with values ranging from -0.235** to 0.425**.",
+    "GT": "SL"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Ti value in regions A, B, and C?",
+    "Answer": "30.32",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average Ti value in regions A, B, and C is calculated by adding the Ti values in these regions (26.63 + 32.91 + 32.42) and dividing by the number of regions (3).",
+    "GT": "30.65"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in V values between region A and region E?",
+    "Answer": "5.28",
+    "QuestionType": "difference",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference in V values between region A and region E is calculated by subtracting the V value in region A (23.95) from the V value in region E (18.67).",
+    "GT": "5.28"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Zr value in regions A, C, and E?",
+    "Answer": "20.53",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average Zr value in regions A, C, and E is calculated by adding the Zr values in these regions (24.36 + 19.73 + 18.43) and dividing by the number of regions (3).",
+    "GT": "20.84"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the sum of Ti and Zr values in region D?",
+    "Answer": "63.60",
+    "QuestionType": "sum",
+    "TableName": "table-3.csv",
+    "Explanation": "The sum of Ti and Zr values in region D is calculated by adding the Ti value (37.31) and the Zr value (26.29) in region D.",
+    "GT": "63.60"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Nb value in regions B, C, and D?",
+    "Answer": "20.57",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average Nb value in regions B, C, and D is calculated by adding the Nb values in these regions (19.35 + 25.87 + 16.49) and dividing by the number of regions (3).",
+    "GT": "20.57"
+  }
+]

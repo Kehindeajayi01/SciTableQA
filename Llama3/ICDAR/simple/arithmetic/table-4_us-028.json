@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of buildings that are classified as 'Administrative or Academic' compared to the total number of buildings?",
+    "Answer": "25.8%",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves comparing the percentage of 'Administrative or Academic' buildings (56/217) to the total number of buildings, which is 217.",
+    "GT": "25.8%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many more buildings are classified as 'IHE Residence' compared to 'IHE Grounds & Parking Lots'?",
+    "Answer": "2",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves comparing the number of 'IHE Residence' buildings (60) to the number of 'IHE Grounds & Parking Lots' buildings (58), and calculating the difference.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total percentage of buildings that are classified as 'Student/Employee Services' or 'Other/Undetermined'?",
+    "Answer": "16.9%",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves adding the percentages of 'Student/Employee Services' (10.1%) and 'Other/Undetermined' (6.9%) and dividing by 100.",
+    "GT": "17%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average percentage of buildings that are not classified as 'IHE Residence'?",
+    "Answer": "23.2%",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves subtracting the percentage of 'IHE Residence' buildings (27.7%) from 100, and then dividing by 4 (since there are 5 categories excluding 'IHE Residence').",
+    "GT": "18.1%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of buildings that are classified as 'Multiple Facilities/Buildings' compared to the total number of buildings?",
+    "Answer": "2.8%",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves comparing the percentage of 'Multiple Facilities/Buildings' (6/217) to the total number of buildings, which is 217.",
+    "GT": "2.8%"
+  }
+]

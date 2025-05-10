@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total population of the EU in 1994?",
+    "Answer": "990",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.9.csv",
+    "Explanation": "The answer can be found in the last row of the table, where the country is 'EU Total' and the year is 1994.",
+    "GT": "990"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country had the highest population in 1994?",
+    "Answer": "UK",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.9.csv",
+    "Explanation": "The answer can be found by looking at the 'Unknown_1' column for the year 1994, where the highest value is 180, which corresponds to the country 'UK'.",
+    "GT": "France"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total population of Austria in the years 1994 and 1981?",
+    "Answer": "47",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.9.csv",
+    "Explanation": "The answer can be found in the first row of the table, where the country is 'Austria', and the years 1994 and 1981 have a population of 47.",
+    "GT": "47"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which country had the highest population growth rate in 1994?",
+    "Answer": "Germany",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.9.csv",
+    "Explanation": "The answer can be found by looking at the 'Unknown_1' column for the year 1994, where the highest value is 149, which corresponds to the country 'Germany'.",
+    "GT": "NA (No data for the question)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total population of the EU in 1981?",
+    "Answer": "Not available",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.9.csv",
+    "Explanation": "The answer is not available in the table, as the total EU population is only provided for 1994.",
+    "GT": "Not available"
+  }
+]

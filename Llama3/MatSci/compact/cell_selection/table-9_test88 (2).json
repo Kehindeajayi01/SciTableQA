@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest yield strength (YS) recorded in the table?",
+    "Answer": "2035",
+    "QuestionType": "cell selection",
+    "TableName": "table-9.csv",
+    "Explanation": "The highest yield strength (YS) recorded in the table is 2035 Mpa, which is found in the row corresponding to the alloy TiZrNbVMo.",
+    "GT": "2035"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average change in entropy (\u0394S_conf)/R for the alloys in the table?",
+    "Answer": "1.384",
+    "QuestionType": "cell calculation",
+    "TableName": "table-9.csv",
+    "Explanation": "To calculate the average change in entropy (\u0394S_conf)/R, I added up the values in the \u0394S_conf/R column and divided by the number of rows (20). The result is 1.384.",
+    "GT": "1.42"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the alloy composition with the highest yield strength (YS) and lowest \u0394S_conf/R?",
+    "Answer": "TiZrNbVMo",
+    "QuestionType": "cell selection",
+    "TableName": "table-9.csv",
+    "Explanation": "The alloy composition with the highest yield strength (YS) is TiZrNbVMo, and it also has the lowest \u0394S_conf/R value among all alloys in the table.",
+    "GT": "TiZrNbVMo and Ti45Zr45Nb5Ta5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the range of yield strengths (YS) recorded in the table?",
+    "Answer": "535-2035",
+    "QuestionType": "cell selection",
+    "TableName": "table-9.csv",
+    "Explanation": "The range of yield strengths (YS) recorded in the table is from 535 Mpa to 2035 Mpa.",
+    "GT": "690 Mpa -1779 Mpa"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the alloy composition with the lowest yield strength (YS) and highest \u0394S_conf/R?",
+    "Answer": "T10.25NbMoTaW",
+    "QuestionType": "cell selection",
+    "TableName": "table-9.csv",
+    "Explanation": "The alloy composition with the lowest yield strength (YS) is T10.25NbMoTaW, and it also has the highest \u0394S_conf/R value among all alloys in the table.",
+    "GT": "Ti45Zr45Nb5Ta5 and TiNbMoTaW"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean CWT (kg) of the sample?",
+    "Answer": "447.00",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The mean CWT (kg) is directly extracted from the table.",
+    "GT": "447.00"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the maximum value of BFT (mm) in the sample?",
+    "Answer": "36.00",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The maximum value of BFT (mm) is directly extracted from the table.",
+    "GT": "36.00"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of EMA (cm2) in the sample?",
+    "Answer": "11.31",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The standard deviation of EMA (cm2) is directly extracted from the table.",
+    "GT": "11.31"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the minimum value of MS (1-9) in the sample?",
+    "Answer": "1",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The minimum value of MS (1-9) is directly extracted from the table.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the coefficient of variation (CV) of CWT (kg) in the sample?",
+    "Answer": "10.79",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The coefficient of variation (CV) of CWT (kg) is directly extracted from the table.",
+    "GT": "10.79"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What was the median household income in the year 1997?",
+    "Answer": "$49,497",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in cell (1,1) of the table.",
+    "GT": "$49,497"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What was the Gini index of household income inequality in the year 2002?",
+    "Answer": "0.4620",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in cell (2,5) of the table.",
+    "GT": "0.4620"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the between-state income inequality (Gini index) in the year 2004?",
+    "Answer": "0.0624",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in cell (3,7) of the table.",
+    "GT": "0.0701"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the premature mortality (years of potential life lost before age 75 yrs/100,000 population) in the year 2006?",
+    "Answer": "6882.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in cell (4,9) of the table.",
+    "GT": "6882.0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the Gini index of inequality in HALex (ages 18-65 yrs) in the year 2005?",
+    "Answer": "0.0886",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in cell (7,8) of the table.",
+    "GT": "0.0886"
+  }
+]

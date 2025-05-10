@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average onset age of benign lesions?",
+    "Answer": "52.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average onset age of benign lesions can be found in the 'Onset Age (yr)' column of the table.",
+    "GT": "52.0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of males with atypical adenoma?",
+    "Answer": "27.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of males with atypical adenoma can be found in the 'Male' and 'Atypical Adenoma' columns of the table.",
+    "GT": "27.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average serum iPTH level of patients with carcinoma?",
+    "Answer": "1128.4",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average serum iPTH level of patients with carcinoma can be found in the 'Serum iPTH (pg/ml)' column of the table.",
+    "GT": "1128.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average serum ionized calcium level of patients with benign lesions?",
+    "Answer": "1.42",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average serum ionized calcium level of patients with benign lesions can be found in the 'Serum ionized calcium (mmol/L)' column of the table.",
+    "GT": "1.42"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of patients with fragility fractures who have rickets/osteomalacia?",
+    "Answer": "13.9",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of patients with fragility fractures who have rickets/osteomalacia can be found in the 'Fragility fractures' and 'Rickets/Osteomalacia' columns of the table.",
+    "GT": "Irrelevant question"
+  }
+]

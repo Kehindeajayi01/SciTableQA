@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "Which states granted exceptions to districts to exceed the 1% cap?",
+    "Answer": "NC, OH, TX, VA",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'State granted exceptions to districts to exceed 1% cap' column, where 'Yes' indicates that the state granted exceptions.",
+    "GT": "OH, TX, VA, NC, SD, WA, WI"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many districts were granted exceptions by the state of South Dakota?",
+    "Answer": "14",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Number of districts granted exceptions' column, where the value for South Dakota is 14.",
+    "GT": "14"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which state did not grant exceptions to districts to exceed the 1% cap?",
+    "Answer": "OK, PR, RI, SC, UT, VT, WY",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'State granted exceptions to districts to exceed 1% cap' column, where 'No' indicates that the state did not grant exceptions.",
+    "GT": "ND, OK, PA, PR, RI, SC, TN, UT, VT, WV, WY"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the state that responded with 'Respondent unsure'?",
+    "Answer": "OR, TX, WA",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Number of districts granted exceptions' column, where the value is 'Respondent unsure' for Oregon, Texas, and Washington.",
+    "GT": "OR"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many states included scores of students taking alternate assessments based on alternate achievement standards?",
+    "Answer": "All states",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'State included scores of students taking alternate assessments based on alternate achievement standards' column, where all states have a 'Yes' value.",
+    "GT": "19 (All states)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average F1 score of the feature-rich models?",
+    "Answer": "90.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The average F1 score of the feature-rich models is calculated by taking the mean of the F1 scores of rows 1, 3, 11, and 18.",
+    "GT": "90.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in F1 score between the neural models and feature-rich models?",
+    "Answer": "1.2",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The difference in F1 score is calculated by subtracting the average F1 score of the feature-rich models (90.4) from the average F1 score of the neural models (91.4).",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the highest F1 score achieved by a single paper?",
+    "Answer": "93.3",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The highest F1 score is found in row 21, which corresponds to the paper by Dyer et al. (2016).",
+    "GT": "93.3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average F1 score of the ensemble models?",
+    "Answer": "91.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The average F1 score of the ensemble models is calculated by taking the mean of the F1 scores of rows 11, 13, 14, and 15.",
+    "GT": "91.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of F1 scores achieved by the papers?",
+    "Answer": "1.9",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The range of F1 scores is calculated by subtracting the lowest F1 score (90.1) from the highest F1 score (93.6).",
+    "GT": "3.5"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average ratio of NetMRF to Original for the datasets with a Time in Seconds less than 1 second?",
+    "Answer": "94.43",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average ratio is calculated by summing the ratios for datasets with Time in Seconds less than 1 second and dividing by the number of datasets. In this case, the sum is (100 + 93.98 + 93.24) / 3 = 287.22 / 3 = 95.74. Since the Time in Seconds for these datasets are 0.012, 0.062, and 0.076, the average ratio is 94.43.",
+    "GT": "94.43"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total ratio of NetMRF to Original for all datasets?",
+    "Answer": "82.24",
+    "QuestionType": "Summation",
+    "TableName": "table-4.csv",
+    "Explanation": "The total ratio is calculated by summing the ratios for all datasets. The sum is (100 + 93.98 + 93.24 + 56.88 + 92.32 + 71.83 + 37.24 + 25.76 + 45.24 + 16.89) = 652.93. The total ratio is 652.93 / 10 = 82.24.",
+    "GT": "63.33"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average ratio of NetMRF to Original for the datasets with a Ratio (%) greater than 90?",
+    "Answer": "94.12",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average ratio is calculated by summing the ratios for datasets with Ratio (%) greater than 90 and dividing by the number of datasets. In this case, the sum is (100 + 96.07 + 93.95 + 92.69 + 99.60 + 97.98) / 6 = 579.38 / 6 = 96.56. Since the ratios for these datasets are 100, 96.07, 93.95, 92.69, 99.60, and 97.98, the average ratio is 94.12.",
+    "GT": "66.01"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total Time in Seconds for the datasets with a NetMRF ratio greater than 90?",
+    "Answer": "185.43",
+    "QuestionType": "Summation",
+    "TableName": "table-4.csv",
+    "Explanation": "The total Time in Seconds is calculated by summing the Time in Seconds for datasets with a NetMRF ratio greater than 90. The sum is (0.012 + 0.062 + 0.076 + 0.222 + 3.83) = 4.271. The total Time in Seconds is 4.271.",
+    "GT": "0.372"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average NetMRF for the datasets with a Time in Seconds greater than 10 seconds?",
+    "Answer": "34.49",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average NetMRF is calculated by summing the NetMRF values for datasets with Time in Seconds greater than 10 seconds and dividing by the number of datasets. In this case, the sum is (25.76 + 16.89) / 2 = 42.65 / 2 = 21.33. Since the NetMRF values for these datasets are 25.76 and 16.89, the average NetMRF is 34.49.",
+    "GT": "34.49"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What percentage of schools identified under NCLB are low-performing?",
+    "Answer": "34%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 0 and column 1 in the table.",
+    "GT": "34%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of schools not identified under NCLB are high-performing?",
+    "Answer": "18%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 2 and column 2 in the table.",
+    "GT": "18%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What percentage of schools identified under NCLB are not designated as low-performing?",
+    "Answer": "66%",
+    "QuestionType": "cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting 34% (low-performing) from 100% in the table.",
+    "GT": "66%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What percentage of schools not identified under NCLB have a special designation?",
+    "Answer": "67%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 1 and column 2 in the table.",
+    "GT": "67%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What percentage of schools identified under NCLB are designated as 'other/not sure'?",
+    "Answer": "14%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 3 and column 1 in the table.",
+    "GT": "14%"
+  }
+]

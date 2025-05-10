@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average F1 score of the top two systems?",
+    "Answer": "84.1",
+    "QuestionType": "average",
+    "TableName": "table-6.csv",
+    "Explanation": "The top two systems are (Madnani, Tetreault, and Chodorow 2012) and (Ji and Eisenstein 2013), with F1 scores of 84.1 and 86.0, respectively. The average of these two scores is calculated as (84.1 + 86.0) / 2 = 84.1.",
+    "GT": "85.35"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in Acc between the system with pretraining and the system without pretraining?",
+    "Answer": "8.2",
+    "QuestionType": "comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The system with pretraining has an Acc of 78.1, while the system without pretraining has an Acc of 72.5. The difference between these two scores is calculated as 78.1 - 72.5 = 8.2.",
+    "GT": "5.6"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Acc of the systems with F1 scores above 80?",
+    "Answer": "79.2",
+    "QuestionType": "average",
+    "TableName": "table-6.csv",
+    "Explanation": "The systems with F1 scores above 80 are (Ji and Eisenstein 2013), (He, Gimpel, and Lin 2015), and (Madnani, Tetreault, and Chodorow 2012), with Acc scores of 80.4, 78.6, and 77.4, respectively. The average of these three scores is calculated as (80.4 + 78.6 + 77.4) / 3 = 79.2.",
+    "GT": "75.96"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in F1 score between the system with POS and Para. embeddings and the system without pretraining?",
+    "Answer": "5.7",
+    "QuestionType": "comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The system with POS and Para. embeddings has an F1 score of 84.7, while the system without pretraining has an F1 score of 78.1. The difference between these two scores is calculated as 84.7 - 78.1 = 5.7.",
+    "GT": "3.3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Acc of the systems with F1 scores below 80?",
+    "Answer": "74.4",
+    "QuestionType": "average",
+    "TableName": "table-6.csv",
+    "Explanation": "The systems with F1 scores below 80 are (Wan et al. 2006), (Socher et al. 2011), (Yin and Sch\u00fctze 2015), and (Hu et al. 2014), with Acc scores of 75.6, 76.8, 72.5, and 69.9, respectively. The average of these four scores is calculated as (75.6 + 76.8 + 72.5 + 69.9) / 4 = 74.4.",
+    "GT": "74.4"
+  }
+]

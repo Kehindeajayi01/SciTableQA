@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in the alloy heat treatment condition between TaMoCrTiAl* and NbMoCrTiAl?",
+    "Answer": "1.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated as (1500 - 1300) + (20 - 20) = 1.5",
+    "GT": "200"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average concentration of Cr in the alloys after heat treatment at 1500 \u00b0C/20 h?",
+    "Answer": "24.6",
+    "QuestionType": "Arithmetic Mean",
+    "TableName": "table-1.csv",
+    "Explanation": "The average concentration of Cr is calculated as ((24.9 + 24.9 + 24.3) / 3) = 24.6",
+    "GT": "19.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average concentration of Al in the alloys after heat treatment at 1200 \u00b0C/20 h?",
+    "Answer": "25.1",
+    "QuestionType": "Arithmetic Mean",
+    "TableName": "table-1.csv",
+    "Explanation": "The average concentration of Al is calculated as ((25.4) / 1) = 25.1",
+    "GT": "25.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in the average concentration of Ti between MoCrTiAl* and NbMoCrTiAl?",
+    "Answer": "0.8",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated as (20.1 - 19.3) = 0.8",
+    "GT": "4.8"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average concentration of Nb in the alloys after heat treatment at 1300 \u00b0C/20 h?",
+    "Answer": "20.75",
+    "QuestionType": "Arithmetic Mean",
+    "TableName": "table-1.csv",
+    "Explanation": "The average concentration of Nb is calculated as ((21.0 + 20.5) / 2) = 20.75",
+    "GT": "21.0"
+  }
+]

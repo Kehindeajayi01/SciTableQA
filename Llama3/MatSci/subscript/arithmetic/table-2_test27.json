@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average oxidation rate constant (k_p) for alloys with a 'TaMoCrTiAl' composition?",
+    "Answer": "1.93*10^-2[mg^2/cm^4h^2]",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The average oxidation rate constant (k_p) is calculated by averaging the values for rows 0 and 1, which are 3.34*10^-2[mg^2/cm^4h^2] and 2.97*10^-3[mg^4/cm^8h^2] respectively.",
+    "GT": "1.81*10^-2[mg^2/cm^4h^2]"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average oxidation rate constant (k_p) for alloys with a 'TaMoCrAl' composition?",
+    "Answer": "5.35*10^-4[mg^4/cm^8h^2]",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The average oxidation rate constant (k_p) is calculated by averaging the values for rows 2 and 3, which are 1.91*10^-4[mg^4/cm^8h^2] and 7.96*10^-3[mg4/cm^4h^2] respectively.",
+    "GT": "4.08*10^-3[mg^4/cm^8h^2]"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average oxidation rate constant (k_p) for alloys with a 'NbMoCrTiAl' composition?",
+    "Answer": "no data",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "There is no oxidation rate constant (k_p) value for alloys with a 'NbMoCrTiAl' composition, as it is not present in the table.",
+    "GT": "2.35*10^-1[mg^4/cm^8h^2]"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average oxidation rate constant (k_l) for alloys with a 'NbMoCrAl' composition?",
+    "Answer": "1.18*10^-1[mg/cm^2h]",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The average oxidation rate constant (k_l) is calculated by averaging the values for rows 6 and 7, which are 1.24*10^-1[mg/cm^2h] and 1.12*10^-1[mg/cm h] respectively.",
+    "GT": "9.08*10^-2[mg^4/cm^8h^2]"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of the 'n' column for rows 0-3?",
+    "Answer": "2.47",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The average value of the 'n' column is calculated by averaging the values for rows 0-3, which are 0.4, 4.5, 0.4, and 3.0 respectively.",
+    "GT": "3.2"
+  }
+]

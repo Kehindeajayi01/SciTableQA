@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in AUC p-value between the 'Horizontal Anomaly Detection (HOAD)' algorithm and the 'Multi-view Low-Rank Analysis (MLRA)' algorithm at the 45% mark?",
+    "Answer": "0.0236",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference is calculated by subtracting the AUC p-value of HOAD (0.5598) from the AUC p-value of MLRA (0.6264) at the 45% mark.",
+    "GT": "0.0666±0.0014"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the maximum AUC p-value achieved by any algorithm at the 75% mark?",
+    "Answer": "0.9385",
+    "QuestionType": "maximum value",
+    "TableName": "table-1.csv",
+    "Explanation": "The maximum AUC p-value is found at the 75% mark for the 'Ours' algorithm.",
+    "GT": "0.8055±0.0243"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of the AUC p-values for the 'Anomaly detection via Affinity Propagation (AP)' algorithm across all percentages?",
+    "Answer": "0.0475",
+    "QuestionType": "standard deviation",
+    "TableName": "table-1.csv",
+    "Explanation": "The standard deviation is calculated from the AUC p-values for the AP algorithm at each percentage mark.",
+    "GT": "0.0475"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average AUC p-value for the 'Dual-regularized Multi-view Outlier Detection (DMOD)' algorithm across all percentages?",
+    "Answer": "0.7143",
+    "QuestionType": "average value",
+    "TableName": "table-1.csv",
+    "Explanation": "The average AUC p-value is calculated by averaging the AUC p-values for the DMOD algorithm at each percentage mark.",
+    "GT": "0.7143"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in AUC p-value between the 'Horizontal Anomaly Detection (HOAD)' algorithm and the 'Dual-regularized Multi-view Outlier Detection (DMOD)' algorithm at the 0% mark?",
+    "Answer": "-0.1586",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the AUC p-value of HOAD (0.6512) from the AUC p-value of DMOD (0.7612) at the 0% mark.",
+    "GT": "-0.1586"
+  }
+]

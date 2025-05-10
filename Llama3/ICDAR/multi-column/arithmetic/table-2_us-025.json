@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average rate of Asian/Pacific Islander women aged 45-54?",
+    "Answer": "8.7",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the average rate of Asian/Pacific Islander women aged 45-54, which is found in cell (3, .2) of the table, which is 8.7.",
+    "GT": "8.7"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many women aged 75-84 have a rate of Asian/Pacific Islander?",
+    "Answer": "1,056",
+    "QuestionType": "count",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the number of women aged 75-84 with a rate of Asian/Pacific Islander, which is found in cell (6, .4) of the table, which is 1,056.",
+    "GT": "NA (Question need to be rephrased)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total rate of Black women aged 65-74?",
+    "Answer": "132.2",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the total rate of Black women aged 65-74, which is found in cell (5, .3) of the table, which is 132.2.",
+    "GT": "367.2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many men aged >=85 have a rate of White?",
+    "Answer": "2,973",
+    "QuestionType": "count",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the number of men aged >=85 with a rate of White, which is found in cell (14, .6) of the table, which is 2,973.",
+    "GT": "NA (Question needs to be rephrased)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average rate of White women aged 55-64?",
+    "Answer": "31.9",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the average rate of White women aged 55-64, which is found in cell (4, .3) of the table, which is 31.9.",
+    "GT": "73.8"
+  }
+]

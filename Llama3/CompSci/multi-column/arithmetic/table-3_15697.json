@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in performance between the 32-bit and 64-bit architectures for the DDCMH-2 method?",
+    "Answer": "0.0027",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by subtracting the 32-bit performance (0.6723) from the 64-bit performance (0.6849) for the DDCMH-2 method.",
+    "GT": "0.0027"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest average performance across all architectures (16 bits, 32 bits, 64 bits)?",
+    "Answer": "DDCMH",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is determined by finding the method with the highest average performance across all architectures, which is DDCMH with an average performance of 0.7766.",
+    "GT": "DDCMH"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average performance difference between the 16-bit and 32-bit architectures for the DDCMH-1 method?",
+    "Answer": "0.0148",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by subtracting the 16-bit performance (0.6839) from the 32-bit performance (0.6979) for the DDCMH-1 method.",
+    "GT": "0.014"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which architecture has the highest average performance for the DDCMH-2 method?",
+    "Answer": "64 bits",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is determined by finding the architecture with the highest average performance for the DDCMH-2 method, which is 64 bits with an average performance of 0.6849.",
+    "GT": "64 bits"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average difference in performance between the DDCMH-1 and DDCMH-2 methods across all architectures?",
+    "Answer": "0.0068",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by subtracting the average performance of DDCMH-2 (0.7255) from the average performance of DDCMH-1 (0.7227), where the average performances are calculated by averaging the performances across all architectures.",
+    "GT": "0.0068"
+  }
+]

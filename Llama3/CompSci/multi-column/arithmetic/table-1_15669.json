@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean difference in test accuracy between Matisse and Picasso classifiers?",
+    "Answer": "5.65%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting the test accuracy of Matisse (60.61%) from the test accuracy of Picasso (67.26%), and then dividing by 2.",
+    "GT": "3.325"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average difference in train accuracy between Schiele and All classifiers?",
+    "Answer": "3.75%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting the train accuracy of All (72.59%) from the train accuracy of Schiele (84.76%), and then dividing by 2.",
+    "GT": "6.085%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage difference in test accuracy between the combined and GRU classifiers?",
+    "Answer": "8.51%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting the test accuracy of GRU (75.09%) from the test accuracy of Combined (86.05%), and then dividing by the test accuracy of GRU.",
+    "GT": "8.51%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the mean train accuracy of the Hand-crafted + SVM classifier?",
+    "Answer": "81.92%",
+    "QuestionType": "simple",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is taken directly from the table.",
+    "GT": "81.92%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the standard deviation of the test accuracy of the Matisse classifier?",
+    "Answer": "8.71%",
+    "QuestionType": "simple",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is taken directly from the table.",
+    "GT": "8.71%"
+  }
+]

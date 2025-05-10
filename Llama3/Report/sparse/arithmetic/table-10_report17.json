@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Unadjusted Hourly Value for the 'Parameter Code' when the 'Method of Determination Code (MODC)' is 'Measured Data' and the 'Moisture Basis' is not available?",
+    "Answer": "2.0",
+    "QuestionType": "comparison",
+    "TableName": "table-10.csv",
+    "Explanation": "The question is answered by taking the average of the 'Unadjusted Hourly Value' column where the 'Method of Determination Code (MODC)' is 'Measured Data' and the 'Moisture Basis' is empty.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total 'Adjusted Hourly Value' when the 'Monitoring System ID' is 'Unknown_3' and the 'Percent Available' is greater than 50?",
+    "Answer": "5.0",
+    "QuestionType": "summation",
+    "TableName": "table-10.csv",
+    "Explanation": "The question is answered by summing the 'Adjusted Hourly Value' column where the 'Monitoring System ID' is 'Unknown_3' and the 'Percent Available' is greater than 50.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average 'Unadjusted Hourly Value' when the 'Component ID' is 'SO2C' and the 'Method of Determination Code (MODC)' is 'Missing Data'?",
+    "Answer": "1.5",
+    "QuestionType": "comparison",
+    "TableName": "table-10.csv",
+    "Explanation": "The question is answered by taking the average of the 'Unadjusted Hourly Value' column where the 'Component ID' is 'SO2C' and the 'Method of Determination Code (MODC)' is 'Missing Data'.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total 'Adjusted Hourly Value' when the 'Method of Determination Code (MODC)' is 'Measured Data' and the 'Moisture Basis' is available?",
+    "Answer": "7.0",
+    "QuestionType": "summation",
+    "TableName": "table-10.csv",
+    "Explanation": "The question is answered by summing the 'Adjusted Hourly Value' column where the 'Method of Determination Code (MODC)' is 'Measured Data' and the 'Moisture Basis' is not empty.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average 'Percent Available' when the 'Component ID' is 'MHV' and the 'Method of Determination Code (MODC)' is 'Missing Data'?",
+    "Answer": "75.0",
+    "QuestionType": "comparison",
+    "TableName": "table-10.csv",
+    "Explanation": "The question is answered by taking the average of the 'Percent Available' column where the 'Component ID' is 'MHV' and the 'Method of Determination Code (MODC)' is 'Missing Data'.",
+    "GT": "Irrelevant question"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the most common code reported for daily calibration tests?",
+    "Answer": "PASSED",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "This answer is based on the frequency of each code in the table, where 'PASSED' is the most common code reported.",
+    "GT": "PASSED"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the code reported when the standard performance specification is not met for one or both injections?",
+    "Answer": "PASSAPS",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "This answer is based on the description of the 'PASSAPS' code in the table, which applies to daily calibration tests.",
+    "GT": "PASSAPS"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the code reported when the applicable performance specification is not met for the test?",
+    "Answer": "FAILED",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "This answer is based on the description of the 'FAILED' code in the table, which applies to daily calibration error tests.",
+    "GT": "FAILED"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the code reported when a calibration error test is not completed at both required calibration levels?",
+    "Answer": "INC",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "This answer is based on the description of the 'INC' code in the table, which applies to incomplete calibration tests.",
+    "GT": "INC"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the code reported when a test is aborted due to a malfunction of the monitoring system?",
+    "Answer": "ABORTED",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "This answer is based on the description of the 'ABORTED' code in the table, which applies to tests that are aborted due to a malfunction.",
+    "GT": "ABORTED"
+  }
+]

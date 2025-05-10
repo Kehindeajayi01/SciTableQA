@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What percentage of the total sample size consists of individuals who were not interviewed?",
+    "Answer": "14.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-A.3.csv",
+    "Explanation": "This question is answered by referencing the 'Status' column and calculating the percentage of individuals who were not interviewed (5701/39695) and multiplying it by 100.",
+    "GT": "14.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of individuals who were interviewed but not examined, compared to the total sample size?",
+    "Answer": "6.8",
+    "QuestionType": "Comparison",
+    "TableName": "table-A.3.csv",
+    "Explanation": "This question is answered by referencing the 'Status' column and calculating the percentage of individuals who were interviewed but not examined (2683/39695) and multiplying it by 100.",
+    "GT": "6.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What percentage of the total sample size consists of individuals who were MEC examined?",
+    "Answer": "77.6",
+    "QuestionType": "Comparison",
+    "TableName": "table-A.3.csv",
+    "Explanation": "This question is answered by referencing the 'Status' column and calculating the percentage of individuals who were MEC examined (30818/39695) and multiplying it by 100.",
+    "GT": "77.6"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the weighted percentage of individuals who were not interviewed, compared to the total sample size?",
+    "Answer": "18.2",
+    "QuestionType": "Comparison",
+    "TableName": "table-A.3.csv",
+    "Explanation": "This question is answered by referencing the 'Status' column and calculating the weighted percentage of individuals who were not interviewed (5701/39695) and multiplying it by 100.",
+    "GT": "18.2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in percentage between the total sample size and the percentage of individuals who were MEC examined?",
+    "Answer": "22.4",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-A.3.csv",
+    "Explanation": "This question is answered by calculating the difference between the total sample size (100.0) and the percentage of individuals who were MEC examined (77.6), and then multiplying the result by 100.",
+    "GT": "22.4"
+  }
+]

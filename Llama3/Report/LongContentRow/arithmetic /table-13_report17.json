@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average NO_x emission rate when the heat input rate is above 1000?",
+    "Answer": "15.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-13.csv",
+    "Explanation": "To find the average NO_x emission rate when the heat input rate is above 1000, I calculated the sum of NO_x emission rates for rows where heat input rate is above 1000 (15.5, 15.6, 16.1, 16.3) and divided it by the count of such rows (4).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total NO_x mass calculation using NO_x concentration and stack flow when the NO_x concentration monitoring System ID is 'System A'?",
+    "Answer": "135.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-13.csv",
+    "Explanation": "To find the total NO_x mass calculation, I multiplied the NO_x concentration (13.5) by the stack flow (10) for the row where the NO_x concentration monitoring System ID is 'System A'.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average NO_x emission rate when the NO_x concentration monitoring System ID is 'System B'?",
+    "Answer": "12.2",
+    "QuestionType": "Comparison",
+    "TableName": "table-13.csv",
+    "Explanation": "To find the average NO_x emission rate when the NO_x concentration monitoring System ID is 'System B', I calculated the sum of NO_x emission rates for rows where the NO_x concentration monitoring System ID is 'System B' (12.2, 12.5) and divided it by the count of such rows (2).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total NO_x mass calculation using NO_x concentration and stack flow when the heat input rate is above 1000 and the NO_x concentration monitoring System ID is 'System C'?",
+    "Answer": "160.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-13.csv",
+    "Explanation": "To find the total NO_x mass calculation, I multiplied the NO_x concentration (16.1) by the stack flow (10) for the row where the heat input rate is above 1000 and the NO_x concentration monitoring System ID is 'System C'.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average NO_x emission rate when the diluent concentration is missing?",
+    "Answer": "14.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-13.csv",
+    "Explanation": "To find the average NO_x emission rate when the diluent concentration is missing, I calculated the sum of NO_x emission rates for rows where the diluent concentration is missing (14.5, 15.1, 15.5) and divided it by the count of such rows (3).",
+    "GT": "Irrelevant question"
+  }
+]

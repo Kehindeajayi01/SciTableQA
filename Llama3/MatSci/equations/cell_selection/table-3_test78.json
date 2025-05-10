@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the yield strength of sample Re293?",
+    "Answer": "1000 \u00b1 50",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the first row of the table, in the 'Samples' column.",
+    "GT": "1000 MPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which sample has the highest ultimate strength?",
+    "Answer": "Re1273",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found by comparing the values in the 'Ultimate strength, MPa' column, and identifying the sample with the highest value.",
+    "GT": "Re1273"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the plastic strain of sample Re673?",
+    "Answer": "4.25 \u00b1 0.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the third row of the table, in the 'Plastic strain, %' column.",
+    "GT": "4.25 ± 0.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average yield strength of the first three samples?",
+    "Answer": "1149 \u00b1 25",
+    "QuestionType": "calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be calculated by averaging the values in the 'Yield strength, MPa' column for the first three rows (Re293, Re673, and Re873).",
+    "GT": "1165.6 MPa"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which sample has the highest yield strength?",
+    "Answer": "Re1073",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found by comparing the values in the 'Yield strength, MPa' column, and identifying the sample with the highest value.",
+    "GT": "Re1073"
+  }
+]

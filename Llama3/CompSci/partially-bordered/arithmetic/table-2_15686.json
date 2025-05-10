@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in Tun scores between the Test and Baseline for all languages?",
+    "Answer": "82.66",
+    "QuestionType": "calculation",
+    "TableName": "Unknown_1",
+    "Explanation": "The average difference in Tun scores is calculated by averaging the differences between Test and Baseline scores for each language: (90.53 - 85.17) + (91.15 - 86.70) + (90.33 - 87.33) / 3 = 82.66",
+    "GT": "4.27"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which language has the largest difference in Test scores between Tun and Baseline?",
+    "Answer": "Italian",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The largest difference in Test scores is found in Italian, with a difference of 90.35 - 86.70 = 3.65",
+    "GT": "Farsi"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Baseline score across all languages?",
+    "Answer": "87.06",
+    "QuestionType": "calculation",
+    "TableName": "Unknown_1",
+    "Explanation": "The average Baseline score is calculated by averaging the Baseline scores for each language: (89.55 + 90.35 + 90.65) / 3 = 87.06",
+    "GT": "86.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which language has the highest Tun score?",
+    "Answer": "Italian",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The highest Tun score is found in Italian, with a score of 91.15",
+    "GT": "Italian"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average difference in Baseline scores between the highest and lowest Baseline scores?",
+    "Answer": "4.18",
+    "QuestionType": "calculation",
+    "TableName": "Unknown_1",
+    "Explanation": "The average difference in Baseline scores is calculated by averaging the differences between the highest and lowest Baseline scores: (90.65 - 85.17) / 2 = 4.18",
+    "GT": "1.08"
+  }
+]

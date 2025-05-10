@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of Ti in the 1 Bcc dendrite phase at x=0?",
+    "Answer": "46.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 2, column 2, which corresponds to the 1 Bcc dendrite phase at x=0.",
+    "GT": "46.6%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of Cr in the Alloy composition at x=5?",
+    "Answer": "9.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 7, column 4, which corresponds to the Alloy composition at x=5.",
+    "GT": "10.5%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of Ni in the 3 \u03c3-phase at x=7?",
+    "Answer": "21.9",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 15, column 5, which corresponds to the 3 \u03c3-phase at x=7.",
+    "GT": "21.9%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of V in the Nominal composition at x=10?",
+    "Answer": "10.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 24, column 5, which corresponds to the Nominal composition at x=10.",
+    "GT": "10%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of Al in the 1 Bcc dendrite phase at x=5?",
+    "Answer": "5.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 7, column 6, which corresponds to the 1 Bcc dendrite phase at x=5.",
+    "GT": "5.3%"
+  }
+]

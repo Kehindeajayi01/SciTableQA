@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of mutations in Type 2A families?",
+    "Answer": "53",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by adding the values in cells .4 and .5 for Type 2A families, which are 53.",
+    "GT": "29"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of Type 2N families among all families?",
+    "Answer": "100%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by referencing cell .13 for Type 2N families, which is 100%, and comparing it with other percentages in the same row.",
+    "GT": "100%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of mutations in Type 1 families with at least one frameshift mutation?",
+    "Answer": "50",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by adding the values in cells .1 and .2 for Type 1 families, which are 35 and 15, respectively, and then adding the values in cells .1 and .2 for Type 2A families, which are 30 and 7, respectively, and finally adding the values in cells .1 and .2 for Type 2M families, which are 6 and 6, respectively, to get 50.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of mutations in Type 2A/2M families with at least one nonsense mutation?",
+    "Answer": "92",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by referencing cell .6 for Type 2A/2M families, which is 92.",
+    "GT": "12"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of mutations in Type 2B families with at least one missense mutation?",
+    "Answer": "78",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by referencing cell .8 for Type 2B families, which is 78.",
+    "GT": "Irrelevant question"
+  }
+]

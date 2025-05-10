@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of unhealthy housing units among American Indian/Alaska Native households in 2007 and 2009?",
+    "Answer": "30.8% in 2007 and 31.9% in 2009",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the percentage of unhealthy housing units among American Indian/Alaska Native households in 2007 and 2009, which can be found in rows 10 and 17.",
+    "GT": "30.8% in 2007 and 31.9% in 2009"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the ratio of unhealthy housing units among male and female households in 2007 and 2009?",
+    "Answer": "Male: 22.9% in 2007 and 22.5% in 2009; Female: 24.9% in 2007 and 24.6% in 2009",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the ratio of unhealthy housing units among male and female households in 2007 and 2009, which can be found in rows 3 and 4, and rows 12 and 18.",
+    "GT": "1.1 in both 2007 and 2009"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of unhealthy housing units among households with annual income <=24,999 in 2007 and 2009?",
+    "Answer": "27.2% in 2007 and 26.6% in 2009",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the percentage of unhealthy housing units among households with annual income <=24,999 in 2007 and 2009, which can be found in rows 25 and 26.",
+    "GT": "27.2% in 2007 and 26.6% in 2009"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of unhealthy housing units among households with education level less than high school and those with any college education in 2007 and 2009?",
+    "Answer": "Less than high school: 25.5% in 2007 and 24.9% in 2009; Any college education: 24.3% in 2007 and 23.6% in 2009",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the ratio of unhealthy housing units among households with education level less than high school and those with any college education in 2007 and 2009, which can be found in rows 30 and 32.",
+    "GT": "1.1 in both 2007 and 2009"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of unhealthy housing units among households in the Northeast and West regions in 2007 and 2009?",
+    "Answer": "31.3% in 2007 and 27.1% in 2009 (Northeast); 19.0% in 2007 and 19.2% in 2009 (West)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the percentage of unhealthy housing units among households in the Northeast and West regions in 2007 and 2009, which can be found in rows 34 and 37.",
+    "GT": "31.3% in 2007 and 27.1% in 2009 (Northeast); 19.0% in 2007 and 19.2% in 2009 (West)"
+  }
+]

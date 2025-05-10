@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the ratio of 'Pss' to 'F1' in the 'Syn-SAU-119' sample?",
+    "Answer": "1:1",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The ratio is calculated by comparing the values in cells (2, 1) and (3, 1), which are both 20.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the expected ratio of 'Ps' to 'F2' in the 'PSs _ Ps' sample?",
+    "Answer": "1:3",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The expected ratio is given in cell (4, 4) as 1:3.",
+    "GT": "1:3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the actual ratio of 'F2:3' to 'F2' in the 'F2:3' sample?",
+    "Answer": "2:1",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The actual ratio is calculated by comparing the values in cells (5, 2) and (5, 1), which are 134 and 35, respectively.",
+    "GT": "1.04:2:0.96"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the p-value for the 'PSs _ Ps' sample?",
+    "Answer": "0.579",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The p-value is given in cell (4, 7) as 0.579.",
+    "GT": "0.579"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the p-value for the 'F2:3' sample?",
+    "Answer": "0.935",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The p-value is given in cell (5, 7) as 0.935.",
+    "GT": "0.935"
+  }
+]

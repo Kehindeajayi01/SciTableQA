@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in area fraction of identified phases between alloy NbMoCrTiAl and alloy TaMoCrTiAl?",
+    "Answer": "20%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The area fraction of identified phases for alloy NbMoCrTiAl is 99% (Q2) and for alloy TaMoCrTiAl is 80% (Q5). The difference is calculated as 99% - 80% = 20%",
+    "GT": "19%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the area fraction of A2/B2 phase in alloy NbMoCrTiAl?",
+    "Answer": "99%",
+    "QuestionType": "Simple",
+    "TableName": "table-1.csv",
+    "Explanation": "The area fraction of A2/B2 phase in alloy NbMoCrTiAl is directly mentioned as 99%.",
+    "GT": "99%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in area fraction of Laves phases between alloy NbMoCrAl and alloy TaMoCrAl?",
+    "Answer": "15%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The area fraction of Laves phases for alloy NbMoCrAl is 40% (Q4) and for alloy TaMoCrAl is 20% (Q6). The difference is calculated as 40% - 20% = 15%",
+    "GT": "5%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the area fraction of Laves phases in alloy NbMoCrAl?",
+    "Answer": "40%",
+    "QuestionType": "Simple",
+    "TableName": "table-1.csv",
+    "Explanation": "The area fraction of Laves phases in alloy NbMoCrAl is directly mentioned as 40%.",
+    "GT": "40%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the area fraction of A2/B2 phase in alloy TaMoCrTiAl?",
+    "Answer": "80%",
+    "QuestionType": "Simple",
+    "TableName": "table-1.csv",
+    "Explanation": "The area fraction of A2/B2 phase in alloy TaMoCrTiAl is directly mentioned as 80%.",
+    "GT": "80%"
+  }
+]

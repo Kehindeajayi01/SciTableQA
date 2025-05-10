@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the computation formula for Motif M1?",
+    "Answer": "(U.U) o U^T + C+C^T",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly extracted from the table, specifically from row 1, where the computation formula for Motif M1 is listed.",
+    "GT": "(U.U) o U^T + C+C^T"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which Motif has a computation formula involving only B.B?",
+    "Answer": "M4",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is extracted from row 4, where the computation formula for Motif M4 involves only B.B.",
+    "GT": "M4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the common term in the computation formulas for Motifs M1, M2, and M3?",
+    "Answer": "C+C^T",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is extracted from the computation formulas of Motifs M1, M2, and M3, where the common term is C+C^T.",
+    "GT": "C+C^T"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which Motif has a computation formula involving U^T.B?",
+    "Answer": "M7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is extracted from row 7, where the computation formula for Motif M7 involves U^T.B.",
+    "GT": "M7"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the computation formula for Motif M5?",
+    "Answer": "(U.U) o U+(U.U^T) o U+(U^T.U) o U = C+C^T",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly extracted from the table, specifically from row 5, where the computation formula for Motif M5 is listed.",
+    "GT": "(U.U) o U+(U.U^T) o U+(U^T.U) o U = C+C^T"
+  }
+]

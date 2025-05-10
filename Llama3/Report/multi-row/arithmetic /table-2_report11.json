@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total CH4 Emissions (MT CO2e) for stations with Inlet Pressure (psig) > 300?",
+    "Answer": "3,105,893 + 3,057,637 + 14,419 = 6,177,949",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The total CH4 Emissions (MT CO2e) for stations with Inlet Pressure (psig) > 300 is calculated by summing up the values for M&R > 300, Reg > 300, and Reg-Vault > 300.",
+    "GT": "3,105,893 + 3,057,637 + 14,419 = 6,177,949"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average CH4 EF (scfh/station) for stations with AD (# stations) between 10,000 and 40,000?",
+    "Answer": "(179.80 + 95.60 + 4.31 + 161.90 + 1.30 + 40.50 + 0.18 + 1.04 + 0.09 + 0.13) / 10 = 53.43",
+    "QuestionType": "Calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The average CH4 EF (scfh/station) is calculated by summing up the values for stations with AD (# stations) between 10,000 and 40,000 and then dividing by the number of stations (10).",
+    "GT": "(95.6 + 40.5 + 0.09 + 0.13) / 4 = 34.08"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of stations with CH4 Emissions (MT CO2e) > 1,000,000?",
+    "Answer": "4,095 + 14,946 + 13,545 = 32,586",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The total number of stations with CH4 Emissions (MT CO2e) > 1,000,000 is calculated by summing up the values for M&R > 300, Reg 100-300, and Reg 100-300.",
+    "GT": "4,095 + 14,946 + 13,545 + 4,478 = 37.064"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total CH4 Emissions (MT CO2e) for Reg-Vault stations?",
+    "Answer": "14,419 + 4,620 + 13,152 = 32,191",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The total CH4 Emissions (MT CO2e) for Reg-Vault stations is calculated by summing up the values for Reg-Vault > 300, Reg-Vault 100-300, and Reg-Vault 40-100.",
+    "GT": "14,419 + 4,620 + 13,152 = 32,191"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Inlet Pressure (psig) for stations with CH4 Emissions (MT CO2e) < 100,000?",
+    "Answer": "(300 + 100 + 40 + <100) / 4 = 121.25",
+    "QuestionType": "Calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Inlet Pressure (psig) is calculated by summing up the values for stations with CH4 Emissions (MT CO2e) < 100,000 and then dividing by the number of stations (4).",
+    "GT": "Irrelevant question"
+  }
+]

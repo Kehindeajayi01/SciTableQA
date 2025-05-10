@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average grain diameter of BCC in μm?",
+    "Answer": "220 ± 30",
+    "QuestionType": "Summary",
+    "TableName": "table-2.csv",
+    "Explanation": "This question is based on the value in row 3, column 0 (Alloy/Phase) which is BCC, and the value in row 3, column 3 (Average grain diameter (μm)) which is 220 ± 30.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How much larger is the average grain diameter of C compared to that of a?",
+    "Answer": "219.4 ± 0.7",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "This question is based on the values in row 2, column 3 (Average grain diameter (μm)) which is 539.5 ± 0.2 and row 1, column 3 (Average grain diameter (μm)) which is 381.7 ± 0.2. The difference is calculated as 539.5 - 381.7 = 157.8, and the error is estimated as ± (0.2 + 0.2) = ± 0.7.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average grain diameter of Hexagonal in μm?",
+    "Answer": "Not applicable",
+    "QuestionType": "Summary",
+    "TableName": "table-2.csv",
+    "Explanation": "This question is based on the value in row 0, column 0 (Alloy/Phase) which is Hexagonal, but there is no corresponding value in row 0, column 3 (Average grain diameter (μm)).",
+    "GT": "Not applicable"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How much larger is the average grain diameter of C-3009 compared to that of NMZ1?",
+    "Answer": "1260 ± 210",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "This question is based on the values in row 5, column 3 (Average grain diameter (μm)) which is 1500 ± 200 and row 0, column 2 (Average grain diameter (μm)) which is 330.5 ± 30. The difference is calculated as 1500 - 330.5 = 1169.5, and the error is estimated as ± (200 + 30) = ± 210.",
+    "GT": "1280 ± 170"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average grain diameter of NMZ2, NMZ3, and NMZ4 combined?",
+    "Answer": "Not applicable",
+    "QuestionType": "Summary",
+    "TableName": "table-2.csv",
+    "Explanation": "This question is based on the values in rows 1, 2, and 3, columns 2, 3, and 4 (Average grain diameter (μm)) which are 160 ± 20, 137 ± 15, and 300 ± 40, respectively. However, there is no way to combine these values to get a single average grain diameter.",
+    "GT": "199 ± 25"
+  }
+]

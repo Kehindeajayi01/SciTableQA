@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage change in the 'Men' category from 1991 to 2003?",
+    "Answer": "13.2",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "To calculate this, we subtract the 1991 value (40.7) from the 2003 value (38.1) and divide by the 1991 value, then multiply by 100. ((38.1-40.7)/40.7)*100 = 13.2",
+    "GT": "-15.2% (Agriculture), -2.16% (Industry), 4.48% (Services)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total percentage of 'Women' in the 'Total' category in 1996?",
+    "Answer": "80.9",
+    "QuestionType": "Specific value",
+    "TableName": "table-1",
+    "Explanation": "This value is directly taken from the table, row 4, column 3",
+    "GT": "35.8% (Agriculture), 26.1% (Industry), 61.3% (Services)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in percentage points between the 'Men' category in 1991 and 2001?",
+    "Answer": "3.8",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "To calculate this, we subtract the 1991 value (48.4) from the 2001 value (53.1) and take the absolute value. |48.4-53.1| = 3.8",
+    "GT": "3.5% (Agriculture), 1.3% (Industry), 4.7% (Services)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average percentage of 'Total' in the table?",
+    "Answer": "64.3",
+    "QuestionType": "Average",
+    "TableName": "table-1",
+    "Explanation": "To calculate this, we add up all the 'Total' values (62.4, 65.2, 67.1, 69.4) and divide by 4. (62.4+65.2+67.1+69.4)/4 = 64.3",
+    "GT": "6.75% (Agriculture), 27.05% (Industry), 66.025% (Services)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage change in the 'Total' category from 1991 to 2003?",
+    "Answer": "7.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "To calculate this, we subtract the 1991 value (62.4) from the 2003 value (69.4) and divide by the 1991 value, then multiply by 100. ((69.4-62.4)/62.4)*100 = 7.4",
+    "GT": "4% (Agriculture), 3% (Industry), 7% (Services)"
+  }
+]

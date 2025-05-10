@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of Investigative Matters Received by AUSAs in FY 2011?",
+    "Answer": "387",
+    "QuestionType": "cell selection",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The answer can be directly obtained from the cell at row 0 and column 4.",
+    "GT": "387"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of Defendants Sentenced in FY 2008?",
+    "Answer": "242",
+    "QuestionType": "cell selection",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The answer can be directly obtained from the cell at row 3 and column 1.",
+    "GT": "242"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of Cases Charged in FY 2009?",
+    "Answer": "173",
+    "QuestionType": "cell selection",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The answer can be directly obtained from the cell at row 2 and column 2.",
+    "GT": "173"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of Defendants Charged in FY 2011?",
+    "Answer": "215",
+    "QuestionType": "cell selection",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The answer can be directly obtained from the cell at row 1 and column 4.",
+    "GT": "215"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of Defendants Sentenced with a No Prison Term in FY 2007?",
+    "Answer": "148",
+    "QuestionType": "cell selection",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The answer can be directly obtained from the cell at row 4 and column 0.",
+    "GT": "148"
+  }
+]

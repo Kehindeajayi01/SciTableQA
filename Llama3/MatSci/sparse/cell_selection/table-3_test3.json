@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the Wigner-Seitz (WS) radius of Ti?",
+    "Answer": "1.63",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the first row and first column of the table, where the composition is Ti.",
+    "GT": "1.63"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which element has the highest Wigner-Seitz (WS) radius?",
+    "Answer": "Zr",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found by comparing the WS radius of each element in the table, and Zr has the highest value.",
+    "GT": "Zr and Hf"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Wigner-Seitz (WS) radius of HfNbTaTiZr?",
+    "Answer": "1.68",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found by averaging the WS radius of each element in the composition HfNbTaTiZr, which is 1.67, 1.70, 1.66, 1.70, and 1.66.",
+    "GT": "1.68"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which composition has the lowest Wigner-Seitz (WS) radius?",
+    "Answer": "MoNbTiV",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found by comparing the WS radius of each composition in the table, and MoNbTiV has the lowest value.",
+    "GT": "MoNbTiV"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the Wigner-Seitz (WS) radius of the composition NbTaTiV?",
+    "Answer": "1.60",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the 12th row of the table, where the composition is NbTaTiV.",
+    "GT": "1.60"
+  }
+]

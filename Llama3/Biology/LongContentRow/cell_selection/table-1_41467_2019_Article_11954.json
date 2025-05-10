@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the frequency of the 'C' allele at the rs201385366 SNP?",
+    "Answer": "0.019",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by selecting the cell at the 'AF' column and 'rs201385366' row, which corresponds to the frequency of the 'C' allele.",
+    "GT": "0.019"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the effect size of the rs10212439 SNP on PI(18:0;0-18:1;0)?",
+    "Answer": "0.18",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by selecting the cell at the 'Effect' column and 'rs10212439' row, which corresponds to the effect size of the SNP on the specified lipid species.",
+    "GT": "0.18"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the P-value of the rs187163948 SNP?",
+    "Answer": "3.5 x 10-8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by selecting the cell at the 'P' column and 'rs187163948' row, which corresponds to the P-value of the SNP.",
+    "GT": "3.5 x 10-8"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the gene associated with the rs964184 SNP?",
+    "Answer": "APOA5",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by selecting the cell at the 'Gene' column and 'rs964184' row, which corresponds to the gene associated with the SNP.",
+    "GT": "APOA5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lipid species affected by the rs8008070 SNP?",
+    "Answer": "SM(32:1;2)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by selecting the cell at the 'Lipid species' column and 'rs8008070' row, which corresponds to the lipid species affected by the SNP.",
+    "GT": "SM(32:1;2)"
+  }
+]

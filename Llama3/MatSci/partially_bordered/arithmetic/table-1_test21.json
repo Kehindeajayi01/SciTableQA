@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of occurrences of BCC and FCC combined?",
+    "Answer": "753",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing the occurrences of BCC (604) and FCC (553) from the table.",
+    "GT": "441"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of occurrences of B2 compared to the total number of occurrences?",
+    "Answer": "6.37%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by dividing the number of occurrences of B2 (158) by the total number of occurrences (2478) and multiplying by 100.",
+    "GT": "6.38%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of occurrences of BCC and Amorphous combined?",
+    "Answer": "175",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing the occurrences of BCC (604) and Amorphous (192) from the table.",
+    "GT": "71"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of occurrences of FCC compared to the total number of occurrences?",
+    "Answer": "22.27%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by dividing the number of occurrences of FCC (553) by the total number of occurrences (2478) and multiplying by 100.",
+    "GT": "22.32%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of occurrences of BCC, FCC, and Amorphous combined?",
+    "Answer": "240",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing the occurrences of BCC (604), FCC (553), and Amorphous (192) from the table.",
+    "GT": "34"
+  }
+]

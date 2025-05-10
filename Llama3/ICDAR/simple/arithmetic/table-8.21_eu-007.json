@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in market share between Maison du Cafe (Dauwe Egberts) and Carte Noire (K-J-S) in 1996?",
+    "Answer": "7.1%",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.21.csv",
+    "Explanation": "The market share of Maison du Cafe (Dauwe Egberts) in 1996 is 14.9%, while Carte Noire (K-J-S) has a market share of 17.0%. The difference is calculated by subtracting the smaller value from the larger value.",
+    "GT": "2.1%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in market share of Own Brands and First Price Products from 1996 to 1997?",
+    "Answer": "1.4%",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.21.csv",
+    "Explanation": "The market share of Own Brands and First Price Products in 1996 is 15.9%, while in 1997 it is 17.3%. The percentage increase is calculated by subtracting the original value from the new value and dividing by the original value.",
+    "GT": "10.7%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average market share of the top 3 brands (Maison du Cafe (Dauwe Egberts), Carte Noire (K-J-S), and Jacques Vabre (K-J-S)) in 1996?",
+    "Answer": "15.4%",
+    "QuestionType": "Average",
+    "TableName": "table-8.21.csv",
+    "Explanation": "The average is calculated by adding the market shares of the top 3 brands (14.9% + 17.0% + 14.2%) and dividing by 3.",
+    "GT": "15.4%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in market share between Lavazza and Segafiedo in 1997?",
+    "Answer": "1.2%",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.21.csv",
+    "Explanation": "The market share of Lavazza in 1997 is 6.2%, while Segafiedo has a market share of 5.4%. The difference is calculated by subtracting the smaller value from the larger value.",
+    "GT": "0.8%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total market share of all brands except Own Brands and First Price Products in 1996?",
+    "Answer": "63.2%",
+    "QuestionType": "Sum",
+    "TableName": "table-8.21.csv",
+    "Explanation": "The total market share of all brands except Own Brands and First Price Products is calculated by adding the market shares of all brands (except Own Brands and First Price Products) and subtracting the market share of Own Brands and First Price Products from the total market share.",
+    "GT": "84%"
+  }
+]

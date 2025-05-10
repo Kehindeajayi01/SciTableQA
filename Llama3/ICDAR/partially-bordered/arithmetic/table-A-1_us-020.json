@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average weighted school participation rate before substitution of the top 3 performing education systems?",
+    "Answer": "98.33",
+    "QuestionType": "average",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The average weighted school participation rate before substitution is calculated by summing the weighted school participation rates of the top 3 performing education systems (Alberta-CAN, Ontario-CAN, and Quebec-CAN) and dividing by 3.",
+    "GT": "100"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in weighted school participation rate before substitution between Alberta-CAN and Ontario-CAN?",
+    "Answer": "2",
+    "QuestionType": "difference",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The difference in weighted school participation rate before substitution between Alberta-CAN and Ontario-CAN is calculated by subtracting the weighted school participation rate before substitution of Ontario-CAN (99) from that of Alberta-CAN (97).",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the weighted school participation rate after substitution of the education system with the highest overall exclusion rate?",
+    "Answer": "99",
+    "QuestionType": "specific value",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The education system with the highest overall exclusion rate is Maltese-MLT (4), and its weighted school participation rate after substitution is 100.",
+    "GT": "99"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the weighted student response rate of the education system with the lowest weighted school participation rate before substitution?",
+    "Answer": "91",
+    "QuestionType": "specific value",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The education system with the lowest weighted school participation rate before substitution is Florida-USA (96), and its weighted student response rate is 91.",
+    "GT": "86"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average weighted student response rate of the top 2 performing education systems in terms of weighted school participation rate before substitution?",
+    "Answer": "95.5",
+    "QuestionType": "average",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The average weighted student response rate of the top 2 performing education systems (Alberta-CAN and Ontario-CAN) is calculated by summing their weighted student response rates (95 and 96) and dividing by 2.",
+    "GT": "98.5"
+  }
+]

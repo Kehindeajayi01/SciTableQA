@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean loss for individuals who kept their assets?",
+    "Answer": "12196",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by referencing the 'Mean Loss' column and the 'I/we kept the assets' row, which corresponds to the value 12196.",
+    "GT": "12196"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How does the mean loss for those who sold some of their assets compare to those who kept their assets?",
+    "Answer": "11322 (23518 - 12196)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by referencing the 'Mean Loss' column and subtracting the mean loss for those who kept their assets (12196) from the mean loss for those who sold some of their assets (23518).",
+    "GT": "11322 (23518 - 12196)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total loss for those who sold all of their assets?",
+    "Answer": "56139 (9187 * 61)",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by referencing the 'Mean Loss' column and the 'I/we sold all of them' row, and multiplying the mean loss (9187) by the frequency (61).",
+    "GT": "56139 (9187 * 61)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average loss for individuals who did not keep their assets?",
+    "Answer": "23725 (23518 + 9187) / 2",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by referencing the 'Mean Loss' column and the rows for those who sold some of their assets (23518) and those who sold all of their assets (9187), and calculating the average by adding the two values and dividing by 2.",
+    "GT": "23725 (23518 + 9187) / 2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total loss for all individuals who did not keep their assets?",
+    "Answer": "115505 (23518 * 53 + 9187 * 61)",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by referencing the 'Mean Loss' column and the rows for those who sold some of their assets (23518) and those who sold all of their assets (9187), and multiplying each mean loss by the corresponding frequency, then adding the two results.",
+    "GT": "115505 (23518 * 53 + 9187 * 61)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total cost of Transfer Station (Wages + Benefits) and Tribal Management (Wages + Benefits) per year?",
+    "Answer": "$94,500",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is calculated by adding the costs of Transfer Station (Wages + Benefits) ($84,500) and Tribal Management (Wages + Benefits) ($10,000).",
+    "GT": "$94,500"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total cost of Transfer Station Equipment and Landfill Tipping Fee Hauling per year?",
+    "Answer": "$212,800",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is calculated by adding the costs of Transfer Station Equipment ($10,000) and Landfill Tipping Fee Hauling ($182,800).",
+    "GT": "$197,300"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total cost of Office Supplies and Utilities per year?",
+    "Answer": "$4,600",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is calculated by adding the costs of Office Supplies ($1,000) and Utilities ($3,600).",
+    "GT": "$4,600"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage increase in cost from Transfer Station (Wages + Benefits) to Landfill Tipping Fee Hauling?",
+    "Answer": "95%",
+    "QuestionType": "percentage",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is calculated by dividing the difference in costs ($182,800 - $84,500) by the original cost ($84,500) and multiplying by 100.",
+    "GT": "121.66%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total cost of all categories except Transfer Station Equipment and Tribal Management (Wages + Benefits) per year?",
+    "Answer": "$286,400",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is calculated by subtracting the cost of Transfer Station Equipment ($10,000) and Tribal Management (Wages + Benefits) ($10,000) from the total cost ($296,400).",
+    "GT": "$276,400"
+  }
+]

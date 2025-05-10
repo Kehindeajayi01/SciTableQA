@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average ToxB sensitivity of the varieties that have a ToxB sensitivity of 0.2?",
+    "Answer": "0.2",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "ToxB sensitivity of 0.2 is found in varieties 'Cadenza', 'Hereward', and 'Rialto'. The average ToxB sensitivity of these varieties is 0.2.",
+    "GT": "0.2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total ToxB sensitivity of the varieties that have a Populations and resources value of 'NIAB Elite MAGIC1'?",
+    "Answer": "0.9",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The ToxB sensitivity values for varieties 'Alchemy', 'Brompton', 'Hereward', 'Rialto', and 'Soissons' that have a Populations and resources value of 'NIAB Elite MAGIC1' are 0.1, 0, 0.2, 0.2, and 0.7 respectively. The total ToxB sensitivity is the sum of these values, which is 0.9.",
+    "GT": "0.24"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average ToxB sensitivity of the varieties that have a Mean value of 0?",
+    "Answer": "0",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "ToxB sensitivity of 0 is found in varieties 'Ambition', 'Apogee', 'Avalon', 'BAYP4535', 'Bussard', 'Event', 'Exsept', 'Firl3565', 'Format', 'Gatsby', 'Julius', 'Malacca', 'Potenzial', and 'SHW-041'. The average ToxB sensitivity of these varieties is 0.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total ToxB sensitivity of the varieties that have a Populations and resources value containing 'Oakley'?",
+    "Answer": "0.1",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The ToxB sensitivity values for varieties 'Batallion', 'Exsept', 'Gatsby', and 'Oakley' that have a Populations and resources value containing 'Oakley' are 2, 0, 0, and 0.1 respectively. The total ToxB sensitivity is the sum of these values, which is 0.1.",
+    "GT": "0.525"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average ToxB sensitivity of the varieties that have a Variety value containing 'Paragon'?",
+    "Answer": "0",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "ToxB sensitivity of 0 is found in varieties 'Paragon CS' and 'Paragon SHW CSSL'. The average ToxB sensitivity of these varieties is 0.",
+    "GT": "0"
+  }
+]

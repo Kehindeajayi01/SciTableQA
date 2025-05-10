@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of buildings categorized as 'Student/Employee Services'?",
+    "Answer": "10.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is directly obtained from the 'n' column for the row 'Student/Employee Services' and the corresponding percentage is calculated by dividing the count by the total count and multiplying by 100.",
+    "GT": "10.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which type of building has the highest percentage?",
+    "Answer": "IHE Residence",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by identifying the row with the highest percentage, which is 'IHE Residence' with a percentage of 27.7.",
+    "GT": "IHE Residence"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total count of buildings?",
+    "Answer": "217",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is directly obtained from the 'Total' row in the 'n' column.",
+    "GT": "217"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of buildings categorized as 'Multiple Facilities/Buildings'?",
+    "Answer": "2.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is directly obtained from the 'n' column for the row 'Multiple Facilities/Buildings' and the corresponding percentage is calculated by dividing the count by the total count and multiplying by 100.",
+    "GT": "2.8"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the count of buildings categorized as 'Other/Undetermined'?",
+    "Answer": "15",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is directly obtained from the 'n' column for the row 'Other/Undetermined'.",
+    "GT": "15"
+  }
+]

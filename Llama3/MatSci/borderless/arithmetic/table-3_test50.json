@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average change in Alloy ID 25's melting point from 600\u00b0C to 800\u00b0C?",
+    "Answer": "23",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The change in melting point from 600\u00b0C to 800\u00b0C is 386 - 375 = 11. The same calculation is done for each alloy to get the average change of 23.",
+    "GT": "114.2 MPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the largest difference in melting point between 25\u00b0C and 1600\u00b0C?",
+    "Answer": "NMZ4",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference in melting point for NMZ4 is 779 - 148 = 631, which is the largest among all alloys.",
+    "GT": "NMZ5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average melting point of Alloy ID 25 at temperatures above 1000\u00b0C?",
+    "Answer": "243.33",
+    "QuestionType": "Average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average melting point is calculated by summing the melting points at 1200\u00b0C, 1400\u00b0C, and 1600\u00b0C (337, 264, and 148) and dividing by 3.",
+    "GT": "249.67 MPa"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the highest melting point at 25\u00b0C?",
+    "Answer": "NMZ5",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The highest melting point at 25\u00b0C is 1240\u00b0C, which belongs to Alloy ID NMZ5.",
+    "GT": "NMZ5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average change in melting point from 25\u00b0C to 600\u00b0C for all alloys?",
+    "Answer": "374.4",
+    "QuestionType": "Average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average change in melting point is calculated by summing the changes for each alloy (587, 632, 690, 779, 1240) and dividing by 5.",
+    "GT": "241 MPa"
+  }
+]

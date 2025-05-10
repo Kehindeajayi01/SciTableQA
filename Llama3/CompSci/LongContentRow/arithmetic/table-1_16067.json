@@ -1,0 +1,29 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the phenomenon that occurs when waves of two different frequencies interfere?",
+    "Answer": "beating",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The answer is derived from the sentence 'Beats are the periodic and repeating fluctuations heard in the intensity of a sound when two sound waves of very similar frequencies interfere with one another.'",
+    "GT": "beating"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the consequence of cutting down forests, considering the role of trees in adding water vapor to air?",
+    "Answer": "drought",
+    "QuestionType": "causal relationship",
+    "TableName": "table-1",
+    "Explanation": "The answer is derived from the sentence 'During periods of drought, trees died and prairie plants took over previously forested regions.'",
+    "GT": "drought"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the material that comprises the sun and other stars, as well as lightning and the northern lights?",
+    "Answer": "plasma",
+    "QuestionType": "identification",
+    "TableName": "table-1",
+    "Explanation": "The answer is derived from the sentence 'Our Sun and other stars are in the plasma state.'",
+    "GT": "plasma"
+  }
+]

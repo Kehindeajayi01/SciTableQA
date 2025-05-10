@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage accuracy of Zhang et al.'s method?",
+    "Answer": "61.8%",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the table, specifically from the cell at row 2, column 2.",
+    "GT": "61.8%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest accuracy?",
+    "Answer": "SUM-GAN_sup",
+    "QuestionType": "cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the percentages in each cell and selecting the method with the highest accuracy.",
+    "GT": "SUM-GAN_sup"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average accuracy of SASUM?",
+    "Answer": "58.8%",
+    "QuestionType": "cell calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is calculated by averaging the percentages in cells 4, 5, and 6.",
+    "GT": "58.8%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the standard deviation of SASUM's accuracy?",
+    "Answer": "0.2%",
+    "QuestionType": "cell calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is calculated by taking the standard deviation of the percentages in cells 4, 5, and 6.",
+    "GT": "0.2%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which method has the lowest accuracy?",
+    "Answer": "SASUM",
+    "QuestionType": "cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the percentages in each cell and selecting the method with the lowest accuracy.",
+    "GT": "SASUM"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average yield strength of the samples with plastic strain greater than 4%?",
+    "Answer": "1272 \u00b1 50",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the average yield strength of samples with plastic strain greater than 4%. To answer this, we need to filter the rows with plastic strain greater than 4% (rows 3 and 4) and then calculate the average yield strength. The result is 1272 \u00b1 50 MPa.",
+    "GT": "1272.25MPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in ultimate strength between the sample with the lowest yield strength and the sample with the highest yield strength?",
+    "Answer": "458 \u00b1 50",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the difference in ultimate strength between the sample with the lowest yield strength (Re293) and the sample with the highest yield strength (Re1273). The difference is calculated as 1932 \u00b1 50 (Re1273) - 1000 \u00b1 50 (Re293) = 458 \u00b1 50 MPa.",
+    "GT": "65 MPa"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average plastic strain of the samples with ultimate strength greater than 1700 MPa?",
+    "Answer": "5.45 \u00b1 0.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the average plastic strain of samples with ultimate strength greater than 1700 MPa. To answer this, we need to filter the rows with ultimate strength greater than 1700 MPa (rows 2, 3, and 4) and then calculate the average plastic strain. The result is 5.45 \u00b1 0.5%.",
+    "GT": "5.97%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the yield strength of the sample with the highest plastic strain?",
+    "Answer": "1290 \u00b1 50",
+    "QuestionType": "Single Value",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the yield strength of the sample with the highest plastic strain. The sample with the highest plastic strain is Re1273, and its yield strength is 1290 \u00b1 50 MPa.",
+    "GT": "1290 MPa"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average yield strength of the samples with ultimate strength within 50 MPa of the average ultimate strength?",
+    "Answer": "1281 \u00b1 50",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the average yield strength of samples with ultimate strength within 50 MPa of the average ultimate strength. The average ultimate strength is (1000 \u00b1 50 + 1320 \u00b1 50 + ... + 1932 \u00b1 50) / 5 = 1565 MPa. We then filter the rows with ultimate strength within 50 MPa of 1565 MPa (rows 1, 2, and 3) and calculate the average yield strength. The result is 1281 \u00b1 50 MPa.",
+    "GT": "1248.5 MPa"
+  }
+]

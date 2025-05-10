@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average age of boys who are above the average at reading comprehension?",
+    "Answer": "8.5 years",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate this, I referenced cells 0 (Age = 10 y 9 mon) and 3 (Age = 6 y 1 mon), and calculated the average of these two values.",
+    "GT": "13.3 years"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many months older is the oldest child (in terms of age) compared to the youngest child (in terms of age)?",
+    "Answer": "33 months",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate this, I referenced cells 0 (Age = 10 y 9 mon) and 4 (Age = 3 y 8 mon), and calculated the difference in age in months.",
+    "GT": "181 months"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of children who are not good at reading comprehension?",
+    "Answer": "2/7 (or 28.57%)",
+    "QuestionType": "Percentage",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate this, I counted the number of children who are not good at reading comprehension (cells 0, 4, and 5) and divided it by the total number of children.",
+    "GT": "1/6 (or 16.67%)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average time taken for a child to complete a year of education?",
+    "Answer": "12 months",
+    "QuestionType": "Average",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate this, I referenced cells 0 (11 mon), 3 (1 y 6 mon), and 5 (1 y), and calculated the average time taken to complete a year of education.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many children are there in total who are not attending school?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate this, I counted the number of children who are not attending school (cells 4 and 5).",
+    "GT": "3"
+  }
+]

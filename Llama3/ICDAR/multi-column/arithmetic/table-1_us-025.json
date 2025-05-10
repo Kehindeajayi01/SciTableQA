@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the rate of stroke per 100,000 population for American Indian/Alaska Native individuals compared to Black individuals?",
+    "Answer": "29.4 vs 61.6",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "The rate of stroke per 100,000 population for American Indian/Alaska Native individuals is 29.4, while for Black individuals it is 61.6, as per the data in the table.",
+    "GT": "29.4 vs 61.6"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average rate of coronary heart disease per 100,000 population for males and females?",
+    "Answer": "103.1 + 176.5 = 279.6",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The average rate of coronary heart disease per 100,000 population for males and females is calculated by adding the rates for males (176.5) and females (103.1) and dividing by 2.",
+    "GT": "103.1 + 176.5 = 279.6"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the rate of stroke per 100,000 population for Asian/Pacific Islander individuals compared to White individuals?",
+    "Answer": "37.0 vs 41.7",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "The rate of stroke per 100,000 population for Asian/Pacific Islander individuals is 37.0, while for White individuals it is 41.7, as per the data in the table.",
+    "GT": "37.0 vs 41.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of individuals with coronary heart disease and stroke?",
+    "Answer": "200,915 + 82,595 + 224,510 + 54,524 = 562,544",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The total number of individuals with coronary heart disease and stroke is calculated by adding the numbers of individuals with coronary heart disease and stroke for each sex and race group.",
+    "GT": "425,425 + 137,119 = 562,544"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the rate of coronary heart disease per 100,000 population for Hispanic individuals compared to Non-Hispanic individuals?",
+    "Answer": "106.4 vs 136.8",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "The rate of coronary heart disease per 100,000 population for Hispanic individuals is 106.4, while for Non-Hispanic individuals it is 136.8, as per the data in the table.",
+    "GT": "106.4 vs 136.8"
+  }
+]

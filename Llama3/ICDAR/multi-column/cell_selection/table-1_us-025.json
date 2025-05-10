@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the rate of Coronary heart disease among females?",
+    "Answer": "103.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in row 2, column 3 of the table.",
+    "GT": "103.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the rate of Stroke among males?",
+    "Answer": "43.9",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in row 3, column 5 of the table.",
+    "GT": "43.9"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the rate of Coronary heart disease among American Indian/Alaska Native?",
+    "Answer": "97.4",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in row 5, column 3 of the table.",
+    "GT": "97.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the rate of Coronary heart disease among Non-Hispanic?",
+    "Answer": "136.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in row 11, column 3 of the table.",
+    "GT": "136.8"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of individuals with Coronary heart disease?",
+    "Answer": "200,915",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in row 2, column 2 of the table.",
+    "GT": "425,425"
+  }
+]

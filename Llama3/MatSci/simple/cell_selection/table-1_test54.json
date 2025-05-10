@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the atomic radius of Titanium?",
+    "Answer": "1.462",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The atomic radius of Titanium can be found in the first row of the table.",
+    "GT": "1.462"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which element has the highest valence electron concentration?",
+    "Answer": "Cu",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The element with the highest valence electron concentration is the one with the highest VEC value, which is 11 for Copper.",
+    "GT": "Cu"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the atomic radius of Nickel?",
+    "Answer": "1.246",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The atomic radius of Nickel can be found in the third row of the table.",
+    "GT": "1.246"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which elements have the same valence electron concentration?",
+    "Answer": "Ti, Zr, Hf",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The elements with the same valence electron concentration (4) are Titanium, Zirconium, and Hafnium.",
+    "GT": "Ti, Zr, Hf"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average atomic radius of the elements listed in the table?",
+    "Answer": "1.391",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average atomic radius is calculated by summing up the atomic radii of all elements and dividing by the number of elements. The sum of atomic radii is 7.581 and the number of elements is 6, so the average atomic radius is 7.581/6 = 1.391.",
+    "GT": "1.403"
+  }
+]

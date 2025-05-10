@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest MAP score recorded in the table?",
+    "Answer": "0.8227",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the highest value in the 'MAP' column.",
+    "GT": "0.8227"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which study has the highest MRR score?",
+    "Answer": "0.8770",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the highest value in the 'MRR' column.",
+    "GT": "CA-RNNS (MAX)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average MAP score for studies published in 2015?",
+    "Answer": "0.7337",
+    "QuestionType": "calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by calculating the average of the MAP scores for rows 0, 2, and 3.",
+    "GT": "0.7297"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the lowest MRR score recorded in the table?",
+    "Answer": "0.7913",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the lowest value in the 'MRR' column.",
+    "GT": "0.7913"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many studies have an MRR score above 0.85?",
+    "Answer": "4",
+    "QuestionType": "count",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by counting the number of rows where the MRR score is greater than 0.85.",
+    "GT": "5"
+  }
+]

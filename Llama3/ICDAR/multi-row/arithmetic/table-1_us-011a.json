@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total budget allocated to Performance.gov and Federal Cloud Computing/Data Center Consolidation combined?",
+    "Answer": "$1.56M",
+    "QuestionType": "Comparison",
+    "TableName": "Program Budget",
+    "Explanation": "The question involves adding the budget allocated to Performance.gov ($1.1M) and Federal Cloud Computing/Data Center Consolidation ($0.44M)",
+    "GT": "$1.54M"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average budget allocated to each of the programs listed, excluding the total budget?",
+    "Answer": "$0.73M",
+    "QuestionType": "Calculation",
+    "TableName": "Program Budget",
+    "Explanation": "The question involves dividing the total budget ($8M) by the number of programs (9), excluding the total budget. Then, it subtracts the budget allocated to the total budget ($0) and the remaining budget is divided by 8.",
+    "GT": "$0.798M"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the budget allocated to IT Dashboard and Data.gov combined?",
+    "Answer": "$1.96M",
+    "QuestionType": "Comparison",
+    "TableName": "Program Budget",
+    "Explanation": "The question involves adding the budget allocated to IT Dashboard ($1.06M) and Data.gov ($0.9M)",
+    "GT": "$1.96M"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the budget allocated to the programs that have a budget greater than $1M?",
+    "Answer": "$5.44M",
+    "QuestionType": "Comparison",
+    "TableName": "Program Budget",
+    "Explanation": "The question involves adding the budgets allocated to programs with a budget greater than $1M, which are Performance.gov ($1.1M), Federal Cloud Computing/Data Center Consolidation ($0.44M), IT Dashboard ($1.06M), Data.gov ($0.9M), and USASpending.gov ($1.2M)",
+    "GT": "$6.24M"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the budget allocated to the programs that have a budget less than or equal to $0.5M?",
+    "Answer": "$0.3M",
+    "QuestionType": "Comparison",
+    "TableName": "Program Budget",
+    "Explanation": "The question involves adding the budgets allocated to programs with a budget less than or equal to $0.5M, which are Federal Risk Authorization and Management Program (FedRAMP) ($0.3M) and Small Business Dashboard* ($0.1M)",
+    "GT": "$0.84M"
+  }
+]

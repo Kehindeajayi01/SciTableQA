@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total percentage of 'Total: 0%' for Butter?",
+    "Answer": "47%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The answer is derived by selecting the cell that corresponds to 'Total: 0%' for Butter.",
+    "GT": "NA (Question needs clarification. Does not make sense to find the total percentage when it says the perecntage is 0%.)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total percentage of 'Pr\u00e9sident' for Margarine?",
+    "Answer": "13.5%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The answer is derived by selecting the cell that corresponds to 'Pr\u00e9sident' for Margarine.",
+    "GT": "0%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total percentage of 'Prima' for Low fat products?",
+    "Answer": "3.3%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The answer is derived by selecting the cell that corresponds to 'Prima' for Low fat products.",
+    "GT": "3.3%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total percentage of 'Own brands' for Butter?",
+    "Answer": "26.9%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The answer is derived by selecting the cell that corresponds to 'Own brands' for Butter.",
+    "GT": "26.9%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total percentage of 'Others' for Margarine?",
+    "Answer": "13.3%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The answer is derived by selecting the cell that corresponds to 'Others' for Margarine.",
+    "GT": "13.3%"
+  }
+]

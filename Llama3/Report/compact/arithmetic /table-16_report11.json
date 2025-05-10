@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of meters in the residential sector in 2005 and 2012?",
+    "Answer": "41,216,697 + 35,429,055 = 76,645,752",
+    "QuestionType": "Comparison",
+    "TableName": "table-16.csv",
+    "Explanation": "The total number of meters in the residential sector in 2005 is 41,216,697, and in 2012 is 35,429,055. The question asks to find the total number of meters in both years.",
+    "GT": "41,216,697 + 35,429,055 = 76,645,752"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average annual change in the number of industrial meters from 2005 to 2013?",
+    "Answer": "(204,700 + 199,800 + 194,900 + 194,500 + 207,400 + 192,500 + 192,700 + 189,300 + 191,900) / 9 = 194,175",
+    "QuestionType": "Calculation",
+    "TableName": "table-16.csv",
+    "Explanation": "The question asks to find the average annual change in the number of industrial meters from 2005 to 2013. The average is calculated by adding up the changes in each year and dividing by the number of years.",
+    "GT": "(4,900 + 4,900 + 400 + 12,900 + 14,900 + 200 + 3,400 + 2,600) / 8 = 5,525"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of meters in the commercial sector in 2006 and 2011?",
+    "Answer": "4,168,356 + 4,527,396 = 8,695,752",
+    "QuestionType": "Comparison",
+    "TableName": "table-16.csv",
+    "Explanation": "The total number of meters in the commercial sector in 2006 is 4,168,356, and in 2011 is 4,527,396. The question asks to find the total number of meters in both years.",
+    "GT": "5,274,900 + 5,319,400 = 10,594,300"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of meters in the industrial sector in 2009 and 2013?",
+    "Answer": "207,400 + 191,900 = 399,300",
+    "QuestionType": "Comparison",
+    "TableName": "table-16.csv",
+    "Explanation": "The total number of meters in the industrial sector in 2009 is 207,400, and in 2013 is 191,900. The question asks to find the total number of meters in both years.",
+    "GT": "207,400 + 191,900 = 399,300"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of meters in the residential and commercial sectors in 2007?",
+    "Answer": "40,322,005 + 4,312,826 = 44,634,831",
+    "QuestionType": "Comparison",
+    "TableName": "table-16.csv",
+    "Explanation": "The total number of meters in the residential sector in 2007 is 40,322,005, and in the commercial sector is 4,312,826. The question asks to find the total number of meters in both sectors.",
+    "GT": "51,436,318 + 5,305,600 = 56,741,918"
+  }
+]

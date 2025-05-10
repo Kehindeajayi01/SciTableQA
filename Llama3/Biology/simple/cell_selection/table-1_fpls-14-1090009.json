@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of observations in the F2 population?",
+    "Answer": "137",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 3, column 2.",
+    "GT": "137"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the segregation ratio expected in the F2:3 population?",
+    "Answer": "3:1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 4, column 4.",
+    "GT": "3:1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the X^2 value for the F2 population?",
+    "Answer": "0.199",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 3, column 5.",
+    "GT": "0.199"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the p-value for the F2:3 population?",
+    "Answer": "0.699",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 4, column 6.",
+    "GT": "0.699"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the segregation ratio observed in the BC1P2 population?",
+    "Answer": "1:1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 6, column 4.",
+    "GT": "1:1"
+  }
+]

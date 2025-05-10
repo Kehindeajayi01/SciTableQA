@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of schools identified under NCLB that are high-performing?",
+    "Answer": "2%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cell (2, 1) which shows 2% of schools identified under NCLB are high-performing.",
+    "GT": "2%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of schools not identified under NCLB that are low-performing?",
+    "Answer": "3%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cell (0, 2) which shows 3% of schools not identified under NCLB are low-performing.",
+    "GT": "3%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in percentage of schools identified under NCLB that are low-performing and schools not identified under NCLB that are low-performing?",
+    "Answer": "-0%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cells (0, 1) and (0, 2) which show 34% and 3% respectively. The difference is 34% - 3% = 31%, but since the question asks for the difference in percentage, the answer is 0%.",
+    "GT": "31%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of schools identified under NCLB that are not low-performing?",
+    "Answer": "98%",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cells (0, 1) and (1, 1) which show 34% and 11% respectively. The percentage of schools not low-performing is 100% - 34% - 3% - 2% = 98%.",
+    "GT": "66%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of schools not identified under NCLB that are not low-performing?",
+    "Answer": "91%",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cells (0, 2) and (1, 2) which show 3% and 33% respectively. The percentage of schools not low-performing is 100% - 3% - 18% - 9% = 91%.",
+    "GT": "97%"
+  }
+]

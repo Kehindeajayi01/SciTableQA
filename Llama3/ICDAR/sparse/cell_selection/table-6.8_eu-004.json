@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of franchisees in Austria in 1994?",
+    "Answer": "2700",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.8.csv",
+    "Explanation": "The answer can be found in the cell at row 1, column 2 of the table.",
+    "GT": "2700"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country has the highest number of franchisees in 1994?",
+    "Answer": "France",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.8.csv",
+    "Explanation": "The answer can be found by identifying the country with the highest number of franchisees in 1994, which is France with 30000 franchisees.",
+    "GT": "France"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of franchisees in the EU in 1993?",
+    "Answer": "113940",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.8.csv",
+    "Explanation": "The answer can be found in the cell at row 15, column 3 of the table.",
+    "GT": "113940"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which country has the lowest number of franchisees in 1993?",
+    "Answer": "Denmark",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.8.csv",
+    "Explanation": "The answer can be found by identifying the country with the lowest number of franchisees in 1993, which is Denmark with 500 franchisees.",
+    "GT": "Denmark"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of franchisees per country in 1994?",
+    "Answer": "12120.5",
+    "QuestionType": "calculation",
+    "TableName": "table-6.8.csv",
+    "Explanation": "The average number of franchisees per country in 1994 can be calculated by summing up the total number of franchisees in 1994 (129115) and dividing it by the number of countries (15).",
+    "GT": "12911.5"
+  }
+]

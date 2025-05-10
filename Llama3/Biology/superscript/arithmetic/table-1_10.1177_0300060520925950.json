@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean bias of sGFR measurement in patients with T2DM when using 175-MDRD formula compared to 186-MDRD formula?",
+    "Answer": "Mean bias P30",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question compares the mean bias of sGFR measurement in patients with T2DM when using 175-MDRD formula and 186-MDRD formula, which is mentioned in the table.",
+    "GT": "Mean bias P30"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average age of patients with T2DM who have a reported range of sGFR >60?",
+    "Answer": "61.6",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the average age of patients with T2DM who have a reported range of sGFR >60, which is mentioned in rows 2 and 5.",
+    "GT": "59.2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of male patients who have a BMI greater than 30 in the entire table?",
+    "Answer": "31.1%",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the percentage of male patients who have a BMI greater than 30 in the entire table, which is mentioned in the table.",
+    "GT": "53.25% (Average of the percentage of males with BMI higher than 30)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average mGFR of patients with T2DM who have a reported range of sGFR >90?",
+    "Answer": "73.4",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the average mGFR of patients with T2DM who have a reported range of sGFR >90, which is mentioned in rows 3 and 9.",
+    "GT": "71.1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average HbA1C level of patients with T2DM who have a BMI greater than 30?",
+    "Answer": "7.64",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the average HbA1C level of patients with T2DM who have a BMI greater than 30, which is mentioned in rows 5 and 10.",
+    "GT": "7.3"
+  }
+]

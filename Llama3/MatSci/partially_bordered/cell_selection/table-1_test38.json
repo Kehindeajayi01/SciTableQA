@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average concentration of Al in the alloy heat treatment condition MoCrTiAl* at 1200 °C/20 h?",
+    "Answer": "25.4",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 1, column 5 (Al) in the table.",
+    "GT": "25.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average concentration of Ti in the alloy heat treatment condition NbMoCrTiAl at 1300 °C/20 h?",
+    "Answer": "20.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 2, column 5 (Ti) in the table.",
+    "GT": "20.1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average concentration of Mo in the alloy heat treatment condition NbMoTiAl* at 1500 °C/20 h?",
+    "Answer": "25.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 3, column 2 (Mo) in the table.",
+    "GT": "25.3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average concentration of Nb in the alloy heat treatment condition TaMoCrTiAl* at 1500 °C/20 h?",
+    "Answer": "20.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 4, column 1 (Nb) in the table.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average concentration of Cr in the alloy heat treatment condition MoCrTiAl* at 1200 °C/20 h?",
+    "Answer": "24.9",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 1, column 3 (Cr) in the table.",
+    "GT": "24.9"
+  }
+]

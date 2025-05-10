@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average score for Color Identification, Pre-Writing (McCarthy Draw a Design), and Emergent Literacy Scale (parent report) for the Language, Literacy, and Pre-Writing measure?",
+    "Answer": "0.16 + 0.31 + 0.25 = 0.72",
+    "QuestionType": "Comparison",
+    "TableName": "table-2a.csv",
+    "Explanation": "The average score is calculated by adding the scores for Color Identification, Pre-Writing (McCarthy Draw a Design), and Emergent Literacy Scale (parent report) and dividing by 3.",
+    "GT": "0.235"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the average score for Letter-Word Identification (WJIII) and Spelling (WJIII) for the Language, Literacy, and Pre-Writing measure?",
+    "Answer": "0.22 - 0.15 = 0.07",
+    "QuestionType": "Comparison",
+    "TableName": "table-2a.csv",
+    "Explanation": "The difference is calculated by subtracting the score for Spelling (WJIII) from the score for Letter-Word Identification (WJIII).",
+    "GT": "0.22 - 0.15 = 0.07"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total score for all measures under Language, Literacy, and Pre-Writing?",
+    "Answer": "0.16 + 0.31 + 0.25 + 0.22 + 0.15 + 0.09 = 1.98",
+    "QuestionType": "Total",
+    "TableName": "table-2a.csv",
+    "Explanation": "The total score is calculated by adding all the scores for the measures under Language, Literacy, and Pre-Writing.",
+    "GT": "0.16 + 0.31 + 0.28 + 0.22 + 0.15 + 0.09 + 0.19 = 1.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average score for the measures under Math?",
+    "Answer": "(NA + NA + NA + NA + NA) / 5 = NA",
+    "QuestionType": "Average",
+    "TableName": "table-2a.csv",
+    "Explanation": "The average score is calculated by adding the scores for the measures under Math and dividing by the number of measures (5). However, since all the scores under Math are NA, the average score is also NA.",
+    "GT": "(NA + NA + NA + NA + NA) / 5 = NA"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the average score for Reading/Language Arts Skills and Math Skills?",
+    "Answer": "NA - NA = NA",
+    "QuestionType": "Comparison",
+    "TableName": "table-2a.csv",
+    "Explanation": "The difference is calculated by subtracting the score for Math Skills from the score for Reading/Language Arts Skills. However, since both scores are NA, the difference is also NA.",
+    "GT": "NA - NA = NA"
+  }
+]

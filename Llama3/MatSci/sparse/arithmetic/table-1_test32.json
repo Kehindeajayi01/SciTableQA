@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average hardness of M2 and M3 alloys?",
+    "Answer": "274 ± 6",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves calculating the average hardness of M2 and M3 alloys by taking the average of their respective hardness values (282 ± 6 and 287 ± 6)",
+    "GT": "284.5 ± 6"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of Mo in M2Fe alloy?",
+    "Answer": "11.5",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves finding the percentage of Mo in M2Fe alloy by referencing the value in the Mo column (11.5) and dividing it by the total value",
+    "GT": "11.5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in hardness between M2 and M3Fe alloys?",
+    "Answer": "105 ± 8",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves calculating the difference in hardness between M2 and M3Fe alloys by subtracting the hardness value of M2 (414 ± 8) from the hardness value of M3Fe (329 ± 8)",
+    "GT": "47 ± 2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total percentage of Hf, O, N, and C in C-103 alloy?",
+    "Answer": "0.121",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves finding the total percentage of Hf, O, N, and C in C-103 alloy by referencing the values in the o, N, and C columns (< 0.136, < 0.104, and < 0.121) and adding them up",
+    "GT": "5.761"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average density of M2 and M3 alloys?",
+    "Answer": "7.99",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves calculating the average density of M2 and M3 alloys by taking the average of their respective density values (7.99 and 8.03)",
+    "GT": "8.01"
+  }
+]

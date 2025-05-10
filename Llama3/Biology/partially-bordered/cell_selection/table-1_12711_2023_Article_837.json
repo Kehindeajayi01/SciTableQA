@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average heritability of shape?",
+    "Answer": "0.28 (0.06)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average heritability of shape is calculated by averaging the values in the 'Heritability of shape' column, excluding the NaN values.",
+    "GT": "0.28"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which individual has the highest genetic correlation with phenotypic correlation?",
+    "Answer": "10",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The individual with the highest genetic correlation with phenotypic correlation is identified by finding the maximum value in the 'Genetic correlation' column.",
+    "GT": "10"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of the heritability of centroid?",
+    "Answer": "0.07",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The standard deviation of the heritability of centroid is calculated by finding the standard deviation of the values in the 'Heritability of centroid' column.",
+    "GT": "0.013"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which individual has the lowest phenotypic correlation?",
+    "Answer": "7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The individual with the lowest phenotypic correlation is identified by finding the minimum value in the 'Phenotypic correlation' column.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average phenotypic correlation?",
+    "Answer": "0.03 (0.02)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average phenotypic correlation is calculated by averaging the values in the 'Phenotypic correlation' column, excluding the NaN values.",
+    "GT": "-0.059"
+  }
+]

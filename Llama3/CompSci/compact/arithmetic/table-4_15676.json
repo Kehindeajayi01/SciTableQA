@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average RET value for Cox and Log-Logistic methods?",
+    "Answer": "0.5860",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average RET value for Cox method is 0.5552 and for Log-Logistic method is 0.5108. The average is calculated by adding these two values and dividing by 2.",
+    "GT": "0.533"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the average VAS values for Weibull and Squared methods?",
+    "Answer": "0.0368",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average VAS value for Weibull method is 0.5432 and for Squared method is 0.5120. The difference is calculated by subtracting the average value of Squared method from the average value of Weibull method.",
+    "GT": "0.0368"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average HYPER value for Log-normal methods?",
+    "Answer": "0.5233",
+    "QuestionType": "Aggregation",
+    "TableName": "table-4.csv",
+    "Explanation": "The average HYPER value for Log-normal method is calculated by adding the HYPER values for rows 3 and 6, and then dividing by 2.",
+    "GT": "0.5233"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average NEP value for Poisson methods?",
+    "Answer": "0.5437",
+    "QuestionType": "Aggregation",
+    "TableName": "table-4.csv",
+    "Explanation": "The average NEP value for Poisson method is calculated by adding the NEP values for rows 5 and 8, and then dividing by 2.",
+    "GT": "0.5437"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the average avg values for Cox and Log-normal methods?",
+    "Answer": "0.0025",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average avg value for Cox method is 0.5860 and for Log-normal method is 0.5485. The difference is calculated by subtracting the average value of Log-normal method from the average value of Cox method.",
+    "GT": "0.0025"
+  }
+]

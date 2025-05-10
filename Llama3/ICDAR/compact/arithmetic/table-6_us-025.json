@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average rate of Coronary heart disease per 100,000 population for the top 5 states with the highest rates?",
+    "Answer": "193.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "This question is based on the data in the table, where the top 5 states with the highest rates of Coronary heart disease are identified, and the average rate is calculated.",
+    "GT": "33,360"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of cases of Stroke for the states with a rate of Coronary heart disease greater than 160?",
+    "Answer": "14,333",
+    "QuestionType": "Sum",
+    "TableName": "table-1",
+    "Explanation": "This question is based on the data in the table, where the states with a rate of Coronary heart disease greater than 160 are identified, and the total number of cases of Stroke is calculated.",
+    "GT": "65,348"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average rate of Coronary heart disease per 100,000 population for the states with a rate of Stroke less than 30?",
+    "Answer": "143.8",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "This question is based on the data in the table, where the states with a rate of Stroke less than 30 are identified, and the average rate of Coronary heart disease is calculated.",
+    "GT": "No states with rate of Stroke less than 30"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of cases of Coronary heart disease for the states with a rate of Stroke greater than 50?",
+    "Answer": "13,841",
+    "QuestionType": "Sum",
+    "TableName": "table-1",
+    "Explanation": "This question is based on the data in the table, where the states with a rate of Stroke greater than 50 are identified, and the total number of cases of Coronary heart disease is calculated.",
+    "GT": "60,807"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average rate of Coronary heart disease per 100,000 population for the states with a rate of Coronary heart disease greater than 150?",
+    "Answer": "159.2",
+    "QuestionType": "Comparison",
+    "TableName": "table-1",
+    "Explanation": "This question is based on the data in the table, where the states with a rate of Coronary heart disease greater than 150 are identified, and the average rate is calculated.",
+    "GT": "166.7"
+  }
+]

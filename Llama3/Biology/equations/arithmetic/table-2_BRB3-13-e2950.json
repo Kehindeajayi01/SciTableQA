@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean age of onset for participants with a family history of PD compared to those without a family history of PD?",
+    "Answer": "44.00 +/- 5.32 vs 43.41 +/- 6.18",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question compares the mean age of onset for participants with a family history of PD (44.00 +/- 5.32) and those without a family history of PD (43.41 +/- 6.18).",
+    "GT": "40.4 vs 43"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of participants who are female and have a family history of PD?",
+    "Answer": "15.22%",
+    "QuestionType": "Percentage",
+    "TableName": "table-2.csv",
+    "Explanation": "The question calculates the percentage of female participants who have a family history of PD, which is 7 out of 46 (15.22%).",
+    "GT": "7.32%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the mean MDS-UPDRS part I score for participants who have never smoked compared to those who have smoked in the past?",
+    "Answer": "7.55 +/- 4.68 vs 7.47 +/- 5.24",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question compares the mean MDS-UPDRS part I score for participants who have never smoked (7.55 +/- 4.68) and those who have smoked in the past (7.47 +/- 5.24).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of participants who have a Hoehn-Yahr stage of 2 and have a family history of PD?",
+    "Answer": "23.91%",
+    "QuestionType": "Percentage",
+    "TableName": "table-2.csv",
+    "Explanation": "The question calculates the percentage of participants who have a Hoehn-Yahr stage of 2 and have a family history of PD, which is 5 out of 21 (23.91%).",
+    "GT": "Irrelevant question "
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the mean MDS-UPDRS part III score for participants who have been exposed to pesticides in the past compared to those who have not been exposed?",
+    "Answer": "26.21 +/- 16.36 vs 29.77 +/- 14.93",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question compares the mean MDS-UPDRS part III score for participants who have been exposed to pesticides in the past (26.21 +/- 16.36) and those who have not been exposed (29.77 +/- 14.93).",
+    "GT": "Irrelevant question"
+  }
+]

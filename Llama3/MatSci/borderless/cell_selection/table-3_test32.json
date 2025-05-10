@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average strength-to-weight ratio of M2 alloy at T = 600 \u00b0C?",
+    "Answer": "350/43.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the average strength-to-weight ratio of M2 alloy at a specific temperature. The answer can be found in the table by selecting the cell at the intersection of the 'M2' row and the 'T = 600 \u00b0C' column.",
+    "GT": "43.8 MPa.cm^3/g"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest strength-to-weight ratio at T = 1200 \u00b0C?",
+    "Answer": "M2",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the alloy with the highest strength-to-weight ratio at a specific temperature. The answer can be found in the table by comparing the values in the 'T = 1200 \u00b0C' column and selecting the alloy with the highest value.",
+    "GT": "M2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average strength-to-weight ratio of M3Fe alloy at T = 800 \u00b0C?",
+    "Answer": "522/65.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the average strength-to-weight ratio of M3Fe alloy at a specific temperature. The answer can be found in the table by selecting the cell at the intersection of the 'M3Fe' row and the 'T = 800 \u00b0C' column.",
+    "GT": "8.03"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in strength-to-weight ratio between M2 and M3 alloys at T = 1000 \u00b0C?",
+    "Answer": "250/31.3 - 270/33.6 = -20/2.3",
+    "QuestionType": "calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the difference in strength-to-weight ratio between two alloys at a specific temperature. The answer can be found in the table by selecting the cells at the intersection of the 'M2' and 'M3' rows and the 'T = 1000 \u00b0C' column, and then performing a calculation to find the difference.",
+    "GT": "1.8 MPa·cm³/g"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which alloy has the lowest strength-to-weight ratio at T = 25 \u00b0C?",
+    "Answer": "C-103 [8]",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the alloy with the lowest strength-to-weight ratio at a specific temperature. The answer can be found in the table by comparing the values in the 'T = 25 \u00b0C' column and selecting the alloy with the lowest value.",
+    "GT": "M3Fe"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the RMSE value for the SYNPOS feature set?",
+    "Answer": "0.6733",
+    "QuestionType": "cell selection",
+    "TableName": "table-8.csv",
+    "Explanation": "The RMSE value for the SYNPOS feature set is directly retrieved from the table.",
+    "GT": "0.6733"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which feature set combination has the highest RMSE value?",
+    "Answer": "SYNPOS + EMBEDDING",
+    "QuestionType": "cell selection",
+    "TableName": "table-8.csv",
+    "Explanation": "The highest RMSE value is found by comparing the values in the RMSE column for each feature set combination.",
+    "GT": "SYNPOS + IMAGEABILITY"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average RMSE value for feature sets that include SYNPOS?",
+    "Answer": "0.6686",
+    "QuestionType": "calculation",
+    "TableName": "table-8.csv",
+    "Explanation": "The average RMSE value is calculated by summing up the RMSE values for feature sets that include SYNPOS and dividing by the number of feature sets.",
+    "GT": "0.6702"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which feature set combination has the lowest RMSE value?",
+    "Answer": "SYNPOS + AMBIGUITY",
+    "QuestionType": "cell selection",
+    "TableName": "table-8.csv",
+    "Explanation": "The lowest RMSE value is found by comparing the values in the RMSE column for each feature set combination.",
+    "GT": "SYNPOS + EMBEDDING"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many feature set combinations include the SYNPOS feature?",
+    "Answer": "8",
+    "QuestionType": "cell count",
+    "TableName": "table-8.csv",
+    "Explanation": "The number of feature set combinations that include the SYNPOS feature is directly counted by looking at the rows in the table.",
+    "GT": "9"
+  }
+]

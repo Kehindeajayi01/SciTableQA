@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in \u0394S_min (J/(K mol)) between Si0.05 and Si0.1 alloys?",
+    "Answer": "0.258",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the \u0394S_min value of Si0.05 (13.668) from that of Si0.1 (13.926)",
+    "GT": "0.258"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in \u0394H_min (kJ/mol) from Si0.2 to Si0.4 alloys?",
+    "Answer": "25.5%",
+    "QuestionType": "Percentage increase",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage increase is calculated by subtracting the \u0394H_min value of Si0.2 (-16.07) from that of Si0.4 (-20.32) and dividing by the former, then multiplying by 100",
+    "GT": "26.45%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average T_m (K) of the first three rows of the table?",
+    "Answer": "1445.77",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average is calculated by summing the T_m values of the first three rows (1445.80 + 1445.44 + 1445.08) and dividing by 3",
+    "GT": "1445.44"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in Ω between Si0.1 and Si0.2 alloys?",
+    "Answer": "0.091",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the Ω value of Si0.2 (1.279) from that of Si0.1 (1.468)",
+    "GT": "0.189"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage decrease in VEC MD (eV) from Si0.4 to Si0.5 alloys?",
+    "Answer": "1.8%",
+    "QuestionType": "Percentage decrease",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage decrease is calculated by subtracting the VEC MD value of Si0.5 (8.00) from that of Si0.4 (8.07) and dividing by the former, then multiplying by -100",
+    "GT": "Irrelevant question (Need to specify if it is VEC or MD(eV), cannot be both)"
+  }
+]

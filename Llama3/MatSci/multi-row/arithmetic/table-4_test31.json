@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Tc (K) for PGM materials with x=0.37 and x=0.315?",
+    "Answer": "10.7, 8.8",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves referencing cells 1 and 2, which have Tc (K) values of 10.7 and 8.8, respectively.",
+    "GT": "7.75 K"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in Bc_2(0) (T) between PGM materials with x=0.9 and x=0.315?",
+    "Answer": "2.9",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves referencing cells 5 and 2, which have Bc_2(0) (T) values of - and 8.8, respectively. The difference is calculated as - - 8.8 = 2.9.",
+    "GT": "0.5 T"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Hc_1(0) (mT) for PGM-free materials?",
+    "Answer": "15.1",
+    "QuestionType": "average",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves referencing cells 9, 10, and 11, which have Hc_1(0) (mT) values of 8.88, 20.1, and - respectively. The average is calculated as (8.88 + 20.1 + -)/3 = 15.1.",
+    "GT": "20.43 MT"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of Hc_1(0) (mT) to Bc_2(0) (T) for PGM material with x=0.37?",
+    "Answer": "1.21",
+    "QuestionType": "ratio",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves referencing cells 1 and 1, which have Hc_1(0) (mT) and Bc_2(0) (T) values of 10.7 and - respectively. The ratio is calculated as 10.7 / - = 1.21.",
+    "GT": "0.001 mT"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average structure type for PGM materials with x=0.37 and x=0.315?",
+    "Answer": "CsCl-type, HCP",
+    "QuestionType": "average",
+    "TableName": "table-4.csv",
+    "Explanation": "The question involves referencing cells 1 and 2, which have structure types of CsCl-type and HCP respectively. The average is calculated as (CsCl-type + HCP)/2 = CsCl-type, HCP.",
+    "GT": "CsCl-type, HCP"
+  }
+]

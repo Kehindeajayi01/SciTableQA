@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average accuracy of DL+ML on the given networks?",
+    "Answer": "94.60%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is derived by selecting the cell at row 3 and column 2, which corresponds to the accuracy of DL+ML on the given networks.",
+    "GT": "95.53%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which network has the highest accuracy for DL+CJ?",
+    "Answer": "Douban",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is derived by selecting the cell at row 8 and column 4, which corresponds to the accuracy of DL+CJ on Douban network, and finding that it has the highest accuracy among all networks.",
+    "GT": "Douban"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in accuracy between DL+GP and DL+CJ on Facebook?",
+    "Answer": "0.26%",
+    "QuestionType": "cell calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is derived by subtracting the accuracy of DL+GP (95.20%) from the accuracy of DL+CJ (95.76%) on Facebook, which gives the difference in accuracy.",
+    "GT": "0.56%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the highest average accuracy across all networks?",
+    "Answer": "ALL",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is derived by selecting the cell at row 9 and column 1, which corresponds to the average accuracy of the ALL model across all networks, and finding that it has the highest average accuracy.",
+    "GT": "ALL"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the accuracy of DL (Basic) on Weibo?",
+    "Answer": "93.69%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is derived by selecting the cell at row 2 and column 3, which corresponds to the accuracy of DL (Basic) on Weibo.",
+    "GT": "93.69%"
+  }
+]

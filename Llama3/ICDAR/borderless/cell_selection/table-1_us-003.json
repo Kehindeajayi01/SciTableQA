@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the lowest income range in 1994?",
+    "Answer": "$9,594 or less",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The lowest income range in 1994 is directly stated in the table as '$9,594 or less'.",
+    "GT": "$9,594 or less"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the highest income range in 2003?",
+    "Answer": "Greater than $66,900",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The highest income range in 2003 is directly stated in the table as 'Greater than $66,900'.",
+    "GT": "Greater than $66,900"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the income range for 'Lower middle' class in 1997?",
+    "Answer": "$22,401-$29,992",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The income range for 'Lower middle' class in 1997 is directly stated in the table as '$22,401-$29,992'.",
+    "GT": "$22,401-$29,992"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the income range for 'Upper middle' class in 2003?",
+    "Answer": "$48,001-$66,900",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The income range for 'Upper middle' class in 2003 is directly stated in the table as '$48,001-$66,900'.",
+    "GT": "$48,001-$66,900"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the income range for 'Highest' class in 1994?",
+    "Answer": "Greater than $25,771",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The income range for 'Highest' class in 1994 is directly stated in the table as 'Greater than $25,771'.",
+    "GT": "Greater than $25,771"
+  }
+]

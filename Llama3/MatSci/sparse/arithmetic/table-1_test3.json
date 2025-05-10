@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in Hf content between DR and IR samples for all regions?",
+    "Answer": "1.2 ± 0.4",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference in Hf content between DR and IR samples is calculated by taking the average of the differences between DR and IR samples for each region. The result is 1.2 ± 0.4.",
+    "GT": "1.2 ± 3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average ratio of Mo content to V content in DR samples for all regions?",
+    "Answer": "2.1 ± 0.4",
+    "QuestionType": "ratio",
+    "TableName": "table-1.csv",
+    "Explanation": "The average ratio of Mo content to V content in DR samples is calculated by taking the average of the ratios of Mo content to V content for each region. The result is 2.1 ± 0.4.",
+    "GT": "1.4 ± 2.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average difference in Ta content between DR and IR samples for regions containing Ti?",
+    "Answer": "2.2 ± 0.8",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference in Ta content between DR and IR samples is calculated by taking the average of the differences between DR and IR samples for each region containing Ti. The result is 2.2 ± 0.8.",
+    "GT": "10.1 ± 0.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average ratio of Zr content to W content in IR samples for all regions?",
+    "Answer": "1.3 ± 0.5",
+    "QuestionType": "ratio",
+    "TableName": "table-1.csv",
+    "Explanation": "The average ratio of Zr content to W content in IR samples is calculated by taking the average of the ratios of Zr content to W content for each region. The result is 1.3 ± 0.5.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average difference in Re content between DR and IR samples for regions containing Nb?",
+    "Answer": "1.1 ± 0.6",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference in Re content between DR and IR samples is calculated by taking the average of the differences between DR and IR samples for each region containing Nb. The result is 1.1 ± 0.6.",
+    "GT": "4.6 ± 0.8"
+  }
+]

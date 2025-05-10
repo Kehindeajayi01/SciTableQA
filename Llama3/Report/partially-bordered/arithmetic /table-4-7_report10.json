@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total CAPEX required to install a new generator with a capacity of 14.4 MW, considering the generator cost factor and relocation fee?",
+    "Answer": "$5,704,000",
+    "QuestionType": "calculation",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The CAPEX is calculated by multiplying the generator cost factor ($401/kW) with the capacity (14.4 MW) and then adding the relocation fee ($100/kW) multiplied by the capacity.",
+    "GT": "$5,814,500"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total OPEX required to operate the power plant for a year, considering the power sales price, generator efficiency, run time, and fuel cost?",
+    "Answer": "$2,434,400",
+    "QuestionType": "calculation",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The OPEX is calculated by multiplying the power sales price ($0.0817/kWh) with the total electricity generated (assuming 80% run time and 35% efficiency), and then adding the fuel cost ($963,000/yr).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total cost of electricity generation per year, considering the CAPEX, OPEX, and power sales price?",
+    "Answer": "$8,138,400",
+    "QuestionType": "calculation",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The total cost is calculated by adding the CAPEX and OPEX, and then multiplying the result with the power sales price.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the cost of electricity generation per unit of electricity generated, considering the CAPEX, OPEX, and power sales price?",
+    "Answer": "$0.5713/kWh",
+    "QuestionType": "calculation",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The cost per unit is calculated by dividing the total cost by the total electricity generated (assuming 80% run time and 35% efficiency).",
+    "GT": "0.0817/kwh"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the annual O&M cost per unit of electricity generated, considering the power sales price and OPEX?",
+    "Answer": "$0.0385/kWh",
+    "QuestionType": "calculation",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The annual O&M cost per unit is calculated by dividing the OPEX by the total electricity generated (assuming 80% run time and 35% efficiency).",
+    "GT": "$0.0385/kwh"
+  }
+]

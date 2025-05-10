@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of ICD codes listed for Retinopathy (RET) and Neuropathy (NEU) combined?",
+    "Answer": "10",
+    "QuestionType": "Comparison",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is derived by adding the number of ICD codes listed for Retinopathy (RET) (6) and Neuropathy (NEU) (4).",
+    "GT": "10"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many ICD codes are listed for Vascular Disease (VAS) that start with the prefix 'E'?",
+    "Answer": "3",
+    "QuestionType": "Pattern matching",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is derived by counting the number of ICD codes listed for Vascular Disease (VAS) that start with the prefix 'E' (E0851, E08621-E08622, E0859).",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the number of ICD codes listed for Nephrology (NEP) and Hyperosmolar (HYPER)?",
+    "Answer": "4",
+    "QuestionType": "Comparison",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is derived by subtracting the number of ICD codes listed for Nephrology (NEP) (4) from the number of ICD codes listed for Hyperosmolar (HYPER) (8).",
+    "GT": "4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of ICD codes listed for Retinopathy (RET), Neuropathy (NEU), and Nephrology (NEP) combined?",
+    "Answer": "10",
+    "QuestionType": "Comparison",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is derived by adding the number of ICD codes listed for Retinopathy (RET) (6), Neuropathy (NEU) (4), and Nephrology (NEP) (4).",
+    "GT": "14"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What percentage of ICD codes listed for Vascular Disease (VAS) are not listed as starting with the prefix 'E'?",
+    "Answer": "80%",
+    "QuestionType": "Percentage calculation",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is derived by dividing the number of ICD codes listed for Vascular Disease (VAS) that do not start with the prefix 'E' (7) by the total number of ICD codes listed for Vascular Disease (VAS) (10), and then multiplying by 100.",
+    "GT": "80%"
+  }
+]

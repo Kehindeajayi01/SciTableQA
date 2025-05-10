@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average runtime (in seconds) for the AR database using the LDA-L1 method?",
+    "Answer": "117.16 \u00b1 4.25",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 4, column 3.",
+    "GT": "117.16 \u00b1 4.25"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the shortest average runtime (in seconds) for the CMU-PIE database?",
+    "Answer": "PCA",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by comparing the average runtime values in the table and selecting the method with the shortest value, which is PCA.",
+    "GT": "PCA"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average runtime (in seconds) for the Extended Yale B database using the F-LPP method?",
+    "Answer": "14.16 \u00b1 0.32",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 6, column 2.",
+    "GT": "3.41 \u00b1 0.14"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which method has the highest average runtime (in seconds) for the AR database?",
+    "Answer": "LDA-L1",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by comparing the average runtime values in the table and selecting the method with the highest value, which is LDA-L1.",
+    "GT": "LDA-L1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average runtime (in seconds) for the CMU-PIE database using the LPP method?",
+    "Answer": "1.21 \u00b1 0.04",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 5, column 2.",
+    "GT": "1.21 \u00b1 0.04"
+  }
+]

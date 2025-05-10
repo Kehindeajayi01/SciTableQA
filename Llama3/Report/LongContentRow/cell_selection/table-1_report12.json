@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What percentage of non-exempt, light-duty vehicles acquired in FY 2017 were AFVs?",
+    "Answer": "79.1%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer derived from the cell 'Acquired 53 AFVs and AFV credits, or 79.1% of non-exempt acquisitions' in the table.",
+    "GT": "79.1%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Did the organization achieve the 100% LGHGV acquisition rate for non-exempt vehicle acquisitions?",
+    "Answer": "Yes",
+    "QuestionType": "Boolean",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer derived from the cell 'Achieved 100% LGHGV acquisition rate for non-exempt vehicle acquisitions' in the table.",
+    "GT": "Yes"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the target reduction in per-mile GHG emissions from the 2014 baseline?",
+    "Answer": "4%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer derived from the cell '4% reduction from the 2014 baseline' in the table.",
+    "GT": "4%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the actual reduction in per-mile GHG emissions from the 2014 baseline?",
+    "Answer": "9.39%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer derived from the cell 'Reduced per-mile GHG emissions by 9.39% from FY 2014 baseline' in the table.",
+    "GT": "9.39%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the actual per-mile GHG emissions in FY 2017?",
+    "Answer": "377.74 gCO2e/mile",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer derived from the cell 'Reduced per-mile GHG emissions by 9.39% from FY 2014 baseline, achieving 377.74 gCO2e/mile' in the table.",
+    "GT": "377.74 gCO2e/mile"
+  }
+]

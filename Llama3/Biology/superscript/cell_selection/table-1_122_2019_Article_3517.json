@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean ToxB sensitivity of NIAB Elite MAGIC1?",
+    "Answer": "0.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell where the Variety is 'NIAB Elite MAGIC1' and the 'Mean ToxB sensitivity' column is 0.2.",
+    "GT": "0.24"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which Variety has a ToxB sensitivity of 0.7?",
+    "Answer": "Soissons",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell where the 'Mean ToxB sensitivity' column is 0.7 and finding the corresponding Variety.",
+    "GT": "Soissons"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many Varieties have a ToxB sensitivity of 0?",
+    "Answer": "8",
+    "QuestionType": "cell count",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by counting the number of cells where the 'Mean ToxB sensitivity' column is 0.",
+    "GT": "20"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the Variety with the highest ToxB sensitivity?",
+    "Answer": "Xi19",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell with the highest value in the 'Mean ToxB sensitivity' column, which corresponds to the Variety 'Xi19'.",
+    "GT": "Xi19"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which Varieties have a ToxB sensitivity of 0.1 or 0.2?",
+    "Answer": "Alchemy, Avalon Cadenza, Batallion, Hereward, Oakley, Rialto",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cells where the 'Mean ToxB sensitivity' column is either 0.1 or 0.2 and finding the corresponding Varieties.",
+    "GT": "Alchemy, Cadenza, Claire, Hereward, Oakley, Rialto"
+  }
+]

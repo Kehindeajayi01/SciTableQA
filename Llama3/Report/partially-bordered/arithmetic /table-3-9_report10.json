@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total revenue generated in 2024 compared to 2023, considering the electricity sales price and the electricity generation capacity utilized?",
+    "Answer": "$14,222,000",
+    "QuestionType": "comparison",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The total revenue in 2024 is calculated by multiplying the electricity sales price (0.110 $/kWh) with the electricity generation capacity utilized (129,528 MW), resulting in $14,222,000. This is compared to the total revenue in 2023, which is $13,868,000.",
+    "GT": "2024: $14,222,000; 2023: $13,868,000"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average operating income per year from 2015 to 2021, considering the fuel cost, O&M cost, and operating income?",
+    "Answer": "$5,442,000",
+    "QuestionType": "average",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The average operating income per year is calculated by summing the operating income for each year from 2015 to 2021 (4,905, 5,442, 5,974, 6,519, 7,430, 7,715, and 7,928, respectively) and dividing by the number of years (7).",
+    "GT": "$6,790,000"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total cash flow generated in 2022 compared to 2021, considering the capital cost, cash flow, and cumulative cash flow?",
+    "Answer": "$8,158,000",
+    "QuestionType": "comparison",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The total cash flow in 2022 is calculated by adding the cash flow for 2022 ($8,158,000) to the cumulative cash flow at the end of 2021 ($43,889,000), resulting in $52,047,000. This is compared to the total cash flow in 2021, which is $43,889,000.",
+    "GT": "2022: $8,158,000; 2021: 7,928,000"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total electricity generation in MWh for the years 2016 to 2020, considering the electricity generation capacity utilized and the electricity generation in MWh?",
+    "Answer": "593,316",
+    "QuestionType": "total",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The total electricity generation in MWh is calculated by summing the electricity generation in MWh for each year from 2016 to 2020 (110,945, 117,466, 123,742, 129,780, and 130,263, respectively).",
+    "GT": "612,196"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average electricity sales price per year from 2014 to 2020, considering the electricity sales price?",
+    "Answer": "0.091 $/kWh",
+    "QuestionType": "average",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The average electricity sales price per year is calculated by summing the electricity sales price for each year from 2014 to 2020 (0.082, 0.084, 0.087, 0.089, 0.092, 0.095, and 0.098, respectively) and dividing by the number of years (7).",
+    "GT": "0.092 $/kWh"
+  }
+]

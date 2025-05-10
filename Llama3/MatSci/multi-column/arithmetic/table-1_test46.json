@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average concentration of Co, Cr, and Fe in the sample with a nominal carbon content of 0.5 at.%",
+    "Answer": "23.17, 6.42, 23.97",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves calculating the average concentration of Co, Cr, and Fe in the sample with a nominal carbon content of 0.5 at.%, which is obtained by taking the average of the values in cells C2, D2, and E2.",
+    "GT": "17.85%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in the concentration of Mn between the samples with nominal carbon content of 0 and 1.0 at.%",
+    "Answer": "0.05",
+    "QuestionType": "difference",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves calculating the difference in the concentration of Mn between the samples with nominal carbon content of 0 and 1.0 at.%, which is obtained by subtracting the value in cell F1 from the value in cell F3.",
+    "GT": "0.05%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage increase in the concentration of Ni from the sample with nominal carbon content of 0 to the sample with nominal carbon content of 2.0 at.%",
+    "Answer": "0.76",
+    "QuestionType": "percentage increase",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves calculating the percentage increase in the concentration of Ni from the sample with nominal carbon content of 0 to the sample with nominal carbon content of 2.0 at.%, which is obtained by dividing the difference in the values in cells G2 and G1 by the value in cell G1 and multiplying by 100.",
+    "GT": "1.53%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average concentration of Co, Cr, and Ni in the samples with nominal carbon content of 1.0 and 2.0 at.%",
+    "Answer": "23.14, 6.23, 23.82",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves calculating the average concentration of Co, Cr, and Ni in the samples with nominal carbon content of 1.0 and 2.0 at.%, which is obtained by taking the average of the values in cells C3, D3, and G4, and cells C4, D4, and G4.",
+    "GT": "23.28%, 6.27%, 23.58%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of the concentration of Fe to Co in the sample with nominal carbon content of 0 at.%",
+    "Answer": "0.83",
+    "QuestionType": "ratio",
+    "TableName": "table-1.csv",
+    "Explanation": "The question involves calculating the ratio of the concentration of Fe to Co in the sample with nominal carbon content of 0 at.%, which is obtained by dividing the value in cell E1 by the value in cell C1.",
+    "GT": "1.03"
+  }
+]

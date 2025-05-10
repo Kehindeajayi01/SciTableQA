@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the sample size of Austria in the 2007 data?",
+    "Answer": "109",
+    "QuestionType": "Cell selection",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The sample size of Austria in the 2007 data can be found in the 'Sample size' column of the first row of the table.",
+    "GT": "109"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of positive samples in Germany in 2005?",
+    "Answer": "0.7",
+    "QuestionType": "Cell selection",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The percentage of positive samples in Germany in 2005 can be found in the 'Pos' column of the second row of the table.",
+    "GT": "0.5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which country has the highest percentage of positive samples in 2004?",
+    "Answer": "Netherlands",
+    "QuestionType": "Comparison",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The country with the highest percentage of positive samples in 2004 can be determined by comparing the 'Pos' columns of each row, and the Netherlands has the highest percentage.",
+    "GT": "Germany"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total sample size of all countries combined in 2006?",
+    "Answer": "820",
+    "QuestionType": "Cell selection",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The total sample size of all countries combined in 2006 can be found in the 'Sample size' column of the fifth row of the table.",
+    "GT": "820"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of positive samples in Spain in 2003?",
+    "Answer": "1.1",
+    "QuestionType": "Cell selection",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The percentage of positive samples in Spain in 2003 can be found in the 'Pos' column of the fourth row of the table.",
+    "GT": "None given."
+  }
+]

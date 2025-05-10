@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average F-score of the 'Enron' dataset for the 'R8.25', 'R8.26', and 'R8.27' metrics?",
+    "Answer": "51.84",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average F-score is calculated by taking the average of the F-scores for the 'R8.25', 'R8.26', and 'R8.27' metrics for the 'Enron' dataset, which is 51.84.",
+    "GT": "51.84"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in Jaccard scores between the 'R8.25' and 'R8.27' metrics for the 'Enron' dataset?",
+    "Answer": "8.21",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in Jaccard scores is calculated by subtracting the Jaccard score for 'R8.25' from the Jaccard score for 'R8.27', which is 8.21.",
+    "GT": "8.21"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Jaccard score of the 'Enron' dataset for the 'R8.25', 'R8.26', and 'R8.27' metrics?",
+    "Answer": "35.44",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Jaccard score is calculated by taking the average of the Jaccard scores for the 'R8.25', 'R8.26', and 'R8.27' metrics for the 'Enron' dataset, which is 35.44.",
+    "GT": "35.44"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in F-scores between the 'R8.26' and 'R8.27' metrics for the 'Enron' dataset?",
+    "Answer": "3.54",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in F-scores is calculated by subtracting the F-score for 'R8.26' from the F-score for 'R8.27', which is 3.54.",
+    "GT": "3.28"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average F-score of the 'R8.25', 'R8.26', and 'R8.27' metrics for the 'Enron' dataset?",
+    "Answer": "44.33",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average F-score is calculated by taking the average of the F-scores for the 'R8.25', 'R8.26', and 'R8.27' metrics for the 'Enron' dataset, which is 44.33.",
+    "GT": "44.33"
+  }
+]

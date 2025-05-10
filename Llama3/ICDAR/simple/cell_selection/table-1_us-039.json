@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "Which organism has the highest Wildlife Criterion value?",
+    "Answer": "Bald eagle",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell with the highest value in the Wildlife Criterion column.",
+    "GT": "Bald eagle"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which two organisms have the same highest Wildlife Criterion value?",
+    "Answer": "Loon and Osprey",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cells with the same highest value in the Wildlife Criterion column.",
+    "GT": "Loon and Osprey"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Wildlife Criterion value for the first three organisms?",
+    "Answer": "57",
+    "QuestionType": "Cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be calculated by summing up the values of the first three organisms (Mink, River otter, and Kingfisher) and dividing by 3.",
+    "GT": "44"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which organism has the lowest Wildlife Criterion value?",
+    "Answer": "Kingfisher",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell with the lowest value in the Wildlife Criterion column.",
+    "GT": "Kingfisher"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of Wildlife Criterion values?",
+    "Answer": "33-100",
+    "QuestionType": "Cell range",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be obtained by identifying the minimum and maximum values in the Wildlife Criterion column.",
+    "GT": "33-100"
+  }
+]

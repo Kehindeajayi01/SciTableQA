@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the type of organ or cancer mentioned in the first row?",
+    "Answer": "Organs or cancers",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Type' column for the first row.",
+    "GT": "Organs or cancers"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the category of radionuclides mentioned in the third row?",
+    "Answer": "All pathways",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Constant' column for the third row.",
+    "GT": "All pathways"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the category of pathways mentioned in the fourth row?",
+    "Answer": "Pathways",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Variable' column for the fourth row.",
+    "GT": "Pathways"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the type of compass direction mentioned in the seventh row?",
+    "Answer": "Compass direction",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Variable' column for the seventh row.",
+    "GT": "Compass direction"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the category of radionuclides mentioned in the sixth row?",
+    "Answer": "Summed over radionuclides",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-12.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Constant' column for the sixth row.",
+    "GT": "Summed over radionuclides"
+  }
+]

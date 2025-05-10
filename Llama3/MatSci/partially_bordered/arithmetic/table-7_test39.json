@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference between the ΔH_m value for NbTiZr and NbTiZrV at row 1?",
+    "Answer": "-2.58",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The ΔH_m value for NbTiZr is 2.61, and for NbTiZrV it is 0.03, so the difference is -2.58.",
+    "GT": "2.58"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage difference between the δ value for NbTiZr and NbTiZrV at row 2?",
+    "Answer": "-1.82",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The δ value for NbTiZr is 5.01, and for NbTiZrV it is 6.90, so the percentage difference is (-1.82)%.",
+    "GT": "1.89"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the product of Ω values for NbTiZr and NbTiZrV at row 3?",
+    "Answer": "5955.8",
+    "QuestionType": "Arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The Ω value for NbTiZr is 8.0, and for NbTiZrV it is 755.8, so the product is 5955.8.",
+    "GT": "6046.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of ΔH_f/ΔH_m values for NbTiZr and NbTiZrV at row 4?",
+    "Answer": "42.33",
+    "QuestionType": "Arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The ΔH_f/ΔH_m value for NbTiZr is 0.91, and for NbTiZrV it is 39.4, so the ratio is 42.33.",
+    "GT": "The ΔH_f/ΔH_m value for NbTiZr is 0.91, and for NbTiZrV it is 39.4, so the ratio is 0.0215"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the k_1 (1273 K) values for NbTiZr and NbTiZrV at row 5?",
+    "Answer": "84.01",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The k_1 (1273 K) value for NbTiZr is 1.89, and for NbTiZrV it is 85.9, so the difference is 84.01.",
+    "GT": "84.01"
+  }
+]

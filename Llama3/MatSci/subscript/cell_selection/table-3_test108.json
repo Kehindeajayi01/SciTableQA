@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the temperature (T_m) at the first data point?",
+    "Answer": "0.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be directly obtained from the first row of the table.",
+    "GT": "2607.60"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the value of γ at the fourth data point?",
+    "Answer": "1.10423",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be directly obtained from the fourth row of the table.",
+    "GT": "1.10423"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of ΔS_conf at the second data point?",
+    "Answer": "13.38",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be directly obtained from the second row of the table.",
+    "GT": "14.22"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of Ω at the third data point?",
+    "Answer": "5.16",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be directly obtained from the third row of the table.",
+    "GT": "5.16"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of δ_x at the last data point?",
+    "Answer": "0.2214",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be directly obtained from the last row of the table.",
+    "GT": "0.2214"
+  }
+]

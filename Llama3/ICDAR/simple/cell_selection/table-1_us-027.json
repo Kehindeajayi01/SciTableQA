@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of individuals enrolled in the program?",
+    "Answer": "17,758,000",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of individuals enrolled is found in the 'Total' row of the 'Enrollment' column.",
+    "GT": "17,758,000"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of individuals are between the ages of 14-17?",
+    "Answer": "13",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of individuals between the ages of 14-17 is found in the '14-17' row of the '%' column.",
+    "GT": "1.3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which age group has the highest percentage of enrollment?",
+    "Answer": "21.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The age group with the highest percentage of enrollment is found in the '18-19' row of the '%' column.",
+    "GT": "18-19"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of individuals enrolled in the age group 20-21?",
+    "Answer": "3,648,000",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of individuals enrolled in the age group 20-21 is found in the '20-21' row of the 'Enrollment' column.",
+    "GT": "3,648,000"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of individuals who are over 35?",
+    "Answer": "17.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of individuals who are over 35 is found in the 'Over 35' row of the '%' column.",
+    "GT": "17.5"
+  }
+]

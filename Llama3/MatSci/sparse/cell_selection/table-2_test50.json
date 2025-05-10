@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average grain diameter (μm) of Alloy/Phase BCC?",
+    "Answer": "220 ± 30",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in row 3 of the table, under the 'Average grain diameter (μm)' column for Alloy/Phase BCC.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which Alloy/Phase has the smallest average grain diameter (μm)?",
+    "Answer": "NMZ5",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by comparing the 'Average grain diameter (μm)' values in row 3 of the table, where NMZ5 has the smallest value.",
+    "GT": "NMZ5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average grain diameter (μm) of Alloy/Phase C?",
+    "Answer": "524.6",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in row 2 of the table, under the 'Average grain diameter (μm)' column for Alloy/Phase C.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which Alloy/Phase has the largest value for 'NMZ2'?",
+    "Answer": "C-3009",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by comparing the 'NMZ2' values in the table, where C-3009 has the largest value.",
+    "GT": "BCC, a (pm)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average grain diameter (μm) of Alloy/Phase Hexagonal?",
+    "Answer": "Not applicable",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is 'Not applicable' because there is no 'Average grain diameter (μm)' value for Alloy/Phase Hexagonal in the table.",
+    "GT": "Irrelevant question"
+  }
+]

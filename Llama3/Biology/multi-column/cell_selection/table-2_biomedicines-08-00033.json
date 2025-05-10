@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What percentage of patients in the Clinical Features Present Study experienced exercise intolerance?",
+    "Answer": "100",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "Answer is directly obtained from cell (1, 2) in the table",
+    "GT": "100"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of patients in the Clinical Features Present Study with permanent weakness?",
+    "Answer": "47",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "Answer is directly obtained from cell (2, 2) in the table",
+    "GT": "47"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the proportion of patients with age at onset less than 15 years in the Clinical Features Present Study?",
+    "Answer": "87",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "Answer is directly obtained from cell (4, 2) in the table",
+    "GT": "87"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the proportion of patients with positive family history in the Clinical Features Present Study?",
+    "Answer": "25",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "Answer is directly obtained from cell (12, 2) in the table",
+    "GT": "25"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the proportion of patients with age at diagnosis between 30-50 years in the Clinical Features Present Study?",
+    "Answer": "53",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "Answer is directly obtained from cell (10, 2) in the table",
+    "GT": "53"
+  }
+]

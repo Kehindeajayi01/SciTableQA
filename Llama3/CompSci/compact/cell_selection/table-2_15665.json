@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average L2 value for the FGM-L1 attack method?",
+    "Answer": "4.186",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average L2 value for the FGM-L1 attack method is calculated by taking the average of the L2 values in the FGM-L1 row, which is 4.186.",
+    "GT": "1.951"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which attack method has the highest L\u221e value?",
+    "Answer": "ASR",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest L\u221e value is 0.514, which is found in the ASR row.",
+    "GT": "ASR"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the L1 value for the I-FGM-L1 attack method at row 5?",
+    "Answer": "32.94",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The L1 value for the I-FGM-L1 attack method at row 5 is found in the cell at row 5 and column 2, which is 32.94.",
+    "GT": "32.94"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which attack method has the lowest L2 value?",
+    "Answer": "EAD (L1 rule)",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lowest L2 value is 1.563, which is found in the EAD (L1 rule) row.",
+    "GT": "FGM-L1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average L1 value for the attack methods that start with 'I-FGM'?",
+    "Answer": "34.63",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average L1 value for the attack methods that start with 'I-FGM' is calculated by taking the average of the L1 values in the I-FGM-L1 and I-FGM-L2 rows, which is 34.63.",
+    "GT": "31.63"
+  }
+]

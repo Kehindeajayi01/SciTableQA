@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the possible function of Cubilin in renal aging?",
+    "Answer": "Cubilin functions as an endocytic receptor of albumin.",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Possible function in renal aging' column in row 0.",
+    "GT": "Cubilin functions as an endocytic receptor of albumin. A defect in this tubular reabsorption leads to albuminuria."
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which gene is associated with salt-sensitive hypertension?",
+    "Answer": "UMOD",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Possible function in renal aging' column in row 4.",
+    "GT": "UMOD"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the result of a defect in the actin-binding domain of SHROOM3?",
+    "Answer": "Impairment of the glomerular filtration barrier leading to albuminuria and glomerulosclerosis.",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Possible function in renal aging' column in row 10.",
+    "GT": "Impairment of the glomerular filtration barrier leading to albuminuria and glomerulosclerosis."
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the effect of Far2 overexpression on the mesangial matrix?",
+    "Answer": "Mesangial matrix expansion",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Analyzed phenotype' column in row 17.",
+    "GT": "Upregulation of of PAF and TGFB; profibrotic factors."
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which gene is part of the Wnt signaling pathway and linked to aging-related inflammation?",
+    "Answer": "Wisp2",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Possible function in renal aging' column in row 20.",
+    "GT": "Wisp2"
+  }
+]

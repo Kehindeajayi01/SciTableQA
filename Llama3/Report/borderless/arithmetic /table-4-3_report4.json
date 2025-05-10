@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of 'TA' (in K) for the rows where 'IDIST' is between 1000 and 20000, and 'Z' is greater than 10?",
+    "Answer": "20.0",
+    "QuestionType": "Comparison",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The question involves referencing cells in columns 'IDIST', 'Z', and 'TA'. The answer is calculated by averaging the values in column 'TA' for the rows where 'IDIST' is between 1000 and 20000 and 'Z' is greater than 10.",
+    "GT": "20.0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total value of 'QH' (in cal/s) for the rows where 'VEL' is greater than 0, and 'DIA' is equal to 0?",
+    "Answer": "0",
+    "QuestionType": "Aggregation",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The question involves referencing cells in columns 'VEL', 'DIA', and 'QH'. The answer is calculated by summing the values in column 'QH' for the rows where 'VEL' is greater than 0 and 'DIA' is equal to 0.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of 'REL' (in Ci/y) for the rows where 'NUC' is equal to 'NUMST', and 'PHYS' is greater than 10?",
+    "Answer": "1.0",
+    "QuestionType": "Comparison",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The question involves referencing cells in columns 'NUC', 'NUMST', 'PHYS', and 'REL'. The answer is calculated by averaging the values in column 'REL' for the rows where 'NUC' is equal to 'NUMST' and 'PHYS' is greater than 10.",
+    "GT": "1.0"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the maximum value of 'BOUND' (in m) for the rows where 'METE' is equal to 'LIDAI', and 'JO' is greater than 5.0?",
+    "Answer": "20",
+    "QuestionType": "Comparison",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The question involves referencing cells in columns 'METE', 'LIDAI', 'JO', and 'BOUND'. The answer is calculated by finding the maximum value in column 'BOUND' for the rows where 'METE' is equal to 'LIDAI' and 'JO' is greater than 5.0.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the sum of 'AREA' (in m\u00b2) for the rows where 'RR' is equal to 100, and 'TG' is less than 0.0728?",
+    "Answer": "0",
+    "QuestionType": "Aggregation",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The question involves referencing cells in columns 'RR', 'TG', and 'AREA'. The answer is calculated by summing the values in column 'AREA' for the rows where 'RR' is equal to 100 and 'TG' is less than 0.0728.",
+    "GT": "0"
+  }
+]

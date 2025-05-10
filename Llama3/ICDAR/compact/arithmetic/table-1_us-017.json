@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of students in Public PK-12 schools from 1996 to 2021?",
+    "Answer": "1,213 + 1,219 + ... + 1,068 = 13,651",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The answer is calculated by summing up the 'Public PK-12' values from 1996 to 2021.",
+    "GT": "1,284,695"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average annual growth rate of students in Private 9-12 schools from 1996 to 2021?",
+    "Answer": "((16,469 - 14,062) / 14,062) + ... + ((1,059 - 1,254) / 1,254) = 2.45%",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The answer is calculated by finding the average annual growth rate of students in Private 9-12 schools from 1996 to 2021.",
+    "GT": "-0.564%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of students in PK-8 schools in 2000 and 2010?",
+    "Answer": "38,564 + 38,716 = 77,280",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The answer is calculated by summing up the 'PK-8' values for 2000 and 2010.",
+    "GT": "77,280"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of students in Public schools from 1996 to 2004?",
+    "Answer": "51,544 + 52,071 + ... + 54,882 = 255,411",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The answer is calculated by summing up the 'Public' values from 1996 to 2004.",
+    "GT": "851,056"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of students in Private schools from 2005 to 2015?",
+    "Answer": "38,903 + 38,908 + ... + 39,788 = 194,501",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The answer is calculated by summing up the 'Private' values from 2005 to 2015.",
+    "GT": "121,482"
+  }
+]

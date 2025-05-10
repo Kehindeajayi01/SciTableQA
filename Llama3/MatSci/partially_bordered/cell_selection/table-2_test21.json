@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the atomic radius of element Al?",
+    "Answer": "1.4317",
+    "QuestionType": "cell selection",
+    "TableName": "Element",
+    "Explanation": "The atomic radius of element Al can be found in the first column of the table, which corresponds to the 'ri/A' column.",
+    "GT": "1.4317"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which element has a crystal structure of BCC?",
+    "Answer": "Cr, Fe",
+    "QuestionType": "cell selection",
+    "TableName": "Element",
+    "Explanation": "The crystal structure of each element can be found in the fourth column of the table, which corresponds to the '\u03c6i' column. The elements Cr and Fe have a BCC structure.",
+    "GT": "Cr, Fe"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the oxidation state of element Co?",
+    "Answer": "+1",
+    "QuestionType": "cell selection",
+    "TableName": "Element",
+    "Explanation": "The oxidation state of each element can be found in the fifth column of the table, which corresponds to the '\u03b2i' column. The oxidation state of element Co is +1.",
+    "GT": "+1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which element has an atomic radius greater than 1.2500?",
+    "Answer": "Mn, Cu",
+    "QuestionType": "cell selection",
+    "TableName": "Element",
+    "Explanation": "The atomic radius of each element can be found in the second column of the table, which corresponds to the 'ri/A' column. The elements Mn and Cu have an atomic radius greater than 1.2500.",
+    "GT": "Al, Mn, Co, and Cu"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the crystal structure of element Ni?",
+    "Answer": "FCC",
+    "QuestionType": "cell selection",
+    "TableName": "Element",
+    "Explanation": "The crystal structure of each element can be found in the fourth column of the table, which corresponds to the '\u03c6i' column. The crystal structure of element Ni is FCC.",
+    "GT": "FCC"
+  }
+]

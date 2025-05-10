@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the proportion of the U.S. population that is under 1 year old?",
+    "Answer": "0.0156",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.1.csv",
+    "Explanation": "The answer is directly obtained from the 'Proportion (total)' column in the 'Under 1 year' row.",
+    "GT": "0.0156"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of people in the U.S. population that are 20-29 years old?",
+    "Answer": "40,839,623",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.1.csv",
+    "Explanation": "The answer is directly obtained from the 'Total' column in the '20 - 29 years' row.",
+    "GT": "40,839,623"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the proportion of the U.S. population that is 60-69 years old?",
+    "Answer": "0.0833",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.1.csv",
+    "Explanation": "The answer is directly obtained from the 'Proportion (total)' column in the '60 - 69 years' row.",
+    "GT": "0.0833"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of people in the U.S. population that are 80 years or older?",
+    "Answer": "5,175,100",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.1.csv",
+    "Explanation": "The answer is directly obtained from the 'Total' column in the '80 years plus' row.",
+    "GT": "5,175,100"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the proportion of the U.S. population that is 30-39 years old?",
+    "Answer": "0.1392",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.1.csv",
+    "Explanation": "The answer is directly obtained from the 'Proportion (20+ years)' column in the '30 - 39 years' row.",
+    "GT": "0.1392"
+  }
+]

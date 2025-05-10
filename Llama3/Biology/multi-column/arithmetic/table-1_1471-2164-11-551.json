@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average size of loci for Group 1 and Group 4, and how does it compare to the average size of loci for the total/average?",
+    "Answer": "69.4 (G3), 83.6 (G4), 591.4 (Total)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average size of loci for Group 1 is 108.2, for Group 4 it is 83.6, and for the total/average it is 591.4.",
+    "GT": "110.6 (G1), 86.5 (G4), 597.7 (Total)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of skewed markers for Group 2 and Group 6, and how does it compare to the average number of skewed markers for the total/average?",
+    "Answer": "1 (G2), 2 (G6), 27 (Total)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average number of skewed markers for Group 2 is 1, for Group 6 it is 2, and for the total/average it is 27.",
+    "GT": "1 (G2), 2 (G6), 27.5 (Total)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average distance (in cM) for Group 3 and Group 7, and how does it compare to the average distance for the total/average?",
+    "Answer": "3.5 (G3), 2.4 (G7), 4.0 (Total)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average distance for Group 3 is 3.5, for Group 7 it is 2.4, and for the total/average it is 4.0.",
+    "GT": "3.6 (G3), 4.8 (G7), 4.0 (Total)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of skewed markers for Group 1 and Group 5, and how does it compare to the total number of skewed markers for the total/average?",
+    "Answer": "3 (G1), 3 (G5), 27 (Total)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of skewed markers for Group 1 is 3, for Group 5 it is 3, and for the total/average it is 27.",
+    "GT": "6 (G1), 0 (G5), 55 (Total)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of loci for Group 8 and Group 2, and how does it compare to the average number of loci for the total/average?",
+    "Answer": "14.5 (G8), 16 (G2), 157 (Total)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average number of loci for Group 8 is 14.5, for Group 2 it is 16, and for the total/average it is 157.",
+    "GT": "14.5 (G8), 16 (G2), 158.5 (Total)"
+  }
+]

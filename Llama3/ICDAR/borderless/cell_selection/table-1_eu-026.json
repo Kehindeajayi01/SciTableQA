@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of respondents who kept their assets?",
+    "Answer": "75.2%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the 'Freq. Percent' column and finding the percentage of respondents who selected 'I/we kept the assets' in the 'Unknown_1' column.",
+    "GT": "75.2%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the mean loss for respondents who sold all of their assets?",
+    "Answer": "9187",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the 'Mean Loss' column and finding the value corresponding to the row where 'Unknown_1' is 'I/we sold all of them'.",
+    "GT": "9187"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of respondents who sold some of their assets?",
+    "Answer": "53",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the 'Freq.' column and finding the value corresponding to the row where 'Unknown_1' is 'I/we sold some of the assets'.",
+    "GT": "53"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total percentage of respondents who sold their assets?",
+    "Answer": "24.8%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by subtracting the percentage of respondents who kept their assets (75.2%) from 100% to find the percentage of respondents who sold their assets.",
+    "GT": "13.2%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the mean loss for respondents who kept their assets?",
+    "Answer": "12196",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the 'Mean Loss' column and finding the value corresponding to the row where 'Unknown_1' is 'I/we kept the assets'.",
+    "GT": "12196"
+  }
+]

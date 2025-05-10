@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of GHGRP Total for Above Grade Stations in 2011, 2012, and 2013, and what is the percentage increase from 2011 to 2013?",
+    "Answer": "77,232, 79,537, 84,049; 9.3%",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The total GHGRP Total for Above Grade Stations in 2011, 2012, and 2013 is calculated by summing the values in cells 1, 2, and 3. The percentage increase from 2011 to 2013 is calculated by dividing the difference between the 2013 and 2011 values by the 2011 value and multiplying by 100.",
+    "GT": "240,818; 8.8%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average GHGRP Total for Below Grade Stations in 2011, 2012, and 2013, and how does it compare to the average GHGRP Total for Above Grade Stations during the same period?",
+    "Answer": "23,706, 25,502, 21,962; 7.6% lower",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average GHGRP Total for Below Grade Stations is calculated by summing the values in cells 6, 7, and 8 and dividing by 3. The average GHGRP Total for Above Grade Stations is calculated by summing the values in cells 1, 2, and 3 and dividing by 3. The comparison is made by subtracting the average GHGRP Total for Below Grade Stations from the average GHGRP Total for Above Grade Stations and dividing by the average GHGRP Total for Above Grade Stations, then multiplying by 100.",
+    "GT": "25,811.67; 67.85% lower"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total GHGRP Total for GHGRP/Transfer in 2011, 2012, and 2013, and what is the percentage increase from 2011 to 2013?",
+    "Answer": "14,497, 18,372, 18,217; 25.9%",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The total GHGRP Total for GHGRP/Transfer is calculated by summing the values in cells 1, 5, and 6. The percentage increase from 2011 to 2013 is calculated by dividing the difference between the 2013 and 2011 values by the 2011 value and multiplying by 100.",
+    "GT": "Above grade: 51,086  25.66%; Below grade: 7,671   0.98%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average GHGI Total for Above Grade Stations and Below Grade Stations in 2011, 2012, and 2013, and how does it compare between the two types of stations?",
+    "Answer": "70,456, 40,188; 42.9% higher",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average GHGI Total for Above Grade Stations is calculated by summing the values in cells 3 and 4 and dividing by 2. The average GHGI Total for Below Grade Stations is calculated by summing the values in cells 8 and 9 and dividing by 2. The comparison is made by subtracting the average GHGI Total for Below Grade Stations from the average GHGI Total for Above Grade Stations and dividing by the average GHGI Total for Above Grade Stations, then multiplying by 100.",
+    "GT": "287,579; 125,053; Above grade is 129.97% higher"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total GHGRP Total for Above Grade Stations and Below Grade Stations in 2011, 2012, and 2013, and what is the percentage increase from 2011 to 2013 for each type of station?",
+    "Answer": "103,293, 51,374; 50.0% and 98.5%",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The total GHGRP Total for Above Grade Stations is calculated by summing the values in cells 1, 2, and 3. The total GHGRP Total for Below Grade Stations is calculated by summing the values in cells 6, 7, and 8. The percentage increase from 2011 to 2013 for each type of station is calculated by dividing the difference between the 2013 and 2011 values by the 2011 value and multiplying by 100.",
+    "GT": "318,253; Above grade: 8.8%; Below grade: -10.4%"
+  }
+]

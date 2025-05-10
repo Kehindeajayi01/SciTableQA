@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average atomic radius of the elements listed in the table?",
+    "Answer": "1.51",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The average atomic radius is calculated by adding the atomic radii of all elements and dividing by the number of elements: (1.43 + 1.28 + 1.27 + 1.40 + 1.60) / 5 = 1.51",
+    "GT": "1.40 A^0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which element has the highest melting point?",
+    "Answer": "Cu",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The melting point of Cu (1084\u00b0C) is the highest among all the listed elements.",
+    "GT": "Fe"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average density of the elements listed in the table?",
+    "Answer": "4.63",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The average density is calculated by adding the densities of all elements and dividing by the number of elements: (2.70 + 8.96 + 7.87 + 7.40 + 1.74) / 5 = 4.63",
+    "GT": "5.72 g/cm^3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which element has the lowest self-diffusion coefficient?",
+    "Answer": "Cu",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The self-diffusion coefficient of Cu (10^-27 m^2s^-1) is the lowest among all the listed elements.",
+    "GT": "Mn"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average lattice parameter of the elements listed in the table?",
+    "Answer": "4.18",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The average lattice parameter is calculated by adding the lattice parameters of all elements and dividing by the number of elements: (4.05 + 3.61 + 2.86 + 8.89 + 3.2) / 5 = 4.18",
+    "GT": "4.52 A^0"
+  }
+]

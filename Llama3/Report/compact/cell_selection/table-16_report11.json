@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of residential meters in the year 2005?",
+    "Answer": "41,216,697",
+    "QuestionType": "cell selection",
+    "TableName": "table-16.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 2 and column 1 (Year 2005, Residential meters)",
+    "GT": "41,216,697"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of industrial meters in the year 2006?",
+    "Answer": "204,700",
+    "QuestionType": "cell selection",
+    "TableName": "table-16.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 3 and column 4 (Year 2006, Industrial meters)",
+    "GT": "199,800"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of commercial meters in the year 2008?",
+    "Answer": "5,307,300",
+    "QuestionType": "cell selection",
+    "TableName": "table-16.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 5 and column 3 (Year 2008, Commercial meters)",
+    "GT": "5,307,300"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of residential meters in the year 2012?",
+    "Answer": "35,429,055",
+    "QuestionType": "cell selection",
+    "TableName": "table-16.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 9 and column 1 (Year 2012, Residential meters)",
+    "GT": "35,429,055"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of industrial meters in the year 2010?",
+    "Answer": "192,500",
+    "QuestionType": "cell selection",
+    "TableName": "table-16.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 7 and column 4 (Year 2010, Industrial meters)",
+    "GT": "192,500"
+  }
+]

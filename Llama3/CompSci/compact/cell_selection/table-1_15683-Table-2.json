@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of unexplained/discarded observations in the optimal plan for the 'Lifted Small' scenario?",
+    "Answer": "2.70",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Avg' column for the 'Disc' row and the 'Lifted Small' scenario.",
+    "GT": "2.70"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of actions in the optimal plan for the 'Lifted All' scenario?",
+    "Answer": "4.90",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Avg' column for the 'Act' row and the 'Lifted All' scenario.",
+    "GT": "4.90"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of scenarios granted for the 'Lifted Small' scenario?",
+    "Answer": "4.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Avg' column for the 'Scen' row and the 'Lifted Small' scenario.",
+    "GT": "4.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average time (in seconds) for the 'Lifted All' scenario?",
+    "Answer": "0.04",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Time (sec)' column for the 'Lifted All' scenario.",
+    "GT": "0.04"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of unexplained/discarded observations in the optimal plan for the 'Lifted All' scenario?",
+    "Answer": "2.00",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Avg' column for the 'Disc' row and the 'Lifted All' scenario.",
+    "GT": "2.00"
+  }
+]

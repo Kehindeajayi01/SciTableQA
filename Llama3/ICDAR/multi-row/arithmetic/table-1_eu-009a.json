@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average influence on project concept when involvement starts at the beginning of project preparation?",
+    "Answer": "1a",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "This question calculates the average influence on project concept for category 1, which corresponds to 'Involvement at the beginning of project preparation'.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the proportion of categories that have no influence on project concept during feasibility study preparation?",
+    "Answer": "0.5",
+    "QuestionType": "Proportion",
+    "TableName": "Unknown_1",
+    "Explanation": "This question calculates the proportion of categories that have no influence on project concept for category 2, which corresponds to 'Involvement during the feasibility study preparation'.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average influence on project concept when involvement starts after draft application is prepared?",
+    "Answer": "3a",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "This question calculates the average influence on project concept for category 3, which corresponds to 'Involvement after draft application is prepared'.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the proportion of categories that have other presentation issues after draft application is prepared?",
+    "Answer": "0.167",
+    "QuestionType": "Proportion",
+    "TableName": "Unknown_1",
+    "Explanation": "This question calculates the proportion of categories that have other presentation issues for category 3, which corresponds to 'Involvement after draft application is prepared'.",
+    "GT": "Irrelevant quesrion"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average influence on project concept when there is no influence on project concept (presentation only)?",
+    "Answer": "1b, 2b, 3b",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "This question calculates the average influence on project concept for categories 1b, 2b, and 3b, which correspond to 'No influence on project concept (presentation only)'.",
+    "GT": "Irrelevant question"
+  }
+]

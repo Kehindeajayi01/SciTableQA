@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average F1 score for EditDist and GraphNav methods?",
+    "Answer": "0.54",
+    "QuestionType": "Comparison",
+    "TableName": "BPI dataset",
+    "Explanation": "The average F1 score for EditDist is (0.53 + 0.45) / 2 = 0.49, and for GraphNav is (0.59 + 0.53) / 2 = 0.56.",
+    "GT": "0.52"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How does the Recall of MaxEnt method compare to the Precision of EditDist method?",
+    "Answer": "1.00 vs 0.44",
+    "QuestionType": "Comparison",
+    "TableName": "GHS dataset",
+    "Explanation": "The Recall of MaxEnt method is 1.00, while the Precision of EditDist method is 0.44.",
+    "GT": "1.00 vs 0.44"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Precision for all methods in the BPI dataset?",
+    "Answer": "0.55",
+    "QuestionType": "Average",
+    "TableName": "BPI dataset",
+    "Explanation": "The average Precision for all methods in the BPI dataset is (0.44 + 0.46 + 0.65) / 3 = 0.55.",
+    "GT": "0.51"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How does the F1 score of MaxEnt method compare to the Recall of GraphNav method?",
+    "Answer": "0.66 vs 0.54",
+    "QuestionType": "Comparison",
+    "TableName": "GHS dataset",
+    "Explanation": "The F1 score of MaxEnt method is 0.66, while the Recall of GraphNav method is 0.54.",
+    "GT": "0.66 vs 0.54"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the maximum Recall for all methods in the GHS dataset?",
+    "Answer": "1.00",
+    "QuestionType": "Maximum",
+    "TableName": "GHS dataset",
+    "Explanation": "The maximum Recall for all methods in the GHS dataset is 1.00, achieved by the MaxEnt method.",
+    "GT": "1.00"
+  }
+]

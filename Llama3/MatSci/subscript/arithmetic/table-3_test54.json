@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average ΔH_mix value for the Ti40Ni40-5, Ti30Ni30-5, and Ti25Ni16.67-5 samples?",
+    "Answer": "-32.7",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average ΔH_mix value is calculated by summing the ΔH_mix values for the three samples (Ti40Ni40-5",
+    "GT": "-32.3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total ΔS_mix value for the Ti30Ni30-6 and Ti20Ni20-6 samples?",
+    "Answer": "28.5",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The total ΔS_mix value is calculated by summing the ΔS_mix values for the two samples (Ti30Ni30-6",
+    "GT": "28.5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in Ω values between the Ti40Ni40-5 and Ti30Ni30-5 samples?",
+    "Answer": "-0.12",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference in Ω values is calculated by subtracting the \u03a9 value of the Ti40Ni40-5 sample (-0.57) from the Ω value of the Ti30Ni30-5 sample (0.69).",
+    "GT": "-0.12"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average VEC value for the Ti25Ni16.67-5, Ti30Ni30-6, and Equi-6 samples?",
+    "Answer": "7.55",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average VEC value is calculated by summing the VEC values for the three samples (Ti25Ni16.67-5",
+    "GT": "7"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ΔH_mix value for the Ti20Ni20-6 sample?",
+    "Answer": "-30.4",
+    "QuestionType": "single value",
+    "TableName": "table-3.csv",
+    "Explanation": "The ΔH_mix value for the Ti20Ni20-6 sample is directly obtained from the table.",
+    "GT": "-30.4"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of inhibitors that have a protective effect in cancer treatment?",
+    "Answer": "9",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by counting the number of rows where 'Clinical indication' is 'cancer' and 'eQTL effect' is 'protective'.",
+    "GT": "12"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of inhibitors that have a protective effect in immune-mediated diseases?",
+    "Answer": "90%",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by dividing the number of inhibitors with a protective effect in immune-mediated diseases (8 out of 11) by the total number of inhibitors (11) and multiplying by 100.",
+    "GT": "25%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of inhibitors that have a protective effect in both cancer and immune-mediated diseases?",
+    "Answer": "4",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by counting the number of rows where 'Clinical indication' is either 'cancer' or 'immune-mediated diseases' and 'eQTL effect' is 'protective'.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average number of clinical indications per inhibitor with a protective effect?",
+    "Answer": "1.4",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by dividing the sum of the number of clinical indications (14) by the number of inhibitors with a protective effect (10).",
+    "GT": "1.3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of inhibitors that have a predisposing effect in immune-mediated diseases?",
+    "Answer": "4",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by counting the number of rows where 'Clinical indication' is 'immune-mediated diseases' and 'eQTL effect' is 'predisposing'.",
+    "GT": "6"
+  }
+]

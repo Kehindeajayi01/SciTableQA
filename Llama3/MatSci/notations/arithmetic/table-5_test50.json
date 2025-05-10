@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of σy/ρ for all alloys at 25°C?",
+    "Answer": "63.9",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average value of σy/ρ for all alloys at 25°C is calculated by summing up the values of σy/ρ for all rows and dividing by the total number of rows.",
+    "GT": "82.8"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How does the value of σy/ρ for NMZ4 change from 25°C to 600°C?",
+    "Answer": "7.6",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The change in value of σy/ρ for NMZ4 from 25°C to 600°C is calculated by subtracting the value at 25°C from the value at 600°C.",
+    "GT": "-33.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which alloy has the highest value of σy/ρ at 800°C?",
+    "Answer": "NMZ4",
+    "QuestionType": "identification",
+    "TableName": "table-5.csv",
+    "Explanation": "The alloy with the highest value of σy/ρ at 800°C is identified by comparing the values of σy/ρ for all rows at 800°C.",
+    "GT": "NMZ5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average value of σy/ρ for all alloys at 1000°C?",
+    "Answer": "34.4",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average value of σy/ρ for all alloys at 1000°C is calculated by summing up the values of σy/ρ for all rows and dividing by the total number of rows.",
+    "GT": "42.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How does the value of σy/ρ for C-103 change from 25°C to 1600°C?",
+    "Answer": "-2.6",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The change in value of σy/ρ for C-103 from 25°C to 1600°C is calculated by subtracting the value at 25°C from the value at 1600°C.",
+    "GT": "Irrelevant question"
+  }
+]

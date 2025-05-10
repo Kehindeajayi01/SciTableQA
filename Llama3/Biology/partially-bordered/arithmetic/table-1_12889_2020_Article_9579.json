@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean difference in waist circumference between women and men?",
+    "Answer": "3.69 cm",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The mean waist circumference for women is 84.26 cm and for men is 86.95 cm. The difference is calculated as 86.95 - 84.26 = 3.69 cm.",
+    "GT": "2.69 cm"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of individuals with a family history of ASCVD in both women and men?",
+    "Answer": "3.41%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of individuals with a family history of ASCVD in women is 3.64% and in men is 3.18%. The average of these percentages is calculated as (3.64 + 3.18) / 2 = 3.41%.",
+    "GT": "3.41%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the mean difference in total cholesterol between women and men?",
+    "Answer": "1.52 mg/dL",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The mean total cholesterol for women is 184.92 mg/dL and for men is 183.40 mg/dL. The difference is calculated as 184.92 - 183.40 = 1.52 mg/dL.",
+    "GT": "1.52 mg/dL"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of individuals who are current smokers in both women and men?",
+    "Answer": "26.94%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of current smokers in women is 12.94% and in men is 41.91%. The average of these percentages is calculated as (12.94 + 41.91) / 2 = 26.94%.",
+    "GT": "27.43%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of person years for both women and men?",
+    "Answer": "20,031.57",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The total person years for women is 10,800.41 and for men is 9,231.16. The total is calculated as 10,800.41 + 9,231.16 = 20,031.57.",
+    "GT": "20,031.57"
+  }
+]

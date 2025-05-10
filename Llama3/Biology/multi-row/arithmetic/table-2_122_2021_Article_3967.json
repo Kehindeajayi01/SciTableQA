@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of environments in which QYr.niab-1A.1 is present?",
+    "Answer": "8",
+    "QuestionType": "Count",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by counting the number of cells in the 'Environments' column where QYr.niab-1A.1 is present.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of environments in which QYr.niab-2A.1 and QYr.niab-2A.2 are both present?",
+    "Answer": "3",
+    "QuestionType": "Average",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by calculating the average of the number of environments in which QYr.niab-2A.1 and QYr.niab-2A.2 are both present.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "In which environment(s) is QYr.niab-6A.1 present but QYr.niab-6A.2 is not?",
+    "Answer": "2-4, 3-4",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by identifying the environments where QYr.niab-6A.1 is present but QYr.niab-6A.2 is not.",
+    "GT": "None"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of rows in the table where the Chr is 2A?",
+    "Answer": "4",
+    "QuestionType": "Count",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by counting the number of rows where the 'Chr' column is equal to 2A.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the minimum number of environments in which QYr.niab-3A.I is present?",
+    "Answer": "2",
+    "QuestionType": "Minimum",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by identifying the minimum number of environments in which QYr.niab-3A.I is present.",
+    "GT": "5"
+  }
+]

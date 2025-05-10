@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total GHGI emissions in 1990?",
+    "Answer": "22,864,392",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be found in the cell at row 0, column 1.",
+    "GT": "39,778,144"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total Gas STAR emissions in 1996?",
+    "Answer": "0",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be found in the last cell  row , column 7.",
+    "GT": "-599,413"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total GHGI emissions from Customer Meters in 1994?",
+    "Answer": "2,969,469",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be found in the cell at row 4, column 5.",
+    "GT": "2,969,469"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total GHGI emissions from Pipeline in 1998?",
+    "Answer": "957,436",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be found in the cell at row 10, column 8.",
+    "GT": "19,053,904 The answer can be found by summing up the pipeline leaks and blowdowns"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total GHGI emissions in 2001?",
+    "Answer": "18,784,088",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be found in the cell last row , column 13.",
+    "GT": "37,162,168"
+  }
+]

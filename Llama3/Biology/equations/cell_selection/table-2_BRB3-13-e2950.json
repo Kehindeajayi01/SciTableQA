@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean age of the total population (N=83)?",
+    "Answer": "48.93",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from the 'Age, (mean+/-SD)' column in the table.",
+    "GT": "48.93"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of male participants in the P/LP/R group (N=18)?",
+    "Answer": "66.67%",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from the 'Gender, N (%)' column in the table, specifically the row corresponding to the P/LP/R group.",
+    "GT": "66.67%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many participants in the total population (N=83) reported being exposed to pesticides?",
+    "Answer": "28",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from the 'Exposure to pesticides, N (%)' column in the table, specifically the row corresponding to the 'Yes' category.",
+    "GT": "28"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of participants in the total population (N=83) with a family history of PD?",
+    "Answer": "14.45%",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from the 'Family history of PD, N (%)' column in the table.",
+    "GT": "14.45%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the mean MDS-UPDRS part II score for the total population (N=83)?",
+    "Answer": "11.05",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from the 'MDS-UPDRS part II (mean+/-SD)' column in the table.",
+    "GT": "11.05"
+  }
+]

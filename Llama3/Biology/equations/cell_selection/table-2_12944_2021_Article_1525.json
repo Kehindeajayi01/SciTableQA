@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of subjects studied in the LDLcal table?",
+    "Answer": "448",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'N of subjects or specimens' column for the first row (LDLFriedwald 1972).",
+    "GT": "1,386,728"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country has the highest number of subjects studied in the LDLcal table?",
+    "Answer": "USA",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by identifying the country with the highest number of subjects studied, which is USA.",
+    "GT": "USA"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the range of TG concentration in mg/dL?",
+    "Answer": "20-2502",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'TG concentration characteristics' column for the first row (LDLFriedwald 1972).",
+    "GT": "20-2502"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the measurement method for LDL quantification in the LDLcal table?",
+    "Answer": "Ultracentrifugation",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Measurement method for LDL quantification' column for the first row (LDLFriedwald 1972).",
+    "GT": "Ultracentrifugation and Automated enzymatic method, "
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many subjects with TG > 400 mg/dL were included in the LDLcal table?",
+    "Answer": "964",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the value in the '964 subjects whose TG > 400 mg/dL were included.' cell for the second row (LDLDeLong 1986).",
+    "GT": "12,169"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average F1 score for the AM-ADV and AM-DIR categories?",
+    "Answer": "62.6",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average F1 score for AM-ADV is 62.6, and for AM-DIR is 43.1, which is calculated by averaging the F1 scores for these categories (62.6 + 43.1) / 2 = 62.85, rounded to 62.6",
+    "GT": "52.85"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in Precision between A0 and A1?",
+    "Answer": "5.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The Precision for A0 is 89.6, and for A1 is 84.2, which is the difference between these two values (89.6 - 84.2) = 5.4",
+    "GT": "5.4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Recall for the A0, A1, and A2 categories?",
+    "Answer": "85.0",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average Recall for A0, A1, and A2 is calculated by averaging the Recall values for these categories (90.7 + 84.6 + 72.7) / 3 = 85.0",
+    "GT": "82.6"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the F1 score for the Overall category?",
+    "Answer": "82.7",
+    "QuestionType": "Single Value",
+    "TableName": "table-5.csv",
+    "Explanation": "The F1 score for the Overall category is 82.7, which is directly taken from the table",
+    "GT": "82.7"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in F1 score between AM-TMP and AM-PNC?",
+    "Answer": "1.8",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The F1 score for AM-TMP is 83.0, and for AM-PNC is 65.0, which is the difference between these two values (83.0 - 65.0) = 1.8",
+    "GT": "18"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of URL sources that are related to Qatar?",
+    "Answer": "2/4 = 50%",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The question is answered by counting the number of 'Yes' responses in the 'Qatar-related?' column (2) and dividing it by the total number of rows (4).",
+    "GT": "2/5=40%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of words in the 'Source type' column?",
+    "Answer": "2.5",
+    "QuestionType": "arithmetic",
+    "TableName": "table-5.csv",
+    "Explanation": "The question is answered by calculating the average number of words in the 'Source type' column, which is the sum of the word counts (2, 2, 4, 4) divided by the number of rows (4).",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many sources have a 'Source type' of 'Reputed'?",
+    "Answer": "2",
+    "QuestionType": "count",
+    "TableName": "table-5.csv",
+    "Explanation": "The question is answered by counting the number of rows where the 'Source type' is 'Reputed' (2).",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the earliest date mentioned in the 'Snippet' column?",
+    "Answer": "December 17",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The question is answered by finding the earliest date mentioned in the 'Snippet' column, which is December 17.",
+    "GT": "December 17"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of 'Yes' responses in the 'Qatar-related?' column?",
+    "Answer": "2",
+    "QuestionType": "count",
+    "TableName": "table-5.csv",
+    "Explanation": "The question is answered by counting the number of 'Yes' responses in the 'Qatar-related?' column (2).",
+    "GT": "2"
+  }
+]

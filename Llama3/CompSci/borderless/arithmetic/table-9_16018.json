@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference between the error types 'PP Attach' and '1-word Span'?",
+    "Answer": "181.5",
+    "QuestionType": "comparison",
+    "TableName": "table-9.csv",
+    "Explanation": "This question calculates the average difference between the error types 'PP Attach' and '1-word Span'. The average is calculated by subtracting the values in column '1-word Span' from the values in column 'PP Attach' and then taking the average of the resulting differences.",
+    "GT": "181.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total reduction for 'NP Int' and 'Clause Att'?",
+    "Answer": "297",
+    "QuestionType": "aggregation",
+    "TableName": "table-9.csv",
+    "Explanation": "This question calculates the total reduction for 'NP Int' and 'Clause Att' by summing the values in these two rows.",
+    "GT": "194"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the reduction for 'Different label' and 'Mod Attach'?",
+    "Answer": "101",
+    "QuestionType": "comparison",
+    "TableName": "table-9.csv",
+    "Explanation": "This question calculates the difference between the reduction for 'Different label' and 'Mod Attach' by subtracting the value in the 'Mod Attach' row from the value in the 'Different label' row.",
+    "GT": "52"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average reduction for 'Co-ordination' and 'UNSET add'?",
+    "Answer": "274.5",
+    "QuestionType": "aggregation",
+    "TableName": "table-9.csv",
+    "Explanation": "This question calculates the average reduction for 'Co-ordination' and 'UNSET add' by summing the values in these two rows and then dividing by 2.",
+    "GT": "114.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total reduction for all error types?",
+    "Answer": "2341",
+    "QuestionType": "aggregation",
+    "TableName": "table-9.csv",
+    "Explanation": "This question calculates the total reduction for all error types by summing the values in all rows.",
+    "GT": "1268"
+  }
+]

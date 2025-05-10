@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average MAE for FilmTrust with d = 5?",
+    "Answer": "0.688",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 0 and column 1.",
+    "GT": "0.651"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the RMSE for Flixster with d = 10?",
+    "Answer": "1.007",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 10 and column 3.",
+    "GT": "1.007"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which dataset has the lowest MAE for d = 5?",
+    "Answer": "Epinions",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by comparing the MAE values for each dataset at d = 5.",
+    "GT": "Epinions"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average RMSE for Ciao with d = 10?",
+    "Answer": "0.955",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 14 and column 3.",
+    "GT": "0.955"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which dataset has the highest RMSE for d = 5?",
+    "Answer": "Epinions",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by comparing the RMSE values for each dataset at d = 5.",
+    "GT": "Epinions"
+  }
+]

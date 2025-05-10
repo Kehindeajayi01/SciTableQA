@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage difference in Head Start Participation between the 3-Year-Old Cohort and the 4-Year-Old Cohort in the Control Group?",
+    "Answer": "72.2%",
+    "QuestionType": "comparison",
+    "TableName": "Sample Group",
+    "Explanation": "The percentage difference is calculated as (86.1% - 13.9%) / 13.9% = 72.2%",
+    "GT": "0.24%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average percentage of Head Start Participation in the Control Group across both age cohorts?",
+    "Answer": "45.5%",
+    "QuestionType": "average",
+    "TableName": "Sample Group",
+    "Explanation": "The average is calculated as (17.3% + 13.9%) / 2 = 45.5%",
+    "GT": "15.6%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in Head Start Participation between the Head Start Group and the Control Group in the 3-Year-Old Cohort?",
+    "Answer": "67.8%",
+    "QuestionType": "difference",
+    "TableName": "Sample Group",
+    "Explanation": "The difference is calculated as 85.1% - 17.3% = 67.8%",
+    "GT": "67.8%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage difference in Head Start Participation between the Head Start Group and the Control Group in the 4-Year-Old Cohort?",
+    "Answer": "65.9%",
+    "QuestionType": "comparison",
+    "TableName": "Sample Group",
+    "Explanation": "The percentage difference is calculated as (79.8% - 13.9%) / 13.9% = 65.9%",
+    "GT": "4.74%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Head Start Participation in the Head Start Group across both age cohorts?",
+    "Answer": "82.45%",
+    "QuestionType": "average",
+    "TableName": "Sample Group",
+    "Explanation": "The average is calculated as (85.1% + 79.8%) / 2 = 82.45%",
+    "GT": "82.45%"
+  }
+]

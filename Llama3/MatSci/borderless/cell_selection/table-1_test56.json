@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the atomic radius of Aluminum?",
+    "Answer": "1.43",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The atomic radius of Aluminum is found in the first row, first column of the table.",
+    "GT": "1.43 A^0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which element has a melting point of 1244\u00b0C?",
+    "Answer": "Fe",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The melting point of 1244\u00b0C is found in the second row, second column of the table, which corresponds to the element Fe.",
+    "GT": "Mn"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the crystal structure of Copper?",
+    "Answer": "FCC",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The crystal structure of Copper is found in the third row, second column of the table, which is FCC.",
+    "GT": "FCC"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which element has a density of 7.40 g.cm-\u00b3?",
+    "Answer": "Mn",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The density of 7.40 g.cm-\u00b3 is found in the fourth row, third column of the table, which corresponds to the element Mn.",
+    "GT": "Mn"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the self-diffusion coefficient of Magnesium?",
+    "Answer": "10^-13",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The self-diffusion coefficient of Magnesium is found in the fifth row, last column of the table, which is 10^-13.",
+    "GT": "10^-13"
+  }
+]

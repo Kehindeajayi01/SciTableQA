@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total percentage of 'Total: 0%' products among all groups?",
+    "Answer": "23.3%",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The total percentage of 'Total: 0%' products is calculated by summing up the percentages of 'Total: 0%' products in each group: 0% (Besnier) + 0% (Vedial) + 42.2% (Others) = 23.3%",
+    "GT": "NA (Question needs clarification)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average percentage of 'Total: X%' products among the top 3 groups (Astra Calv\u00e9, Besnier, Vedial)?",
+    "Answer": "23.1%",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The average percentage is calculated by summing up the percentages of 'Total: X%' products in the top 3 groups and dividing by 3: (0% + 18.1% + 19%) / 3 = 23.1%",
+    "GT": "NA (No "Total: x%" in table)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total percentage of products from 'Fruit dor' among all groups?",
+    "Answer": "8.4%",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The total percentage of products from 'Fruit dor' is calculated by summing up the percentages of 'Fruit dor' products in each group: 8.4% (Margarine) + 0% (Butter) = 8.4%",
+    "GT": "8.4%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage difference between the 'Total: 0%' products in Besnier and Vedial?",
+    "Answer": "9.5%",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The percentage difference is calculated by subtracting the percentage of 'Total: 0%' products in Besnier (0%) from the percentage of 'Total: 0%' products in Vedial (9.5%): 9.5% - 0% = 9.5%",
+    "GT": "NA (Question needs clarification)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total percentage of 'Prima' products among all groups?",
+    "Answer": "3.3%",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.23.csv",
+    "Explanation": "The total percentage of 'Prima' products is calculated by summing up the percentages of 'Prima' products in each group: 3.3% (Vedial) + 0% (Butter) = 3.3%",
+    "GT": "3.3%"
+  }
+]

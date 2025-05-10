@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average body weight of male mice on Postnatal Day 1, and how does it compare to the average body weight of female mice on the same day?",
+    "Answer": "Male: 39g, Female: 23g",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The average body weight of male mice on Postnatal Day 1 is 39g, while the average body weight of female mice on the same day is 23g.",
+    "GT": "Male: 5.8g, Female: 5.4g"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average concentration of unknown substance (ppm) in male mice on Postnatal Day 14, and how does it compare to the average concentration in female mice on the same day?",
+    "Answer": "Unknown",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The table does not provide information on the concentration of unknown substance (ppm) for female mice on Postnatal Day 14.",
+    "GT": "NA (Question needs rephrasing)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average weight relative to controls (%) of male mice on Postnatal Day 20, and how does it compare to the average weight relative to controls (%) of female mice on the same day?",
+    "Answer": "Male: 31.6**, Female: unknown",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The average weight relative to controls (%) of male mice on Postnatal Day 20 is 31.6**, while the table does not provide information on the average weight relative to controls (%) of female mice on the same day.",
+    "GT": "Male: 89.4%, Female: 88.8%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average body weight (g) of female mice on Postnatal Day 7, and how does it compare to the average body weight of male mice on the same day?",
+    "Answer": "Female: 12.7, Male: 13.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The average body weight of female mice on Postnatal Day 7 is 12.7g, while the average body weight of male mice on the same day is 13.5g.",
+    "GT": "Female: 12.2g, Male: 12.7g"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average weight relative to controls (%) of male mice on Postnatal Day 4, and how does it compare to the average weight relative to controls (%) of female mice on the same day?",
+    "Answer": "Male: 25.7, Female: unknown",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The average weight relative to controls (%) of male mice on Postnatal Day 4 is 25.7, while the table does not provide information on the average weight relative to controls (%) of female mice on the same day.",
+    "GT": "Male: 95.8%, Female: 98.2"
+  }
+]

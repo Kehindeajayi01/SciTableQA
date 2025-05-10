@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of patients with CD diagnosis?",
+    "Answer": "73",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is obtained by looking at the cell corresponding to 'CD' in the 'IBD diagnosis' column, which is 80. Then, we divide this value by the total number of patients (80 + 27 + 3) and multiply by 100 to get the percentage.",
+    "GT": "73"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the most common type of CD behavior?",
+    "Answer": "Inflammatory",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is obtained by looking at the cell corresponding to 'Inflammatory' in the 'CD behavior' column, which is 53. This is the highest frequency among the three types of CD behavior.",
+    "GT": "Inflammatory"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the distribution of CD in terms of location?",
+    "Answer": "Ileal, Colonic, lleocolonic",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is obtained by looking at the cells corresponding to 'Ileal', 'Colonic', and 'lleocolonic' in the 'CD distribution' column. These are the top three frequencies among the listed locations.",
+    "GT": "Ileal, Colonic, lleocolonic, Upper gastrointestinal, Perianal"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What percentage of patients with IBD have undergone surgery?",
+    "Answer": "15",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is obtained by looking at the cell corresponding to 'Surgery' in the 'Treatment' column, which is 17. Then, we divide this value by the total number of patients (80 + 27 + 3) and multiply by 100 to get the percentage.",
+    "GT": "15"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the most common treatment for patients with IBD?",
+    "Answer": "Immunomodulators",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is obtained by looking at the cell corresponding to 'Immunomodulators' in the 'Treatment' column, which is 98. This is the highest frequency among the listed treatments.",
+    "GT": "Immunomodulators"
+  }
+]

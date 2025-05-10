@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of Composition for the alloys with ε_1st < 1%",
+    "Answer": "2.97",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of Composition is calculated by summing the values of Composition for rows 3, 6, 9, 10, and 14, and then dividing by 5.",
+    "GT": "3.22"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in U_iso(A²) between the alloy with the highest ε_1st and the alloy with the lowest ε_1st?",
+    "Answer": "0.0249",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The alloy with the highest ε_1st is row 12, with ε_1st = 0.82, and the alloy with the lowest ε_1st is row 3, with ε_1st = 0.08. The difference in U_iso(A²) is calculated as 0.0291 - 0.0083 = 0.0249.",
+    "GT": "0.0232"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of ε_1st for the alloys with Composition > 3.20?",
+    "Answer": "0.34",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of ε_1st is calculated by summing the values of ε_1st for rows 5, 7, 9, 11, 12, and 13, and then dividing by 6.",
+    "GT": "0.99"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in U_iso(A²) between the alloy with the highest U_iso(A²) and the alloy with the lowest U_iso(A²)?",
+    "Answer": "0.0208",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The alloy with the highest U_iso(A²) is row 1, with U_iso(A²) = 0.0292, and the alloy with the lowest U_iso(A²) is row 3, with U_iso(A²) = 0.0083. The difference in U_iso(A²) is calculated as 0.0292 - 0.0083 = 0.0208.",
+    "GT": "0.0242"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of Composition for the alloys with U_iso(A²) > 0.012?",
+    "Answer": "3.19",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of Composition is calculated by summing the values of Composition for rows 5, 7, 9, 10, and 11, and then dividing by 5.",
+    "GT": "3.26"
+  }
+]

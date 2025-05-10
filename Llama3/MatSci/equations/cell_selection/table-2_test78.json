@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of Ecorr for the sample Re293?",
+    "Answer": "-824",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in the first row of the table, under the column 'Ecorr' for the sample 'Re293'.",
+    "GT": "-824 mV"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which sample has the highest value of \u03bcA/cm2?",
+    "Answer": "Re673",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by comparing the values in the column '\u03bcA/cm2' across all samples. The highest value is found in the second row, corresponding to the sample 'Re673'.",
+    "GT": "Re673"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of R_s for the sample Re873?",
+    "Answer": "7.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in the third row of the table, under the column 'R_s' for the sample 'Re873'.",
+    "GT": "7.1 Ωcm^2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which sample has the lowest value of R_ct?",
+    "Answer": "Re1073",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by comparing the values in the column 'R_ct' across all samples. The lowest value is found in the fourth row, corresponding to the sample 'Re1073'.",
+    "GT": "Re1073"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of R_s across all samples?",
+    "Answer": "4.92",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of R_s can be calculated by summing the values in the column 'R_s' and dividing by the number of samples. The sum of R_s values is 1.9 + 12.8 + 7.1 + 1.5 + 1.6 = 24.9, and dividing by 5 samples gives an average value of 4.92.",
+    "GT": "4.98 Ωcm^2"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total annual green power usage of Google LLC?",
+    "Answer": "7,492,567,647",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the 'Partner Name' column and the corresponding 'Annual Green Power Usage (kWh)' value for Google LLC.",
+    "GT": "7,492,567,647"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which partner has the highest percentage of green power usage?",
+    "Answer": "Bank of America",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by identifying the partner with the highest percentage of green power usage, which is Bank of America with 109%.",
+    "GT": "Bank of America"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total annual green power usage of all technology and telecom partners?",
+    "Answer": "17,857,049,869",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by summing up the annual green power usage of technology and telecom partners: Google LLC, Microsoft Corporation, Intel Corporation, Equinix, Inc., Apple Inc., and T-Mobile.",
+    "GT": "17,857,049,869"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the industry with the highest total green power usage?",
+    "Answer": "Technology & Telecom",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by identifying the industry with the highest total green power usage, which is Technology & Telecom.",
+    "GT": "Technology & Telecom"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which partner uses various green power resources?",
+    "Answer": "Intel Corporation",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by identifying the partner with 'Various' as the green power resources, which is Intel Corporation.",
+    "GT": "The answer is obtained by identifying the partner with 'Various' as the green power resources, which is Intel, Walmart, Bank of America, Apple.inc Corporation."
+  }
+]

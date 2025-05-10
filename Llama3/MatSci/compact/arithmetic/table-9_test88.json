@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average yield strength (YS) of the alloys with Ti content greater than 30%?",
+    "Answer": "1036",
+    "QuestionType": "comparison",
+    "TableName": "table-9.csv",
+    "Explanation": "The average yield strength (YS) of the alloys with Ti content greater than 30% is calculated by summing the YS values of rows 4, 5, 6, 7, 10, 11, 15, 16, 17, 18, and 19, and then dividing by the number of rows.",
+    "GT": "878.33 MPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the highest yield strength (YS) among the alloys with Zr content greater than 25%?",
+    "Answer": "2035",
+    "QuestionType": "comparison",
+    "TableName": "table-9.csv",
+    "Explanation": "The highest yield strength (YS) among the alloys with Zr content greater than 25% is found in row 19.",
+    "GT": "2035"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average change in entropy (\u0394S_(conf)/R) for the alloys with Nb content greater than 25%?",
+    "Answer": "1.384",
+    "QuestionType": "comparison",
+    "TableName": "table-9.csv",
+    "Explanation": "The average change in entropy (\u0394S_(conf)/R) for the alloys with Nb content greater than 25% is calculated by summing the \u0394S_(conf)/R values of rows 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, and 19, and then dividing by the number of rows.",
+    "GT": "1.52"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average yield strength (YS) of the alloys with Hf content greater than 0%?",
+    "Answer": "1153",
+    "QuestionType": "comparison",
+    "TableName": "table-9.csv",
+    "Explanation": "The average yield strength (YS) of the alloys with Hf content greater than 0% is calculated by summing the YS values of rows 20, 21, 22, and 23, and then dividing by the number of rows.",
+    "GT": "1004.75"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lowest yield strength (YS) among the alloys with Ta content greater than 5%?",
+    "Answer": "535",
+    "QuestionType": "comparison",
+    "TableName": "table-9.csv",
+    "Explanation": "The lowest yield strength (YS) among the alloys with Ta content greater than 5% is found in row 9.",
+    "GT": "910"
+  }
+]

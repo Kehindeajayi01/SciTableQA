@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of emission sources mentioned in the table that have an emission source of 'EF'?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The question counts the number of rows where the 'Emission Source' column has a value of 'EF'.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total amount of emissions from 'M&R Stations' and 'Pipeline leaks'?",
+    "Answer": "AD + EF",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the values in the 'Emission Source' column for 'M&R Stations' and 'Pipeline leaks', which are 'AD, EF' and 'AD, EF' respectively.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of emission sources mentioned in the table that have an emission source of 'AD'?",
+    "Answer": "2",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The question counts the number of rows where the 'Emission Source' column has a value of 'AD'.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of emission sources mentioned in the table that do not have an emission source of 'EF' or 'AD'?",
+    "Answer": "2",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The question counts the number of rows where the 'Emission Source' column does not have a value of 'EF' or 'AD'.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of emission sources mentioned in the table that have an emission source of 'EF' and are not 'M&R Stations' or 'Pipeline leaks'?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question counts the number of rows where the 'Emission Source' column has a value of 'EF' and the 'Emission Source' column does not have a value of 'M&R Stations' or 'Pipeline leaks'.",
+    "GT": "3"
+  }
+]

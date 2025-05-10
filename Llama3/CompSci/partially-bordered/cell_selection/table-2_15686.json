@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average test score for the Farsi language?",
+    "Answer": "90.53",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average test score for the Farsi language is directly extracted from the 'Test Baseline' column of the first row.",
+    "GT": "89.55"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which language has the highest test score?",
+    "Answer": "Italian",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The language with the highest test score is determined by comparing the values in the 'Test Baseline' column, and Italian has the highest score.",
+    "GT": "Italian"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the test score of Farsi and Urdu?",
+    "Answer": "0.20",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference between the test scores of Farsi and Urdu is calculated by subtracting the Urdu score (87.33) from the Farsi score (90.53).",
+    "GT": "0.20"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average test score for the languages with a test score above 90?",
+    "Answer": "90.63",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average test score for languages with a test score above 90 is calculated by averaging the scores of Italian (91.15) and Urdu (90.65).",
+    "GT": "90.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lowest test score?",
+    "Answer": "85.17",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lowest test score is directly extracted from the 'Test Baseline' column of the first row.",
+    "GT": "89.55"
+  }
+]

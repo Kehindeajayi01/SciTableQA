@@ -1,0 +1,48 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the primary public access communication channel for the EPA?",
+    "Answer": "EPA.GOV",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the 'Description' column of the first row.",
+    "GT": "EPA.GOV"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the domain for AirKnowledge training program?",
+    "Answer": "AIRKNOWLEDGE.GOV",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the 'DotGov Domain' column of the second row.",
+    "GT": "AIRKNOWLEDGE.GOV"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the vehicle for providing Air Quality Index (AQI) information to the public?",
+    "Answer": "AIRNOW.GOV",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the 'DotGov Domain' column of the third row.",
+    "GT": "AirNow
+The answer is directly extracted from the 'DotGov Domain' column of the third row."
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the name of the U.S. Environmental Protection Agency voluntary program for energy efficiency?",
+    "Answer": "ENERGY STAR",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the 'Description' column of the fourth row.",
+    "GT": "ENERGY STAR"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the domain for comprehensive environmental stewardship and compliance assistance information?",
+    "Answer": "FEDCENTER.GOV",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly extracted from the 'DotGov Domain' column of the fifth row.",
+    "GT": "FEDCENTER.GOV"
+  }
+]

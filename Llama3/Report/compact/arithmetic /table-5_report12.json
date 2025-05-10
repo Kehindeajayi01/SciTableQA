@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of vehicles that are leased and run on E85 FF fuel?",
+    "Answer": "26",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "This question involves referencing cells .3 and .6 of row 21 and row 22. The total number of vehicles that are leased and run on E85 FF fuel is the sum of these two values, which is 26.",
+    "GT": "67"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of EPAct Credits for vehicles that are purchased and run on GAS HY fuel?",
+    "Answer": "1",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-5.csv",
+    "Explanation": "This question involves referencing cells .4 and .6 of rows 4 and 5. The average number of EPAct Credits is the sum of these two values divided by 2, which is 1.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of vehicles that are light and medium duty vehicles and run on GAS PH fuel?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "This question involves referencing cells .1 and .6 of row 6. The total number of vehicles that are light and medium duty vehicles and run on GAS PH fuel is the value in cell .6, which is 1.",
+    "GT": "6"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of vehicles that are leased and run on GAS AF fuel?",
+    "Answer": "6",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "This question involves referencing cells .3 and .6 of rows 9, 17, and 23. The total number of vehicles that are leased and run on GAS AF fuel is the sum of these three values, which is 6.",
+    "GT": "11"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of EPAct Credits for vehicles that are purchased and run on E85 FF fuel?",
+    "Answer": "53",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "This question involves referencing cell .6 of row 26. The total number of EPAct Credits for vehicles that are purchased and run on E85 FF fuel is the value in cell .6, which is 53.",
+    "GT": "Irrelevant question"
+  }
+]

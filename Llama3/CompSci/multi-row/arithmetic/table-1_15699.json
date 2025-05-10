@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average improvement in MAP between the Open- and NUS- models?",
+    "Answer": "0.0893 - 0.1762 = -0.0869",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the MAP values of the Open- and NUS- models to find the average improvement.",
+    "GT": "0.0893 - 0.1762 = -0.0869"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage change in AUC between the Images and TC12 models?",
+    "Answer": "(0.6948 - 0.7086) / 0.6948 = -1.52%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the AUC values of the Images and TC12 models to find the percentage change.",
+    "GT": "(0.6948 - 0.7086) / 0.6948 = -1.52%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average MAP value of the models that have an improvement of more than 5% in AUC?",
+    "Answer": "(0.0564 + 0.1629) / 2 = 0.1097",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The question filters the models with an improvement of more than 5% in AUC and calculates the average MAP value.",
+    "GT": "(0.0564 + 0.1629) / 2 = 0.1097"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in Pre@5 between the VSE-ens and WARP models?",
+    "Answer": "0.2869 - 0.2628 = 0.0241",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the Pre@5 values of the VSE-ens and WARP models to find the difference.",
+    "GT": "0.2869 - 0.2628 = 0.0241"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Rec@10 of the models that have an AUC greater than 0.7?",
+    "Answer": "(0.4342 + 0.4136) / 2 = 0.4239",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The question filters the models with an AUC greater than 0.7 and calculates the average Rec@10 value.",
+    "GT": "(0.4342 + 0.4136) / 2 = 0.4239"
+  }
+]

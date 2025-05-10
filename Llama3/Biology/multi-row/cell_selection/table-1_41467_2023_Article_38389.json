@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the type of XL-228?",
+    "Answer": "inhibitor",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Type' column of the table, where XL-228 is listed as an inhibitor.",
+    "GT": "inhibitor"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the clinical indication for which dasatinib alleviates symptoms?",
+    "Answer": "RA in mouse models",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Clinical indication' and 'Application in immune-mediated diseases' columns of the table, where dasatinib is listed as alleviating symptoms of RA in mouse models.",
+    "GT": "cancer"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the phase status of tosedostat for ERAP2?",
+    "Answer": "-",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Phase' column of the table, where tosedostat for ERAP2 is listed as having no phase status.",
+    "GT": "-"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the type of abatacept?",
+    "Answer": "CTLA4-mimicking",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Type' column of the table, where abatacept is listed as a CTLA4-mimicking agent.",
+    "GT": "CTLA4-mimicking"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which drug is listed as having a predisposing effect for MS?",
+    "Answer": "firategrast",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Application in immune-mediated diseases' and 'Phase' columns of the table, where firategrast is listed as having a predisposing effect for MS and is in phase II completed.",
+    "GT": "firategrast"
+  }
+]

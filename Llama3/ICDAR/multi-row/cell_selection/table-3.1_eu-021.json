@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total count of patients who suffered from Allergy problems?",
+    "Answer": "93",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value in the 'Count' column for the 'Allergy problems' row.",
+    "GT": "93"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of patients who suffered from Anxiety disorder?",
+    "Answer": "16.4%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value in the 'Percentage' column for the 'Anxiety disorder' row.",
+    "GT": "16.4%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many patients suffered from Chronic fatigue syndrome?",
+    "Answer": "19",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value in the 'Count' column for the 'Chronic fatigue syndrome' row.",
+    "GT": "19"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total count of patients who suffered from Back pain?",
+    "Answer": "202",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value in the 'Count' column for the 'Back pain' row.",
+    "GT": "202"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many patients suffered from both Asthma and Chronic fatigue syndrome?",
+    "Answer": "0",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value in the 'Count' column for the intersection of 'Asthma' and 'Chronic fatigue syndrome' rows. Since the value is 0, it means no patients suffered from both conditions.",
+    "GT": "Asthma: 31, Chronic fatigue syndromeL: 19 (Can't find the total who have both based on the data)"
+  }
+]

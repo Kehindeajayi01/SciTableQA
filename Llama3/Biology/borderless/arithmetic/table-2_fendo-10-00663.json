@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average age of subjects with a family history of diabetes?",
+    "Answer": "12",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "Calculated by averaging the values in cells 3 and 4.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many subjects have a combination of hypertension and high blood glucose?",
+    "Answer": "1",
+    "QuestionType": "Count",
+    "TableName": "table-2.csv",
+    "Explanation": "Counted the number of subjects with values in cells 8 and 9 both equal to 1.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average BMI of subjects who are non-smokers and have a family history of cardiovascular disease?",
+    "Answer": "11",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "Calculated by averaging the values in cells 3 and 14, then filtering the result for non-smokers (cell 12 = 2).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of subjects with a history of high blood glucose and physical activity?",
+    "Answer": "2",
+    "QuestionType": "Count",
+    "TableName": "table-2.csv",
+    "Explanation": "Counted the number of subjects with values in cells 9 and 10 both equal to 2.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average height of subjects with a prescription medication history?",
+    "Answer": "3",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "Calculated by averaging the values in cells 3 and 5.",
+    "GT": "Irrelevant question"
+  }
+]

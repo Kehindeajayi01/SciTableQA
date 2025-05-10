@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of students assessed in schools that participated from the Alberta-CAN region?",
+    "Answer": "3,789",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing the cells: 'Sampled students in participating schools' for Alberta-CAN (4,292) and 'Students assessed' for Alberta-CAN (3,789)",
+    "GT": "26"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in the number of schools that participated from the original sample in Ontario-CAN and Quebec-CAN regions?",
+    "Answer": "8",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing the cells: 'Schools in original sample' for Ontario-CAN (200) and Quebec-CAN (200), and 'Schools in original sample that participated' for Ontario-CAN (189) and Quebec-CAN (190)",
+    "GT": "Ontario-CAN: 12, Quebec-CAN: 11"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of eligible schools in the original sample that participated from the Maltese-MLT region?",
+    "Answer": "95%",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing the cells: 'Eligible schools in original sample' for Maltese-MLT (99) and 'Schools in original sample that participated' for Maltese-MLT (95)",
+    "GT": "100%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of students assessed in schools that participated from the Andalusia-ESP region?",
+    "Answer": "4,333",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing the cells: 'Sampled students in participating schools' for Andalusia-ESP (4,652) and 'Students assessed' for Andalusia-ESP (4,333)",
+    "GT": "4,333"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in the number of schools that participated from the original sample in Florida-USA and Dubai-UAE regions?",
+    "Answer": "61",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing the cells: 'Schools in original sample' for Florida-USA (81) and Dubai-UAE (152), and 'Schools in original sample that participated' for Florida-USA (77) and Dubai-UAE (138)",
+    "GT": "61"
+  }
+]

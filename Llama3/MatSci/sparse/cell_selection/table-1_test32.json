@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the density of M2 alloy?",
+    "Answer": "7.99",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The density of M2 alloy is directly mentioned in the table as 7.99 g/cm\u00b3.",
+    "GT": "7.99"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest hardness value?",
+    "Answer": "M2Fe",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The hardness value for M2Fe is 414 \u00b1 8, which is the highest among all the alloys listed in the table.",
+    "GT": "M2Fe"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of Mo in M3 alloy?",
+    "Answer": "14.1",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of Mo in M3 alloy is directly mentioned in the table as 14.1%.",
+    "GT": "14.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy contains the highest percentage of Ti?",
+    "Answer": "None (since no alloy contains Ti)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "None of the alloys listed in the table contain Ti.",
+    "GT": "M3Fe"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of hardness for M2 and M3 alloys?",
+    "Answer": "284.5",
+    "QuestionType": "Calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average value of hardness for M2 and M3 alloys can be calculated by averaging the hardness values for M2 (282 \u00b1 6) and M3 (287 \u00b1 6).",
+    "GT": "284.5 ± 6"
+  }
+]

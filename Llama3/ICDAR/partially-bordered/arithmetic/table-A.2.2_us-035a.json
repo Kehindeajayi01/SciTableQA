@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average population growth rate between the ages of 40 and 50?",
+    "Answer": "1,032,381",
+    "QuestionType": "comparison",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The average population growth rate is calculated by taking the average of the differences in population between consecutive age groups, i.e., (2,468,083 - 2,375,849) + (2,375,849 - 2,325,572) + ... + (2,347,068 - 2,295,077) and dividing it by the number of age groups (11)",
+    "GT": "-27,704.2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total population of individuals above 55 years old?",
+    "Answer": "6,692,427",
+    "QuestionType": "comparison",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The total population of individuals above 55 years old is calculated by summing the population of all age groups above 55, i.e., 2,390,440 + 2,329,790 + ... + 1,111,480",
+    "GT": "56,887,022"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average population decline rate between the ages of 70 and 80?",
+    "Answer": "-203,576",
+    "QuestionType": "comparison",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The average population decline rate is calculated by taking the average of the differences in population between consecutive age groups, i.e., (1,621,476 - 1,516,900) + (1,439,723 - 1,371,235) and dividing it by the number of age groups (3)",
+    "GT": "-79,385.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total population of individuals in the age range of 60-69?",
+    "Answer": "6,412,912",
+    "QuestionType": "comparison",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The total population of individuals in the age range of 60-69 is calculated by summing the population of all age groups in this range, i.e., 2,160,937 + 2,073,764 + ... + 1,621,476",
+    "GT": "18,870,102"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average population growth rate between the ages of 40 and 60?",
+    "Answer": "343,183",
+    "QuestionType": "comparison",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The average population growth rate is calculated by taking the average of the differences in population between consecutive age groups, i.e., (2,468,083 - 2,375,849) + (2,375,849 - 2,325,572) + ... + (2,347,068 - 2,295,077) and dividing it by the number of age groups (11)",
+    "GT": "-15,344.2"
+  }
+]

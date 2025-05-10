@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in \u03c3_0.2 (MPa) between NbTiZr and NbTiZrV?",
+    "Answer": "90",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The difference is calculated by subtracting the \u03c3_0.2 (MPa) value of NbTiZr (75) from the \u03c3_0.2 (MPa) value of NbTiZrV (467).",
+    "GT": "70"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average \u03c3_p (MPa) value across all alloys?",
+    "Answer": "144.5",
+    "QuestionType": "average",
+    "TableName": "table-5.csv",
+    "Explanation": "The average \u03c3_p (MPa) value is calculated by adding the \u03c3_p (MPa) values of all alloys (150 + 79 + 562 + 203 + 270 + 93) and dividing by the number of alloys (6).",
+    "GT": "226.2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage increase in \u03c3_10 (MPa) from NbTiZr to NbTiZrV?",
+    "Answer": "59.09%",
+    "QuestionType": "percentage",
+    "TableName": "table-5.csv",
+    "Explanation": "The percentage increase is calculated by dividing the difference in \u03c3_10 (MPa) values (438 - 110 = 328) by the original value (110) and multiplying by 100.",
+    "GT": "-38.18%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the \u03c3_20 (MPa) value of the alloy with the lowest \u03c3_20 (MPa) value?",
+    "Answer": "58",
+    "QuestionType": "identification",
+    "TableName": "table-5.csv",
+    "Explanation": "The \u03c3_20 (MPa) value of the alloy with the lowest \u03c3_20 (MPa) value is 58, which is the value in row 3, column 3 (NbTiZr).",
+    "GT": "58"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in \u03c3_0.2 (MPa) between NbTiZr and NbTiZrVAl0.24?",
+    "Answer": "65",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The difference is calculated by subtracting the \u03c3_0.2 (MPa) value of NbTiZr (82) from the \u03c3_0.2 (MPa) value of NbTiZrVAl0.24 (145).",
+    "GT": "63"
+  }
+]

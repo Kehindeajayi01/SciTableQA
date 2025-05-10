@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of patients with permanent weakness in the current study compared to the other studies?",
+    "Answer": "47% vs 28%",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The percentage of patients with permanent weakness in the current study is 47%, compared to 28% in the other studies.",
+    "GT": "47% vs 28%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many patients in the current study have age at onset between 15-30 years, and what is the corresponding percentage?",
+    "Answer": "5, 8%",
+    "QuestionType": "arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "There are 5 patients in the current study with age at onset between 15-30 years, which is 8% of the total patients (5/60).",
+    "GT": "5, 8%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in the percentage of patients with positive family history between the current study and the other studies?",
+    "Answer": "28%",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The percentage of patients with positive family history in the current study is 25%, compared to 53% in the other studies, which is a difference of 28% (53% - 25%).",
+    "GT": "28%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of patients in the current study with age at diagnosis between 10-30 years?",
+    "Answer": "32%",
+    "QuestionType": "arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "There are 19 patients in the current study with age at diagnosis between 10-30 years, which is 32% of the total patients (19/60).",
+    "GT": "32%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in the percentage of patients with CK elevation between the current study and the other studies?",
+    "Answer": "0%",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The percentage of patients with CK elevation in the current study is 100%, which is the same as in the other studies (100%).",
+    "GT": "0%"
+  }
+]

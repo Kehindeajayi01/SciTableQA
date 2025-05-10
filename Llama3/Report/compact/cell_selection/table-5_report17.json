@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the EPA Protocol Certified Gas Component with the highest number of instances in the table?",
+    "Answer": "SO2",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The EPA Protocol Certified Gas Component with the highest number of instances in the table is SO2, which appears 1 time.",
+    "GT": "SO2, NO, NO2, N2O, CO2, CO, O2, PPN, CH4, HE, H2S The EPA Protocol Certified Gas Component with the highest number of instances in the table are SO2, NO, NO2, N2O, CO2, CO, O2, PPN, CH4, HE, H2S. which appears 1 time "
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the EPA-approved gas blend code that does not report certified components?",
+    "Answer": "APPVD",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The EPA-approved gas blend code that does not report certified components is APPVD, as indicated in the table.",
+    "GT": "APPVD"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the Standard reference material code?",
+    "Answer": "SRM",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The Standard reference material code is SRM, as indicated in the table.",
+    "GT": "SRM"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the Gas manufacturers intermediate standard code?",
+    "Answer": "GMIS",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The Gas manufacturers intermediate standard code is GMIS, as indicated in the table.",
+    "GT": "GMIS"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the Zero gas code used for low-level calibration of a reference analyzer?",
+    "Answer": "ZERO",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The Zero gas code used for low-level calibration of a reference analyzer is ZERO, as indicated in the table.",
+    "GT": "ZERO"
+  }
+]

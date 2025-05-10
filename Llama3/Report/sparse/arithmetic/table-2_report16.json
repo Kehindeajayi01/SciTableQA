@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total amount of Chromium Compounds emission limit for Gas-fired Glass-Melting Furnace in pounds per ton?",
+    "Answer": "0.00025 lb/ton",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by referencing cell 1 in the table, which corresponds to the emission limit for Chromium Compounds in Gas-fired Glass-Melting Furnace.",
+    "GT": "0.00025 lb/ton"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in Phenol emission limits between New Flame Attenuation Lines and Existing Flame Attenuation Lines?",
+    "Answer": "0.23 lb/ton",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by referencing cells 2 and 5 in the table, which correspond to the emission limits for Phenol in New Flame Attenuation Lines and Existing Flame Attenuation Lines, respectively. The difference is calculated by subtracting the emission limit for Existing Flame Attenuation Lines from that of New Flame Attenuation Lines.",
+    "GT": "0.96 lb/ton"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average emission limit for Formaldehyde across all rows in the table?",
+    "Answer": "3.6 lb/ton",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by referencing cells 3, 5, and 6 in the table, which correspond to the emission limits for Formaldehyde in New Flame Attenuation Lines, Existing Flame Attenuation Lines, and Gas-fired Glass-Melting Furnace, respectively. The average is calculated by adding the emission limits and dividing by 3.",
+    "GT": "4.1 lb/ton"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total amount of Methanol emission limits for Existing Flame Attenuation Lines and Gas-fired Glass-Melting Furnace in pounds per ton?",
+    "Answer": "0.50 lb/ton",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by referencing cells 7 and 1 in the table, which correspond to the emission limits for Methanol in Existing Flame Attenuation Lines and Gas-fired Glass-Melting Furnace, respectively. The total is calculated by adding the emission limits.",
+    "GT": "0.50 lb/ton"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of PM emission limit to Phenol emission limit in New and Existing Glass-Melting Furnaces?",
+    "Answer": "0.75",
+    "QuestionType": "Ratio",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived by referencing cells 0 and 2 in the table, which correspond to the emission limits for PM and Phenol in New and Existing Glass-Melting Furnaces, respectively. The ratio is calculated by dividing the PM emission limit by the Phenol emission limit.",
+    "GT": "Irrelevant question"
+  }
+]

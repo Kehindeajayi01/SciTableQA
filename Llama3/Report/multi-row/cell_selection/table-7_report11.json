@@ -1,0 +1,48 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total CH4 Emissions (MT CO2e) from Mains?",
+    "Answer": "3,551,922",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 0, column 5.",
+    "GT": "10707304 
+The total emissions (MT CO2e) of all mains is the sum of cast iron, unprotected steel, protected steel, plastic"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which material has the highest CH4 EF (Mscfy/mile) for AD source?",
+    "Answer": "3.07",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 3, column 3.",
+    "GT": "Cast iron has the highest CH4 EF (Mscfy/mile)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total CH4 Emissions (MT CO2e) from Protected Steel services?",
+    "Answer": "1,253,616",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 7, column 5.",
+    "GT": "1,253,616"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which material has the lowest CH4 EF (Mscfy/service) for Services?",
+    "Answer": "0.01",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 8, column 4.",
+    "GT": "Plastic has the lowest CH4 EF (Mscfy-service) for the Services"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total CH4 Emissions (MT CO2e) from Plastic?",
+    "Answer": "3,219,958",
+    "QuestionType": "Cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 4, column 5.",
+    "GT": "3,426,588 is the total CH$ Emissions (MT CO2E) from plastic, this is the sum of mains and services"
+  }
+]

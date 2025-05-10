@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of districts granted exceptions to exceed the 1% cap in states that included scores of students taking alternate assessments based on alternate achievement standards?",
+    "Answer": "7",
+    "QuestionType": "Count",
+    "TableName": "Unknown_1",
+    "Explanation": "Counted the number of districts granted exceptions in states where 'State included scores of students taking alternate assessments based on alternate achievement standards' is 'Yes'",
+    "GT": "172"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of states that granted exceptions to districts to exceed the 1% cap in 2005-06 testing?",
+    "Answer": "57.14%",
+    "QuestionType": "Percentage",
+    "TableName": "Unknown_1",
+    "Explanation": "Calculated the percentage of states that granted exceptions in 2005-06 testing by dividing the number of states that granted exceptions (7) by the total number of states (12) and multiplying by 100",
+    "GT": "36.84%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of districts granted exceptions to exceed the 1% cap in states that included scores of students taking alternate assessments based on alternate achievement standards?",
+    "Answer": "11.5",
+    "QuestionType": "Average",
+    "TableName": "Unknown_1",
+    "Explanation": "Calculated the average number of districts granted exceptions by summing the number of districts granted exceptions (5 + na + ~100 + na + na + 14 + na + na + 53 + na + Respondent unsure) and dividing by the number of states (8)",
+    "GT": "9"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of states that included scores of students taking alternate assessments based on alternate achievement standards in 2003-04 testing?",
+    "Answer": "1",
+    "QuestionType": "Count",
+    "TableName": "Unknown_1",
+    "Explanation": "Counted the number of states that included scores of students taking alternate assessments based on alternate achievement standards in 2003-04 testing",
+    "GT": "19"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of states that granted exceptions to districts to exceed the 1% cap in 2003-04 testing?",
+    "Answer": "1",
+    "QuestionType": "Count",
+    "TableName": "Unknown_1",
+    "Explanation": "Counted the number of states that granted exceptions to districts to exceed the 1% cap in 2003-04 testing",
+    "GT": "3"
+  }
+]

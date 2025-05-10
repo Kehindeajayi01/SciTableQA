@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total length of the forward primer for the UGT1A1 region?",
+    "Answer": "34",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The total length of the forward primer is calculated by summing up the number of characters in each primer sequence. For the UGT1A1 region, the forward primer sequences are GAAACCTAATAAAGCTCCACCTTC, TCATTTAAAGGGACCACGCC, ACGTAGTGCATACACCCTTG, and GAAACAGGTTTCCTTTCCCAAG. The total length is 34 characters.",
+    "GT": "75"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average length of the reverse primer for the UGT1A1 region?",
+    "Answer": "24.5",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average length of the reverse primer is calculated by summing up the number of characters in each primer sequence and dividing by the number of sequences. For the UGT1A1 region, the reverse primer sequences are TTGCTCAGCATATATCTGGGGC, GGAAAAGCCAAATCTAAGGTTCC, GAAACAACGCTATTAAATGCTACG, and CAGAGGGGGCACGATACATA. The total length is 98 characters, and the average length is 98/4 = 24.5 characters.",
+    "GT": "22.25"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in length between the longest and shortest forward primer for the UGT1A1 region?",
+    "Answer": "10",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The longest forward primer is GAAACCTAATAAAGCTCCACCTTC with 34 characters, and the shortest forward primer is TCATTTAAAGGGACCACGCC with 24 characters. The difference in length is 34 - 24 = 10 characters.",
+    "GT": "4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of sequences in the UGT1A1 region that have an 'A' character in the reverse primer?",
+    "Answer": "75%",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The reverse primer sequences are TTGCTCAGCATATATCTGGGGC, GGAAAAGCCAAATCTAAGGTTCC, GAAACAACGCTATTAAATGCTACG, and CAGAGGGGGCACGATACATA. The number of sequences with an 'A' character in the reverse primer is 3 (GGAAAAGCCAAATCTAAGGTTCC, GAAACAACGCTATTAAATGCTACG, and CAGAGGGGGCACGATACATA). The total number of sequences is 4, so the percentage is (3/4)*100 = 75%.",
+    "GT": "100%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of 'C' characters in the forward primer for the UGT1A1 region?",
+    "Answer": "2.5",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The forward primer sequences are GAAACCTAATAAAGCTCCACCTTC, TCATTTAAAGGGACCACGCC, ACGTAGTGCATACACCCTTG, and GAAACAGGTTTCCTTTCCCAAG. The number of 'C' characters in each sequence is 2 in GAAACCTAATAAAGCTCCACCTTC, 2 in TCATTTAAAGGGACCACGCC, 2 in ACGTAGTGCATACACCCTTG, and 2 in GAAACAGGTTTCCTTTCCCAAG. The total number of 'C' characters is 8, and the average number is 8/4 = 2.5 characters.",
+    "GT": "6.5"
+  }
+]

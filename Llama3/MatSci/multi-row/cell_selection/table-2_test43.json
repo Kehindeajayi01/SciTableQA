@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the nominal composition of V0.25 alloy in terms of Nb?",
+    "Answer": "30.77",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in the 'Unknown_2' column of the first row of the table, corresponding to the 'V0.25' nominal composition.",
+    "GT": "30.77%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the standard deviation of Nb in the dendrite region of V0.5 alloy?",
+    "Answer": "1.40",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in the 'Nb' column of the fifth row of the table, corresponding to the 'Dendrite (at. %)' region of the V0.5 alloy.",
+    "GT": "1.05%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the K value in the interdendrite region of V0.75 alloy?",
+    "Answer": "1.09",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in the 'K C_(dr)/C_(id)' column of the ninth row of the table, corresponding to the 'Interdendrite (at. %)' region of the V0.75 alloy.",
+    "GT": "1.25"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average nominal composition of the alloys in terms of Mo?",
+    "Answer": "28.57",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by taking the average of the 'Mo' column values in the first, fourth, and eighth rows of the table, corresponding to the nominal compositions of V0.25, V0.5, and V0.75 alloys, respectively.",
+    "GT": "27.75%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the highest standard deviation of Ta in any region of any alloy?",
+    "Answer": "2.71",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by identifying the highest standard deviation value in the 'Ta' column across all rows and regions in the table.",
+    "GT": "2.71%"
+  }
+]

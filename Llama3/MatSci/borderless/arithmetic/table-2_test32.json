@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in Ti content between the Particle and Needles samples?",
+    "Answer": "20.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The Ti content for Particle is 59.4, and for Needles is 36.5, so the difference is 59.4 - 36.5 = 20.5",
+    "GT": "22.9%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average Nb content across all samples?",
+    "Answer": "13.2",
+    "QuestionType": "Average",
+    "TableName": "table-2.csv",
+    "Explanation": "To calculate the average Nb content, we add up the Nb values (4.2 + 37.0 + 68.0) and divide by the number of samples (3), resulting in 13.2",
+    "GT": "36.4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "",What is the ratio of N content in the Particle sample to the Needles sample?
+    "Answer": "1.84",
+    "QuestionType": "Ratio",
+    "TableName": "table-2.csv",
+    "Explanation": "The N content for Particle is 35.9, and for Needles is 19.5, so the ratio is 35.9 / 19.5 = 1.84",
+    "GT": "1.84"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total Fe content across all samples?",
+    "Answer": "5.0",
+    "QuestionType": "Sum",
+    "TableName": "table-2.csv",
+    "Explanation": "To calculate the total Fe content, we add up the Fe values (0.3 + 2.3 + 2.4), resulting in 5.0",
+    "GT": "5.0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in Mo content between the Needles and Matrix samples?",
+    "Answer": "4.9",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The Mo content for Needles is 4.7, and for Matrix is 9.6, so the difference is 9.6 - 4.7 = 4.9",
+    "GT": "4.9%"
+  }
+]

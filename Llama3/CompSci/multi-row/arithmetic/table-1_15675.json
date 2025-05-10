@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Source to Distortion Ratio (SDR) for the 'Vocal' and 'Bass' sources?",
+    "Answer": "2.04",
+    "QuestionType": "average",
+    "TableName": "Unknown_1",
+    "Explanation": "The average SDR for 'Vocal' is (2.05 + 2.25) / 2 = 2.15, and for 'Bass' is (1.33 + 2.81) / 2 = 2.07. The average of these two values is 2.04.",
+    "GT": "1.004"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the average Source to Interference Ratio (SIR) for 'Drum' and 'Other' sources?",
+    "Answer": "0.51",
+    "QuestionType": "difference",
+    "TableName": "Unknown_1",
+    "Explanation": "The average SIR for 'Drum' is (2.12 + 3.27) / 2 = 2.69, and for 'Other' is (1.57 + 1.87) / 2 = 1.72. The difference is 2.69 - 1.72 = 0.51.",
+    "GT": "5.2175"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total Source to Artifact Ratio (SAR) for all sources?",
+    "Answer": "34.51",
+    "QuestionType": "sum",
+    "TableName": "Unknown_1",
+    "Explanation": "The total SAR is the sum of SAR values for all rows: 6.09 + 6.88 + 6.96 + 5.72 + 6.48 + 6.78 + 4.97 + 5.98 + 3.49 + 5.05 + 5.64 + 6.81 = 34.51.",
+    "GT": "98.89"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average Source to Interference Ratio (SIR) for all sources?",
+    "Answer": "4.74",
+    "QuestionType": "average",
+    "TableName": "Unknown_1",
+    "Explanation": "The average SIR is the sum of SIR values for all rows divided by the number of rows: (6.46 + 7.50 + 8.34 + 9.39) / 4 = 4.74.",
+    "GT": "7.92"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the average Source to Distortion Ratio (SDR) for 'Vocal' and 'Drum' sources?",
+    "Answer": "0.83",
+    "QuestionType": "difference",
+    "TableName": "Unknown_1",
+    "Explanation": "The average SDR for 'Vocal' is 2.04, and for 'Drum' is 2.72. The difference is 2.72 - 2.04 = 0.83.",
+    "GT": "0.5"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average NMI index for the top 3 rows in the table?",
+    "Answer": "84.68",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The average NMI index is calculated by summing up the NMI index for the top 3 rows (83.72, 77.02, and 85.10) and dividing by 3.",
+    "GT": "81.94"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in NMI index between the Karate club and Friendship6?",
+    "Answer": "6.7",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The difference in NMI index is calculated by subtracting the NMI index of Friendship6 (77.02) from the NMI index of the Karate club (83.72).",
+    "GT": "6.7"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage increase in NMI index from row 4 to row 5?",
+    "Answer": "32.86",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The percentage increase is calculated by dividing the difference in NMI index (32.86) by the initial value (54.20) and multiplying by 100.",
+    "GT": "32.86"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average NMI index for the bottom 3 rows in the table?",
+    "Answer": "23.53",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The average NMI index is calculated by summing up the NMI index for the bottom 3 rows (17.06, 20.98, and 49.13) and dividing by 3.",
+    "GT": "27.46"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the NMI index for the Political blogs?",
+    "Answer": "45.68",
+    "QuestionType": "Simple",
+    "TableName": "Unknown_2",
+    "Explanation": "The NMI index for the Political blogs is directly obtained from the table.",
+    "GT": "45.68"
+  }
+]

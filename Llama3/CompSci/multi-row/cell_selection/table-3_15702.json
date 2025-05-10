@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the fine amount imposed by OSHA in the given example?",
+    "Answer": "$2000",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The fine amount is mentioned in the second topic, which is an OSHA fine.",
+    "GT": "$2000"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the time period covered by the systematic evaluation of English-language peer-reviewed literature mentioned in the AAP policy statement?",
+    "Answer": "1995-2010",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The time period is mentioned in the third topic, which quotes the AAP policy statement.",
+    "GT": "1995-2010"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the name of the film mentioned in the fifth topic?",
+    "Answer": "Die Welle",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The film name is mentioned in the fifth topic, which describes the film's plot.",
+    "GT": "Die Welle"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the genre of the film mentioned in the ninth topic?",
+    "Answer": "Thriller",
+    "QuestionType": "Inference",
+    "TableName": "table-3.csv",
+    "Explanation": "The ninth topic mentions a knife fight scene, which is a characteristic of thriller films.",
+    "GT": "Thriller"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the name of the actor mentioned in the eighth topic?",
+    "Answer": "Will",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The actor's name is mentioned in the eighth topic, which discusses the film 'Elf'.",
+    "GT": "Will"
+  }
+]

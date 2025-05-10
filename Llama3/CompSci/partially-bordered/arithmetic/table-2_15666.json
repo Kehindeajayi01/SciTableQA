@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in AUC between the LRCN model with 1 conv. layer and the RNN model with 3 X 3 grid RoIs?",
+    "Answer": "0.046",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The AUC for LRCN with 1 conv. layer is 0.869, and for RNN with 3 X 3 grid RoIs is 0.823. The difference is calculated as 0.869 - 0.823 = 0.046.",
+    "GT": "0.046"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average AUC of the LRCN models with 1, 2, and 3 conv. layers?",
+    "Answer": "0.873",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "The AUC values for LRCN with 1, 2, and 3 conv. layers are 0.869, 0.872, and 0.879, respectively. The average is calculated as (0.869 + 0.872 + 0.879) / 3 = 0.873.",
+    "GT": "0.873"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in balanced accuracy between the RNN model with 8 semantic RoIs and the LRCN model with 3 conv. layers?",
+    "Answer": "0.020",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The balanced accuracy for RNN with 8 semantic RoIs is 0.821, and for LRCN with 3 conv. layers is 0.801. The difference is calculated as 0.821 - 0.801 = 0.020.",
+    "GT": "0.020"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average balanced accuracy of the RNN models with 5, 8, and 4 X 4 grid RoIs?",
+    "Answer": "0.796",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "The balanced accuracy values for RNN with 5, 8, and 4 X 4 grid RoIs are 0.802, 0.821, and 0.773, respectively. The average is calculated as (0.802 + 0.821 + 0.773) / 3 = 0.796.",
+    "GT": "0.798"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in AUC between the LRCN model with 2 conv. layers and the RNN model with 4 X 4 grid RoIs?",
+    "Answer": "0.005",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The AUC for LRCN with 2 conv. layers is 0.872, and for RNN with 4 X 4 grid RoIs is 0.828. The difference is calculated as 0.872 - 0.828 = 0.005.",
+    "GT": "0.044"
+  }
+]

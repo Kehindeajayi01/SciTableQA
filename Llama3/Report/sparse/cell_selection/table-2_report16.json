@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the pollutant emission limit for PM in New and Existing Glass-Melting Furnaces?",
+    "Answer": "0.33",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the table, in the 'New and Existing Glass-Melting Furnaces' row, under the 'Pollutant Emission Limit (lb/ton)' column.",
+    "GT": "0.33"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which pollutant has the highest emission limit in Existing Flame Attenuation Lines?",
+    "Answer": "Formaldehyde",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the emission limits for each pollutant in the 'Existing Flame Attenuation Lines' row, and finding the highest value, which belongs to Formaldehyde.",
+    "GT": "Formaldehyde"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the emission limit for Chromium Compounds in Gas-fired Glass-Melting Furnace?",
+    "Answer": "0.00025",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the table, in the 'Gas-fired Glass-Melting Furnace' row, under the 'Chromium Compounds' column.",
+    "GT": "0.00025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                               },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which pollutant has a lower emission limit in New and Existing Glass-Melting Furnaces compared to Existing Flame Attenuation Lines?",
+    "Answer": "Phenol",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the emission limits for Phenol in the 'New and Existing Glass-Melting Furnaces' and 'Existing Flame Attenuation Lines' rows, and finding that the value in the former is lower.",
+    "GT": "Phenol"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average emission limit for Methanol in the table?",
+    "Answer": "0.425",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is calculated by averaging the emission limits for Methanol in the table, which are 0.35, 0.50, and no value (since it's not applicable to the 'New Flame Attenuation Lines' row).",
+    "GT": "0.425"
+  }
+]

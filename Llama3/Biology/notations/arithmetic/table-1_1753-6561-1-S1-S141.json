@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of θ for genes with α1 greater than 1.5?",
+    "Answer": "0.47",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the average value of θ for genes with α1 greater than 1.5, I filtered the table to include only rows where α1 > 1.5 and then calculated the average of the θ values in those rows.",
+    "GT": "0.42".
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the sum of β1 and β2 for genes with θ greater than 0.5?",
+    "Answer": "3.35",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the sum of β1 and β2 for genes with θ greater than 0.5, I filtered the table to include only rows where θ > 0.5 and then calculated the sum of the β1 and β2 values in those rows.",
+    "GT": "13.37",
+    "RV": "1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the product of α1 and β2 for genes with θ less than 0.45?",
+    "Answer": "1.44",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the product of α1 and β2 for genes with θ less than 0.45, I filtered the table to include only rows where θ < 0.45 and then calculated the product of the α1 and β2 values in those rows.",
+    "GT": "2.59",
+    "RV": "1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average value of β2 for genes with α2 greater than 30?",
+    "Answer": "1.42",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the average value of β2 for genes with α2 greater than 30, I filtered the table to include only rows where α2 > 30 and then calculated the average of the β2 values in those rows.",
+    "GT": "0.51",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the average value of θ and the average value of β1 for all genes?",
+    "Answer": "0.23",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the difference between the average value of θ and the average value of β1 for all genes, I calculated the average of the θ values and the average of the β1 values separately, and then subtracted the average of β1 from the average of θ.",
+    "GT": "0.413",
+    "RV": "2"
+  }
+]

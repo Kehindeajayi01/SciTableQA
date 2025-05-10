@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Wildlife Criterion for birds in the table?",
+    "Answer": "65",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average Wildlife Criterion for birds is calculated by summing up the values for Kingfisher (33), Loon (82), Osprey (82), and Bald eagle (100) and dividing by 4.",
+    "GT": "74.25"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in Wildlife Criterion between the highest and lowest values in the table?",
+    "Answer": "43",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The highest value in the table is 100 (Bald eagle) and the lowest value is 33 (Kingfisher). The difference between these two values is 100 - 33 = 43.",
+    "GT": "67"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the median Wildlife Criterion for all organisms in the table?",
+    "Answer": "57",
+    "QuestionType": "median",
+    "TableName": "table-1.csv",
+    "Explanation": "To find the median, we need to arrange the values in order: 33, 42, 57, 82, 82, 100. Since there are an odd number of values, the middle value is the median, which is 57.",
+    "GT": "69.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total Wildlife Criterion for all mammals in the table?",
+    "Answer": "99",
+    "QuestionType": "sum",
+    "TableName": "table-1.csv",
+    "Explanation": "The total Wildlife Criterion for mammals is calculated by summing up the values for Mink (57) and River otter (42), which gives a total of 99.",
+    "GT": "99"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of Wildlife Criterion values for birds in the table?",
+    "Answer": "69",
+    "QuestionType": "range",
+    "TableName": "table-1.csv",
+    "Explanation": "The range of Wildlife Criterion values for birds is calculated by subtracting the lowest value (33) from the highest value (100), which gives a range of 100 - 33 = 69.",
+    "GT": "33-100"
+  }
+]

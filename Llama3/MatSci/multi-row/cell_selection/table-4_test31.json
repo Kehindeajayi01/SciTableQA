@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the composition of the alloy in row 1?",
+    "Answer": "(ScZrNb)_(1-x)[RhPd]_x, (0.35 \u2264 x \u2264 0.50)",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The composition of the alloy in row 1 is directly stated in the table.",
+    "GT": "(ScZrNb)1−x [RhPd]x (0.35 <= x <= 0.50) "
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the year of synthesis for the alloy in row 5?",
+    "Answer": "2018",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The year of synthesis is stated in the 'Year' column for the alloy in row 5.",
+    "GT": "2019"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the structure of the alloy in row 4?",
+    "Answer": "HCP",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The structure of the alloy in row 4 is stated in the 'structure' column.",
+    "GT": "BCC (a-Mn-type)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of x in the alloy in row 3?",
+    "Answer": "x = y = 0, 6.29",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The value of x is stated in the 'x' column for the alloy in row 3.",
+    "GT": "6.29"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of Hc_1(0) (mT) for the alloy in row 9?",
+    "Answer": "8.88",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The value of Hc_1(0) (mT) is stated in the 'Hc_1(0) (mT)' column for the alloy in row 9.",
+    "GT": "33 mT"
+  }
+]

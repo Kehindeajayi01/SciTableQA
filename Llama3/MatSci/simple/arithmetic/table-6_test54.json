@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in Specimen σ_0.2 (MPa) between Ti40Ni40-5 and Ti30Ni30-6?",
+    "Answer": "58",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The Specimen σ_0.2 (MPa) for Ti40Ni40-5 is 1070, and for Ti30Ni30-6 is 1574. The difference is calculated as 1574 - 1070 = 504, and then rounded to 58.",
+    "GT": "504"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average ε_p (%) for the specimens with σ_UCS (MPa) greater than 2000?",
+    "Answer": "2.45",
+    "QuestionType": "Average",
+    "TableName": "table-6.csv",
+    "Explanation": "The specimens with σ_UCS (MPa) greater than 2000 are Ti25Ni16.67-5 and Ti20Ni20-6. The average ε_p (%) is calculated as (0.65 + 2.4) / 2 = 2.45.",
+    "GT": "1.53"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage difference in ε_f (%) between Ti30Ni30-5 and Ti30Ni30-6?",
+    "Answer": "45.45",
+    "QuestionType": "Percentage Difference",
+    "TableName": "table-6.csv",
+    "Explanation": "The ε_f (%) for Ti30Ni30-5 is 4.4, and for Ti30Ni30-6 is 6.5. The percentage difference is calculated as (6.5 - 4.4) / 4.4 * 100 = 45.45.",
+    "GT": "2.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the median Specimen σ_0.2 (MPa) for all specimens?",
+    "Answer": "1630",
+    "QuestionType": "Median",
+    "TableName": "table-6.csv",
+    "Explanation": "The Specimen σ_0.2 (MPa) values are 1070, 1630, 1671, 1574, 1771, and 1312. The median is the middle value, which is 1630.",
+    "GT": "1602"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in σ_UCS (MPa) between the specimen with the highest ε_p (%) and the specimen with the lowest ε_p (%)?",
+    "Answer": "110",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The specimen with the highest ε_p (%) is Ti20Ni20-6 with 2.4, and the specimen with the lowest ε_p (%) is Ti25Ni16.67-5 with 0.65. The difference in σ_UCS (MPa) is 2274 - 2200 = 74, and then rounded to 110.",
+    "GT": "350"
+  }
+]

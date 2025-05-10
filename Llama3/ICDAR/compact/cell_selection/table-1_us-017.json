@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of students in PK-12 in the year 2000?",
+    "Answer": "53,373",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the year is 2000 and the grade level is PK-12.",
+    "GT": "53,373"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of students in Public schools in the year 1996?",
+    "Answer": "45,611",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the year is 1996 and the school type is Public.",
+    "GT": "91,222"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average change in the number of students in PK-12 from 1996 to 2000?",
+    "Answer": "1,292",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average change is calculated by subtracting the number of students in PK-12 in 1996 from the number of students in PK-12 in 2000 and dividing by 4.",
+    "GT": "457.25"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of students in Private schools in the year 2011?",
+    "Answer": "5,320",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the year is 2011 and the school type is Private.",
+    "GT": "10,640"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the projected number of students in PK-8 in the year 2021?",
+    "Answer": "41,861",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the year is 2021 and the grade level is PK-8.",
+    "GT": "41,861"
+  }
+]

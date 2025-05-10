@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the description of Retinopathy (RET) in the T2DM Complication table?",
+    "Answer": "eye disease caused by damage to the blood vessels in the tissue at the back of the eye (retina)",
+    "QuestionType": "cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The description of Retinopathy (RET) was directly extracted from the table's Description column.",
+    "GT": "eye disease caused by damage to the blood vessels in the tissue at the back of the eye (retina)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What are the example ICD codes for Retinopathy (RET) in the T2DM Complication table?",
+    "Answer": "25050, 25052, 24950, 24951, 36201-36207, E08311-E0839",
+    "QuestionType": "cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The example ICD codes for Retinopathy (RET) were directly extracted from the table's Example ICD codes column.",
+    "GT": "25050, 25052, 24950, 24951, 36201-36207, E08311-E0839"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many T2DM complications are listed in the table?",
+    "Answer": "5",
+    "QuestionType": "cell count",
+    "TableName": "T2DM Complication",
+    "Explanation": "The number of T2DM complications was counted by looking at the number of rows in the table.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the description of Neuropathy (NEU) in the T2DM Complication table?",
+    "Answer": "nerve damage most often affecting the legs and feet",
+    "QuestionType": "cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The description of Neuropathy (NEU) was directly extracted from the table's Description column.",
+    "GT": "nerve damage most often affecting the legs and feet"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the name of the T2DM complication listed in the table that is related to kidney disease?",
+    "Answer": "Nephrology (NEP)",
+    "QuestionType": "cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The name of the T2DM complication related to kidney disease was directly extracted from the table's Description column.",
+    "GT": "Nephrology (NEP)"
+  }
+]

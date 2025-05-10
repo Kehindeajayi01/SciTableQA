@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the HEAS phase of the alloy CuNiCoFeTi?",
+    "Answer": "fcc",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The HEAS phase is listed in the first column of the table, and the value for CuNiCoFeTi is 'fcc'.",
+    "GT": "fcc"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the value of Hv for the alloy CuNiFeCrAl0.2?",
+    "Answer": "12.01",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The value of Hv is listed in the 9th column of the table, and the value for CuNiFeCrAl0.2 is 12.01.",
+    "GT": ""
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many rows are there in the table?",
+    "Answer": "27",
+    "QuestionType": "table statistics",
+    "TableName": "table-1.csv",
+    "Explanation": "The table has 27 rows, which can be counted by manually counting the number of rows or using a programming language to iterate over the table.",
+    "GT": "90"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of \u0394H_mix for the alloy CuNi2 FeMn2 Cr?",
+    "Answer": "0.44",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The value of \u0394H_mix is listed in the 6th column of the table, and the value for CuNi2 FeMn2 Cr is 0.44.",
+    "GT": "0.44 Kj/mol"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the crystal structure of the alloy Cu0.75 NiCoFeCrTio.5 Al0.25?",
+    "Answer": "fcc",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The crystal structure is listed in the 2nd column of the table, and the value for Cu0.75 NiCoFeCrTio.5 Al0.25 is 'fcc'.",
+    "GT": "fcc"
+  }
+]

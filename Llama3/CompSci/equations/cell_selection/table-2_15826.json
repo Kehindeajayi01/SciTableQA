@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the memory complexity of the LSTM model?",
+    "Answer": "4(md + d^2) + 2dh + h",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the 'Model' column of the table.",
+    "GT": "4(md + d^2) + 2dh + h"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest number of parameters?",
+    "Answer": "AP-BiLSTM",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the values in the 'Params' column of the table.",
+    "GT": "AP-BiLSTM"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the memory complexity of the QRNN model?",
+    "Answer": "3 kdm + 2dh + h",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the 'Model' column of the table.",
+    "GT": "3 kdm + 2dh + h"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which models have the same memory complexity?",
+    "Answer": "QRNN, CTRN",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the values in the 'Model' column of the table and identifying the models with the same memory complexity.",
+    "GT": "QRNN, CTRN"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of parameters for the CTRN model?",
+    "Answer": "1.05M",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the 'Params' column of the table.",
+    "GT": "1.05M"
+  }
+]

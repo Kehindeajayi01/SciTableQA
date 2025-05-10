@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average lattice constant of the alloys with a grain size greater than 30 μm?",
+    "Answer": "3.089",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average lattice constant is calculated by taking the average of the lattice constants of rows 2 and 3, which have grain sizes greater than 30 μm.",
+    "GT": "3.089"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in lattice constant between the AlCrTiMo alloy and the Al0.75CrTiMo alloy?",
+    "Answer": "0.002",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in lattice constant is calculated by subtracting the lattice constant of Al0.75CrTiMo (3.092) from the lattice constant of AlCrTiMo (3.094).",
+    "GT": "0.002"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the lattice constant of the alloy with the smallest grain size?",
+    "Answer": "3.094",
+    "QuestionType": "identification",
+    "TableName": "table-2.csv",
+    "Explanation": "The alloy with the smallest grain size is AlCrTiMo, which has a grain size of 20 μm and a lattice constant of 3.094.",
+    "GT": "3.094"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of the lattice constant of the Al0.5CrTiMo alloy to the lattice constant of the Al0.25CrTiMo alloy?",
+    "Answer": "1.002",
+    "QuestionType": "ratio",
+    "TableName": "table-2.csv",
+    "Explanation": "The ratio is calculated by dividing the lattice constant of Al0.5CrTiMo (3.089) by the lattice constant of Al0.25CrTiMo (3.088).",
+    "GT": "1.000"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average grain size of the alloys with a lattice constant less than 3.093?",
+    "Answer": "34",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average grain size is calculated by taking the average of the grain sizes of rows 0 and 1, which have lattice constants less than 3.093.",
+    "GT": "38.67"
+  }
+]

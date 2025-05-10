@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average score for 'Emergent Literacy Scale (parent report)' in the table?",
+    "Answer": "0.35",
+    "QuestionType": "cell selection",
+    "TableName": "table-2b.csv",
+    "Explanation": "The answer is directly extracted from cell 3 in the table, which corresponds to the 'Emergent Literacy Scale (parent report)' measure.",
+    "GT": "0.26"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the score for 'Receptive Vocabulary (PPVT)'?",
+    "Answer": "0.18",
+    "QuestionType": "cell selection",
+    "TableName": "table-2b.csv",
+    "Explanation": "The answer is directly extracted from cell 6 in the table, which corresponds to the 'Receptive Vocabulary (PPVT)' measure.",
+    "GT": "0.18"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the score for 'Letter-Word Identification (WJIII)'?",
+    "Answer": "0.26",
+    "QuestionType": "cell selection",
+    "TableName": "table-2b.csv",
+    "Explanation": "The answer is directly extracted from cell 7 in the table, which corresponds to the 'Letter-Word Identification (WJIII)' measure.",
+    "GT": "0.26"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the score for 'Pre-Academic Skills (WJIII)'?",
+    "Answer": "0.22",
+    "QuestionType": "cell selection",
+    "TableName": "table-2b.csv",
+    "Explanation": "The answer is directly extracted from cell 10 in the table, which corresponds to the 'Pre-Academic Skills (WJIII)' measure.",
+    "GT": "0.22"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the score for 'Math Ability'?",
+    "Answer": "-0.19",
+    "QuestionType": "cell selection",
+    "TableName": "table-2b.csv",
+    "Explanation": "The answer is directly extracted from cell 31 in the table, which corresponds to the 'Math Ability' measure.",
+    "GT": "-0.19"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What percentage of genes identified as actionable have already known pre-EXOMA variants?",
+    "Answer": "40.5%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived from the cells in the 'Number of variants already known before EXOMA' column and the 'Number of genes' column, specifically the row corresponding to 'Actionable' genes.",
+    "GT": "40.5%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which gene has the highest percentage of variants identified as actionable?",
+    "Answer": "BRCA2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived from the cells in the 'Number of variants (% of all P/LP variants identified)' column, specifically the row corresponding to BRCA2.",
+    "GT": "BRCA2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of genes identified as actionable or non-actionable?",
+    "Answer": "108",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived from the sum of the 'Number of genes' column in both the 'Actionable' and 'Non-actionable' sections.",
+    "GT": "68"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What percentage of genes identified as non-actionable have variants related to recessive conditions?",
+    "Answer": "26.0%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived from the cells in the 'Total' row of the 'Others' section and the 'Number of genes' column.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which gene has the lowest percentage of variants identified as actionable?",
+    "Answer": "MITF",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived from the cells in the 'Number of variants (% of all P/LP variants identified)' column, specifically the row corresponding to MITF.",
+    "GT": "RAD51C, APC, POLDI, FLCN, NF1, SDHB, SDHD, ATM(bom)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest average accuracy achieved by any model in the table?",
+    "Answer": "90.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest average accuracy is achieved by the 'Bilinear-gated' model with a value of 90.8.",
+    "GT": "90.8"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the lowest average accuracy in the table?",
+    "Answer": "56.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lowest average accuracy is achieved by the 'Continuous' model with a value of 56.7.",
+    "GT": "Continuous"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average accuracy of the 'FastText' model?",
+    "Answer": "88.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average accuracy of the 'FastText' model is 88.0.",
+    "GT": "88.0"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the highest average accuracy among the 'Max-pooling', 'Gated', and 'Bilinear' models?",
+    "Answer": "90.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest average accuracy among the 'Max-pooling', 'Gated', and 'Bilinear' models is achieved by the 'Max-pooling' model with a value of 90.5.",
+    "GT": "Max-pooling"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average accuracy of the 'Additive' model?",
+    "Answer": "90.4",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average accuracy of the 'Additive' model is 90.4.",
+    "GT": "90.4"
+  }
+]

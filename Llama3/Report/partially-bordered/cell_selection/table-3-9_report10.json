@@ -1,0 +1,49 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total electricity generation capacity utilized in 2015?",
+    "Answer": "14.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The answer can be directly found in the 'Year' column and the 'Electricity Generation Capacity Utilized MW' row corresponding to 2015.",
+    "GT": "14.8"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total revenue in 2020?",
+    "Answer": "7,430",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The answer can be directly found in the 'Year' column and the 'Revenue $,000' row corresponding to 2020.",
+    "GT": "12,708
+The answer can be directly found in the 'Year' column and the 'Revenue $,000' row corresponding to 2020."
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average electricity sales price in the years 2016-2020?",
+    "Answer": "0.093",
+    "QuestionType": "calculation",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The answer can be calculated by averaging the 'Electricity Sales Price $/kWh' values for the years 2016-2020, which are 0.087, 0.089, 0.092, 0.095, and 0.098.",
+    "GT": "0.093""
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total cumulative cash flow in 2024?",
+    "Answer": "69,100",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The answer can be directly found in the 'Year' column and the 'Cumulative Cash Flow $,000' row corresponding to 2024.",
+    "GT": "69,100"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total operating income in 2017?",
+    "Answer": "5,974",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-9.csv",
+    "Explanation": "The answer can be directly found in the 'Year' column and the 'Operating Income $,000' row corresponding to 2017.",
+    "GT": "6,366
+"The answer can be directly found in the 'Year' column and the 'Operating Income $,000' row corresponding to 2017."
+  }
+]

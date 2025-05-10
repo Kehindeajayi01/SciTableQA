@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in mAP values between 24-bit and 32-bit components?",
+    "Answer": "0.005",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference in mAP values between 24-bit and 32-bit components is calculated by subtracting the mAP value for 24-bit components (0.131) from the mAP value for 32-bit components (0.137), resulting in 0.005.",
+    "GT": "0.006"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average increase in mAP values when moving from 32-bit to 48-bit components?",
+    "Answer": "0.013",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average increase in mAP values is calculated by averaging the differences in mAP values between 32-bit and 48-bit components for each component type (l_C, l_A, and l_N), resulting in 0.013.",
+    "GT": "0.012"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the mAP value for l_N + l_C + l_A components in 48-bit?",
+    "Answer": "0.395",
+    "QuestionType": "specific",
+    "TableName": "table-1.csv",
+    "Explanation": "The mAP value for l_N + l_C + l_A components in 48-bit is directly obtained from the table.",
+    "GT": "0.395"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in mAP values between l_C and l_A components in 48-bit?",
+    "Answer": "0.002",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference in mAP values between l_C and l_A components in 48-bit is calculated by subtracting the mAP value for l_A components (0.144) from the mAP value for l_C components (0.146), resulting in 0.002.",
+    "GT": "0.002"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average mAP value for all components in 32-bit?",
+    "Answer": "0.342",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average mAP value is calculated by averaging the mAP values for all component types (l_C, l_A, and l_N) in 32-bit, resulting in 0.342.",
+    "GT": "0.208"
+  }
+]

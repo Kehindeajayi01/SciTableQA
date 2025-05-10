@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the classification accuracy of the 'raw deep feature (4096-d)' on the CIFAR-10 dataset?",
+    "Answer": "82.6%",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the first row of the table.",
+    "GT": "82.6%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which compression scheme ('BP', 'CBE', 'FBE', 'KBE', or 'SP') has the highest classification accuracy on the CIFAR-10 dataset?",
+    "Answer": "TP(Ours)",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by comparing the classification accuracy of each compression scheme and selecting the one with the highest accuracy.",
+    "GT": "TP(Ours)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average encoding time (in ms) for the 'CBE' compression scheme?",
+    "Answer": "0.85",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by calculating the average encoding time for the 'CBE' compression scheme across all rows.",
+    "GT": "0.85"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the classification accuracy of the 'FBE' compression scheme with a storage size of 1024 bits?",
+    "Answer": "79.7%",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by selecting the cell that corresponds to the 'FBE' compression scheme with a storage size of 1024 bits.",
+    "GT": "79.7%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the encoding time (in ms) for the 'KBE' compression scheme with a storage size of 4096 bits and a block size of 1/16?",
+    "Answer": "3.55",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by selecting the cell that corresponds to the 'KBE' compression scheme with a storage size of 4096 bits and a block size of 1/16.",
+    "GT": "3.55"
+  }
+]

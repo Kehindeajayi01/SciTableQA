@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest average performance for the 'CBOW' model?",
+    "Answer": "0.7639",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the cell with the highest value in the 'CBOW' row.",
+    "GT": "0.7639"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the lowest average performance for the '3CosAdd' operation?",
+    "Answer": "GloVe",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the row with the lowest value in the '3CosAdd' column.",
+    "GT": "GloVe"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average performance difference between the 'Ours' and 'GloVe' models for the '3CosMul' operation?",
+    "Answer": "0.1263",
+    "QuestionType": "calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by subtracting the 'GloVe' value from the 'Ours' value in the '3CosMul' column.",
+    "GT": "0.105"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the highest average performance for the 'SG' operation?",
+    "Answer": "CBOW",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the row with the highest value in the 'SG' column.",
+    "GT": "3CosMul"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average performance for the 'Ours' model for the '3CosAdd' operation?",
+    "Answer": "0.7512",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is derived by selecting the cell with the value '0.7512' in the 'Ours' row and '3CosAdd' column.",
+    "GT": "0.7691"
+  }
+]

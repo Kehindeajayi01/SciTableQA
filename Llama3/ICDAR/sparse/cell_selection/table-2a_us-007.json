@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average score for the 'Receptive Vocabulary (PPVT)' measure?",
+    "Answer": "0.09",
+    "QuestionType": "cell selection",
+    "TableName": "table-2a.csv",
+    "Explanation": "The answer is directly extracted from cell 6 of the table.",
+    "GT": "0.09"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which measure has the highest average score?",
+    "Answer": "Pre-Academic Skills (WJIII)",
+    "QuestionType": "cell selection",
+    "TableName": "table-2a.csv",
+    "Explanation": "The answer is determined by finding the measure with the highest average score in the table, which is Pre-Academic Skills (WJIII) with a score of 0.19.",
+    "GT": "Emergent Literacy Scale (parent report)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average score for the 'Letter-Word Identification (WJIII)' measure?",
+    "Answer": "0.22",
+    "QuestionType": "cell selection",
+    "TableName": "table-2a.csv",
+    "Explanation": "The answer is directly extracted from cell 7 of the table.",
+    "GT": "0.22"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which measure has a missing value for the 'K' grade?",
+    "Answer": "Test of Phonological Processing (CTOPPP Elision)",
+    "QuestionType": "cell selection",
+    "TableName": "table-2a.csv",
+    "Explanation": "The answer is determined by finding the measure that has a missing value in the 'K' grade column, which is Test of Phonological Processing (CTOPPP Elision).",
+    "GT": "All"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average score for the 'ECLS-K Reading' measure?",
+    "Answer": "0.11",
+    "QuestionType": "cell selection",
+    "TableName": "table-2a.csv",
+    "Explanation": "The answer is directly extracted from cell 16 of the table.",
+    "GT": "0.11"
+  }
+]

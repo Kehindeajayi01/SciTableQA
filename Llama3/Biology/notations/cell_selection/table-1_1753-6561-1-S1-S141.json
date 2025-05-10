@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of θ in the table?",
+    "Answer": "0.46",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average value of θ is calculated by summing up all the values in the θ column and dividing by the total number of rows, excluding the last row which contains NaN values.",
+    "GT": "0.47",
+    "RV": "1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which gene has the highest value of α1?",
+    "Answer": "DDX17",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The gene with the highest value of α1 is identified by finding the maximum value in the α1 column.",
+    "GT": "DDX17",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the minimum value of α2 in the table?",
+    "Answer": "0.24",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The minimum value of α2 is identified by finding the minimum value in the α2 column.",
+    "GT": "2.42",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which gene has the highest value of α1?",
+    "Answer": "ALG6",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The gene with the highest value of α1 is identified by finding the maximum value in the α1 column.",
+    "GT": "DDX17",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of α1 in the table?",
+    "Answer": "0.83",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average value of α1 is calculated by summing up all the values in the α1 column and dividing by the total number of rows, excluding the last row which contains NaN values.",
+    "GT": "1.39",
+    "RV": "1"
+  }
+]

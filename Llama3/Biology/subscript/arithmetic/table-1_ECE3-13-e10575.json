@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of HE for sites with NA values greater than 30?",
+    "Answer": "0.596",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average value of HE is calculated by summing up the values of HE for sites with NA values greater than 30 and dividing by the count of such sites.",
+    "GT": "0.601"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the standard deviation of FIS for sites with N values greater than 10?",
+    "Answer": "0.103",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The standard deviation of FIS is calculated by subtracting the mean value of FIS from each value, squaring the differences, summing up the squared differences, and dividing by the count of sites with N values greater than 10.",
+    "GT": "0.00698"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the median value of HO for sites with AR values greater than 2.8?",
+    "Answer": "0.623",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The median value of HO is the middle value of the sorted values of HO for sites with AR values greater than 2.8.",
+    "GT": "0.612"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the sum of HE and HO for sites with NA values less than 20?",
+    "Answer": "1.456",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The sum of HE and HO is calculated by adding the values of HE and HO for sites with NA values less than 20.",
+    "GT": "1.827"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of NA to AR for sites with N values less than 15?",
+    "Answer": "0.143",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The ratio of NA to AR is calculated by dividing the values of NA by the values of AR for sites with N values less than 15.",
+    "GT": "11.039 (Sum of NA values with N less than 15 divided by the sum of AR values with N less than 15)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average body weight of male rats at Postnatal Day 14 when exposed to 1,000 ppm?",
+    "Answer": "31.0 g",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The average body weight of male rats at Postnatal Day 14 is calculated by averaging the values in cells (5, 3) and (5, 2), which are 31 and 5.8, respectively.",
+    "GT": "24.9"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage change in body weight of female rats at Postnatal Day 7 when exposed to 500 ppm compared to controls?",
+    "Answer": "100.0%",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The percentage change in body weight is calculated by subtracting the value in cell (11, 2) from the value in cell (9, 2), then dividing by the value in cell (9, 2), and multiplying by 100. The result is 100.0%.",
+    "GT": "100.0%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average concentration of male rats at Postnatal Day 20 when exposed to 2,000 ppm?",
+    "Answer": "31.6 ppm",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The average concentration of male rats at Postnatal Day 20 is calculated by averaging the values in cells (6, 0) and (6, 1), which are 31.6 and 5.8, respectively.",
+    "GT": "31.6g"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in body weight of male rats at Postnatal Day 4 when exposed to 250 ppm and 4,000 ppm?",
+    "Answer": "3.1 g",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The difference in body weight is calculated by subtracting the value in cell (3, 2) from the value in cell (7, 2), which is 3.1 g.",
+    "GT": "1.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average weight relative to controls of female rats at Postnatal Day 14 when exposed to 1,000 ppm?",
+    "Answer": "98.0%",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The average weight relative to controls is calculated by averaging the values in cells (12, 4) and (12, 5), which are 98 and 98, respectively.",
+    "GT": "98.0%"
+  }
+]

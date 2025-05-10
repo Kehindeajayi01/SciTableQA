@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total on-site green power usage (kWh) of Apple Inc.?",
+    "Answer": "494,969,149",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the first row of the table, where Apple Inc.'s on-site green power usage is 494,969,149 kWh.",
+    "GT": "494,969,149"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of total electricity use is on-site green power for Walmart Inc.?",
+    "Answer": "1%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the second row of the table, where Walmart Inc.'s on-site percentage of total electricity use is 1%.",
+    "GT": "1%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total green power purchased (kWh) by the State of California?",
+    "Answer": "188,847,319",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the third row of the table, where the State of California's total green power purchased is 188,847,319 kWh.",
+    "GT": "188,847,319"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which organization has the highest percentage of on-site green power usage?",
+    "Answer": "Amphitheater Public Schools (67%)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the 23rd row of the table, where Amphitheater Public Schools has the highest percentage of on-site green power usage at 67%.",
+    "GT": "The answer is directly obtained from the 28th row of the table, where Yolo County, CA has the highest percentage of on-site green power usage at 129%."
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total on-site green power usage (kWh) of IKEA?",
+    "Answer": "55,026,139",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the 7th row of the table, where IKEA's on-site green power usage is 55,026,139 kWh.",
+    "GT": "55,026,139"
+  }
+]

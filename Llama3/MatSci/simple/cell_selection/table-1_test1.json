@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the nominal percentage of Co in the characterization method?",
+    "Answer": "20",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 1 and column 2.",
+    "GT": "20"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of Fe in the characterization method using ICP-AES?",
+    "Answer": "19.90",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 2 and column 3.",
+    "GT": "19.90"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of Ni in the characterization method using ICP-AES?",
+    "Answer": "20.24",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 2 and column 5.",
+    "GT": "20.24"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of Mn in the characterization method using ICP-AES?",
+    "Answer": "20.18",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 2 and column 4.",
+    "GT": "20.18"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of Cr in the characterization method using ICP-AES?",
+    "Answer": "19.68",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 2 and column 2.",
+    "GT": "19.68"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in the percentage of Zr at 600\u00b0C and 800\u00b0C after 100 hours?",
+    "Answer": "27.9 - 12.2 = 15.7",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question compares the percentage of Zr at 600\u00b0C and 800\u00b0C after 100 hours. The answer is calculated by subtracting the value at 800\u00b0C from the value at 600\u00b0C.",
+    "GT": "0.4%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage change in Al from 600\u00b0C to 800\u00b0C after 100 hours?",
+    "Answer": "15.9 - 3.6 = 12.3",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question compares the percentage of Al at 600\u00b0C and 800\u00b0C after 100 hours. The answer is calculated by subtracting the value at 600\u00b0C from the value at 800\u00b0C.",
+    "GT": "280.56%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average percentage of Al, Nb, and Ti at 600\u00b0C after 100 hours?",
+    "Answer": "(3.6 + 4.4 + 4.6) / 3 = 4.2",
+    "QuestionType": "arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "The question calculates the average percentage of Al, Nb, and Ti at 600\u00b0C after 100 hours. The answer is calculated by adding the values of Al, Nb, and Ti and dividing by 3.",
+    "GT": "4.2%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of O at 800\u00b0C after 100 hours?",
+    "Answer": "43.2",
+    "QuestionType": "simple",
+    "TableName": "table-3.csv",
+    "Explanation": "The question asks for the percentage of O at 800\u00b0C after 100 hours. The answer is directly obtained from the table.",
+    "GT": "43.2%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in the percentage of V at 600\u00b0C and 800\u00b0C after 100 hours?",
+    "Answer": "27.9 - 12.8 = 15.1",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question compares the percentage of V at 600\u00b0C and 800\u00b0C after 100 hours. The answer is calculated by subtracting the value at 800\u00b0C from the value at 600\u00b0C.",
+    "GT": "15.7%"
+  }
+]

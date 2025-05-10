@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of Motor Vehicle Theft cases per year from 2005 to 2008?",
+    "Answer": "9,811.25",
+    "QuestionType": "Average",
+    "TableName": "Unknown_1",
+    "Explanation": "To calculate the average, I added up the Motor Vehicle Theft cases for each year (11,890 + 9,811 + 8,744 + 7,465) and divided by the number of years (4).",
+    "GT": "9,477.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in Forcible Sex Offense cases from 2005 to 2007?",
+    "Answer": "6.23%",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "To calculate the percentage increase, I first calculated the difference in Forcible Sex Offense cases between 2005 and 2007 (3,583 - 3,482 = 101). Then, I divided this difference by the initial value (3,583) and multiplied by 100.",
+    "GT": "-2.82%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of Burglary cases from 2005 to 2008?",
+    "Answer": "37,800",
+    "QuestionType": "Total",
+    "TableName": "Unknown_1",
+    "Explanation": "To calculate the total, I simply added up the Burglary cases for each year (37,800).",
+    "GT": "137,785"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average number of Arson cases per year from 2005 to 2008?",
+    "Answer": "1,024.75",
+    "QuestionType": "Average",
+    "TableName": "Unknown_1",
+    "Explanation": "To calculate the average, I added up the Arson cases for each year (1,219 + 1,086 + 915 + 825) and divided by the number of years (4).",
+    "GT": "1,011.25"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of Non-Forcible Sex Offense cases from 2005 to 2008?",
+    "Answer": "222",
+    "QuestionType": "Total",
+    "TableName": "Unknown_1",
+    "Explanation": "To calculate the total, I simply added up the Non-Forcible Sex Offense cases for each year (55 + 56 + 62 + 49 = 222).",
+    "GT": "222"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the number of occurrences of BCC?",
+    "Answer": "604",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the cell at row 0 and column 1.",
+    "GT": "604"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the number of occurrences of FCC?",
+    "Answer": "553",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the cell at row 2 and column 1.",
+    "GT": "553"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the number of occurrences of BCC + FCC?",
+    "Answer": "441",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the cell at row 3 and column 1.",
+    "GT": "441"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of occurrences of Amorphous?",
+    "Answer": "192",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the cell at row 8 and column 1.",
+    "GT": "192"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of occurrences?",
+    "Answer": "2478",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the cell at row 11 and column 1.",
+    "GT": "2478"
+  }
+]

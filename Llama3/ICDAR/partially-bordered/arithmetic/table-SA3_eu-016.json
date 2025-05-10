@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total percentage of domestic and imported goods in the EU Total?",
+    "Answer": "72.0",
+    "QuestionType": "Comparison",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The total percentage of domestic and imported goods in the EU Total is calculated by summing up the Domestic (%) and Imported (%) columns, which is 65.1 + 7.9 = 72.0",
+    "GT": "73.0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country has the highest percentage of unknown goods?",
+    "Answer": "Belgium",
+    "QuestionType": "Identification",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The country with the highest percentage of unknown goods is Belgium, with a value of 100.0",
+    "GT": "Belgium, Bulgaria, France, Italy, Netherlands, Romania, Slovenia, Liechtenstein"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average percentage of domestic goods in the EU countries?",
+    "Answer": "44.4",
+    "QuestionType": "Average",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The average percentage of domestic goods is calculated by summing up the Domestic (%) column values and dividing by the number of countries (27), which is (86.2 + 0 + ... + 24.0) / 27 = 44.4",
+    "GT": "50.9"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which country has the lowest total number of goods?",
+    "Answer": "Malta",
+    "QuestionType": "Identification",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The country with the lowest total number of goods is Malta, with a value of 85",
+    "GT": "Liechtenstein"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of EU countries with 100% unknown goods?",
+    "Answer": "5",
+    "QuestionType": "Count",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The total number of EU countries with 100% unknown goods is 5, which are Belgium, Bulgaria, Cyprus, Italy, and Poland",
+    "GT": "7"
+  }
+]

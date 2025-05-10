@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total energy consumption in megajoules of using spent foundry sand for road base and manufactured soil?",
+    "Answer": "45,700,000",
+    "QuestionType": "Comparison",
+    "TableName": "Table 1",
+    "Explanation": "The total energy consumption is calculated by adding the energy consumption for road base use (17,800,000) and manufactured soil use (27,900,000).",
+    "GT": "45,700,000"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How much water is consumed in 1,000 gallons when using spent foundry sand for road base and manufactured soil?",
+    "Answer": "7.8",
+    "QuestionType": "Comparison",
+    "TableName": "Table 1",
+    "Explanation": "The total water consumption is calculated by adding the water consumption for road base use (3,000) and manufactured soil use (4,800).",
+    "GT": "7,800"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total CO2 emissions in metric tons when using spent foundry sand for road base and manufactured soil?",
+    "Answer": "4,000",
+    "QuestionType": "Comparison",
+    "TableName": "Table 1",
+    "Explanation": "The total CO2 emissions is calculated by adding the CO2 emissions for road base use (1,500) and manufactured soil use (2,500).",
+    "GT": "4,000"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total avoided impacts in terms of energy consumption of using spent foundry sand for road base and manufactured soil?",
+    "Answer": "45,700,000",
+    "QuestionType": "Comparison",
+    "TableName": "Table 1",
+    "Explanation": "The total avoided impacts is the same as the total energy consumption, as it is equivalent to the annual electricity consumption of 800 homes.",
+    "GT": "45,700,000"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total avoided impacts in terms of water consumption when using spent foundry sand for road base and manufactured soil?",
+    "Answer": "7.8",
+    "QuestionType": "Comparison",
+    "TableName": "Table 1",
+    "Explanation": "The total avoided impacts is the same as the total water consumption, as it is equivalent to the amount of water to fill 12 Olympic swimming pools.",
+    "GT": "7.8 million gallons"
+  }
+]

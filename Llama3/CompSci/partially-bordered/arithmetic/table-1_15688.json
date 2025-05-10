@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average differential privacy level of the selected users?",
+    "Answer": "ln(6.4)",
+    "QuestionType": "calculation",
+    "TableName": "table-1",
+    "Explanation": "The average differential privacy level is calculated by taking the average of the differential privacy levels of the selected users, which is (ln(2) + ln(4) + ln(6) + ln(8)) / 4 = ln(6.4)",
+    "GT": "ln(6.4)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the proportion of users with a differential privacy level greater than the threshold?",
+    "Answer": "0.6667",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The proportion of users with a differential privacy level greater than the threshold is calculated by dividing the number of users with a differential privacy level greater than 0.7 by the total number of users, which is (3/4) = 0.6667",
+    "GT": "0.75"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of users in the selected group?",
+    "Answer": "1315",
+    "QuestionType": "lookup",
+    "TableName": "table-1",
+    "Explanation": "The total number of users in the selected group is directly obtained from the table as 1315",
+    "GT": "1315"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the probability of selecting a user from the frequent locations group?",
+    "Answer": "0.95",
+    "QuestionType": "lookup",
+    "TableName": "table-1",
+    "Explanation": "The probability of selecting a user from the frequent locations group is directly obtained from the table as 0.95",
+    "GT": "0.95"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of user groups?",
+    "Answer": "6",
+    "QuestionType": "lookup",
+    "TableName": "table-1",
+    "Explanation": "The total number of user groups is directly obtained from the table as 6",
+    "GT": "6"
+  }
+]

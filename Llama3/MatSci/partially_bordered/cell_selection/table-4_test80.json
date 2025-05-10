@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the fracture strength of \u03c3_f at Si0.5?",
+    "Answer": "1689.5",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value at row 0 and column 5.",
+    "GT": "1689.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the Vickers hardness (HV) at Fracture strain \u03b5_p (%) of 1.1?",
+    "Answer": "542.3",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value at row 2 and column 4.",
+    "GT": "542.3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the fracture strain \u03b5_p (%) at Vickers hardness (HV) of 546.7?",
+    "Answer": "0.85",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value at row 1 and column 6.",
+    "GT": "0.85"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the fracture strength \u03c3_f (MPa) at Si0.2?",
+    "Answer": "1621.7",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the value at row 0 and column 3.",
+    "GT": "1621.7"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average fracture strength \u03c3_f (MPa) across all Si values?",
+    "Answer": "1657.4",
+    "QuestionType": "Calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is calculated by summing up the values in the \u03c3_f column and dividing by the number of rows (6).",
+    "GT": "1698.7"
+  }
+]

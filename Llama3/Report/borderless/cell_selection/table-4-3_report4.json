@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the default value for the 'RW2' variable?",
+    "Answer": "0",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The default value for the 'RW2' variable is specified in the 'Default Value' column of the table.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the number of elements for the 'NNUCS' variable?",
+    "Answer": "1",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The number of elements for the 'NNUCS' variable is specified in the 'Number of Elements' column of the table.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the unit for the 'RR' variable?",
+    "Answer": "cm/y",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The unit for the 'RR' variable is specified in the 'Units' column of the table.",
+    "GT": "cm/y"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of the 'PH' variable?",
+    "Answer": "10",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The value of the 'PH' variable is specified in the 'Default Value' column of the table.",
+    "GT": "10"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of elements for the 'PR' variable?",
+    "Answer": "7",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-3.csv",
+    "Explanation": "The number of elements for the 'PR' variable is specified in the 'Number of Elements' column of the table.",
+    "GT": "7"
+  }
+]

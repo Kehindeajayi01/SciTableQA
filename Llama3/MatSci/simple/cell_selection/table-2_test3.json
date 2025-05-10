@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the composition with the highest U_iso(A²) value?",
+    "Answer": "HfNbTaTiZr",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest U_iso(A²) value is found in the composition HfNbTaTiZr.",
+    "GT": "NbTiVZr"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the composition with the lowest ε_1st(%) value?",
+    "Answer": "MoNbReTaW",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lowest ε_1st(%) value is found in the composition MoNbReTaW.",
+    "GT": "Nb"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of a (Ä) for the compositions containing Mo?",
+    "Answer": "3.1923",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of a (Ä) is calculated by summing the values for MoNbReTaTaVW, MoNbReTaVW, MoNbTaTiVW, MoNbTaV, and MoNbTiV, and dividing by 5.",
+    "GT": "3.1872"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the composition with the highest ε_1st(%) value?",
+    "Answer": "NbTaTiV",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest ε_1st(%) value is found in the composition NbTaTiV.",
+    "GT": "HfNNbTiZr"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the standard deviation of ε_1st(%) values for all compositions?",
+    "Answer": "0.44",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The standard deviation of ε_1st(%) values is calculated by finding the average deviation from the mean value.",
+    "GT": "0.70356"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the unit of measurement for the Concentration in air at ground level for each environmental location?",
+    "Answer": "pCi/cm^3",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-5.csv",
+    "Explanation": "The unit of measurement for the Concentration in air at ground level for each environmental location is specified in column 0 as pCi/cm^3.",
+    "GT": "pCi/cm3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the range of values for the Surface area of a uniform circular source?",
+    "Answer": "10 m\u00b2 to 6 m\u00b2",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-5.csv",
+    "Explanation": "The range of values for the Surface area of a uniform circular source is specified in column 4 as 6 m\u00b2, which is less than the minimum value of 10 m\u00b2.",
+    "GT": "10 m\u00b2 to 6 m\u00b2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the unit of measurement for the Activity median aerodynamic diameter of particulate nuclide?",
+    "Answer": "pm",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-5.csv",
+    "Explanation": "The unit of measurement for the Activity median aerodynamic diameter of particulate nuclide is specified in column 1 as pm.",
+    "GT": "pm"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many values does the Effective radiological decay constant in the plume have?",
+    "Answer": "NNUCS",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-5.csv",
+    "Explanation": "The Effective radiological decay constant in the plume has a value of NNUCS, which is a non-numerical value.",
+    "GT": "NNUCS"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the unit of measurement for the Breathing rate of man?",
+    "Answer": "cm^3/h",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4-5.csv",
+    "Explanation": "The unit of measurement for the Breathing rate of man is specified in column 5 as cm^3/h.",
+    "GT": "cm3^3/h"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the σ_0.2 (MPa) value for As-annealed MEA at 600 °C?",
+    "Answer": "813",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in the table at row 1, column 2.",
+    "GT": "813"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest σ_0.2 (MPa) value at 25 °C?",
+    "Answer": "2000",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in the table at row 10, column 2.",
+    "GT": "AlMo0.5NbTa0.5TiZr"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the σ_0.2 (MPa) value for NbTiVZr at 800 °C?",
+    "Answer": "187",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in the table at row 4, column 3.",
+    "GT": "187"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has a σ_0.2 (MPa) value less than 500 at 1000 °C?",
+    "Answer": "CrNbTiZr, NbTiV2Zr, NbTiVZr",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in the table by selecting the rows where the value in column 4 is less than 500.",
+    "GT": "As-Annealed MEA, NbTiV2Zr, NbTiVZr, CrNbTiZr, CrNbTiVZr, AlNbTiV, Al0.4Hf0.6NbTaTiZr, and AlNb1.5Ta0.5Ti1.5Zr0.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the σ_20 (MPa) value for NbTiV2Zr?",
+    "Answer": "-",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be directly found in the table at row 3, column 3.",
+    "GT": "Irrelevant question"
+  }
+]

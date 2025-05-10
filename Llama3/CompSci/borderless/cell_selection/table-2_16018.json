@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the number of LSTM layers used?",
+    "Answer": "1",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from cell 0 of the table.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the dimension of the hidden units?",
+    "Answer": "512",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from cell 1 of the table.",
+    "GT": "512"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the dimension of the trained word embedding?",
+    "Answer": "256",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from cell 2 of the table.",
+    "GT": "256"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the dimension of the English pretrained word embedding?",
+    "Answer": "100",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from cell 3 of the table.",
+    "GT": "100"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the dimension of the Chinese pretrained word embedding?",
+    "Answer": "200",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from cell 4 of the table.",
+    "GT": "200"
+  }
+]

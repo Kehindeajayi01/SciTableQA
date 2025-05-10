@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in accuracy between SASUM_sup and dppLSTM methods?",
+    "Answer": "2.5%",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The accuracy of SASUM_sup is 60.3\u00b10.3% and dppLSTM is - (not provided), so the difference is 60.3\u00b10.3% - - = 2.5%",
+    "GT": "60.3\u00b10.3%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Is the accuracy of SUM-GAN_sup method higher than the average accuracy of SASUM and SASUM_length methods?",
+    "Answer": "Yes",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The accuracy of SUM-GAN_sup is 62.5%, while the average accuracy of SASUM and SASUM_length is (57.6\u00b10.1% + 58.5\u00b10.3%) / 2 = 58.05%, which is lower than 62.5%",
+    "GT": "Yes"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average accuracy of Zhang et al. and Gygli et al. methods?",
+    "Answer": "61.8%",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The accuracy of Zhang et al. is 61.8%, which is the only provided value for this method",
+    "GT": "30.9%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Is the accuracy of SASUM method lower than the accuracy of SASUM_sup method?",
+    "Answer": "Yes",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The accuracy of SASUM is 57.6\u00b10.1%, which is lower than the accuracy of SASUM_sup, 60.3\u00b10.3%",
+    "GT": "Yes"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in accuracy between SASUM_length and SASUM methods?",
+    "Answer": "0.9%",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The accuracy of SASUM_length is 58.5\u00b10.3%, while the accuracy of SASUM is 57.6\u00b10.1%, so the difference is 58.5\u00b10.3% - 57.6\u00b10.1% = 0.9%",
+    "GT": "0.9%"
+  }
+]

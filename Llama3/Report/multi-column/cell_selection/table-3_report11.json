@@ -1,0 +1,48 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of GHGRP Total stations in 2013?",
+    "Answer": "84,049",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 3, column 2013.",
+    "GT": "84,049"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "In which year did GHGRP/Non-Transfer stations have the highest number?",
+    "Answer": "2012",
+    "QuestionType": "Cell comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by comparing the numbers in the GHGRP/Non-Transfer column across the three years and determining the highest number.",
+    "GT": "2013 
+The answer is obtained by comparing the numbers in the GHGRP/Non-Transfer column across the three years and determining the highest number"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between GHGRP Total and GHGI Total stations in 2011?",
+    "Answer": "20,975",
+    "QuestionType": "Cell subtraction",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by subtracting the GHGRP Total stations in 2011 from the GHGI Total stations in 2011.",
+    "GT": "20,975"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which type of station has a higher number of stations in 2013: Above Grade Stations or Below Grade Stations?",
+    "Answer": "Above Grade Stations",
+    "QuestionType": "Cell comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by comparing the numbers in the GHGRP Total column for Above Grade Stations and Below Grade Stations in 2013 and determining the higher number.",
+    "GT": "Above Grade Stations"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average annual increase in GHGRP Total stations from 2011 to 2013?",
+    "Answer": "2,351",
+    "QuestionType": "Cell calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by calculating the average annual increase by subtracting the 2011 value from the 2013 value and dividing by 2.",
+    "GT": "2,351"
+  }
+]

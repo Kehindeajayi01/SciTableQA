@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of objectives related to reducing or controlling risks to human health and the environment?",
+    "Answer": "2",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Counted the number of objectives with 'Objective 1 - Reduce or control risks to human health and the environment.'",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of GPRA Goals mentioned in the table?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "Counted the number of GPRA Goals mentioned in the table.",
+    "GT": "4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of objectives related to restoring and maintaining the chemical, physical, and biological integrity of the Great Lakes Basin Ecosystem?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Counted the number of objectives with 'Sub-objective 1.4 - Restore and maintain the chemical, physical, and biological integrity of the Great Lakes Basin Ecosystem'.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of objectives related to application of cleaner and cost-effective environmental practices and technologies?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Counted the number of objectives with 'Objective 5 - Application of cleaner and cost-effective environmental practices and technologies'.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of objectives related to sound science?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Counted the number of objectives with 'GPRA Goal 8 - Sound Science'.",
+    "GT": "1"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total amount of CNG4 used in FY 2005 and FY 2006, and what is the percentage increase from FY 2005 to FY 2006?",
+    "Answer": "17,970 + 10,371 = 28,341. Percentage increase = ((10,371 - 17,970) / 17,970) * 100% = 41.6%",
+    "QuestionType": "Comparison",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The total amount of CNG4 used in FY 2005 and FY 2006 was calculated by adding the values in cells 0 and 1. The percentage increase was calculated by finding the difference between the two values and dividing it by the original value, then multiplying by 100.",
+    "GT": "17,970 + 10,371 = 28,341. Percentage increase = ((10,371 - 17,970) / 17,970) * 100% = -42.29%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total amount of alternative fuel used in FY 2005, and what is the percentage of this total that was CNG4?",
+    "Answer": "44,594. Percentage of CNG4 = (17,970 / 44,594) * 100% = 40.5%",
+    "QuestionType": "Comparison",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The total amount of alternative fuel used in FY 2005 was calculated by taking the value in cell 5. The percentage of this total that was CNG4 was calculated by dividing the value in cell 0 by the total and multiplying by 100.",
+    "GT": "44,594. Percentage of CNG4 = (17,970 / 44,594) * 100% = 40.3%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total amount of biodiesel used in FY 2012 and FY 2013, and what is the percentage decrease from FY 2012 to FY 2013?",
+    "Answer": "1,722 + 1,425 = 3,147. Percentage decrease = ((1,425 - 1,722) / 1,722) * 100% = 17.5%",
+    "QuestionType": "Comparison",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The total amount of biodiesel used in FY 2012 and FY 2013 was calculated by adding the values in cells 2 and 11. The percentage decrease was calculated by finding the difference between the two values and dividing it by the original value, then multiplying by 100.",
+    "GT": "1,722 + 1,425 = 3,147. Percentage decrease = ((1,722 - 1,425) / 1,722) * 100% = 17.2%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total amount of alternative fuel used in FY 2010 and FY 2011, and what is the percentage increase from FY 2010 to FY 2011?",
+    "Answer": "42,522 + 53,750 = 96,272. Percentage increase = ((53,750 - 42,522) / 42,522) * 100% = 26.6%",
+    "QuestionType": "Comparison",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The total amount of alternative fuel used in FY 2010 and FY 2011 was calculated by adding the values in cells 5 and 6. The percentage increase was calculated by finding the difference between the two values and dividing it by the original value, then multiplying by 100.",
+    "GT": "42,522 + 53,750 = 96,272. Percentage increase = ((53,750 - 42,522) / 42,522) * 100% = 26.4%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total amount of petroleum used in FY 2015 and FY 2016, and what is the percentage increase from FY 2015 to FY 2016?",
+    "Answer": "312,449 + 316,035 = 628,484. Percentage increase = ((316,035 - 312,449) / 312,449) * 100% = 1.1%",
+    "QuestionType": "Comparison",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The total amount of petroleum used in FY 2015 and FY 2016 was calculated by adding the values in cells 6 and 12. The percentage increase was calculated by finding the difference between the two values and dividing it by the original value, then multiplying by 100.",
+    "GT": "312,449 + 316,035 = 628,484. Percentage increase = ((316,035 - 312,449) / 312,449) * 100% = 1.1%"
+  }
+]

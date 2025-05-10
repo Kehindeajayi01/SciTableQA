@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage of unknown samples in Austria, Germany, and Netherlands for the year 2006?",
+    "Answer": "0.9",
+    "QuestionType": "average",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The question requires calculating the average of the 'Unknown_5' column for Austria, Germany, and Netherlands in the year 2006, which is 0.9.",
+    "GT": "NA (No unkown column or row)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of samples in Spain and Austria for the years 2004 and 2005?",
+    "Answer": "109 + 36 = 145",
+    "QuestionType": "comparison",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The question requires adding the sample sizes of Spain and Austria for the years 2004 and 2005, which is 145.",
+    "GT": "107 + 89 = 196"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage increase in unknown samples in Germany from 2005 to 2006?",
+    "Answer": "0.7 to 0.8 = 0.1 (14.3%)",
+    "QuestionType": "comparison",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The question requires calculating the percentage increase in unknown samples in Germany from 2005 to 2006, which is 14.3%.",
+    "GT": "NA (No unkown column or row)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of samples in the Netherlands and Germany for the years 2003 and 2004?",
+    "Answer": "287 + 454 = 741",
+    "QuestionType": "comparison",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The question requires adding the sample sizes of the Netherlands and Germany for the years 2003 and 2004, which is 741.",
+    "GT": "454 + 188 + 287 + 227 = 1,156"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average percentage of positive samples in Austria, Germany, and Netherlands for the years 2004 and 2005?",
+    "Answer": "(1.1 + 0.8 + 1.1) / 3 = 1.0",
+    "QuestionType": "average",
+    "TableName": "table-CA7.csv",
+    "Explanation": "The question requires calculating the average of the 'Pos' column for Austria, Germany, and Netherlands for the years 2004 and 2005, which is 1.0.",
+    "GT": "(2 + 1.1 + 0 + 0.5 + 1.1)/5 = 0.94"
+  }
+]

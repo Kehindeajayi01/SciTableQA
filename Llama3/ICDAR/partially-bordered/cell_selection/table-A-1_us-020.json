@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the weighted school participation rate before substitution for Alberta-CAN?",
+    "Answer": "97",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer is obtained by looking at the cell corresponding to Alberta-CAN in the 'Weighted school participation rate before substitution' column.",
+    "GT": "97"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which region has the highest weighted student response rate?",
+    "Answer": "97",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer is obtained by identifying the region with the highest value in the 'Combined weighted school participation and student response rate' column, which is Abu Dhabi-UAE with a value of 97.",
+    "GT": "Ahdalusia-ESP and Abu Dhabi-UAE"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the overall exclusion rate for Ontario-CAN?",
+    "Answer": "8",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer is obtained by looking at the cell corresponding to Ontario-CAN in the 'Overall exclusion rate' column.",
+    "GT": "8"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which region has a weighted school participation rate after substitution of 100?",
+    "Answer": "Maltese-MLT",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer is obtained by identifying the region with a weighted school participation rate after substitution of 100, which is Maltese-MLT.",
+    "GT": "Maltese-MLT"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the combined weighted school participation and student response rate for Florida-USA?",
+    "Answer": "91",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer is obtained by looking at the cell corresponding to Florida-USA in the 'Combined weighted school participation and student response rate' column.",
+    "GT": "91"
+  }
+]

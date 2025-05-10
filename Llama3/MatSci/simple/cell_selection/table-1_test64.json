@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the hardness of AlCrTiMo alloy?",
+    "Answer": "692 ± 8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Hardness (HV0.2)' column of the row corresponding to the 'AlCrTiMo' alloy.",
+    "GT": "692 ± 8"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the density of Al0.25CrTiMo alloy?",
+    "Answer": "6.99",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Alloy Density (g.cm-3)' column of the row corresponding to the 'Al0.25CrTiMo' alloy.",
+    "GT": "6.99"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which alloy has the highest hardness?",
+    "Answer": "Al0.25CrTiMo",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found by comparing the values in the 'Hardness (HV0.2)' column across all rows. The highest value corresponds to the alloy with the highest hardness.",
+    "GT": "Al0.25CrTiMo"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the range of hardness values in the table?",
+    "Answer": "692 ± 8 to 730 ± 9",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found by identifying the minimum and maximum values in the 'Hardness (HV0.2)' column.",
+    "GT": "692 ± 8 to 730 ± 9"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which alloy has the highest density?",
+    "Answer": "Al0.5CrTiMo",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found by comparing the values in the 'Alloy Density (g.cm-3)' column across all rows. The highest value corresponds to the alloy with the highest density.",
+    "GT": "Al0.25CrTiMo"
+  }
+]

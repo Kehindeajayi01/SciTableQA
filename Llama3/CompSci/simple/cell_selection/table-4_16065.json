@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the accuracy of the BoW model?",
+    "Answer": "51.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The accuracy of the BoW model is directly obtained from the 'Model' column and the 'Acc.' column in the table.",
+    "GT": "51.6"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the AUC of the word-LSTM model?",
+    "Answer": "55.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The AUC of the word-LSTM model is directly obtained from the 'Model' column and the 'AUC' column in the table.",
+    "GT": "55.5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the true F-score of the all-LSTM model?",
+    "Answer": "53.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The true F-score of the all-LSTM model is directly obtained from the 'Model' column and the 'True F-score' column in the table.",
+    "GT": "53.2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the highest accuracy?",
+    "Answer": "all-LSTM",
+    "QuestionType": "cell comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The model with the highest accuracy is determined by comparing the values in the 'Acc.' column. The all-LSTM model has the highest accuracy of 58.4.",
+    "GT": "all-LSTM"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which model has the highest AUC?",
+    "Answer": "word-LSTM",
+    "QuestionType": "cell comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The model with the highest AUC is determined by comparing the values in the 'AUC' column. The word-LSTM model has the highest AUC of 55.5.",
+    "GT": "all-LSTM"
+  }
+]

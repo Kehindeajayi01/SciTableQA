@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in HAP Emission Limit (lb/ton) between Existing Open-Top and New Open-Top facilities?",
+    "Answer": "2.6",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The HAP Emission Limit for Existing Open-Top facilities is 6.8 lb/ton, while for New Open-Top facilities it is 3.2 lb/ton, resulting in a difference of 2.6 lb/ton.",
+    "GT": "3.6"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average HAP Emission Limit (lb/ton) for all Existing facilities?",
+    "Answer": "2.33",
+    "QuestionType": "Averaging",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average, I added the HAP Emission Limits for Existing Open-Top (6.8), Existing Closed Top (3.4), Existing Processing Slag (0.16), and Existing Not Processing Slag (0.13) facilities, and then divided by 4 (the number of Existing facilities).",
+    "GT": "0.991"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the maximum HAP Emission Limit (lb/ton) for Hydrogen Chloride among all facilities?",
+    "Answer": "0.44",
+    "QuestionType": "Maximum",
+    "TableName": "table-3.csv",
+    "Explanation": "I searched for the highest HAP Emission Limit for Hydrogen Chloride, which is found in row 5 (Existing Processing Slag) with a value of 0.44 lb/ton.",
+    "GT": "0.44"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the HAP Emission Limit (lb/ton) for Formaldehyde in Vertical (Existing and New) facilities?",
+    "Answer": "2.4",
+    "QuestionType": "Specific Value",
+    "TableName": "table-3.csv",
+    "Explanation": "The HAP Emission Limit for Formaldehyde in Vertical (Existing and New) facilities is found in row 13 with a value of 2.4 lb/ton.",
+    "GT": "2.4"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in HAP Emission Limit (lb/ton) between Drum (Existing and New) and Horizontal (Existing and New) facilities for Phenol?",
+    "Answer": "0.73",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The HAP Emission Limit for Phenol in Drum (Existing and New) facilities is 0.85 lb/ton, while for Horizontal (Existing and New) facilities it is 0.12 lb/ton, resulting in a difference of 0.73 lb/ton.",
+    "GT": "0.73"
+  }
+]

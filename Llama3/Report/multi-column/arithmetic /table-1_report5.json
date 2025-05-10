@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total green power usage in kWh for the top 3 providers in the table?",
+    "Answer": "1,455,367,338",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The total green power usage is calculated by summing the values in columns 2 and 1 for the top 3 providers (City of Houston, TX, District of Columbia, and City of Austin, TX).",
+    "GT": "1,454,358,338"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average green power usage in kWh for the cities with a green power percentage greater than 50%?",
+    "Answer": "343,323,811",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The average green power usage is calculated by summing the values in column 2 for the cities with a green power percentage greater than 50% and dividing by the number of cities (6).",
+    "GT": "99,631,170"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total green power usage in kWh for the cities with a green power percentage greater than 100%?",
+    "Answer": "175,070,343",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The total green power usage is calculated by summing the values in column 2 for the cities with a green power percentage greater than 100%.",
+    "GT": "143,606,681"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average green power percentage for the cities with a green power usage greater than 100,000,000 kWh?",
+    "Answer": "82.5%",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The average green power percentage is calculated by summing the values in column 3 for the cities with a green power usage greater than 100,000,000 kWh and dividing by the number of cities (5).",
+    "GT": "67.8%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total green power usage in kWh for the cities with a green power percentage less than 20%?",
+    "Answer": "54,690,000",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The total green power usage is calculated by summing the values in column 2 for the cities with a green power percentage less than 20%.",
+    "GT": "151,149,723"
+  }
+]

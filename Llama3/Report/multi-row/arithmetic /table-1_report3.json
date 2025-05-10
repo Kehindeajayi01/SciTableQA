@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of domains under the EPA.GOV umbrella?",
+    "Answer": "8",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by counting the number of rows in the table where the 'DotGov Domain' column is 'EPA.GOV'.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of domains under the EPA.GOV umbrella that are focused on environmental sustainability?",
+    "Answer": "37.5%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by dividing the number of rows where the 'DotGov Domain' is 'GREENGOV.GOV' or 'SUSTAINABILITY.GOV' by the total number of rows where the 'DotGov Domain' is 'EPA.GOV', and then multiplying by 100.",
+    "GT": "0%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of characters in the domain names?",
+    "Answer": "14.4",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing up the number of characters in each domain name and then dividing by the total number of rows.",
+    "GT": "11.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of domains related to air quality?",
+    "Answer": "3",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by counting the number of rows where the 'DotGov Domain' is 'AIRKNOWLEDGE.GOV', 'AIRNOW.GOV', or 'FRTR.GOV'.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of domains related to energy efficiency?",
+    "Answer": "1",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by counting the number of rows where the 'DotGov Domain' is 'ENERGYSTAR.GOV'.",
+    "GT": "2"
+  }
+]

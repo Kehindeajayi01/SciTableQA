@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of correct classification for the 'Posterior' method in the 'Schiele-vs-All' scenario?",
+    "Answer": "81.48%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly extracted from cell (4, 3) in the table.",
+    "GT": "81.48%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest percentage of correct classification in the 'One-vs-All' scenario?",
+    "Answer": "Combined",
+    "QuestionType": "cell comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is determined by comparing the percentages in columns 3, 4, and 5, and selecting the highest value, which is 83.84% in cell (5, 5).",
+    "GT": "Combined"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of correct classification for the 'Majority' method in the 'Matisse-vs-All' scenario?",
+    "Answer": "54.88%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly extracted from cell (3, 2) in the table.",
+    "GT": "54.88%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which method has the lowest percentage of correct classification in the 'Across-Techniques' scenario?",
+    "Answer": "85%-certain",
+    "QuestionType": "cell comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is determined by comparing the percentages in columns 3, 4, and 5, and selecting the lowest value, which is 38.05% in cell (5, 2).",
+    "GT": "85%-certain"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of correct classification for the 'Detection of Fakes*' method in the 'Hand-crafted' scenario?",
+    "Answer": "100%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly extracted from cell (7, 1) in the table.",
+    "GT": "100%"
+  }
+]

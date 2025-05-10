@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total percentage of patients who suffered from Allergy problems, Anxiety disorder, and Asthma?",
+    "Answer": "21.6%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The percentage of patients who suffered from Allergy problems is 18.8%, Anxiety disorder is 16.4%, and Asthma is 6.3%. Adding these percentages together gives a total of 41.5%. However, this is not an exact percentage because the percentages are based on different numbers of patients. To get an exact percentage, we need to calculate the percentage of patients who suffered from at least one of these conditions. This can be done by adding the counts of patients who suffered from these conditions and then dividing by the total number of patients. The total number of patients who suffered from at least one of these conditions is 93 + 81 + 31 = 205. The total number of patients is 240. Therefore, the percentage of patients who suffered from at least one of these conditions is (205/240) * 100% = 85.4%. However, this is not the question being asked, which is the percentage of patients who suffered from at least one of these conditions. To get the percentage of patients who suffered from at least one of these conditions, we need to add the percentages of patients who suffered from each of these conditions and then divide by 3. The percentage of patients who suffered from at least one of these conditions is (18.8% + 16.4% + 6.3%) / 3 = 21.6%.",
+    "GT": "41.5%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in the percentage of patients who suffered from Unknown_2 and those who suffered from Chronic fatigue syndrome?",
+    "Answer": "13.8%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The percentage of patients who suffered from Unknown_2 is 15.6%, and the percentage of patients who suffered from Chronic fatigue syndrome is 3.8%. The difference between these percentages is 15.6% - 3.8% = 11.8%. However, this is not the answer to the question being asked, which is the difference in the percentage of patients who suffered from Unknown_2 and those who suffered from Chronic fatigue syndrome. To get the answer to the question being asked, we need to add the percentages of patients who suffered from Unknown_2 and those who suffered from Chronic fatigue syndrome and then divide by 2. The percentage of patients who suffered from Unknown_2 and those who suffered from Chronic fatigue syndrome is (15.6% + 3.8%) / 2 = 13.8%.",
+    "GT": "NA (Question needs to be rephrased)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total count of patients who suffered from Allergy problems, Anxiety disorder, and Asthma?",
+    "Answer": "205",
+    "QuestionType": "Count",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The count of patients who suffered from Allergy problems is 93, the count of patients who suffered from Anxiety disorder is 81, and the count of patients who suffered from Asthma is 31. The total count of patients who suffered from at least one of these conditions is 93 + 81 + 31 = 205.",
+    "GT": "205"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of patients who suffered from Back pain and those who suffered from Broken bone/fracture?",
+    "Answer": "29.3%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The percentage of patients who suffered from Back pain is 40.9%, and the percentage of patients who suffered from Broken bone/fracture is 2.4%. The difference between these percentages is 40.9% - 2.4% = 38.5%. However, this is not the answer to the question being asked, which is the percentage of patients who suffered from Back pain and those who suffered from Broken bone/fracture. To get the answer to the question being asked, we need to add the percentages of patients who suffered from Back pain and those who suffered from Broken bone/fracture and then divide by 2. The percentage of patients who suffered from Back pain and those who suffered from Broken bone/fracture is (40.9% + 2.4%) / 2 = 29.3%.",
+    "GT": "43.3%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total count of patients who suffered from Unknown_2 and those who suffered from Chronic fatigue syndrome?",
+    "Answer": "113",
+    "QuestionType": "Count",
+    "TableName": "table-3.1.csv",
+    "Explanation": "The count of patients who suffered from Unknown_2 is 93, and the count of patients who suffered from Chronic fatigue syndrome is 19. The total count of patients who suffered from at least one of these conditions is 93 + 19 = 112. However, this is not the answer to the question being asked, which is the total count of patients who suffered from Unknown_2 and those who suffered from Chronic fatigue syndrome. To get the answer to the question being asked, we need to add the counts of patients who suffered from Unknown_2 and those who suffered from Chronic fatigue syndrome. The total count of patients who suffered from Unknown_2 and those who suffered from Chronic fatigue syndrome is 93 + 19 = 112.",
+    "GT": "NA (Question needs to be rephrased)"
+  }
+]

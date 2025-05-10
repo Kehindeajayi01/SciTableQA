@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of Alloy ID NMZ1 at 600 \u00b0C?",
+    "Answer": "386",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the cell at the intersection of Alloy ID NMZ1 and 600 \u00b0C.",
+    "GT": "386 MPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest value at 1200 \u00b0C?",
+    "Answer": "NMZ5",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by identifying the alloy with the highest value at 1200 \u00b0C, which is NMZ5.",
+    "GT": "NMZ2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of Alloy ID NMZ2 at 25 \u00b0C, 600 \u00b0C, and 800 \u00b0C?",
+    "Answer": "549.67",
+    "QuestionType": "calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value is calculated by adding the values at 25 \u00b0C, 600 \u00b0C, and 800 \u00b0C (632 + 431 + 426) and dividing by 3.",
+    "GT": "496.33 MPa"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "At what temperature does Alloy ID NMZ4 have the lowest value?",
+    "Answer": "1600 \u00b0C",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by identifying the temperature with the lowest value for Alloy ID NMZ4, which is 1600 \u00b0C.",
+    "GT": "1600°C"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of values for Alloy ID NMZ5?",
+    "Answer": "1257",
+    "QuestionType": "calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The range of values is calculated by subtracting the minimum value (23.6) from the maximum value (1240).",
+    "GT": "1216.4 MPa"
+  }
+]

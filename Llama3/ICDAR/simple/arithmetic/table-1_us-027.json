@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage difference between the enrollment of students aged 20-21 and those aged 22-24?",
+    "Answer": "1.5",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage difference is calculated by subtracting the percentage of students aged 20-21 (20.5) from the percentage of students aged 22-24 (18.0), then dividing the result by the percentage of students aged 20-21, and finally multiplying by 100.",
+    "GT": "2.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total enrollment of students aged 14-17 and 30-34 combined?",
+    "Answer": "235,409,000",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The total enrollment is calculated by adding the enrollment of students aged 14-17 (231,000) and the enrollment of students aged 30-34 (1,409,000).",
+    "GT": "1,640,000"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of students aged 25-29 and Over 35 combined?",
+    "Answer": "30.5",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage is calculated by adding the percentages of students aged 25-29 (13.5) and Over 35 (17.5), then dividing the result by 100.",
+    "GT": "31"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average enrollment of students aged 18-19, 20-21, and 22-24?",
+    "Answer": "2,756,000",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The average enrollment is calculated by adding the enrollment of students aged 18-19 (3,769,000), 20-21 (3,648,000), and 22-24 (3,193,000), then dividing the result by 3.",
+    "GT": "3,536,667"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the enrollment of students aged 14-17 and Over 35?",
+    "Answer": "2,076,000",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the enrollment of students aged 14-17 (231,000) from the enrollment of students aged Over 35 (3,107,000).",
+    "GT": "2,876,000"
+  }
+]

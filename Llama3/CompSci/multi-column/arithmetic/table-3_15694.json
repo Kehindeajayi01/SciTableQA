@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average accuracy of DL+ML and DL+CL models across all networks?",
+    "Answer": "94.375%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average accuracy is calculated by adding the accuracy of DL+ML (94.60%) and DL+CL (94.35%) and dividing by 2.",
+    "GT": "94.475%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in accuracy between DL+GP and DL+NJ models on Weibo network?",
+    "Answer": "0.50%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference in accuracy is calculated by subtracting the accuracy of DL+GP (94.12%) from DL+NJ (94.62%) on Weibo network.",
+    "GT": "0.50%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average accuracy of DL and DL+ models across all networks, excluding Facebook network?",
+    "Answer": "95.03%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average accuracy is calculated by adding the accuracy of DL (94.82%), DL+ML (95.55%), DL+CL (95.40%), DL+DT (95.20%), DL+GP (95.58%), DL+NJ (95.76%), and DL+CJ (95.76%) and dividing by 7, excluding the accuracy on Facebook network.",
+    "GT": "95.43%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in accuracy between ALL and DL+CJ models on Douban network?",
+    "Answer": "0.80%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference in accuracy is calculated by subtracting the accuracy of DL+CJ (96.34%) from ALL (97.14%) on Douban network.",
+    "GT": "0.80%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average accuracy of DL models across all networks, excluding Twitter and Weibo networks?",
+    "Answer": "95.44%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average accuracy is calculated by adding the accuracy of DL (94.82%), DL+ML (95.40%), DL+CL (95.40%), DL+DT (95.20%), DL+GP (95.20%), and DL+NJ (95.58%) and dividing by 6, excluding the accuracy on Twitter and Weibo networks.",
+    "GT": "95.26%"
+  }
+]

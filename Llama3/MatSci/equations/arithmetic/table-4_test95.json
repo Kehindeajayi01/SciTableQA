@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in compression modulus (E_comp) between the samples with MoTa1.0NbVTi and MoTa0.75NbVTi?",
+    "Answer": "4.0",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The average compression modulus for MoTa1.0NbVTi is 62 GPa, and for MoTa0.75NbVTi it is 49 GPa. The difference is calculated by subtracting the smaller value from the larger one and dividing by 2: (62-49)/2 = 4.0 GPa.",
+    "GT": "13 GPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the ratio of the fracture energy per unit volume (W) for the sample with MoTa1.0NbVTi to the sample with MoTa0.25NbVTi?",
+    "Answer": "0.485",
+    "QuestionType": "ratio",
+    "TableName": "Unknown_1",
+    "Explanation": "The fracture energy per unit volume for MoTa1.0NbVTi is 7378 kJ/m\u00b3, and for MoTa0.25NbVTi it is 15253 kJ/m\u00b3. The ratio is calculated by dividing the smaller value by the larger one: 7378/15253 = 0.485.",
+    "GT": "2.07"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average increase in maximum compressive strength (\u03c3_m) from the sample with MoTa0.50NbVTi to the sample with MoTa1.0NbVTi?",
+    "Answer": "223",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The maximum compressive strength for MoTa0.50NbVTi is 1724 MPa, and for MoTa1.0NbVTi it is 1686 MPa. The average increase is calculated by subtracting the smaller value from the larger one and dividing by 2: (1724-1686)/2 = 223 MPa.",
+    "GT": "261 MPa"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average difference in plastic strain (\u03b5_p) between the samples with MoTa1.0NbVTi and MoTa0.25NbVTi?",
+    "Answer": "3.83",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The plastic strain for MoTa1.0NbVTi is 6.94%, and for MoTa0.25NbVTi it is 10.7%. The average difference is calculated by subtracting the smaller value from the larger one and dividing by 2: (10.7-6.94)/2 = 3.83%",
+    "GT": "3.76%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of the compression modulus (E_comp) for the sample with MoTa0.75NbVTi to the sample with MoTa0.50NbVTi?",
+    "Answer": "1.192",
+    "QuestionType": "ratio",
+    "TableName": "Unknown_1",
+    "Explanation": "The compression modulus for MoTa0.75NbVTi is 62 GPa, and for MoTa0.50NbVTi it is 52 GPa. The ratio is calculated by dividing the larger value by the smaller one: 62/52 = 1.192.",
+    "GT": "1.19"
+  }
+]

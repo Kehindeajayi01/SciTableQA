@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average latitude of the rivers in the table?",
+    "Answer": "67.5419",
+    "QuestionType": "cell selection",
+    "TableName": "table-A1.csv",
+    "Explanation": "The average latitude was calculated by summing up all the latitudes and dividing by the number of rows.",
+    "GT": "64.6125"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which river has the highest number of total alleles?",
+    "Answer": "Rynda",
+    "QuestionType": "cell selection",
+    "TableName": "table-A1.csv",
+    "Explanation": "The river with the highest number of total alleles was identified by finding the maximum value in the 'No total alleles' column.",
+    "GT": "Jølstra"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of samples after fullsib removal for rivers with a sample type of 'Parr/fry'?",
+    "Answer": "64.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-A1.csv",
+    "Explanation": "The average was calculated by summing up the values in the 'No samples after fullsib removal' column for rivers with a sample type of 'Parr/fry' and dividing by the number of rows.",
+    "GT": "68.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which river has the highest number of no samples after fullsib removal?",
+    "Answer": "Ponoi",
+    "QuestionType": "cell selection",
+    "TableName": "table-A1.csv",
+    "Explanation": "The river with the highest number of no samples after fullsib removal was identified by finding the maximum value in the 'No samples after fullsib removal' column.",
+    "GT": "Ponoi"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average longitude of the rivers in the table?",
+    "Answer": "34.6454",
+    "QuestionType": "cell selection",
+    "TableName": "table-A1.csv",
+    "Explanation": "The average longitude was calculated by summing up all the longitudes and dividing by the number of rows.",
+    "GT": "18.3565"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Nb composition in the Alloy samples?",
+    "Answer": "30.1 ± 0.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average Nb composition was calculated by taking the mean of the Nb values in the Alloy samples (Q0, Q5, Q9, Q11).",
+    "GT": "25.4 ± 0.2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which sample has the highest V content?",
+    "Answer": "Particles (Q3)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The sample with the highest V content is Particles, with a value of 38.9 \u00b1 1.8.",
+    "GT": "NbTiZrV Particles"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Ti composition in the Matrix samples?",
+    "Answer": "24.5 ± 0.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average Ti composition was calculated by taking the mean of the Ti values in the Matrix samples (Q2, Q15).",
+    "GT": "26.4 ± 0.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which sample has the highest Mo content?",
+    "Answer": "Not applicable (Mo content is 0 in all samples)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "None of the samples have a significant Mo content, so it is not possible to identify a sample with the highest Mo content.",
+    "GT": "NbTiZrVMo Particles"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Al composition in the Alloy samples with Al?",
+    "Answer": "4.4 ± 0.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average Al composition was calculated by taking the mean of the Al values in the Alloy samples with Al (Q14).",
+    "GT": "5.2 ± 0.2"
+  }
+]

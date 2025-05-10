@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What was the total expenditure in 2008-09?",
+    "Answer": "$534.6 billion",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The answer can be found in the 'Actual' row for the '2008-09' school year, in the 'Total (in billions)' column.",
+    "GT": "$534.6 billion"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What was the per-pupil expenditure in 2006-07?",
+    "Answer": "$10,336",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The answer can be found in the 'Actual' row for the '2006-07' school year, in the 'Per pupil in ADA' column.",
+    "GT": "$11,196"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the total expenditure projected for 2010-11?",
+    "Answer": "$539.5 billion",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The answer can be found in the 'Projected' row for the '2010-11' school year, in the 'Total (in billions)' column.",
+    "GT": "$539.5 billion"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the change in per-pupil expenditure from 2001-02 to 2002-03?",
+    "Answer": "$351",
+    "QuestionType": "cell calculation",
+    "TableName": "table-19.csv",
+    "Explanation": "The answer can be found by subtracting the per-pupil expenditure in 2001-02 ($8,259) from the per-pupil expenditure in 2002-03 ($8,610).",
+    "GT": "$205"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the total expenditure in 2015-16?",
+    "Answer": "$585.6 billion",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The answer can be found in the 'Actual' row for the '2015-16' school year, in the 'Total (in billions)' column.",
+    "GT": "$585.6 billion"
+  }
+]

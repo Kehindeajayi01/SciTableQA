@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of 'Environments' for QYr.niab-1A.1?",
+    "Answer": "1-4 1-4  1-2 1-2  1-4 1-4  1-4 1-4",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell corresponding to QYr.niab-1A.1 in the 'Environments' column.",
+    "GT": "1-4 1-4 1-4 1-4 1-2 1-2  1-4 1-4  1-4 1-4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which rows have 'Unknown_4' as a value in the 'Chr.' column?",
+    "Answer": "0, 10, 16",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by identifying the rows where the value in the 'Chr.' column is 'Unknown_4'.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of 'QYr.niab-2A.1' in the 'QYr.niab' column?",
+    "Answer": "QYr.niab-2A.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell corresponding to QYr.niab-2A.1 in the 'QYr.niab' column.",
+    "GT": "QYr.niab-2A.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which rows have '1-2 1-2' as a value in the 'Environments' column?",
+    "Answer": "2, 4, 9",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by identifying the rows where the value in the 'Environments' column is '1-2 1-2'.",
+    "GT": "2, 4, 6, 8, 9, 10, 11, 13"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of '6A' in the 'Chr.' column?",
+    "Answer": "6A",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell corresponding to 6A in the 'Chr.' column.",
+    "GT": "6A"
+  }
+]

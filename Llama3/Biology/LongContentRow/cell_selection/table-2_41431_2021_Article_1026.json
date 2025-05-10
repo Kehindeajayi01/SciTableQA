@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of donors in the table?",
+    "Answer": "27",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the 'Total No. of donors' column in the table.",
+    "GT": "55"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of oocytes tested had premeiotic aneuploidy?",
+    "Answer": "14.5%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the 'Oocytes with premeiotic aneuploidy' column and the total number of oocytes tested in the table.",
+    "GT": "12.24%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many donors contributed oocytes with premeiotic aneuploidy?",
+    "Answer": "6",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the 'No. of donors contributing oocytes with premeiotic aneuploidy' column in the table.",
+    "GT": "11"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of oocytes with Simple (SE) and Complex (CE) Errors?",
+    "Answer": "7(SE); 4(CE)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the 'No. of oocytes with Simple (SE)/ Complex (CE) Errors' column in the table.",
+    "GT": "11(SE); 7(CE)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many donors contributed oocytes with Simple (SE) Errors?",
+    "Answer": "4",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the 'No. of donors contributing oocytes with premeiotic aneuploidy' column and the 'No. of oocytes with Simple (SE)/ Complex (CE) Errors' column in the table.",
+    "GT": "7"
+  }
+]

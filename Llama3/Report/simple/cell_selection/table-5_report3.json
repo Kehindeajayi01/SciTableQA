@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the estimated cost for modernizing the EPA.GOV website?",
+    "Answer": "$7,159,828",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the 'Estimated Cost' column of the table, where the first row corresponds to EPA.GOV.",
+    "GT": "$7,159,828"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which website requires the least amount of effort to modernize?",
+    "Answer": "FOIAONLINE.GOV",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by identifying the website with the least 'Estimated Schedule' hours of effort, which is FOIAONLINE.GOV.",
+    "GT": "FOIAONLINE.GOV"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total estimated cost for modernizing all websites?",
+    "Answer": "$8,332,775",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the 'Total' row of the 'Estimated Cost' column.",
+    "GT": "$8,332,775"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which website has an estimated cost of $0?",
+    "Answer": "4 unique websites (FEDCENTER.GOV, FRTR.GOV, GREENGOV.GOV, and AIRKNOWLEDGE.GOV)",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by identifying the websites with an 'Estimated Cost' of $0, which are FEDCENTER.GOV, FRTR.GOV, GREENGOV.GOV, AIRKNOWLEDGE.GOV, ",
+    "GT": "The answer is obtained by identifying the websites with an 'Estimated Cost' of $0, which are FEDCENTER.GOV, GLNPO.GOV, SUSTAINABILITY.GOV, RELOCATEFEDS.GOV, CBI-EPA.GOV, GREENGOV.GOV, AIRKNOWLEDGE.GOV, URBANWATERS.GOV."
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average estimated cost per hour of effort for modernizing all websites?",
+    "Answer": "$156.53",
+    "QuestionType": "calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is calculated by dividing the total estimated cost ($8,332,775) by the total estimated hours of effort (53,075), and then dividing the result by the number of websites (13).",
+    "GT": "The answer is calculated by dividing the total estimated cost ($8,332,775) by the total estimated hours of effort (53,075) which is $157"
+  }
+]

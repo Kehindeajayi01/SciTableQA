@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total production of fused aluminum oxide in the United States and Canada in 2010?",
+    "Answer": "60,400",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 1, column 2 in the table.",
+    "GT": "60,400"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country had the highest production of fused aluminum oxide in 2009?",
+    "Answer": "China",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 6, column 2 in the table.",
+    "GT": "China"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total production of fused aluminum oxide in Australia and Austria in 2009?",
+    "Answer": "5,000",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the sum of the cells at rows 3 and 4, columns 3 in the table.",
+    "GT": "50,000"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total production of fused aluminum oxide in Norway and Venezuela in 2010?",
+    "Answer": "110,000",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the sum of the cells at rows 12 and 13, columns 4 in the table.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total production of fused aluminum oxide in the world in 2009?",
+    "Answer": "1,010,000",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 15, column 3 in the table.",
+    "GT": "1,190,000"
+  }
+]

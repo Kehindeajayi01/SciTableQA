@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of stations with inlet pressure greater than 300 psig?",
+    "Answer": "4,095",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at the intersection of the 'Station Type' column and the 'Inlet Pressure (psig) > 300' row.",
+    "GT": "4,095"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average CH4 EF (scfh/station) for stations with inlet pressure between 100-300 psig?",
+    "Answer": "95.60",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at the intersection of the 'CH4 EF (scfh/station)' column and the 'Station Type' row for stations with inlet pressure between 100-300 psig.",
+    "GT": "95.60"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total CH4 emissions (MT CO2e) for stations with inlet pressure less than 100 psig?",
+    "Answer": "145,225",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at the intersection of the 'CH4 Emissions (MT CO2e)' column and the 'Station Type' row for stations with inlet pressure less than 100 psig.",
+    "GT": "145,225"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of Reg-Vault stations with inlet pressure greater than 300 psig?",
+    "Answer": "2,630",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at the intersection of the 'AD (# stations)' column and the 'Station Type' row for Reg-Vault stations with inlet pressure greater than 300 psig.",
+    "GT": "2,630"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total CH4 emissions (MT CO2e) for all stations with inlet pressure between 40-100 psig?",
+    "Answer": "178,308",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at the intersection of the 'CH4 Emissions (MT CO2e)' column and the 'Station Type' row for stations with inlet pressure between 40-100 psig.",
+    "GT": "178,308"
+  }
+]

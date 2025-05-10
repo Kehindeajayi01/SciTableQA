@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of 'a_B2 (A)' for the first three rows in the table?",
+    "Answer": "3.073",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The average value of 'a_B2 (A)' for the first three rows in the table is calculated by summing the values in the 'a_B2 (A)' column for rows 0, 1, and 2 and dividing by 3.",
+    "GT": "3.1 Å"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest value of 'a_c15(A)'?",
+    "Answer": "Equi-6",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The highest value of 'a_c15(A)' is found in the row corresponding to the alloy 'Equi-6'.",
+    "GT": "Equi-6"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of 'a_B2 (A)' for the entire table?",
+    "Answer": "0.014",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The standard deviation of 'a_B2 (A)' is calculated by finding the square root of the variance of the values in the 'a_B2 (A)' column.",
+    "GT": "0.0304 Å"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the smallest standard deviation of 'a_c15(A)'?",
+    "Answer": "Ti25Ni16.67-5",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The smallest standard deviation of 'a_c15(A)' is found in the row corresponding to the alloy 'Ti25Ni16.67-5'.",
+    "GT": "Ti25Ni16.67-5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of 'a_c15(A)' for the last two rows in the table?",
+    "Answer": "11.854",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The average value of 'a_c15(A)' for the last two rows in the table is calculated by summing the values in the 'a_c15(A)' column for rows 4 and 5 and dividing by 2.",
+    "GT": "11.9035 A"
+  }
+]

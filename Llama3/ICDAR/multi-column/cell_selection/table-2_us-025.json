@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the rate of Asian/Pacific Islander women aged 45-54?",
+    "Answer": "8.7",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is derived from the cell at row 3, column 3.",
+    "GT": "8.7"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the rate of Black women aged 75-84?",
+    "Answer": "448.6",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is derived from the cell at row 6, column 4.",
+    "GT": "940.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of women aged 65-74?",
+    "Answer": "3,859",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is derived from the cell at row 5, column 3.",
+    "GT": "23,837"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the rate of White men aged 55-64?",
+    "Answer": "114.0",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is derived from the cell at row 11, column 5.",
+    "GT": "212.7"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of men aged 75-84?",
+    "Answer": "5,364",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer is derived from the cell at row 13, column 3.",
+    "GT": "67,275"
+  }
+]

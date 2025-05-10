@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of 3-year-old children in the Head Start Group who participated in Year 1 Head Start?",
+    "Answer": "85.1%",
+    "QuestionType": "cell selection",
+    "TableName": "Sample Group",
+    "Explanation": "The answer is extracted from the cell at row 2, column 2.",
+    "GT": "85.1%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total participation rate of 3-year-old children in the Control Group?",
+    "Answer": "82.7%",
+    "QuestionType": "cell selection",
+    "TableName": "Sample Group",
+    "Explanation": "The answer is extracted from the cell at row 3, column 3.",
+    "GT": "17.3%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of 4-year-old children in the Control Group who participated in Year 1 Head Start?",
+    "Answer": "13.9%",
+    "QuestionType": "cell selection",
+    "TableName": "Sample Group",
+    "Explanation": "The answer is extracted from the cell at row 6, column 2.",
+    "GT": "79.8%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total participation rate of 4-year-old children in the Head Start Group?",
+    "Answer": "202%",
+    "QuestionType": "cell selection",
+    "TableName": "Sample Group",
+    "Explanation": "The answer is extracted from the cell at row 5, column 3.",
+    "GT": "100%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in total participation rates between 3-year-old children in the Head Start Group and the Control Group?",
+    "Answer": "67.8%",
+    "QuestionType": "calculation",
+    "TableName": "Sample Group",
+    "Explanation": "The answer is calculated by subtracting the control group's total participation rate (82.7%) from the Head Start group's total participation rate (149%).",
+    "GT": "NA (Question needs to be redefined)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage of Ti in the alloys with ID classification?",
+    "Answer": "25.94",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average percentage of Ti is calculated by summing up the Ti percentages in rows 0 and 1 (24.46 and 25.26) and dividing by 2.",
+    "GT": "30.19"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How much more percentage of Zr is present in alloy P compared to alloy D?",
+    "Answer": "13.18",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of Zr in alloy P is 33.64 and in alloy D is 35.95. The difference is 35.95 - 33.64 = 2.31. Since the question asks for the difference, the answer is 2.31.",
+    "GT": "Irrelevant question (Specify which Alloy's D region)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total percentage of V and Nb in alloy Ti1.5ZrVNb?",
+    "Answer": "41.65",
+    "QuestionType": "sum",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentages of V and Nb in alloy Ti1.5ZrVNb are 22.85 and 18.80 respectively. The sum is calculated by adding these two values.",
+    "GT": "44.15 (Averaged Region D and ID results for both V and Nb)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of Ti in alloy Ti2ZrVNb compared to alloy 0?",
+    "Answer": "5.13",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of Ti in alloy Ti2ZrVNb is 40.59 and in alloy 0 is 24.46. The difference is 40.59 - 24.46 = 16.13. Since the question asks for the percentage difference, the answer is 16.13/24.46 = 0.6615 or approximately 5.13%.",
+    "GT": "Irrelevant question (No alloy 0)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average percentage of Nb in the alloys with D classification?",
+    "Answer": "19.30",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average percentage of Nb is calculated by summing up the Nb percentages in rows 0 and 3 (15.98 and 22.61) and dividing by 2.",
+    "GT": "19.30"
+  }
+]

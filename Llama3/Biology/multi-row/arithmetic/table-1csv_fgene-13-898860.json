@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average ratio of Fetal sample to Unknown_2 in the proband?",
+    "Answer": "0.44",
+    "QuestionType": "Comparison",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The average ratio is calculated by averaging the values in columns 'Fetal sample' and 'Unknown_2' (F1a to F8).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total concentration of Metabolites of aniotic fluid in the proband?",
+    "Answer": "4.22",
+    "QuestionType": "Summation",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The total concentration is calculated by summing up the values in column 'Metabolites of aniotic fluid' (F1a to F8).",
+    "GT": "13.316"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of Variants in the proband that are carriers?",
+    "Answer": "83.33%",
+    "QuestionType": "Percentage",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The percentage of carriers is calculated by dividing the number of carriers (F1a to F8) by the total number of probands and multiplying by 100.",
+    "GT": "75%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average concentration of Fetal sample in the probands with Variant of fetus?",
+    "Answer": "1.73",
+    "QuestionType": "Average",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The average concentration is calculated by averaging the values in column 'Fetal sample' (F1a to F8) for the probands with Variant of fetus (Carrier or Affected).",
+    "GT": "1.66"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of values for Metabolites of aniotic fluid in the proband?",
+    "Answer": "0.02 to 3.44",
+    "QuestionType": "Range",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The range of values is calculated by finding the minimum and maximum values in column 'Metabolites of aniotic fluid' (F1a to F8).",
+    "GT": "0.02-.22"
+  }
+]

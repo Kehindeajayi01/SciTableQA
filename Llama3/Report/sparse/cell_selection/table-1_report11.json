@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the emission source mentioned in the first row of the table?",
+    "Answer": "M&R Stations",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the first row of the table, in the 'Emission Source' column.",
+    "GT": "M&R Stations"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which emission source is mentioned in both the 2009 and 2013 data?",
+    "Answer": "EF",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found by comparing the 'GHGRP Lamb et al.' column for 2009 and 2013, where 'EF' is mentioned in both years.",
+    "GT": "EF"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the emission source mentioned in the row with 'Clearstone' in the 'AGA GTI' column?",
+    "Answer": "EF",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the row where 'Clearstone' is mentioned in the 'AGA GTI' column, in the 'GHGRP Lamb et al.' column.",
+    "GT": "EF"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the emission source mentioned in the row with '2009' in the 'GTI' column?",
+    "Answer": "-",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the row where '2009' is mentioned in the 'GTI' column, in the 'Emission Source' column.",
+    "GT": "EF"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which emission source is not mentioned in the 'Pipeline leaks' row?",
+    "Answer": "AD",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Pipeline leaks' row, where 'EF' is mentioned, but not 'AD'.",
+    "GT": "AD"
+  }
+]

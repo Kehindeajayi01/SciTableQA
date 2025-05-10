@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average F1 score of the baseline and CBOW models?",
+    "Answer": "0.8945",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average F1 score is calculated by averaging the F1 scores of the baseline (0.8826) and CBOW (0.9071) models.",
+    "GT": "0.8948"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How much is the F1 score of SG model higher than the baseline model?",
+    "Answer": "0.0261",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The difference in F1 scores is calculated by subtracting the F1 score of the baseline model (0.8826) from the F1 score of the SG model (0.9068).",
+    "GT": "0.0242"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average improvement in F1 score from baseline to Ours-MS model?",
+    "Answer": "0.0463",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average improvement is calculated by averaging the differences in F1 scores from baseline to Ours-MS model (0.3944 - 0.0000).",
+    "GT": "0.0463"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How much is the precision of GloVe model lower than the precision of Ours-MS model?",
+    "Answer": "0.2346",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The difference in precision is calculated by subtracting the precision of the GloVe model (0.2978) from the precision of the Ours-MS model (0.3838).",
+    "GT": "0.086"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average F1 score of the Ours and Ours-MS models?",
+    "Answer": "0.9268",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average F1 score is calculated by averaging the F1 scores of the Ours (0.9247) and Ours-MS (0.9289) models.",
+    "GT": "0.9268"
+  }
+]

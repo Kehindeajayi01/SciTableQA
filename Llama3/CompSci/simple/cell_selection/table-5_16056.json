@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the F1 score for the baseline model?",
+    "Answer": "0.8826",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be found in the F1 column of row 1.",
+    "GT": "0.8826"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest F1 score?",
+    "Answer": "Ours-MS",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be found by comparing the F1 scores in the F1 column across all rows, and selecting the row with the highest score.",
+    "GT": "Ours-MS"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average improvement in F1 score for the CBOW model compared to the baseline model?",
+    "Answer": "0.2087",
+    "QuestionType": "cell calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be found by subtracting the F1 score of the baseline model from the F1 score of the CBOW model, and then averaging the result across all columns.",
+    "GT": "0.0245"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the highest improvement in F1 score compared to the baseline model?",
+    "Answer": "Ours",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be found by comparing the improvement in F1 score across all rows, and selecting the row with the highest improvement.",
+    "GT": "Ours-MS"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average F1 score for all models?",
+    "Answer": "0.9247",
+    "QuestionType": "cell calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be found by averaging the F1 scores across all rows.",
+    "GT": "0.9083"
+  }
+]

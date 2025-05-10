@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in fracture strength (σf) between Si0.05 and Si0.2?",
+    "Answer": "36.8",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average difference in fracture strength (σf) between Si0.05 (1627.6 MPa) and Si0.2 (1621.7 MPa) is calculated as (1627.6 - 1621.7) / 2 = 36.8 MPa.",
+    "GT": "5.9"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in Vickers hardness (HV) from Si0.1 to Si0.4?",
+    "Answer": "8.2%",
+    "QuestionType": "percentage increase",
+    "TableName": "table-4.csv",
+    "Explanation": "The percentage increase in Vickers hardness (HV) from Si0.1 (494.1 HV) to Si0.4 (540.0 HV) is calculated as ((540.0 - 494.1) / 494.1) * 100% = 8.2%",
+    "GT": "9.8%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average fracture strain (εp) for the Si0.4 and Si0.5 samples?",
+    "Answer": "1.03",
+    "QuestionType": "average",
+    "TableName": "table-4.csv",
+    "Explanation": "The average fracture strain (εp) for the Si0.4 (1.1%) and Si0.5 (0.85%) samples is calculated as (1.1 + 0.85) / 2 = 1.03%",
+    "GT": "0.98"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in fracture strength (σf) between Si0.5 and Si0.2?",
+    "Answer": "-100.2",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference in fracture strength (σf) between Si0.5 (1689.5 MPa) and Si0.2 (1621.7 MPa) is calculated as 1689.5 - 1621.7 = -100.2 MPa.",
+    "GT": "67.8"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Vickers hardness (HV) for the Si0.05, Si0.1, and Si0.4 samples?",
+    "Answer": "501.3",
+    "QuestionType": "average",
+    "TableName": "table-4.csv",
+    "Explanation": "The average Vickers hardness (HV) for the Si0.05 (479.7 HV), Si0.1 (494.1 HV), and Si0.4 (540.0 HV) samples is calculated as (479.7 + 494.1 + 540.0) / 3 = 501.3 HV.",
+    "GT": "505.4"
+  }
+]

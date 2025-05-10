@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average atomic composition of Hf, Nb, Ta, Ti, and Zr in sample 1?",
+    "Answer": "Hf0.5Nb0.5Ta0.5Ti1.5Zr1",
+    "QuestionType": "Summary",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the average atomic composition of Hf, Nb, Ta, Ti, and Zr in sample 1 by referencing cells 1 and 0 of the table.",
+    "GT": "20"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of Hf in sample 2 compared to the total atomic composition?",
+    "Answer": "16.67",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the percentage of Hf in sample 2 by referencing cells 2 and 0 of the table, and then dividing by the total atomic composition.",
+    "GT": "16.67"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in atomic composition between sample 1 and sample 2 for element Ti?",
+    "Answer": "37.5 - 16.67 = 20.83",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the difference in atomic composition between sample 1 and sample 2 for element Ti by referencing cells 1 and 2 of the table.",
+    "GT": "37.5 - 16.67 = 20.83"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of Mo in sample 2 compared to the total atomic composition?",
+    "Answer": "16.67",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the percentage of Mo in sample 2 by referencing cells 2 and 5 of the table, and then dividing by the total atomic composition.",
+    "GT": "16.67"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average atomic composition of Nb, Ta, and Zr in both samples?",
+    "Answer": "(12.5 + 16.67) / 2 = 14.58",
+    "QuestionType": "Summary",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the average atomic composition of Nb, Ta, and Zr in both samples by referencing cells 1 and 2 of the table, and then dividing by 2.",
+    "GT": "(16.67 + 16.67) / 2 = 16.67"
+  }
+]

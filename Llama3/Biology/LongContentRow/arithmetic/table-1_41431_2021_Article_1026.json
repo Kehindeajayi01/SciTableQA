@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of oocytes with premeiotic aneuploidy among all oocytes tested?",
+    "Answer": "12.38%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question is calculated by dividing the number of oocytes with premeiotic aneuploidy (25) by the total number of oocytes tested (202) and multiplying by 100.",
+    "GT": "12.38%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of oocytes with Simple (SE) or Complex (CE) Errors?",
+    "Answer": "25",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "This question is calculated by summing the number of oocytes with SE (13) and CE (12) errors.",
+    "GT": "25"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the proportion of donors contributing oocytes with premeiotic aneuploidy among all donors?",
+    "Answer": "19.23%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question is calculated by dividing the number of donors contributing oocytes with premeiotic aneuploidy (15) by the total number of donors (78) and multiplying by 100.",
+    "GT": "19.23%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of oocytes tested from donors with female partners at increased risk of developing breast/ ovarian cancer due to BRCA1/2 gene mutations?",
+    "Answer": "15",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "This question is calculated by referencing the number of oocytes tested from donors with female partners at increased risk of developing breast/ ovarian cancer due to BRCA1/2 gene mutations (4) and the total number of oocytes tested (202).",
+    "GT": "15"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of oocytes with premeiotic aneuploidy among oocytes tested from donors with female partners at increased risk of developing breast/ ovarian cancer due to BRCA1/2 gene mutations?",
+    "Answer": "0%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question is calculated by dividing the number of oocytes with premeiotic aneuploidy (0) by the total number of oocytes tested (15) and multiplying by 100.",
+    "GT": "0%"
+  }
+]

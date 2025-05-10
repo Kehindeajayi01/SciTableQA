@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the actual ratio of plants observed for Syn-SAU-119?",
+    "Answer": "20",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell (2, 2) of the table.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many plants were observed for F1?",
+    "Answer": "20",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell (3, 2) of the table.",
+    "GT": "20"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the expected ratio of plants observed for F2:3?",
+    "Answer": "1:2:1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell (5, 5) of the table.",
+    "GT": "1:2:1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the p-value for the observed plants in Syn-SAU-117?",
+    "Answer": "0.579",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell (4, 7) of the table.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the p-value for the observed plants in F2:3?",
+    "Answer": "0.935",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell (5, 8) of the table.",
+    "GT": "0.935"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in percentage between the Method SumMe benchmark and the TVSum benchmark?",
+    "Answer": "2.5%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the average difference between the Method SumMe benchmark and the TVSum benchmark by taking the average of the differences between each row's Method SumMe benchmark and its corresponding TVSum benchmark.",
+    "GT": "2.5%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest average percentage for the Method SumMe benchmark?",
+    "Answer": "SASUM_sup",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question finds the method with the highest average percentage for the Method SumMe benchmark by comparing the percentages in the Method SumMe benchmark column.",
+    "GT": "SASUM_sup"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of the TVSum benchmark for the SASUM method?",
+    "Answer": "0.2%",
+    "QuestionType": "statistical",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the standard deviation of the TVSum benchmark for the SASUM method by taking the standard deviation of the TVSum benchmark values for the SASUM method.",
+    "GT": "0.2%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How much is the Method SumMe benchmark for Zhang et al. above the average of the Method SumMe benchmarks?",
+    "Answer": "1.2%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the difference between the Method SumMe benchmark for Zhang et al. and the average of the Method SumMe benchmarks, then converts it to a percentage.",
+    "GT": "1.2%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average difference between the TVSum benchmark and the Method SumMe benchmark for the dppLSTM and SUM-GAN_sup methods?",
+    "Answer": "8.1%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the average difference between the TVSum benchmark and the Method SumMe benchmark for the dppLSTM and SUM-GAN_sup methods by taking the average of the differences between each row's TVSum benchmark and its corresponding Method SumMe benchmark.",
+    "GT": "8.1%"
+  }
+]

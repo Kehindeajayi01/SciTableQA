@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total expenditure in 2008-09 in constant 2008-09 dollars and how does it compare to the total expenditure in 2007-08 in constant 2008-09 dollars?",
+    "Answer": "534.6",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The total expenditure in 2008-09 in constant 2008-09 dollars is 534.6, which is an increase of 1.4% from the total expenditure in 2007-08 in constant 2008-09 dollars, which was 529.4.",
+    "GT": "The total expenditure in 2008-09 in constant 2008-09 dollars is 534.6, which increases from the total expenditure in 2007-08 in constant 2008-09 dollars, which was 529.4."
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the per pupil expenditure in 2005-06 and how does it compare to the per pupil expenditure in 2003-04?",
+    "Answer": "449.1",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The per pupil expenditure in 2005-06 is 449.1, which is an increase of 12.4% from the per pupil expenditure in 2003-04, which was 403.4.",
+    "GT": "The per pupil expenditure in 2005-06 is 10,867, which increases from the per pupil expenditure in 2003-04, which was 10,573."
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total expenditure in 2011-12 and how does it compare to the total expenditure in 2010-11?",
+    "Answer": "541.6",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The total expenditure in 2011-12 is 541.6, which is a decrease of 0.2% from the total expenditure in 2010-11, which was 539.5.",
+    "GT": "The total expenditure in 2011-12 is 556.0, increases from the total expenditure in 2010-11, which was 539.4."
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the per pupil expenditure in 2009-10 and how does it compare to the per pupil expenditure in 2008-09?",
+    "Answer": "519.3",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The per pupil expenditure in 2009-10 is 519.3, which is a decrease of 2.3% from the per pupil expenditure in 2008-09, which was 519.0.",
+    "GT": "The per pupil expenditure in 2009-10 is 11,246, which is an increasefrom the per pupil expenditure in 2008-09, which was 11,231."
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total expenditure in 2014-15 and how does it compare to the total expenditure in 2013-14?",
+    "Answer": "571.3",
+    "QuestionType": "Comparison",
+    "TableName": "table-19.csv",
+    "Explanation": "The total expenditure in 2014-15 is 571.3, which is an increase of 3.4% from the total expenditure in 2013-14, which was 556.8.",
+    "GT": "The total expenditure in 2014-15 is 619.1, which is an increase from the total expenditure in 2013-14, which was 591.3."
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the accuracy of the Majority class model?",
+    "Answer": "63.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The accuracy of the Majority class model is directly stated in the table.",
+    "GT": "63.3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest test accuracy?",
+    "Answer": "77.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The highest test accuracy is found in the DGEM model, as stated in the table.",
+    "GT": "DGEM"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in accuracy between the Majority class and Ngram models?",
+    "Answer": "10.3",
+    "QuestionType": "calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The accuracy of the Majority class model is 63.3, and the accuracy of the Ngram model is 65.0, so the difference is 65.0 - 63.3 = 10.3.",
+    "GT": "1.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which two models have the highest training accuracy?",
+    "Answer": "75.4 and 79.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The models with the highest training accuracy are DecompAtt and DGEM, as stated in the table.",
+    "GT": "DecompAtt and DGEM"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average accuracy of the models without the edges?",
+    "Answer": "72.6",
+    "QuestionType": "calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The models without edges are Majority class and Ngram, with accuracies 63.3 and 65.0 respectively. The average is (63.3 + 65.0) / 2 = 72.6.",
+    "GT": "72.95"
+  }
+]

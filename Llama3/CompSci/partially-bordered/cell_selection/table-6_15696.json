@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average accuracy of the systems without pretraining?",
+    "Answer": "72.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by selecting the cell corresponding to the row with the label '- without pretraining' and averaging the accuracy values in that row.",
+    "GT": "72.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which system has the highest F1 score?",
+    "Answer": "86.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by selecting the cell with the highest F1 score value in the table.",
+    "GT": "Ji and Eisenstein 2013"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average F1 score of the systems with pretraining?",
+    "Answer": "84.4",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by selecting the cells corresponding to the rows with the label '- with pretraining' and averaging the F1 score values in those rows.",
+    "GT": "84.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which system has the lowest accuracy?",
+    "Answer": "69.9",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by selecting the cell with the lowest accuracy value in the table.",
+    "GT": "Hu et al. 2014"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average accuracy of the systems with POS and Para. embeddings?",
+    "Answer": "78.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is derived by selecting the cells corresponding to the rows with the label '- with POS and Para. embeddings' and averaging the accuracy values in those rows.",
+    "GT": "78.6"
+  }
+]

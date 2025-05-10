@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of 'PhenoAge' for the first sample?",
+    "Answer": "24",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The value of 'PhenoAge' for the first sample is directly taken from the table.",
+    "GT": "24"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the value of 'PAI-1' for the second sample?",
+    "Answer": "27",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The value of 'PAI-1' for the second sample is directly taken from the table.",
+    "GT": "11"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of 'Heritability' for the sample with 'IEAA' as 'EUR'?",
+    "Answer": "0.17",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The value of 'Heritability' for the sample with 'IEAA' as 'EUR' is directly taken from the table.",
+    "GT": "0.17"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of 'Polygenic Risk Score Max R2' for the sample with 'IEAA' as 'EUR'?",
+    "Answer": "2.37%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The value of 'Polygenic Risk Score Max R2' for the sample with 'IEAA' as 'EUR' is directly taken from the table.",
+    "GT": "2.37%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of 'GrimAge' for the sample with 'Granulocyte' as '4 EUR'?",
+    "Answer": "12",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The value of 'GrimAge' for the sample with 'Granulocyte' as '4 EUR' is directly taken from the table.",
+    "GT": "Irrelevant question"
+  }
+]

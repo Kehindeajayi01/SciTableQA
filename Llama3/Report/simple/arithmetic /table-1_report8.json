@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total on-site green power usage (in kWh) for the top 5 organizations in the table?",
+    "Answer": "1,599,134,402",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing up the on-site green power usage for the top 5 organizations in the table, which are Apple Inc., Walmart Inc., State of California, Target Corporation, and Procter & Gamble.",
+    "GT": "1,051,718,184"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average on-site green power usage (in kWh) for organizations that purchase biogas as a resource?",
+    "Answer": "63,441,940.5",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing up the on-site green power usage for organizations that purchase biogas as a resource (Apple Inc., General Motors, LLC, IKEA, Marine Corps Air Station Miramar, and Yolo County, CA) and dividing by the number of organizations.",
+    "GT": "85,349,957.4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of total electricity use that is on-site green power usage for organizations that have a on-site green power usage greater than 100 million kWh?",
+    "Answer": "15.4%",
+    "QuestionType": "percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing up the on-site green power usage for organizations that have a on-site green power usage greater than 100 million kWh (Apple Inc., Walmart Inc., State of California, Target Corporation, and University of California) and dividing by the sum of their total electricity use.",
+    "GT": "38%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total on-site green power usage (in kWh) for organizations that purchase solar as a resource?",
+    "Answer": "3,449,534,441",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing up the on-site green power usage for organizations that purchase solar as a resource (State of California, Target Corporation, Procter & Gamble, University of California, and many others).",
+    "GT": "1,486,920,272"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of total electricity use that is on-site green power usage for organizations that have a on-site green power usage less than 10 million kWh?",
+    "Answer": "25.5%",
+    "QuestionType": "percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing up the on-site green power usage for organizations that have a on-site green power usage less than 10 million kWh (Tucson Unified School District, Whirlpool Corporation, ALDI, Inc., and many others) and dividing by the sum of their total electricity use.",
+    "GT": "Irrelevant question"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of Nb in the Metal core of sample C-3009?",
+    "Answer": "76.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 0, column 2 of the table.",
+    "GT": "76.0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which sample has the highest percentage of W?",
+    "Answer": "1",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the cells at row 1, column 5 of the table, which indicates that sample 1 has the highest percentage of W.",
+    "GT": "C-3009 Metal core"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total percentage of Ti, Mo, and Hf in the Oxide scale of sample 2?",
+    "Answer": "12.2",
+    "QuestionType": "cell calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is calculated by summing up the percentages of Ti, Mo, and Hf in the Oxide scale of sample 2, which are 1.5, 4.6, and 74.2, respectively.",
+    "GT": "6.3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which sample has the highest percentage of Fe?",
+    "Answer": "2",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the cells at row 2, column 4 of the table, which indicates that sample 2 has the highest percentage of Fe.",
+    "GT": "M3Fe Metal core"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of Hf in the Reacted zone of sample 4?",
+    "Answer": "39.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 4, column 7 of the table.",
+    "GT": "Irrelevant question"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the source type of the URL 'qppstudio.net'?",
+    "Answer": "Other",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The source type 'Other' is mentioned in the 'Source type' column for the URL 'qppstudio.net'.",
+    "GT": "Other"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Is the URL 'dohanews.co' a reputed source?",
+    "Answer": "Yes",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The 'Reputed' label in the 'Source type' column for the URL 'dohanews.co' indicates that it is a reputed source.",
+    "GT": "Yes"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Is the URL 'iloveqatar.net' a reputed source?",
+    "Answer": "Yes",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The 'Yes' label in the 'Qatar-related?' column for the URL 'iloveqatar.net' indicates that it is a reputed source.",
+    "GT": "No"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Is the URL 'cnn.com' a reputed source?",
+    "Answer": "No",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The 'No' label in the 'Qatar-related?' column for the URL 'cnn.com' indicates that it is not a reputed source.",
+    "GT": "Yes"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the date mentioned in the URL 'icassociation.co.uk'?",
+    "Answer": "17 December",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The date '17 December' is mentioned in the 'Snippet' column for the URL 'icassociation.co.uk'.",
+    "GT": "17 December"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the site with the highest number of N?",
+    "Answer": "11",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The site with the highest number of N is found by selecting the cell with the maximum value in the N column, which is 11.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average HE value for sites with more than 10 N?",
+    "Answer": "0.615",
+    "QuestionType": "cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average HE value for sites with more than 10 N is calculated by selecting all rows where N > 10 and then calculating the mean of the HE values.",
+    "GT": "0.592"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the site with the lowest FIS value?",
+    "Answer": "15",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The site with the lowest FIS value is found by selecting the cell with the minimum value in the FIS column, which is 15.",
+    "GT": "23"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average AR value for sites with a HE value greater than 0.6?",
+    "Answer": "2.933",
+    "QuestionType": "cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average AR value for sites with a HE value greater than 0.6 is calculated by selecting all rows where HE > 0.6 and then calculating the mean of the AR values.",
+    "GT": "2.979"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many sites have a NA value in the AR column?",
+    "Answer": "1",
+    "QuestionType": "cell count",
+    "TableName": "table-1.csv",
+    "Explanation": "The number of sites with a NA value in the AR column is counted by selecting all rows where the AR value is NA, which is 1.",
+    "GT": "Irrelevant question"
+  }
+]

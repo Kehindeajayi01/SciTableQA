@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total sum of W_Mi for M1 and M5?",
+    "Answer": "2",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by adding the values in cells 1 and 5, which represent the matrix computation for M1 and M5 respectively. W_Mi for M1 is 1 and for M5 is 1.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How does the matrix computation for M3 differ from that of M1?",
+    "Answer": "B.B o U",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by comparing the matrix computation for M3 (B.B o U) with that of M1 (C = (U.U) o U^T). The only difference is the addition of (B.B) o U in M3.",
+    "GT": "B.B o U"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total sum of C for M2 and M6?",
+    "Answer": "2",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by adding the values in cells 2 and 6, which represent the matrix computation for M2 and M6 respectively. C for M2 is 1 and for M6 is 1.",
+    "GT": ""
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How does the matrix computation for M7 differ from that of M4?",
+    "Answer": "(U^T.B) . (B.T ) o U",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by comparing the matrix computation for M7 ((U^T.B) . (B.T ) o U) with that of M4 (C = (B.B) o B). The only difference is the addition of (U^T.B) . (B.T ) o U in M7.",
+    "GT": "(U^T.B) . (B.T ) o U"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total sum of C+C^T for M5 and M6?",
+    "Answer": "2",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by adding the values in cells 5 and 6, which represent the matrix computation for M5 and M6 respectively. C+C^T for M5 is 1 and for M6 is 1.",
+    "GT": "2"
+  }
+]

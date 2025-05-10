@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the age of the patient in months at the time of initial physical examination?",
+    "Answer": "7",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The age of the patient in months at the time of initial physical examination can be found in the 'Age1' column of the table.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the type of seizure experienced by patient 2?",
+    "Answer": "Generalized seizure on awakening",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The type of seizure experienced by patient 2 can be found in the 'Age2 of onset' column of the table.",
+    "GT": "GTCS"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Is the initial physical examination of patient 4 normal?",
+    "Answer": "Abnormal",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The initial physical examination of patient 4 is described as 'Abnormal' in the 'Initial physical examination' column of the table.",
+    "GT": "No"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the medication prescribed to patient 5?",
+    "Answer": "LEV, vitamin B6 tablets OXC",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The medication prescribed to patient 5 can be found in the 'Efficacy and follow-up' column of the table.",
+    "GT": "LEV, vitamin B6 tablets OXC"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Is the head MRI result of patient 6 normal?",
+    "Answer": "Normal",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The head MRI result of patient 6 is described as 'Normal' in the 'Head MRI' column of the table.",
+    "GT": "No"
+  }
+]

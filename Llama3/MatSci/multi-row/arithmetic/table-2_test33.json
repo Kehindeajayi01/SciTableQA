@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in lattice parameter (nm) between TiO2 and Nb2O5 at 600\u00b0C?",
+    "Answer": "0.4883 - 0.3565 = 0.1318",
+    "QuestionType": "Comparison",
+    "TableName": "Oxides",
+    "Explanation": "Calculated by subtracting the lattice parameter of TiO2 (0.3565) from the lattice parameter of Nb2O5 (0.4883) at 600\u00b0C.",
+    "GT": "0.8147nm"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average lattice parameter (nm) of all oxides at 700\u00b0C?",
+    "Answer": "(0.4593 + 0.4883 + 0.4372 + 0.8440 + 0.5208 + 0.3801 + 0.3736 + 0.4930) / 8 = 0.5134",
+    "QuestionType": "Average",
+    "TableName": "Oxides",
+    "Explanation": "Calculated by averaging the lattice parameters of all oxides at 700\u00b0C.",
+    "GT": "0.8704 nm"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in lattice parameter (nm) between ZrO2 and AlNbO4 at 800\u00b0C?",
+    "Answer": "0.5320 - 0.3736 = 0.1584",
+    "QuestionType": "Comparison",
+    "TableName": "Oxides",
+    "Explanation": "Calculated by subtracting the lattice parameter of AlNbO4 (0.3736) from the lattice parameter of ZrO2 (0.5320) at 800\u00b0C.",
+    "GT": "0.7005nm"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of oxides present at 600\u00b0C?",
+    "Answer": "6",
+    "QuestionType": "Count",
+    "TableName": "Oxides",
+    "Explanation": "Counted the number of oxides present at 600\u00b0C.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of oxides present at 700\u00b0C?",
+    "Answer": "(6/8) * 100 = 75%",
+    "QuestionType": "Percentage",
+    "TableName": "Oxides",
+    "Explanation": "Calculated the percentage of oxides present at 700\u00b0C by dividing the number of oxides present (6) by the total number of oxides (8) and multiplying by 100.",
+    "GT": "88.89%"
+  }
+]

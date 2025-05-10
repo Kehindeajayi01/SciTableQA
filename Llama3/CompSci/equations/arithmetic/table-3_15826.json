@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in Runtime (s) between the Extended Yale B database and the AR database?",
+    "Answer": "0.46",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question calculates the average difference in Runtime (s) between the Extended Yale B database and the AR database by subtracting the Runtime (s) of the Extended Yale B database from the Runtime (s) of the AR database for each method, then calculating the average of these differences.",
+    "GT": "0.46"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average Runtime (s) for the PCA-L1 method across all databases?",
+    "Answer": "43.09",
+    "QuestionType": "Average",
+    "TableName": "table-3.csv",
+    "Explanation": "The question calculates the average Runtime (s) for the PCA-L1 method by summing the Runtime (s) for the PCA-L1 method across all databases and dividing by the number of databases.",
+    "GT": "48.76"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in Runtime (s) between the LDA-L1 method and the LDA method for the CMU-PIE database?",
+    "Answer": "2.12",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question calculates the difference in Runtime (s) between the LDA-L1 method and the LDA method for the CMU-PIE database by subtracting the Runtime (s) of the LDA method from the Runtime (s) of the LDA-L1 method.",
+    "GT": "2.12"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average Runtime (s) for the F-LPP method across all databases?",
+    "Answer": "6.72",
+    "QuestionType": "Average",
+    "TableName": "table-3.csv",
+    "Explanation": "The question calculates the average Runtime (s) for the F-LPP method by summing the Runtime (s) for the F-LPP method across all databases and dividing by the number of databases.",
+    "GT": "7.39"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in Runtime (s) between the PCA method and the LPP method for the AR database?",
+    "Answer": "-0.70",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The question calculates the difference in Runtime (s) between the PCA method and the LPP method for the AR database by subtracting the Runtime (s) of the LPP method from the Runtime (s) of the PCA method.",
+    "GT": "0.68"
+  }
+]

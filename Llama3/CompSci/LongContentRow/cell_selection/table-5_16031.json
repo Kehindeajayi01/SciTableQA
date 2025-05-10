@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the name of the model used in the conversation?",
+    "Answer": "original",
+    "QuestionType": "cell selection",
+    "TableName": "Models",
+    "Explanation": "The answer is directly selected from the 'Model' column of the table.",
+    "GT": "original"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the name of the model used in the conversation?",
+    "Answer": "RNN",
+    "QuestionType": "cell selection",
+    "TableName": "Models",
+    "Explanation": "The answer is directly selected from the 'Model' column of the table.",
+    "GT": "RNN"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many models are mentioned in the table?",
+    "Answer": "5",
+    "QuestionType": "cell count",
+    "TableName": "Models",
+    "Explanation": "The answer is derived by counting the number of rows in the table.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the question asked in the first conversation?",
+    "Answer": "Where in Qatar is the best place for Snorke-ling? Im planning to go out next Friday but dont know where to go.",
+    "QuestionType": "text selection",
+    "TableName": "Questions",
+    "Explanation": "The answer is directly selected from the 'Questions' column of the table.",
+    "GT": "Where in Qatar is the best place for Snorke-ling? I’m planning to go out next friday but don’t know where to go."
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the question asked in the second conversation?",
+    "Answer": "Where is the best place in Qatar for holiday? Im going to go to sealine but dont know.",
+    "QuestionType": "text selection",
+    "TableName": "Questions",
+    "Explanation": "The answer is directly selected from the 'Questions' column of the table.",
+    "GT": "Where is the best place in Qatar for holi- day? I’m going to go to sealine but don’t know."
+  }
+]

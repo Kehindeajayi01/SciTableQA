@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the AUC for the LRCN model with 1 convolutional layer?",
+    "Answer": "0.869",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell at row 0 and column 1.",
+    "GT": "0.869"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest balanced accuracy?",
+    "Answer": "RNN w/ 8 semantic RoIs",
+    "QuestionType": "cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be obtained by comparing the balanced accuracy values in the table and selecting the model with the highest value.",
+    "GT": "RNN w/ 8 semantic RoIs"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in AUC between the LRCN model with 1 and 3 convolutional layers?",
+    "Answer": "0.010",
+    "QuestionType": "cell calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be obtained by subtracting the AUC value for the LRCN model with 1 convolutional layer (0.869) from the AUC value for the LRCN model with 3 convolutional layers (0.879).",
+    "GT": "0.010"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the lowest AUC?",
+    "Answer": "RNN w/ 3 X 3 grid RoIs",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell with the lowest AUC value.",
+    "GT": "RNN w/ 3 X 3 grid RoIs"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average AUC for the RNN models?",
+    "Answer": "0.843",
+    "QuestionType": "cell calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be obtained by averaging the AUC values for the RNN models (0.872, 0.878, 0.823, and 0.828).",
+    "GT": "0.8502"
+  }
+]

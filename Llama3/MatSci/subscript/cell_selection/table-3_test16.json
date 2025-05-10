@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the specific yield strength (MPa cm^3/g) of the material in row 0?",
+    "Answer": "334",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by looking at the value in the 'Specific yield strength (MPa cm^3/g)' column in row 0.",
+    "GT": "334"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the hardness (HV) of the material in row 4?",
+    "Answer": "591",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by looking at the value in the 'Hardness (HV)' column in row 4.",
+    "GT": "591"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the density (g/cm³) of the material in row 2?",
+    "Answer": "12.29",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by looking at the value in the 'Density (g/cm³)' column in row 2.",
+    "GT": "12.29"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the σ_(max) (MPa) of the material in row 5?",
+    "Answer": "2242",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by looking at the value in the 'σ_(max) (MPa)' column in row 5.",
+    "GT": "2242"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the σ_y (MPa) of the material in row 3?",
+    "Answer": "1719",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by looking at the value in the 'σ_y (MPa)' column in row 3.",
+    "GT": "1719"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average effect of the SNPs on the lipid species TAG(52:3;0) for the top 10% of SNPs with the highest effect sizes?",
+    "Answer": "-0.39",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The effect sizes for the SNPs on TAG(52:3;0) are calculated by subtracting the Ref allele effect from the Alt allele effect. The top 10% of SNPs with the highest effect sizes are then averaged to get the average effect.",
+    "GT": "1.05"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the proportion of SNPs with a p-value less than 10^-8 that are located in the intronic region?",
+    "Answer": "0.7",
+    "QuestionType": "proportion",
+    "TableName": "table-1.csv",
+    "Explanation": "The p-values less than 10^-8 are identified, and the proportion of these SNPs that are located in the intronic region is calculated.",
+    "GT": "0.227"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average AF of the SNPs that have a significant effect on the lipid species LPE(20:4;0)?",
+    "Answer": "0.05",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The SNPs with a significant effect on LPE(20:4;0) are identified, and the average AF of these SNPs is calculated.",
+    "GT": "Irrelevant question (Only one sample that meets the criterion)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the correlation between the effect size of the SNPs on the lipid species TAG(54:6;0) and the AF of these SNPs?",
+    "Answer": "0.45",
+    "QuestionType": "correlation",
+    "TableName": "table-1.csv",
+    "Explanation": "The effect sizes and AFs of the SNPs on TAG(54:6;0) are calculated, and the correlation between these two variables is calculated using a linear regression model.",
+    "GT": "Irrelevant question (Only one sample that meets the criterion)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the proportion of SNPs with a significant effect on the lipid species CE(20:2;0) that are located in the ABCG5/8 gene?",
+    "Answer": "0.2",
+    "QuestionType": "proportion",
+    "TableName": "table-1.csv",
+    "Explanation": "The SNPs with a significant effect on CE(20:2;0) are identified, and the proportion of these SNPs that are located in the ABCG5/8 gene is calculated.",
+    "GT": "Irrelevant question (Only one sample that meets the criterion)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of donors who contributed oocytes with premeiotic aneuploidy?",
+    "Answer": "15",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'No. of donors contributing oocytes with premeiotic aneuploidy' column, which has a value of 15.",
+    "GT": "15"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of oocytes with premeiotic aneuploidy among the total oocytes tested?",
+    "Answer": "12.38%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Oocytes with premeiotic aneuploidy' column, which has a value of 25, and the 'Total oocytes tested' column, which has a value of 202. The percentage is calculated by dividing the number of oocytes with premeiotic aneuploidy by the total number of oocytes tested and multiplying by 100.",
+    "GT": "12.38%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the number of oocytes with Simple (SE) Errors among the oocytes with premeiotic aneuploidy?",
+    "Answer": "13",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'No. of oocytes with Simple (SE) Errors' column, which has a value of 13.",
+    "GT": "13"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of oocytes with Complex (CE) Errors among the oocytes with premeiotic aneuploidy?",
+    "Answer": "12",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'No. of oocytes with Complex (CE) Errors' column, which has a value of 12.",
+    "GT": "12"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of oocytes tested in the 'Female carriers of structural rearrangements or monogenic disorders (non-cancer related)' category?",
+    "Answer": "30",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Total oocytes tested' column, which has a value of 30, for the 'Female carriers of structural rearrangements or monogenic disorders (non-cancer related)' category.",
+    "GT": "30"
+  }
+]

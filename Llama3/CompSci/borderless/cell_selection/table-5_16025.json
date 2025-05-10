@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the overall F1 score for the 'AM-TMP' category?",
+    "Answer": "83.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell at row 10 and column 3.",
+    "GT": "83.0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which category has the lowest precision?",
+    "Answer": "AM-DIR",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be directly obtained from the table by comparing the precision values in each category and selecting the lowest one.",
+    "GT": "AM-DIR"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average recall for the 'AM-ADV' and 'AM-PNC' categories?",
+    "Answer": "62.55",
+    "QuestionType": "calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be calculated by averaging the recall values for the 'AM-ADV' and 'AM-PNC' categories.",
+    "GT": "62.55"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which category has the highest F1 score?",
+    "Answer": "A0",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the category with the highest F1 score.",
+    "GT": "A0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the recall for the 'AM-LOC' category?",
+    "Answer": "58.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer can be directly obtained from the table by selecting the cell at row 7 and column 2.",
+    "GT": "58.3"
+  }
+]

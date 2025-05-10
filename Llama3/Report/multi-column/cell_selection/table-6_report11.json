@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total CO2e emissions for all stations in 2013?",
+    "Answer": "14,869,412",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer can be found in the last row of the table, where the total emissions for all stations is listed.",
+    "GT": "14,869,412"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the CO2e emissions for Above Grade Stations with M&R >300?",
+    "Answer": "3,105,893",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer can be found in the second row of the table, where the emissions for Above Grade Stations with M&R >300 is listed.",
+    "GT": "3,105,89"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of total emissions for Below Grade Stations with R-Vault >300?",
+    "Answer": "0.16% (2,408 / 14,869,412)",
+    "QuestionType": "Cell selection and calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer requires calculation of the percentage of total emissions for Below Grade Stations with R-Vault >300, which can be found in the 10th row of the table.",
+    "GT": "0.01619% The answer calculation of percetage of total emissions total emissions for below grade can be calculated as percentage of below grade stations to total emissions "
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the CO2e emissions for Reg <40?",
+    "Answer": "9,669",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer can be found in the 8th row of the table, where the emissions for Reg <40 is listed.",
+    "GT": "9,669"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total CO2e emissions for Reg 100-300?",
+    "Answer": "2,313,904",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer can be found in the 6th row of the table, where the emissions for Reg 100-300 is listed.",
+    "GT": "2,313,904"
+  }
+]

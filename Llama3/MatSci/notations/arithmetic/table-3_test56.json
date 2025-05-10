@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average relative density of the material?",
+    "Answer": "99.80%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average relative density is calculated by taking the average of the relative density values in the 'Relative density (\u03c1_exp \u03c1_the)' column, which is 99.80%.",
+    "GT": "99.80%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the theoretical and experimental densities?",
+    "Answer": "0.014 g/cm\u00b3",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference between the theoretical and experimental densities is calculated by subtracting the theoretical density (4.960 g/cm\u00b3) from the experimental density (4.946 \u00b1 0.13 g/cm\u00b3), which is 0.014 g/cm\u00b3.",
+    "GT": "0.116 (Upperbound), 0.144 (Lowerbound), 0.014 (Middle)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average compressive strength of the material?",
+    "Answer": "1702 MPa",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average compressive strength is calculated by taking the average of the compressive strength values in the '\u03c3_(0.2)' and '\u03c3_OCUS' columns, which are 1612 MPa and 1792 MPa, respectively. The average is 1702 MPa.",
+    "GT": "1702 MPa"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the relationship between the microhardness and failure strain of the material?",
+    "Answer": "Microhardness: 5.06 \u00b1 0.013 GPa, Failure strain: ~6.4%",
+    "QuestionType": "Correlation",
+    "TableName": "table-3.csv",
+    "Explanation": "This question is an observation of the relationship between the microhardness and failure strain of the material, which are 5.06 \u00b1 0.013 GPa and ~6.4%, respectively.",
+    "GT": "Microhardness: 5.06 \u00b1 0.013 GPa, Failure strain: ~6.4%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of compressive strength values in the material?",
+    "Answer": "1612 - 1792 MPa",
+    "QuestionType": "Range",
+    "TableName": "table-3.csv",
+    "Explanation": "The range of compressive strength values is calculated by subtracting the minimum value (1612 MPa) from the maximum value (1792 MPa), which is 180 MPa.",
+    "GT": "1612 - 1792 MPa"
+  }
+]

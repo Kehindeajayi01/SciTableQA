@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of questions in the Train dataset?",
+    "Answer": "1162",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is directly obtained from the 'Train' row in the 'Train' column.",
+    "GT": "1162"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average average length of questions in the Dev dataset?",
+    "Answer": "8.00",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is directly obtained from the 'Dev' row in the 'Avg QL' column.",
+    "GT": "8.00"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average answer length in the Test dataset?",
+    "Answer": "25.61",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is directly obtained from the 'Test' row in the 'Avg AL' column.",
+    "GT": "25.61"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of questions in the Test dataset?",
+    "Answer": "243",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is directly obtained from the 'Test' row in the 'Train' column.",
+    "GT": "68"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average answer length in the Train dataset?",
+    "Answer": "23.21",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is directly obtained from the 'Train' row in the 'Avg AL' column.",
+    "GT": "23.21"
+  }
+]

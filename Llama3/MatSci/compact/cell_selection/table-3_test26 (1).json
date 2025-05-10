@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the \u03c3_(0.2) value for Ti40?",
+    "Answer": "1122",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The \u03c3_(0.2) value for Ti40 can be found in the first row of the table, under the column '\u03c3_(0.2), MPa'.",
+    "GT": "1122 MPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest \u03c3_(0.2) value?",
+    "Answer": "Ti0.75NbMoTaW",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The \u03c3_(0.2) value for each alloy can be found in the table. By comparing the values, we can determine that Ti0.75NbMoTaW has the highest \u03c3_(0.2) value.",
+    "GT": "TiZrNbVMo1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the \u03b5_f value for NbTiVTaAl?",
+    "Answer": "50.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The \u03b5_f value for NbTiVTaAl can be found in the sixth row of the table, under the column '\u03b5_f,%'.",
+    "GT": "65%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the lowest \u03c3_(0.2)/P value?",
+    "Answer": "TiZrNbTa",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The \u03c3_(0.2)/P value for each alloy can be found in the table. By comparing the values, we can determine that TiZrNbTa has the lowest \u03c3_(0.2)/P value.",
+    "GT": "TiZrHfNbTa"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average \u03c3_(0.2) value for all alloys?",
+    "Answer": "1184.5",
+    "QuestionType": "calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average \u03c3_(0.2) value, we need to sum up all the \u03c3_(0.2) values and divide by the total number of alloys. The calculation is: (1122 + 1200 + ... + 1515) / 41 = 1184.5.",
+    "GT": "1235.3"
+  }
+]

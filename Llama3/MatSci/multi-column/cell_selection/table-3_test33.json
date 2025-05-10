@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of Al in the sample at 600\u00b0C after 100 hours?",
+    "Answer": "3.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the 'Elements (at.%)' column, row 4, column 'Al'.",
+    "GT": "3.6%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total percentage of Ti, V, and Zr in the sample at 800\u00b0C?",
+    "Answer": "39.0",
+    "QuestionType": "cell calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found by summing up the percentages of Ti, V, and Zr in the 'Elements (at.%)' column, row 5.",
+    "GT": "30.3%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in the percentage of O in the sample at 600\u00b0C and 800\u00b0C?",
+    "Answer": "15.8",
+    "QuestionType": "cell calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found by subtracting the percentage of O in row 1 from the percentage of O in row 2.",
+    "GT": "15.7%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of Nb in the sample at 600\u00b0C after 600\u00b0C?",
+    "Answer": "4.4",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the 'Elements (at.%)' column, row 4, column 'Nb'.",
+    "GT": "4.4%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of Al in the sample at 800\u00b0C?",
+    "Answer": "13.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the 'Elements (at.%)' column, row 5, column 'Al'.",
+    "GT": "13.7%"
+  }
+]

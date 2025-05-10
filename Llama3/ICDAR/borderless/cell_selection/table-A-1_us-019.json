@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average annual growth rate of the 18- to 24-year-old population?",
+    "Answer": "0.1%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1",
+    "Explanation": "The answer is derived directly from row 2 of the table.",
+    "GT": "0.1%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the range of annual percent changes for disposable income per capita in constant dollars?",
+    "Answer": "-1.9% to 2.2%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1",
+    "Explanation": "The answer is derived directly from row 7 of the table.",
+    "GT": "-1.9% to 2.2%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the unemployment rate range for ages 20 to 24 among men?",
+    "Answer": "10.8% to 15.6%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1",
+    "Explanation": "The answer is derived directly from row 12 of the table.",
+    "GT": "10.8% to 15.6%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average annual growth rate of the 35- to 44-year-old population?",
+    "Answer": "0.6%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1",
+    "Explanation": "The answer is derived directly from row 5 of the table.",
+    "GT": "0.6%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of inflation rates?",
+    "Answer": "1.0% to 2.0%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-1",
+    "Explanation": "The answer is derived directly from row 9 of the table.",
+    "GT": "1.0% to 2.0%"
+  }
+]

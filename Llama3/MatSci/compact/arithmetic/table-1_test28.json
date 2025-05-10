@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of Hv (Heat of Vaporization) for the alloys with a crystal structure of fcc?",
+    "Answer": "13.38",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The question calculates the average value of Hv for the alloys with a crystal structure of fcc by summing the values of Hv for rows 0, 2, 3, 4, 5, 6, 12, 13, 14, 15, 16, 17, 18, and 19, and then dividing by the number of rows (14).",
+    "GT": "192.8 HV"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in \u0394H_mix (Enthalpy of Mixing) between the alloys CuNi FeCrAl0.2 and CuNi FeCrAl1.6?",
+    "Answer": "-1.70",
+    "QuestionType": "difference",
+    "TableName": "table-1",
+    "Explanation": "The question calculates the difference in \u0394H_mix between the two alloys by subtracting the value of \u0394H_mix for CuNi FeCrAl0.2 (-1.76) from the value of \u0394H_mix for CuNi FeCrAl1.6 (-8.41).",
+    "GT": "8.53 Kj/mol"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of \u0394S_mix (Entropy of Mixing) for the alloys with a crystal structure of bcc?",
+    "Answer": "13.00",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The question calculates the average value of \u0394S_mix for the alloys with a crystal structure of bcc by summing the values of \u0394S_mix for rows 7, 8, 9, 10, 11, 20, 21, 22, and 23, and then dividing by the number of rows (9).",
+    "GT": "13 J/K.mol"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of the value of \u03b4_1 (Lattice Parameter) for CuNi2 FeMn2 Cr to the value of \u03b4_1 for CuNiCoFeTi?",
+    "Answer": "1.23",
+    "QuestionType": "ratio",
+    "TableName": "table-1",
+    "Explanation": "The question calculates the ratio of the value of \u03b4_1 for CuNi2 FeMn2 Cr (6.50) to the value of \u03b4_1 for CuNiCoFeTi (5.30).",
+    "GT": "0.55"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of W (Atomic Weight) for the alloys with a crystal structure of fcc and a value of Ref (Reference) greater than 160?",
+    "Answer": "13.38",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The question calculates the average value of W for the alloys with a crystal structure of fcc and a value of Ref greater than 160 by summing the values of W for rows 3, 4, 5, 6, and 19, and then dividing by the number of rows (5).",
+    "GT": "2.67"
+  }
+]

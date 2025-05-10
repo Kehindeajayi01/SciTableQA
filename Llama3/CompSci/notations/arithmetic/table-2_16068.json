@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average performance of the Bilinear-gated model compared to the Baselines model?",
+    "Answer": "+2.8",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The average performance of the Bilinear-gated model is 90.8 \u00b1 0.1, while the Baselines model is 88.0 \u00b1 0.1. The difference is calculated by subtracting the Baselines model's average performance from the Bilinear-gated model's average performance.",
+    "GT": "+2.8"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the standard deviation of the performance of the Continuous model?",
+    "Answer": "0.2",
+    "QuestionType": "Arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The standard deviation of the performance of the Continuous model is the value in the '\u00b1' column, which is 0.2.",
+    "GT": "0.2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How much better is the performance of the Max-pooling model compared to the Additive model?",
+    "Answer": "+0.1",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The average performance of the Max-pooling model is 90.5 \u00b1 0.1, while the Additive model is 90.4 \u00b1 0.1. The difference is calculated by subtracting the Additive model's average performance from the Max-pooling model's average performance.",
+    "GT": "+0.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average performance of the Discretized PQ (n=4, k=256) model?",
+    "Answer": "89.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The average performance of the Discretized PQ (n=4, k=256) model is the value in the '89.5 \u00b1 0.1' cell.",
+    "GT": "89.5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in performance between the RSPQ (n=4, k=256, r=4) model and the FastText model?",
+    "Answer": "+1.8",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The average performance of the RSPQ (n=4, k=256, r=4) model is 89.8 \u00b1 0.0, while the FastText model is 58.8 \u00b1 0.1. The difference is calculated by subtracting the FastText model's average performance from the RSPQ (n=4, k=256, r=4) model's average performance.",
+    "GT": "+1.8"
+  }
+]

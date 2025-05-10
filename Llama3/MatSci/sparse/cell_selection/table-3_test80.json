@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the atomic radius of Copper (Cu) in Angstroms?",
+    "Answer": "1.28",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the row corresponding to Copper (Cu) in the table.",
+    "GT": "1.28"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which element has the highest melting point?",
+    "Answer": "1660°C",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the row corresponding to Titanium (Ti) in the table.",
+    "GT": "Ti"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the melting point of Silicon (Si) in Celsius?",
+    "Answer": "1410°C",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the row corresponding to Silicon (Si) in the table.",
+    "GT": "1410°C"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which element has the lowest atomic radius?",
+    "Answer": "1.46",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found in the row corresponding to Titanium (Ti) in the table.",
+    "GT": "Ni"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in melting point between Iron (Fe) and Copper (Cu) in Celsius?",
+    "Answer": "455°C",
+    "QuestionType": "cell calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer can be found by subtracting the melting point of Copper (Cu) from the melting point of Iron (Fe), both of which are present in the table.",
+    "GT": "455°C"
+  }
+]

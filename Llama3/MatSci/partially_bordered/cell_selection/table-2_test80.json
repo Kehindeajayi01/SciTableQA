@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Fe content in the Nominal region?",
+    "Answer": "19.80",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Fe content in the Nominal region can be calculated by summing up the Fe values in the Nominal region and dividing by the number of rows in the Nominal region.",
+    "GT": "19.22"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which region has the highest Ti content?",
+    "Answer": "II",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest Ti content is found in row 2, which belongs to region II.",
+    "GT": "III"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the maximum Si content in the table?",
+    "Answer": "9.11",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The maximum Si content is found in row 14, which has a Si content of 9.11.",
+    "GT": "14.34"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which region has the lowest average Fe content?",
+    "Answer": "III",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Fe content in region III can be calculated by summing up the Fe values in region III and dividing by the number of rows in region III. This value is lower than the average Fe content in other regions.",
+    "GT": "III"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Cu content in the Si0.5 region?",
+    "Answer": "25.80",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Cu content in the Si0.5 region can be calculated by summing up the Cu values in the Si0.5 region and dividing by the number of rows in the Si0.5 region.",
+    "GT": "28.49"
+  }
+]

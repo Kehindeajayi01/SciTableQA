@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total percentage of females in the age group 15-24 in the EU-25 in the year 2000?",
+    "Answer": "8.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the cell where the row is 2000, column is Female, and the table is EU-25, age group is 15-24.",
+    "GT": "10.2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total percentage of males in the age group 15-24 in the EU-15 in the year 1995?",
+    "Answer": "8.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the cell where the row is 1995, column is Male, and the table is EU-15, age group is 15-24.",
+    "GT": "8.7"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total percentage of males in the EU-25 in the year 2005?",
+    "Answer": "7.9",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the cell where the row is 2005, column is Male, and the table is EU-25, age group is Total.",
+    "GT": "7.9"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total percentage of females in the EU-15 in the year 2000?",
+    "Answer": "9.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the cell where the row is 2000, column is Female, and the table is EU-15, age group is Total.",
+    "GT": "9.3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total percentage of females in the age group 15-24 in the EU-15 in the year 2005?",
+    "Answer": "8.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the cell where the row is 2005, column is Female, and the table is EU-15, age group is 15-24.",
+    "GT": "8.9"
+  }
+]

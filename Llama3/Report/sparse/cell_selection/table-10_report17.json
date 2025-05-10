@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the Method of Determination Code (MODC) for the first row?",
+    "Answer": "Parameter Code",
+    "QuestionType": "cell selection",
+    "TableName": "table-10.csv",
+    "Explanation": "The answer is found in row 1, column 4 of the table.",
+    "GT": "Parameter Code"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the status of the 'Unadjusted Hourly Value' in the table?",
+    "Answer": "\u2713",
+    "QuestionType": "cell selection",
+    "TableName": "table-10.csv",
+    "Explanation": "The answer is found in row 2, column 3 of the table, which indicates that the value is present.",
+    "GT": "\u2713"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Is the 'Monitoring System ID' present in the table?",
+    "Answer": "\u2713",
+    "QuestionType": "cell selection",
+    "TableName": "table-10.csv",
+    "Explanation": "The answer is found in row 5, column 5 of the table, which indicates that the value is present.",
+    "GT": "\u2713"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the status of the 'Moisture Basis' in the table?",
+    "Answer": "Empty cell",
+    "QuestionType": "cell selection",
+    "TableName": "table-10.csv",
+    "Explanation": "The answer is found in row 8, column 9 of the table, which is an empty cell, indicating that the value is missing.",
+    "GT": "Empty cell"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Is the 'Unknown_3' column present in the table?",
+    "Answer": "\u2713",
+    "QuestionType": "cell selection",
+    "TableName": "table-10.csv",
+    "Explanation": "The answer is found in the column headers, which indicates that the column is present.",
+    "GT": "\u2713"
+  }
+]

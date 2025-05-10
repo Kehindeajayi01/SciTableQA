@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in the economic growth rate between Germany and Portugal from Q2 2006 to Q1 2010?",
+    "Answer": "0.12",
+    "QuestionType": "Comparison",
+    "TableName": "Differences with respect to Germany Portugal Greece Spain Italy France",
+    "Explanation": "The average difference in economic growth rate between Germany and Portugal is calculated by averaging the differences in growth rates between the two countries for each quarter from Q2 2006 to Q1 2010. The average difference is (0.51 - 0.33) / 2 = 0.12.",
+    "GT": "0.33"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average economic growth rate of Spain from Q1 2009 to Q4 2009?",
+    "Answer": "0.18",
+    "QuestionType": "Average",
+    "TableName": "Differences with respect to Germany Portugal Greece Spain Italy France",
+    "Explanation": "The average economic growth rate of Spain is calculated by averaging the growth rates for each quarter from Q1 2009 to Q4 2009. The average growth rate is (0.18 + 0.18) / 2 = 0.18.",
+    "GT": "0.21"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in economic growth rate between Greece and Italy from Q4 2009?",
+    "Answer": "0.27",
+    "QuestionType": "Comparison",
+    "TableName": "Differences with respect to Germany Portugal Greece Spain Italy France",
+    "Explanation": "The difference in economic growth rate between Greece and Italy is calculated by subtracting the growth rate of Greece from the growth rate of Italy. The difference is 0.26 - (-0.01) = 0.27.",
+    "GT": "0.61"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average economic growth rate of France from Q1 2010?",
+    "Answer": "0.25",
+    "QuestionType": "Average",
+    "TableName": "Differences with respect to Germany Portugal Greece Spain Italy France",
+    "Explanation": "The average economic growth rate of France is calculated by taking the single value for the growth rate in Q1 2010. The average growth rate is 0.25.",
+    "GT": "0.25"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in economic growth rate between Germany and Italy from Q2 2006 to Q1 2010?",
+    "Answer": "0.21",
+    "QuestionType": "Comparison",
+    "TableName": "Differences with respect to Germany Portugal Greece Spain Italy France",
+    "Explanation": "The difference in economic growth rate between Germany and Italy is calculated by subtracting the growth rate of Germany from the growth rate of Italy for each quarter from Q2 2006 to Q1 2010. The average difference is (0.72 - 0.51) / 2 = 0.21.",
+    "GT": "0.18"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average change in βNP between 2002-2006 and 2006-2010?",
+    "Answer": "-0.626",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average change in βNP is calculated by subtracting the value in row 1 (0.353) from the value in row 7 (-0.613) and then averaging the result with the value in row 13 (0.007).",
+    "GT": "-0.966",
+    "RV": "1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the βDEG values in 2002-2006 and 2006-2010?",
+    "Answer": "-0.423",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference between the βDEG values is calculated by subtracting the value in row 3 (0.194) from the value in row 9 (-0.229).",
+    "GT": "-0.423",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of βPLAND across all three time periods?",
+    "Answer": "0.128",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of βPLAND is calculated by averaging the values in rows 2, 8, and 14.",
+    "GT": "-0.043",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference between the BDMFL values in 2002-2006 and 2002-2010?",
+    "Answer": "0.152",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference between the BDMFL values is calculated by subtracting the value in row 4 (0.255) from the value in row 16 (0.103).",
+    "GT": "0.152",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of βFL across all three time periods?",
+    "Answer": "0.122",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of βFL is calculated by averaging the values in rows 5, 11, and 17.",
+    "GT": "-0.023",
+    "RV": "2"
+  }
+]

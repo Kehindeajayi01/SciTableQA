@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the peptide name of the first row in the table?",
+    "Answer": "Wheat",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The peptide name is directly available in the first row of the table.",
+    "GT": "γ1-Purothionin",
+    "RV": "1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the net charge at pH 7 for the peptide with accession number P20159?",
+    "Answer": "+6",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The net charge at pH 7 is directly available in the row corresponding to accession number P20159.",
+    "GT": "+6",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the prediction of antimicrobial activity for the peptide with γ-core sequence GNCDGPFRRC?",
+    "Answer": "AMP",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The prediction of antimicrobial activity is directly available in the row corresponding to the γ-core sequence GNCDGPFRRC.",
+    "GT": "AMP",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the isoelectric point of the peptide with accession number P84966.1?",
+    "Answer": "8.50",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The isoelectric point is directly available in the row corresponding to accession number P84966.1.",
+    "GT": "8.50",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many peptides have a net charge at pH 7 of +5?",
+    "Answer": "4",
+    "QuestionType": "count",
+    "TableName": "table-1.csv",
+    "Explanation": "The question requires counting the number of peptides with a net charge at pH 7 of +5, which can be done by scanning the table for the corresponding value.",
+    "GT": "8",
+    "RV": "2"
+  }
+]

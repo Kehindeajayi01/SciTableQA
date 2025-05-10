@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of topics covered by the European Union?",
+    "Answer": "4,330",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of topics covered by the European Union is directly stated in the first row of the table.",
+    "GT": "15 (Total number or rows in the topics column?)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the number of topics related to the EIT?",
+    "Answer": "119",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The number of topics related to the EIT is stated in the second row of the table.",
+    "GT": "119"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the number of topics related to the Research enquiry service?",
+    "Answer": "2.003",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The number of topics related to the Research enquiry service is stated in the third row of the table.",
+    "GT": "2,003"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of topics related to the Export Helpdesk?",
+    "Answer": "169",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The number of topics related to the Export Helpdesk is stated in the fourth row of the table.",
+    "GT": "169"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of topics covered by the European Union?",
+    "Answer": "23,900",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of topics covered by the European Union is stated in the last row of the table.",
+    "GT": "15 (Total number or rows in the topics column?)"
+  }
+]

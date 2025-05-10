@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total percentage of 'High' throughput for GPX1, GPX2, and GPX3?",
+    "Answer": "30%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The total percentage of 'High' throughput for GPX1, GPX2, and GPX3 is calculated by adding the percentages of 'High' throughput for each gene (10% + 100% + 0%) and dividing by 3.",
+    "GT": "36.67%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many unique publications are there for the genes with 100% 'High' throughput?",
+    "Answer": "7",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The genes with 100% 'High' throughput are GPX1, GPX3, GPX5, GPX6, GPX7, PRDX1, and SRXN1, and they have a total of 7 unique publications.",
+    "GT": "22"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average percentage of 'High' throughput for the genes in the 'PRDX' family?",
+    "Answer": "65.5%",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average percentage of 'High' throughput for the genes in the 'PRDX' family (PRDX1, PRDX2, PRDX3, PRDX4, and PRDX5) is calculated by adding their percentages (78% + 75% + 73% + 78% + 100%) and dividing by 5.",
+    "GT": "79.8%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many genes have a total percentage of 'High' throughput less than 50%?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The genes with a total percentage of 'High' throughput less than 50% are GPX2, GPX4, and NOS2.",
+    "GT": "7"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of interactions for the genes with 'Low' throughput?",
+    "Answer": "22",
+    "QuestionType": "Sum",
+    "TableName": "table-1.csv",
+    "Explanation": "The genes with 'Low' throughput are GPX1, GPX4, GPX6, GPX7, PRDX2, PRDX3, PRDX4, SOD1, SOD2, and SOD3, and they have a total of 22 interactions.",
+    "GT": "736"
+  }
+]

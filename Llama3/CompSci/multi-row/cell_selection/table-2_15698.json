@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the method with the highest \u03b5 value in the table?",
+    "Answer": "DP-Walker (0.95)",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The \u03b5 value is highest for DP-Walker with a value of 0.95.",
+    "GT": "DP-Walker (0.95)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method has the highest Pearson correlation?",
+    "Answer": "DP-Spectral (0.92)",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest Pearson correlation is 0.92, which is associated with the DP-Spectral method.",
+    "GT": "DP-Walker (0.95)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the method with the lowest Spearman correlation in the table?",
+    "Answer": "LE (0.039)",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lowest Spearman correlation is 0.039, which is associated with the LE method.",
+    "GT": "LE (0.51)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which dataset has the highest DeepWalk \u03b5 value?",
+    "Answer": "Facebook (0.81)",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest DeepWalk \u03b5 value is 0.81, which is associated with the Facebook dataset.",
+    "GT": "Facebook (0.81)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the method with the highest Kendall correlation in the table?",
+    "Answer": "DP-Spectral (0.67)",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The highest Kendall correlation is 0.67, which is associated with the DP-Spectral method.",
+    "GT": "DP-Spectral (0.52)"
+  }
+]

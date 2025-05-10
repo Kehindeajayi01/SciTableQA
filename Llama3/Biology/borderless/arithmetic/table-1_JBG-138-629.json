@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of days at farm for farms with more than 130 cows?",
+    "Answer": "14.0",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Farms with more than 130 cows are A, C, and H. The average At (days) for these farms is (159/11 + 133/10 + 189/11) / 3 = 14.0",
+    "GT": "14.25"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of cows on farms with an average At (days) less than 14?",
+    "Answer": "442",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Farms with an average At (days) less than 14 are E, F, and L. The total number of cows on these farms is 102 + 133 + 151 = 442",
+    "GT": "151"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of cows on farms with 10 or fewer observations?",
+    "Answer": "113.0",
+    "QuestionType": "Arithmetic Mean",
+    "TableName": "table-1.csv",
+    "Explanation": "Farms with 10 or fewer observations are F and K. The average number of cows on these farms is (133 + 130) / 2 = 113.0",
+    "GT": "131.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of cows on farms with more than 105 cows and an average At (days) of 14?",
+    "Answer": "637",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Farms with more than 105 cows and an average At (days) of 14 are A, C, G, H, I, and J. The total number of cows on these farms is 134 + 159 + 100 + 189 + 104 + 88 = 637",
+    "GT": "730"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of cows on farms with an average At (days) of 14.1 or more?",
+    "Answer": "140.5",
+    "QuestionType": "Arithmetic Mean",
+    "TableName": "table-1.csv",
+    "Explanation": "Farms with an average At (days) of 14.1 or more are F, L, and H. The average number of cows on these farms is (133 + 151 + 189) / 3 = 140.5",
+    "GT": "133"
+  }
+]

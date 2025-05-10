@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of σ2A for h2u = 0.05?",
+    "Answer": "0.0036",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found directly in the table, in the cell where h2u = 0.05 and σ2A is listed.",
+    "GT": "0.0036",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the value of Accuracy for h2u = 0.1?",
+    "Answer": "0.195",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found directly in the table, in the cell where h2u = 0.1 and Accuracy is listed.",
+    "GT": "0.195",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the highest value of Accuracy in the table?",
+    "Answer": "0.241",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found directly in the table, by identifying the cell with the highest value in the Accuracy column.",
+    "GT": "0.241",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of p\u0304(Aα = µα + 2\σAα )c for h2u = 0.2?",
+    "Answer": "0.022",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found directly in the table, in the cell where h2u = 0.2 and p\u0304(Aα = µα + 2σAα )c is listed.",
+    "GT": "0.022",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many rows are there in the table where Accuracy is not NaN?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found by counting the number of rows in the table where Accuracy is not NaN.",
+    "GT": "3",
+    "RV": "3"
+  }
+]

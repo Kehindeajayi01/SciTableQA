@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in validation accuracy between the 'DecompAtt' and 'Ngram' models?",
+    "Answer": "10.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The validation accuracy for 'DecompAtt' is 75.4 and for 'Ngram' is 65.0, so the difference is 75.4 - 65.0 = 10.4",
+    "GT": "10.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average accuracy of the top 3 models (DecompAtt, ESIM, DGEM) in the test set?",
+    "Answer": "73.4",
+    "QuestionType": "Calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The average of the test accuracies for DecompAtt (72.3), ESIM (70.6), and DGEM (77.3) is (72.3 + 70.6 + 77.3) / 3 = 73.4",
+    "GT": "67.73"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in test accuracy between the 'DGEM' and 'Majority class' models?",
+    "Answer": "16.9",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The test accuracy for 'DGEM' is 77.3 and for 'Majority class' is 60.3, so the difference is 77.3 - 60.3 = 16.9",
+    "GT": "17"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average difference in validation accuracy between each model and the 'Majority class' model?",
+    "Answer": "26.5",
+    "QuestionType": "Calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The average difference is ((75.4 - 63.3) + (70.5 - 63.3) + (65.0 - 63.3) + (75.1 - 63.3) + (79.6 - 63.3)) / 5 = 26.5",
+    "GT": "9.82"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average difference in test accuracy between each model and the 'Ngram' model?",
+    "Answer": "7.3",
+    "QuestionType": "Calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The average difference is ((72.3 - 70.6) + (70.6 - 70.6) + (77.3 - 70.6) + (70.8 - 70.6)) / 4 = 7.3",
+    "GT": "3.78"
+  }
+]

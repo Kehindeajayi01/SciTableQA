@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "Which country had the highest total retail sales volume in 1996?",
+    "Answer": "Portugal",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The answer is derived by looking at the last column of the table, which represents the total retail sales volume in 1996. Portugal has the highest value of 180.3, which is the highest among all the countries listed.",
+    "GT": "Portugal"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country had the lowest total retail sales volume in 1996?",
+    "Answer": "Finland",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The answer is derived by looking at the last column of the table, which represents the total retail sales volume in 1996. Finland has the lowest value of 95.2, which is the lowest among all the countries listed.",
+    "GT": "Finland"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average growth rate in total retail sales volume among the countries listed?",
+    "Answer": "6.3",
+    "QuestionType": "Calculation",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The answer is derived by calculating the average of the growth rates listed in the second column of the table. The growth rates are: 6.9, 6.4, 5.8, 6.5, -10.8, 12.0, 1.0, 7.9, n.a, n.a, n.a, n.a. The average growth rate is calculated by summing up all the growth rates and dividing by the number of countries.",
+    "GT": "4.9"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which country had the highest growth rate in total retail sales volume?",
+    "Answer": "Ireland",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The answer is derived by looking at the second column of the table, which represents the growth rates in total retail sales volume. Ireland has the highest growth rate of 12.0, which is the highest among all the countries listed.",
+    "GT": "Ireland"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which country had a negative growth rate in total retail sales volume?",
+    "Answer": "Greece",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The answer is derived by looking at the second column of the table, which represents the growth rates in total retail sales volume. Greece has a negative growth rate of -10.8, which is the only negative growth rate among all the countries listed.",
+    "GT": "Greece"
+  }
+]

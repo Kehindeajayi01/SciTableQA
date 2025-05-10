@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the lattice parameter of BCC at 0 strain?",
+    "Answer": "2.89",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice parameter of BCC at 0 strain is directly obtained from the table by selecting the value in the 'BCC' row and 'MA' column.",
+    "GT": "2.89 Å"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in lattice parameter between FCC and BCC at 0 strain?",
+    "Answer": "0.88",
+    "QuestionType": "cell subtraction",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in lattice parameter between FCC and BCC at 0 strain is calculated by subtracting the value in the 'BCC' row and 'MA' column (2.89) from the value in the 'FCC' row and 'MA' column (3.77).",
+    "GT": "0.88 A˚"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the lattice parameter of FCC at 0.51 strain?",
+    "Answer": "3.7254",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice parameter of FCC at 0.51 strain is directly obtained from the table by selecting the value in the 'FCC' row and 'SPS' column.",
+    "GT": "3.7254 Å"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in lattice parameter between MA and SPS for BCC at 0.45 strain?",
+    "Answer": "0.33",
+    "QuestionType": "cell subtraction",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in lattice parameter between MA and SPS for BCC at 0.45 strain is calculated by subtracting the value in the 'BCC' row and 'MA' column (2.86) from the value in the 'BCC' row and 'SPS' column (2.89).",
+    "GT": "0.03 A˚"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lattice parameter of BCC at 0.78 strain?",
+    "Answer": "2.86",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice parameter of BCC at 0.78 strain is directly obtained from the table by selecting the value in the 'BCC' row and 'SPS' column.",
+    "GT": "2.89 Å"
+  }
+]

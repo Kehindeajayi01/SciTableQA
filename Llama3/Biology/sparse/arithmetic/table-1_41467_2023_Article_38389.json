@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of inhibitors that have been tested for cancer treatment?",
+    "Answer": "9",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "Counted the number of inhibitors with 'cancer' as a clinical indication.",
+    "GT": "11"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of inhibitors that have been tested for cancer treatment and have a protective eQTL effect?",
+    "Answer": "90%",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "Counted the number of inhibitors with 'cancer' as a clinical indication and 'protective' as eQTL effect, then divided by the total number of inhibitors with 'cancer' as a clinical indication.",
+    "GT": "91%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of clinical indications for inhibitors that have been tested for immune-mediated diseases?",
+    "Answer": "1.4",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated the average number of clinical indications for inhibitors with 'immune-mediated diseases' as an application.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which inhibitor has been tested for the most number of clinical indications?",
+    "Answer": "dupilumab",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Compared the number of clinical indications for each inhibitor and identified the one with the most number of indications.",
+    "GT": "CTLA4"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of inhibitors that have been tested for RA treatment?",
+    "Answer": "2",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "Counted the number of inhibitors with 'RA' as a clinical indication.",
+    "GT": "3"
+  }
+]

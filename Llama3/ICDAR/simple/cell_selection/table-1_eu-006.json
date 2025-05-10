@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the market share of Monoprix in the retailer own brands?",
+    "Answer": "28%",
+    "QuestionType": "cell selection",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The answer is directly extracted from the first row of the table, which corresponds to Monoprix.",
+    "GT": "18.7%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which retailer has the second-highest market share in the retailer own brands?",
+    "Answer": "Casino",
+    "QuestionType": "cell selection",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The answer is extracted by comparing the market shares in the table and identifying the second-highest value, which belongs to Casino.",
+    "GT": "Casino"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total market share of the top three retailers in the retailer own brands?",
+    "Answer": "76%",
+    "QuestionType": "cell calculation",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The answer is calculated by summing the market shares of the top three retailers (Monoprix, Casino, and Intermarch\u00e9).",
+    "GT": "77.5%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which retailer has a market share below 20%?",
+    "Answer": "Leclere",
+    "QuestionType": "cell selection",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The answer is extracted by identifying the retailer with a market share below 20%, which is Leclere with a market share of 10%.",
+    "GT": "Carrefour, Monoprix, Système U, Continent, Stoc, Auchan, Match, Champion, Leclere, Cora, and Prisunic"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average market share of the retailers in the table?",
+    "Answer": "22%",
+    "QuestionType": "cell calculation",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The answer is calculated by summing the market shares and dividing by the number of retailers (5).",
+    "GT": "18.2%"
+  }
+]

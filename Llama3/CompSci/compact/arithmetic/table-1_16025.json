@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average F1 score of the models developed by He et al. (Ensemble) and He et al. (Single) in 2017?",
+    "Answer": "83.2",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average F1 score is calculated by taking the average of the F1 scores of He et al. (Ensemble) (2017) and He et al. (Single) (2017), which are 82.7 and 81.6, respectively.",
+    "GT": "82.15"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of completely correct predicates (Comp.) for DEEPATT (FFN, Ensemble) in the WSJ Test?",
+    "Answer": "86.1",
+    "QuestionType": "specific data lookup",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly taken from the table, which shows the percentage of completely correct predicates (Comp.) for DEEPATT (FFN, Ensemble) in the WSJ Test as 86.1.",
+    "GT": "86.1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in F1 scores between DEEPATT (RNN) and DEEPATT (CNN) in the Combined Test?",
+    "Answer": "0.5",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference in F1 scores is calculated by subtracting the F1 score of DEEPATT (RNN) from the F1 score of DEEPATT (CNN), which are 81.8 and 82.4, respectively.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average Precision of the models developed by Zhou and Xu (2015), FitzGerald et al. (Struct., Ensemble) (2015), and T\u00e4ckstrom et al. (Struct.) (2015)?",
+    "Answer": "80.7",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average Precision is calculated by taking the average of the Precision scores of Zhou and Xu (2015), FitzGerald et al. (Struct., Ensemble) (2015), and T\u00e4ckstrom et al. (Struct.) (2015), which are 79.4, 78.2, and 77.6, respectively.",
+    "GT": "80.7"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the F1 score of Punyakanok et al. (Ensemble) (2008) in the Combined Test?",
+    "Answer": "79.4",
+    "QuestionType": "specific data lookup",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly taken from the table, which shows the F1 score of Punyakanok et al. (Ensemble) (2008) in the Combined Test as 79.4.",
+    "GT": "77.9"
+  }
+]

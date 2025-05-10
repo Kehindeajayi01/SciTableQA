@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Pearson correlation coefficient for the LE method across all datasets?",
+    "Answer": "0.34",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Pearson correlation coefficient for the LE method is calculated by summing up the Pearson correlation coefficients for each dataset (0.14, 0.48, 0.81, 0.51, 0.50, 0.99) and dividing by the number of datasets (6).",
+    "GT": "0.22"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method (DeepWalk, DP-Spectral, or DP-Walker) has the highest average Spearman correlation coefficient across all datasets?",
+    "Answer": "DP-Spectral",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Spearman correlation coefficients for each method are calculated by summing up the Spearman correlation coefficients for each dataset (0.054, 0.92, 0.79, 0.63, 0.67, 0.34) and dividing by the number of datasets (6). The method with the highest average Spearman correlation coefficient is DP-Spectral.",
+    "GT": "DP-Spectral"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in the Kendall correlation coefficient between the LE method and the DP-Walker method for the Facebook dataset?",
+    "Answer": "0.35",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The Kendall correlation coefficients for the LE method and the DP-Walker method for the Facebook dataset are 0.12 and 0.57, respectively. The difference between these two values is 0.45.",
+    "GT": "0.45"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average Pearson correlation coefficient for the DP-Spectral method across the Twitter, Coauthor, and Citation datasets?",
+    "Answer": "0.57",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Pearson correlation coefficient for the DP-Spectral method is calculated by summing up the Pearson correlation coefficients for the Twitter, Coauthor, and Citation datasets (0.50, 0.64, 0.45) and dividing by the number of datasets (3).",
+    "GT": "0.53"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which dataset has the highest Pearson correlation coefficient for the DP-Walker method?",
+    "Answer": "Coauthor",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The Pearson correlation coefficients for the DP-Walker method for each dataset are 0.75, 0.62, and 0.65 for the Coauthor, Citation, and Mobile datasets, respectively. The Coauthor dataset has the highest Pearson correlation coefficient.",
+    "GT": "Synthetic"
+  }
+]

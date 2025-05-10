@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in lattice parameter (a) between the BCC phase of NbTiZr after 1400 \u00b0C annealing and the BCC1 phase of NbTiZrV after 55% compression at 1000 \u00b0C?",
+    "Answer": "8.5 pm",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice parameter (a) of BCC phase of NbTiZr after 1400 \u00b0C annealing is 340.1 pm, and the lattice parameter (a) of BCC1 phase of NbTiZrV after 55% compression at 1000 \u00b0C is 335.4 pm. The difference is 8.5 pm.",
+    "GT": "4.7 pm"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average lattice parameter (a) of the BCC phase in NbTiZr after 1400 \u00b0C annealing and the BCC1 phase in NbTiZrV after 55% compression at 1000 \u00b0C?",
+    "Answer": "337.75 pm",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average lattice parameter (a) of the BCC phase in NbTiZr after 1400 \u00b0C annealing is (340.1 pm + 340.0 pm) / 2 = 340.05 pm, and the average lattice parameter (a) of the BCC1 phase in NbTiZrV after 55% compression at 1000 \u00b0C is (335.4 pm + 340.2 pm) / 2 = 337.8 pm. The average of these two values is 337.75 pm.",
+    "GT": "337.75 pm"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in lattice parameter (a) between the Laves C15 phase of NbTiZr after 1400 \u00b0C annealing and the Laves C15 phase of NbTiZrV after 55% compression at 1000 \u00b0C?",
+    "Answer": "2.4 pm",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice parameter (a) of Laves C15 phase of NbTiZr after 1400 \u00b0C annealing is 757.5 pm, and the lattice parameter (a) of Laves C15 phase of NbTiZrV after 55% compression at 1000 \u00b0C is 757.1 pm. The difference is 2.4 pm.",
+    "GT": "No comparison can be made, as NbTiZr lacks a Laves C15 phase."
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the lattice parameter (a) of the BCC2 phase in NbTiZr after 1400 \u00b0C annealing and the BCC2 phase in NbTiZrV after 55% compression at 1000 \u00b0C?",
+    "Answer": "331.8 pm and 340.2 pm",
+    "QuestionType": "multiple values",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice parameter (a) of BCC2 phase in NbTiZr after 1400 \u00b0C annealing is 342.4 pm, and the lattice parameter (a) of BCC2 phase in NbTiZrV after 55% compression at 1000 \u00b0C is 340.2 pm.",
+    "GT": "BCC2 phase does not exist in NbTiZr after annealing at 1400 °C"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in lattice parameter (a) between the BCC phase of NbTiZr after 1400 \u00b0C annealing and the BCC phase of NbTiZrV after 55% compression at 1000 \u00b0C?",
+    "Answer": "4.7 pm",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice parameter (a) of BCC phase of NbTiZr after 1400 \u00b0C annealing is 330.7 pm, and the lattice parameter (a) of BCC phase of NbTiZrV after 55% compression at 1000 \u00b0C is 330.3 pm. The difference is 4.7 pm.",
+    "GT": "4.7 pm"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of actions performed in the 'kitchen' context?",
+    "Answer": "4.4",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "The average is calculated by summing the number of actions in the 'kitchen' context (2, 1, 1, 1, 1) and dividing by the number of rows (5)",
+    "GT": "4.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many actions involve 'walk'?",
+    "Answer": "3",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by counting the number of rows where the 'True Event' column contains the word 'walk'",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of actions involving 'faucet'?",
+    "Answer": "3",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by summing the number of rows where the 'True Event' column contains the word 'faucet'",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of actions involving 'hand'?",
+    "Answer": "60%",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "The percentage is calculated by dividing the number of rows where the 'True Event' column contains the word 'hand' (3) by the total number of rows (9) and multiplying by 100",
+    "GT": "60%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "How many actions involve both 'kitchen' and 'bottle'?",
+    "Answer": "3",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is obtained by counting the number of rows where both the 'GRU-Lang' and 'GRU-Lang+Time' columns contain the words 'kitchen' and 'bottle'",
+    "GT": "3"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage difference between the atomic percentage of Co and Cr in the ICP-AES method?",
+    "Answer": "0.33",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The atomic percentage of Co in ICP-AES method is 20.01 and the atomic percentage of Cr is 19.68. The percentage difference is calculated as ((20.01 - 19.68) / 19.68) * 100 = 0.33.",
+    "GT": "0.33"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average atomic percentage of Fe, Mn, and Ni in the Nominal method?",
+    "Answer": "20",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The atomic percentages of Fe, Mn, and Ni in the Nominal method are all 20. The average is calculated as (20 + 20 + 20) / 3 = 20.",
+    "GT": "20"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage difference between the atomic percentage of Mn and Ni in the ICP-AES method?",
+    "Answer": "0.06",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The atomic percentage of Mn in ICP-AES method is 20.18 and the atomic percentage of Ni is 20.24. The percentage difference is calculated as ((20.24 - 20.18) / 20.18) * 100 = 0.06.",
+    "GT": "0.06"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the atomic percentage of Co in the ICP-AES method?",
+    "Answer": "20.01",
+    "QuestionType": "specific value",
+    "TableName": "table-1",
+    "Explanation": "The atomic percentage of Co in the ICP-AES method is directly taken from the table as 20.01.",
+    "GT": "20.01"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage difference between the atomic percentage of Co and Ni in the Nominal method?",
+    "Answer": "0",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The atomic percentages of Co and Ni in the Nominal method are both 20. The percentage difference is calculated as ((20 - 20) / 20) * 100 = 0.",
+    "GT": "0"
+  }
+]

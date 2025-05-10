@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of \u0394c_i for the MoTa0.75NbVTi mixture?",
+    "Answer": "2.64",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of \u0394c_i is calculated by summing up the values in the \u0394c_i column for the MoTa0.75NbVTi mixture (rows 9-11) and dividing by the number of rows.",
+    "GT": "0.002"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the T_(m,i) value for MoTa1.0NbVTi and MoTa0.75NbVTi?",
+    "Answer": "288",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference is calculated by subtracting the T_(m,i) value for MoTa0.75NbVTi (row 10) from the T_(m,i) value for MoTa1.0NbVTi (row 2).",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of K=C_D/C_ID for the MoTa0.5NbVTi mixture?",
+    "Answer": "3.55",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of K=C_D/C_ID is calculated by summing up the values in the K=C_D/C_ID column for the MoTa0.5NbVTi mixture (rows 17-19) and dividing by the number of rows.",
+    "GT": "3.45"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference between the \u0394T_(m,i) value for MoTa0.75NbVTi and MoTa0.25NbVTi?",
+    "Answer": "334",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference is calculated by subtracting the \u0394T_(m,i) value for MoTa0.25NbVTi (row 32) from the \u0394T_(m,i) value for MoTa0.75NbVTi (row 16).",
+    "GT": "85"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of D for the MoTa0.5NbVTi mixture?",
+    "Answer": "22.76",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average value of D is calculated by summing up the values in the D column for the MoTa0.5NbVTi mixture (rows 18-20) and dividing by the number of rows.",
+    "GT": "20.1"
+  }
+]

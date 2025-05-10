@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of contact hours in compulsory courses offered by medical faculties in Bosnia and Herzegovina?",
+    "Answer": "67.5",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average number of contact hours is calculated by summing up the contact hours for each course in Bosnia and Herzegovina (75 + 135 + 75) and dividing by the number of courses (3).",
+    "GT": "76.3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country has the highest average number of ECTS credits for compulsory courses offered by its medical faculties?",
+    "Answer": "Croatia",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average number of ECTS credits is calculated for each country by summing up the ECTS credits for each course and dividing by the number of courses. Croatia has the highest average ECTS credits (6.5).",
+    "GT": "Serbia"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of contact hours in compulsory courses offered by medical faculties in the 1st study year?",
+    "Answer": "350",
+    "QuestionType": "total",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of contact hours is calculated by summing up the contact hours for each course offered in the 1st study year (75 + 135 + 75 + 50 + 90 + 60 + 45 + 75).",
+    "GT": "1,017"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which medical faculty offers the course with the highest number of ECTS credits?",
+    "Answer": "Faculty of Medicine, University of Tuzla",
+    "QuestionType": "identification",
+    "TableName": "table-1.csv",
+    "Explanation": "The course with the highest number of ECTS credits is Biology with Human Genetics, offered by the Faculty of Medicine, University of Tuzla, with 7 ECTS credits.",
+    "GT": "Faculty of Medicine Foca, University of East Sarajevo"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of ECTS credits for compulsory courses offered by medical faculties in the 1st study year?",
+    "Answer": "6.25",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average number of ECTS credits is calculated by summing up the ECTS credits for each course offered in the 1st study year (6 + 9 + 6 + 7 + 6 + 5 + 4 + 6) and dividing by the number of courses (8).",
+    "GT": "6.2"
+  }
+]

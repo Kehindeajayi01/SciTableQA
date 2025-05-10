@@ -1,0 +1,20 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the reason for exclusion of the domain 'cbi-epa.gov'?",
+    "Answer": "This is not a public website",
+    "QuestionType": "Cell selection",
+    "TableName": "Domain Name",
+    "Explanation": "The answer is directly obtained from the 'Reason for exclusion' column of the table.",
+    "GT": " This is not a public website"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the reason for exclusion of the domain 'glnpo.gov'?",
+    "Answer": "Under development; not active yet",
+    "QuestionType": "Cell selection",
+    "TableName": "Domain Name",
+    "Explanation": "The answer is directly obtained from the 'Reason for exclusion' column of the table.",
+    "GT": "Under development; not active yet"
+  }
+]

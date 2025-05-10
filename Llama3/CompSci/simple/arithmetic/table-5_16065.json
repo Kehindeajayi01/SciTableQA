@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in Model Accuracy between the 'all-LSTM' model and the 'no highway' model?",
+    "Answer": "4.0",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average difference is calculated by subtracting the Model Accuracy of 'no highway' (70.1) from 'all-LSTM' (75.1) and then dividing by 2.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average True F-score of the models that do not use 'highway' or 'lstm'?",
+    "Answer": "51.4",
+    "QuestionType": "average",
+    "TableName": "table-5.csv",
+    "Explanation": "The average True F-score is calculated by summing the True F-scores of 'no highway' (52.6) and 'no lstm' (50.3) and dividing by 2.",
+    "GT": "51.4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in AUC between the 'all-LSTM' model and the 'frames only' model?",
+    "Answer": "31.1",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The difference in AUC is calculated by subtracting the AUC of 'frames only' (66.4) from 'all-LSTM' (75.5).",
+    "GT": "9.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average Model Accuracy of the models that use 'lstm'?",
+    "Answer": "71.9",
+    "QuestionType": "average",
+    "TableName": "table-5.csv",
+    "Explanation": "The average Model Accuracy is calculated by summing the Model Accuracies of 'all-LSTM' (75.1) and 'no lstm' (68.8) and dividing by 2.",
+    "GT": "71.9"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in True F-score between the 'discourse only' model and the 'frames only' model?",
+    "Answer": "0.7",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The difference in True F-score is calculated by subtracting the True F-score of 'frames only' (44.2) from 'discourse only' (43.5).",
+    "GT": "0.7"
+  }
+]

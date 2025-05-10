@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of brands offered by Up-market companies?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer is derived by counting the number of brands offered by Up-market companies, which are Procter & Gamble, Lever, and Henkel.",
+    "GT": "4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of products offered by companies with medium market size?",
+    "Answer": "2.33",
+    "QuestionType": "Average",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer is derived by calculating the average number of products offered by companies with medium market size, which are Procter & Gamble (2) and Henkel (2).",
+    "GT": "NA (No data available)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of products offered by companies with down-market size?",
+    "Answer": "5",
+    "QuestionType": "Count",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer is derived by counting the total number of products offered by companies with down-market size, which are Ariel, Vizir, Bonux, Skip, and Omo.",
+    "GT": "NA (No data available)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in the number of products offered by Procter & Gamble and Lever?",
+    "Answer": "1",
+    "QuestionType": "Comparison",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer is derived by subtracting the number of products offered by Lever (2) from the number of products offered by Procter & Gamble (3).",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of companies offering more than 2 products?",
+    "Answer": "66.67%",
+    "QuestionType": "Percentage",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer is derived by counting the number of companies offering more than 2 products (3 out of 4) and dividing it by the total number of companies, then multiplying by 100.",
+    "GT": "NA (No data available)"
+  }
+]

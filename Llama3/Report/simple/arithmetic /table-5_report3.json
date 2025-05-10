@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total estimated cost of modernizing all the websites listed in the table?",
+    "Answer": "$8,332,775",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by summing up the estimated costs of all the websites listed in the table.",
+    "GT": "$8,332,775"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average estimated cost of modernizing a website in the table?",
+    "Answer": "$840,155",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by dividing the total estimated cost by the number of websites listed in the table.",
+    "GT": "$1,666,555"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which website has the highest estimated cost of modernization?",
+    "Answer": "EPA.GOV",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by comparing the estimated costs of all the websites listed in the table.",
+    "GT": "EPA.GOV"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total estimated effort required to modernize all the websites listed in the table?",
+    "Answer": "53,075 hours of effort",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by summing up the estimated effort required for all the websites listed in the table.",
+    "GT": "53,075 hours of effort"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average estimated effort required to modernize a website in the table?",
+    "Answer": "5,307 hours of effort",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by dividing the total estimated effort by the number of websites listed in the table.",
+    "GT": "10,615 hours of effort"
+  }
+]

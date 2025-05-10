@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference between the CPcarc values for Hankins and Howe [7] and Costa e Silva et al [12] when xCPRS is 10?",
+    "Answer": "6.46",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "Using the equations from Hankins and Howe [7] (CPcarc = 5.98+0.66xCPRS) and Costa e Silva et al [12] (CPcarc = 18.38+0.16xCPRs-0.20xOV), we can calculate the CPcarc values for xCPRS = 10. For Hankins and Howe [7], CPcarc = 5.98 + 0.66*10 = 19.58. For Costa e Silva et al [12], CPcarc = 18.38 + 0.16*10 - 0.20*xOV (assuming xOV is 0 since it's not provided). The difference is 19.58 - 18.38 = 6.46.",
+    "GT": "7.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the sum of the CPcarc and EEcarc values for Costa e Silva et al [12] when xEERS is 5 and xOV is 3?",
+    "Answer": "23.92",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "Using the equations from Costa e Silva et al [12] (CPcarc = 18.38+0.16xCPRs-0.20xOV and EEcarc = 4.54+0.48xEERs+0.12xOV), we can calculate the CPcarc and EEcarc values for xEERS = 5 and xOV = 3. For CPcarc, CPcarc = 18.38 + 0.16*5 - 0.20*3 = 19.28. For EEcarc, EEcarc = 4.54 + 0.48*5 + 0.12*3 = 8.64. The sum is 19.28 + 8.64 = 23.92.",
+    "GT": "25.08"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the Wcarc values for Hankins and Howe [7] and Costa e Silva et al [12] when xWRS is 20?",
+    "Answer": "14.21",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "Using the equations from Hankins and Howe [7] (Wcarc = 14.90-0.78xWRS) and Costa e Silva et al [12] (Wcarc = 55.67-0.21xWRs-0.021xEBW), we can calculate the Wcarc values for xWRS = 20. For Hankins and Howe [7], Wcarc = 14.90 - 0.78*20 = -3.58. For Costa e Silva et al [12], Wcarc = 55.67 - 0.21*20 - 0.021*xBW (assuming xBW is 0 since it's not provided). The difference is -3.58 - 55.67 = 14.21.",
+    "GT": "20.97"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the sum of the CPEBW and EEEBW values for Costa e Silva et al [12] when xCPRs is 10 and xOV is 2?",
+    "Answer": "24.85",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "Using the equations from Costa e Silva et al [12] (CPEBW =19.92+0.086xCPRs-0.19xOV and EEEBW = 3.53+0.34xEERS+0.80xVF+0.10xOV), we can calculate the CPEBW and EEEBW values for xCPRs = 10 and xOV = 2. For CPEBW, CPEBW = 19.92 + 0.086*10 - 0.19*2 = 20.42. For EEEBW, EEEBW = 3.53 + 0.34*xEERS + 0.80*xVF + 0.10*2 (assuming xVF is 0 since it's not provided). The sum is 20.42 + 3.53 = 24.85.",
+    "GT": "24.13"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the WEBW values for Hankins and Howe [7] and Costa e Silva et al [12] when xWRs is 30?",
+    "Answer": "NaN",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The table does not provide an equation for Hankins and Howe [7] to calculate WEBW. Therefore, it is not possible to calculate the difference between the WEBW values for Hankins and Howe [7] and Costa e Silva et al [12] when xWRs is 30.",
+    "GT": "NaN"
+  }
+]

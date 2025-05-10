@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage difference in the number of individuals with severe disability aged 15 and older between 2005 and 2010?",
+    "Answer": "0.5",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage difference is calculated by dividing the difference in the number of individuals with severe disability aged 15 and older (2,912) by the original value in 2005 (32,771) and then multiplying by 100.",
+    "GT": "0.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of individuals with a disability who are employed, aged 21 to 64, in 2010?",
+    "Answer": "41.1",
+    "QuestionType": "percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage is calculated by dividing the number of individuals with a disability who are employed, aged 21 to 64, in 2010 (29,479) by the total number of individuals with a disability, aged 21 to 64, in 2010 (170,349) and then multiplying by 100.",
+    "GT": "41.1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the absolute difference in the number of individuals with severe disability aged 6 and older between 2005 and 2010?",
+    "Answer": "3,337",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The absolute difference is calculated by subtracting the original value in 2005 (34,947) from the value in 2010 (39,294).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of individuals with no disability who are employed, aged 65 and older, in 2005?",
+    "Answer": "83.5",
+    "QuestionType": "percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage is calculated by dividing the number of individuals with no disability who are employed, aged 65 and older, in 2005 (118,707) by the total number of individuals with no disability, aged 65 and older, in 2005 (142,208) and then multiplying by 100.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage difference in the number of individuals with difficulty seeing between 2005 and 2010?",
+    "Answer": "-0.3",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage difference is calculated by dividing the difference in the number of individuals with difficulty seeing (-237) by the original value in 2005 (7,793) and then multiplying by 100.",
+    "GT": "-0.3"
+  }
+]

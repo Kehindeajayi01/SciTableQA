@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean of the parameter \u03c32a(YW)?",
+    "Answer": "341.64",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The mean is directly extracted from the first row of the table, column 1.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the standard deviation (SD) of the parameter \u03c3(YW,FLM)?",
+    "Answer": "0.1457",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The standard deviation is directly extracted from the sixth row of the table, column 5.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of the parameter h2 (FLM)?",
+    "Answer": "0.4718",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The value is directly extracted from the third row of the table, column 8.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the median of the parameter \u03c3(YW,FLM)?",
+    "Answer": "-4.3820",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The median is directly extracted from the third row of the table, column 2.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of the parameter ESS?",
+    "Answer": "1583.9",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The value is directly extracted from the seventh row of the table, column 7.",
+    "GT": "Irrelevant question"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the lattice constant of AlCrTiMo alloy?",
+    "Answer": "3.094",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the first row of the table.",
+    "GT": "3.094"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the lattice constant of Al0.25CrTiMo alloy?",
+    "Answer": "3.088",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the fourth row of the table.",
+    "GT": "3.088"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which alloy has the largest lattice constant?",
+    "Answer": "Al0.5CrTiMo",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the lattice constants in each row and selecting the row with the largest value, which is 3.089.",
+    "GT": "AlCrTiMo"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the relationship between the lattice constant and alloy composition?",
+    "Answer": "The lattice constant decreases as the alloy composition increases",
+    "QuestionType": "Pattern identification",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by analyzing the trend in the lattice constants as the alloy composition increases.",
+    "GT": "The lattice constant decreases as the alloy composition decreases"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lattice constant of Al0.75CrTiMo alloy?",
+    "Answer": "3.092",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from the second row of the table.",
+    "GT": "3.092"
+  }
+]

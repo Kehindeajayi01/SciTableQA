@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the E_corr value for CoCrFeMnNi powder?",
+    "Answer": "-0.6485",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The E_corr value for CoCrFeMnNi powder can be found in the first row of the table, in the E_corr column.",
+    "GT": "-0.6485"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which material has a higher i_corr value, CoCrFeMnNi powder or 304L stainless steel powder?",
+    "Answer": "304L stainless steel powder",
+    "QuestionType": "Cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The i_corr values for CoCrFeMnNi powder and 304L stainless steel powder are 0.6300 and 0.6971, respectively. Since 0.6971 is greater than 0.6300, 304L stainless steel powder has a higher i_corr value.",
+    "GT": "304L stainless steel powder"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in E_corr values between CoCrFeMnNi powder and 304L stainless steel powder?",
+    "Answer": "0.0795",
+    "QuestionType": "Cell calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The E_corr value for CoCrFeMnNi powder is -0.6485, and the E_corr value for 304L stainless steel powder is -0.7280. The difference between these two values is 0.0795.",
+    "GT": "0.0795"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Is the i_corr value for CoCrFeMnNi powder greater than or equal to 0.65?",
+    "Answer": "Yes",
+    "QuestionType": "Cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The i_corr value for CoCrFeMnNi powder is 0.6300, which is greater than or equal to 0.65.",
+    "GT": "No"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average E_corr value for the two materials in the table?",
+    "Answer": "-0.68825",
+    "QuestionType": "Cell calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The average E_corr value can be calculated by adding the E_corr values for both materials and dividing by 2: (-0.6485 + -0.7280) / 2 = -0.68825.",
+    "GT": "-0.68825"
+  }
+]

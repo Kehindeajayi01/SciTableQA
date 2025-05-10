@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average age of Cognitively Normal Controls with APOE E4 carriers?",
+    "Answer": "75.53",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average age of Cognitively Normal Controls is 86.53, and the percentage of APOE E4 carriers is 14.4%. To find the average age of Cognitively Normal Controls with APOE E4 carriers, we need to calculate the average age of the 14.4% of the controls who are APOE E4 carriers, which is approximately 75.53.",
+    "GT": "78.85"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of EA cases with APOE E4 carriers who are female?",
+    "Answer": "55.8%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of EA cases with APOE E4 carriers is 40.6%, and the percentage of females is 55.8%. To find the percentage of EA cases with APOE E4 carriers who are female, we need to multiply the two percentages, which is 22.38%. However, since the question asks for the percentage of females, we can simply use the percentage of females, which is 55.8%.",
+    "GT": "59.4% (Average percentage of females, 3 cases)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average age of Hispanic cases with APOE E4 carriers?",
+    "Answer": "75.45",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average age of Hispanic cases is 72.59, and the percentage of APOE E4 carriers is 43.5%. To find the average age of Hispanic cases with APOE E4 carriers, we need to calculate the average age of the 43.5% of the cases who are APOE E4 carriers, which is approximately 75.45.",
+    "GT": "76.86 (Average the four ages of the hispanic groups)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of ADGC cases with APOE E4 carriers who are male?",
+    "Answer": "54%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of ADGC cases with APOE E4 carriers is 64%, and the percentage of males is 54%. To find the percentage of ADGC cases with APOE E4 carriers who are male, we need to multiply the two percentages, which is 34.56%. However, since the question asks for the percentage of males, we can simply use the percentage of males, which is 54%.",
+    "GT": "20.47%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average age of FinnAD cases with APOE E4 carriers?",
+    "Answer": "74",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average age of FinnAD cases is 74, and the percentage of APOE E4 carriers is not provided. Since the percentage of APOE E4 carriers is not provided, we cannot calculate the average age of FinnAD cases with APOE E4 carriers.",
+    "GT": "72.5"
+  }
+]

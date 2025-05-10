@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of individuals who have used substances in the last month, compared to those who have never used substances?",
+    "Answer": "9.6% vs 80.1%",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "This question compares the frequency of substance abuse in the last month (9.6%) to those who have never used substances (80.1%).",
+    "GT": "2.8% (Average) vs 94.6% (Average)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of individuals who have used substances more than a year ago, compared to those who have used substances in the last year?",
+    "Answer": "6.3% vs 4.0%",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "This question compares the frequency of substance abuse more than a year ago (6.3%) to those who have used substances in the last year (4.0%).",
+    "GT": "1.7% (Average() vs 0.9% (Average)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average percentage of individuals who have used substances in the last year, compared to those who have never used substances?",
+    "Answer": "2.3% vs 80.1%",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "This question calculates the average percentage of individuals who have used substances in the last year (2.3%) and compares it to those who have never used substances (80.1%).",
+    "GT": "0.9% vs 94.6%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of individuals who have used Anabolic steroids, compared to those who have used Heroin?",
+    "Answer": "2.1% vs 0.5%",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "This question compares the frequency of substance abuse of Anabolic steroids (2.1%) to those who have used Heroin (0.5%).",
+    "GT": "6% vs 1%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of individuals who have used substances in the last month, compared to those who have used substances more than a year ago?",
+    "Answer": "9.6% vs 6.3%",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "This question compares the frequency of substance abuse in the last month (9.6%) to those who have used substances more than a year ago (6.3%).",
+    "GT": "9.6% vs 2.8%"
+  }
+]

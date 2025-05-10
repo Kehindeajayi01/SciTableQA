@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in PED between the RS-PED and PED methods?",
+    "Answer": "0.008",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference is calculated by subtracting the PED values of the RS-PED method from the PED values of the PED method and then averaging the results.",
+    "GT": "0.008"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average value of PCE for the methods that have a PCS value greater than 0.45?",
+    "Answer": "0.045",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The methods with a PCS value greater than 0.45 are PCE, RS-PCE, PCS (Jin, Segovia, and S\u00fcsstrunk 2016), and RS-PCS. The average PCE value is calculated by summing the PCE values of these methods and dividing by the number of methods.",
+    "GT": "0.045"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in CED between the Our CJS and Our RS-CJS methods?",
+    "Answer": "0.005",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the CED value of the Our RS-CJS method from the CED value of the Our CJS method.",
+    "GT": "0.006"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average value of PKL for the methods that have a PED value greater than 0.17?",
+    "Answer": "0.162",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The methods with a PED value greater than 0.17 are PED, RS-PED, PCE, RS-PCE, PJS, RS-PJS, PCS (Jin, Segovia, and S\u00fcsstrunk 2016), RS-PCS, PKL (Wang et al. 2017), and RS-PKL. The average PKL value is calculated by summing the PKL values of these methods and dividing by the number of methods.",
+    "GT": "0.162"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in MMD between the MMD (Borgwardt et al. 2006) and RS-MMD methods?",
+    "Answer": "0.007",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the MMD value of the RS-MMD method from the MMD value of the MMD (Borgwardt et al. 2006) method.",
+    "GT": "0.007"
+  }
+]

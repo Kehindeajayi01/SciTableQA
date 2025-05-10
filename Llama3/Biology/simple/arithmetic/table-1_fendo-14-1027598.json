@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in serum total calcium (mmol/L) between patients with benign lesions and those with carcinoma?",
+    "Answer": "0.56 mmol/L",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question compares the mean values of serum total calcium (mmol/L) between benign lesions and carcinoma. The difference is calculated by subtracting the mean value of benign lesions (2.83 + 0.26) from the mean value of carcinoma (3.39 + 0.56).",
+    "GT": "0.56 mmol/L"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many more patients with carcinoma have typical changes in X-rays compared to those with benign lesions?",
+    "Answer": "38 - 47 = -9",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "This question compares the number of patients with typical changes in X-rays between benign lesions and carcinoma. The difference is calculated by subtracting the number of patients with benign lesions (47) from the number of patients with carcinoma (38).",
+    "GT": "38 - 47 = -9"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average age at which patients with atypical adenoma develop symptoms?",
+    "Answer": "46.9 + 17.1",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the average age at which patients with atypical adenoma develop symptoms. The average age is calculated by adding the mean value of onset age (46.9) and the standard deviation (17.1).",
+    "GT": "46.9"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of patients with hypercalcemic crisis among those with carcinoma?",
+    "Answer": "42 (53.2%)",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "This question calculates the percentage of patients with hypercalcemic crisis among those with carcinoma. The percentage is calculated by dividing the number of patients with hypercalcemic crisis (42) by the total number of patients with carcinoma (79) and multiplying by 100.",
+    "GT": "53.2%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average difference in LS BMD (Z-score) between patients with benign lesions and those with carcinoma?",
+    "Answer": "-0.451 - (-1.056) = 0.605",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This question compares the mean values of LS BMD (Z-score) between benign lesions and carcinoma. The difference is calculated by subtracting the mean value of benign lesions (-0.451) from the mean value of carcinoma (-1.056).",
+    "GT": "-0.451 - (-1.056) = 0.605"
+  }
+]

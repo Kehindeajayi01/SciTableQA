@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the density of TiZrVNb alloy?",
+    "Answer": "6.45",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The density of TiZrVNb alloy can be found in the first row of the table.",
+    "GT": "6.45 g/cm^3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest compressive strain at 1%?",
+    "Answer": "AlCoCrFeNi",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The compressive strain at 1% is given in the last column of the table. AlCoCrFeNi has the highest value of 22.7.",
+    "GT": "VNbMoTaW"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average density of the alloys in the table?",
+    "Answer": "6.34",
+    "QuestionType": "calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "To calculate the average density, I added up the densities of all alloys and divided by the number of alloys (16).",
+    "GT": "7.22 g/cm^3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has a compressive strain greater than 50?",
+    "Answer": "Ti1.5ZrVNb, Ti2ZrVNb, NbTiVZr, CrNbTiZr, CrNbTiVZr, Ti2ZrHf0.5VNb, Ti40Al10V20Nb20Mo10, Ti35Al15V20Nb20Mo10, Ti30Al20V20Nb20Mo10, AlNbTiVZr0.5, Al0.5CrNbTi2V0.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The compressive strain greater than 50 is given in the last column of the table. I selected the alloys that meet this condition.",
+    "GT": "Ti1.5ZrVNb, Ti2ZrVNb, NbTiV2Zr, Ti2ZrHf0.5VNb, Ti40Al10V20Nb20Mo10, Ti35Al15V20Nb20Mo10, TiNbHfZr, AlNbTiVZr0.5, Al0.5CrNbTi2V0.5, CoCrFeNi"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the density of the alloy CoCrFeNi?",
+    "Answer": "8.13",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The density of the alloy CoCrFeNi can be found in the 13th row of the table.",
+    "GT": "8.13 g/cm^3"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total budget for all programs?",
+    "Answer": "$8M",
+    "QuestionType": "cell selection",
+    "TableName": "Program Budget",
+    "Explanation": "The total budget is calculated by summing up all the values in the 'Program Budget' column.",
+    "GT": "$8M"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which program has the highest budget?",
+    "Answer": "FFATA Subawards Reporting System Assistance",
+    "QuestionType": "cell selection",
+    "TableName": "Program Budget",
+    "Explanation": "The program with the highest budget is identified by finding the row with the maximum value in the 'Program Budget' column.",
+    "GT": "FFATA Subawards Reporting System Assistance"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the budget for the Citizen Engagement Platform (Apps.gov)?",
+    "Answer": "$0",
+    "QuestionType": "cell selection",
+    "TableName": "Program Budget",
+    "Explanation": "The budget for the Citizen Engagement Platform (Apps.gov) is found by looking up the value in the 'Program Budget' column for the corresponding row.",
+    "GT": "$0"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the budget for Performance.gov?",
+    "Answer": "$1.1M",
+    "QuestionType": "cell selection",
+    "TableName": "Program Budget",
+    "Explanation": "The budget for Performance.gov is found by looking up the value in the 'Program Budget' column for the corresponding row.",
+    "GT": "$1.1M"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which program has a budget of $0?",
+    "Answer": "Challenges Platform, USASpending.gov, and Small Business Dashboard*",
+    "QuestionType": "cell selection",
+    "TableName": "Program Budget",
+    "Explanation": "The programs with a budget of $0 are identified by finding the rows with a value of $0 in the 'Program Budget' column.",
+    "GT": "Challenge Platform and Citizen Engagement Platform (Apps.gov)"
+  }
+]

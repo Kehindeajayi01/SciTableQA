@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference between the dimension of the hidden units and the dimension of the English pretrained word embedding?",
+    "Answer": "512 - 100 = 412",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "This question compares the dimension of the hidden units (512) with the dimension of the English pretrained word embedding (100). The answer is calculated by subtracting the latter from the former.",
+    "GT": "512 - 100 = 412"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the ratio of the dropout rate to the beam size in search?",
+    "Answer": "0.3 / 10 = 0.03",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "This question compares the dropout rate (0.3) with the beam size in search (10). The answer is calculated by dividing the former by the latter.",
+    "GT": "0.3 / 10 = 0.03"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the batch sizes for English and Chinese?",
+    "Answer": "10 - 5 = 5",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "This question compares the batch sizes for English (10) and Chinese (5). The answer is calculated by subtracting the latter from the former.",
+    "GT": "10 - 5 = 5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the sum of the dimensions of the POS tag embedding and the Chinese pretrained word embedding?",
+    "Answer": "128 + 200 = 328",
+    "QuestionType": "arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "This question adds the dimensions of the POS tag embedding (128) and the Chinese pretrained word embedding (200).",
+    "GT": "128 + 200 = 328"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the product of the LSTM layers and the hidden unit dimension?",
+    "Answer": "1 * 512 = 512",
+    "QuestionType": "arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "This question multiplies the LSTM layers (1) with the hidden unit dimension (512).",
+    "GT": "1 * 512 = 512"
+  }
+]

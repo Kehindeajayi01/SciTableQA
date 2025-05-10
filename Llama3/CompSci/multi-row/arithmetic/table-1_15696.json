@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of questions in the Train dataset compared to the Test dataset?",
+    "Answer": "1162 vs 243",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is obtained by comparing the number of questions in the Train dataset (1162) with the number of questions in the Test dataset (243).",
+    "GT": "1162 vs 68"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average Average Quality Level (Avg QL) of the Train dataset compared to the WikiQA Dev dataset?",
+    "Answer": "7.57 vs 7.23",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is obtained by comparing the average Average Quality Level (Avg QL) of the Train dataset (7.57) with the average Average Quality Level (Avg QL) of the WikiQA Dev dataset (7.23).",
+    "GT": "7.57 vs 7.23"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Average Length (Avg AL) of the TREC-QA Dev dataset compared to the Test dataset?",
+    "Answer": "24.90 vs 25.61",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is obtained by comparing the average Average Length (Avg AL) of the TREC-QA Dev dataset (24.90) with the average Average Length (Avg AL) of the Test dataset (25.61).",
+    "GT": "24.90 vs 25.61"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in the number of questions between the Train dataset and the WikiQA Test dataset?",
+    "Answer": "873 - 243 = 630",
+    "QuestionType": "arithmetic",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is obtained by subtracting the number of questions in the WikiQA Test dataset (243) from the number of questions in the Train dataset (873).",
+    "GT": "873 - 243 = 630"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Average Quality Level (Avg QL) of the Dev datasets?",
+    "Answer": "(8.00 + 7.23) / 2 = 7.615",
+    "QuestionType": "arithmetic",
+    "TableName": "Unknown_2",
+    "Explanation": "The answer is obtained by calculating the average Average Quality Level (Avg QL) of the Dev datasets by adding the average Average Quality Level (Avg QL) of the TREC-QA Dev dataset (8.00) and the average Average Quality Level (Avg QL) of the WikiQA Dev dataset (7.23) and dividing by 2.",
+    "GT": "(8.00 + 7.23) / 2 = 7.615"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of words in the top sentence of each topic?",
+    "Answer": "15.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average number of words in the top sentence of each topic is calculated by summing the number of words in each sentence and dividing by the number of topics.",
+    "GT": "15.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many topics have a quote from the AAP policy statement?",
+    "Answer": "1",
+    "QuestionType": "Count",
+    "TableName": "table-3.csv",
+    "Explanation": "The topic with the quote from the AAP policy statement is identified by searching for the phrase 'AAP policy statement' in the text.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of sentences in topics that mention a specific movie?",
+    "Answer": "3.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average number of sentences in topics that mention a specific movie is calculated by summing the number of sentences in each topic that mentions a movie and dividing by the number of topics that mention a movie.",
+    "GT": "v"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many topics mention a specific film or movie?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-3.csv",
+    "Explanation": "The topics that mention a specific film or movie are identified by searching for phrases like 'movie', 'film', or specific movie titles in the text.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of words in topics that mention a specific quote?",
+    "Answer": "20.2",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average number of words in topics that mention a specific quote is calculated by summing the number of words in each topic that mentions a quote and dividing by the number of topics that mention a quote.",
+    "GT": "20.2"
+  }
+]

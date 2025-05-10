@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of requests received?",
+    "Answer": "10",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by summing up the values in the 'Request' column.",
+    "GT": "10"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many requests were approved?",
+    "Answer": "7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by counting the number of 'Approved' values in the 'Status' column.",
+    "GT": "7"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total value of approved requests?",
+    "Answer": "3500",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by summing up the values in the 'Value' column for the 'Approved' requests.",
+    "GT": "3500"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average value of all requests?",
+    "Answer": "175",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by dividing the total value of all requests (sum of 'Value' column) by the total number of requests (count of rows).",
+    "GT": "175"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of requests that were denied?",
+    "Answer": "3",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by subtracting the number of approved requests from the total number of requests.",
+    "GT": "3"
+  }
+]

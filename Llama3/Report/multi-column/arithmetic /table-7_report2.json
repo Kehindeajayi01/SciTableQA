@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total percentage of recyclable materials in the waste sort?",
+    "Answer": "22.4%",
+    "QuestionType": "comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The total percentage of recyclable materials is calculated by summing up the percentages of recyclable materials (6.0%, 0.4%, 1.4%, 1.6%, 4.9%, and 4.1%) and dividing by the total percentage of waste (100%).",
+    "GT": "22.4%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total quantity of recyclable materials in tons per year?",
+    "Answer": "208.26",
+    "QuestionType": "arithmetic",
+    "TableName": "table-7.csv",
+    "Explanation": "The total quantity of recyclable materials is calculated by multiplying the weekly quantity (lbs/wk) by the number of weeks in a year (52) and dividing by 2000 lbs. The result is then multiplied by 1000 to convert to tons.",
+    "GT": "207.93"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of hazardous/e-waste in the total waste?",
+    "Answer": "3.3%",
+    "QuestionType": "comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The percentage of hazardous/e-waste is calculated by dividing the quantity of hazardous/e-waste (30.42) by the total quantity of waste (929.76) and multiplying by 100.",
+    "GT": "3.3%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total quantity of non-divertable materials in tons per year?",
+    "Answer": "721.50",
+    "QuestionType": "arithmetic",
+    "TableName": "table-7.csv",
+    "Explanation": "The total quantity of non-divertable materials is calculated by multiplying the weekly quantity (lbs/wk) by the number of weeks in a year (52) and dividing by 2000 lbs.",
+    "GT": "721.50"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of non-recyclable plastics in the total waste?",
+    "Answer": "0.0%",
+    "QuestionType": "comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "The percentage of non-recyclable plastics is calculated by dividing the quantity of non-recyclable plastics (0.0) by the total quantity of waste (929.76) and multiplying by 100.",
+    "GT": "0.0%"
+  }
+]

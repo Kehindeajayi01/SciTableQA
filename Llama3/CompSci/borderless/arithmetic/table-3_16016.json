@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average thread length of Avocado compared to Ubuntu Dialog?",
+    "Answer": "8.2 - 2.4 = 5.8",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average thread length of Avocado is 2.4, and the average thread length of Ubuntu Dialog is 8.2. The difference is calculated by subtracting the average thread length of Avocado from the average thread length of Ubuntu Dialog.",
+    "GT": "8.2 - 2.4 = 5.8"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many more messages are there in Ubuntu Dialog compared to r/politics?",
+    "Answer": "416721 - 42952 = 373669",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The number of messages in Ubuntu Dialog is 416721, and the number of messages in r/politics is 42952. The difference is calculated by subtracting the number of messages in r/politics from the number of messages in Ubuntu Dialog.",
+    "GT": "416721 - 42952 = 373769"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average message length of Avocado compared to the average thread length of Ubuntu Dialog?",
+    "Answer": "73.0 / 2.4 = 30.4",
+    "QuestionType": "Ratio",
+    "TableName": "table-3.csv",
+    "Explanation": "The average message length of Avocado is 73.0, and the average thread length of Ubuntu Dialog is 8.2. The ratio is calculated by dividing the average message length of Avocado by the average thread length of Ubuntu Dialog.",
+    "GT": "73.0 / 8.2 = 8.9"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many more threads are there in Avocado compared to r/politics?",
+    "Answer": "50890 - 15813 = 35077",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The number of threads in Avocado is 50890, and the number of threads in r/politics is 15813. The difference is calculated by subtracting the number of threads in r/politics from the number of threads in Avocado.",
+    "GT": "50890 - 15813 = 35077"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average message length of Ubuntu Dialog compared to the average thread length of Avocado?",
+    "Answer": "12.7 / 2.4 = 5.29",
+    "QuestionType": "Ratio",
+    "TableName": "table-3.csv",
+    "Explanation": "The average message length of Ubuntu Dialog is 12.7, and the average thread length of Avocado is 2.4. The ratio is calculated by dividing the average message length of Ubuntu Dialog by the average thread length of Avocado.",
+    "GT": "12.7 / 2.4 = 5.29"
+  }
+]

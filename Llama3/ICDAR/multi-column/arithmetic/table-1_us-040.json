@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average wildlife criterion for Kingfisher and Osprey?",
+    "Answer": "1024",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the average, we took the average of 1040 (Kingfisher) and 1498 (Osprey), which is 1024.",
+    "GT": "1,158.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in wildlife criterion between Mink and Other?",
+    "Answer": "206",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the difference, we subtracted 1930 (Other) from 2880 (Mink), which is 206.",
+    "GT": "950 (GLWQI), 274 (Mercury)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average wildlife criterion for Eagle and Kingfisher?",
+    "Answer": "1429",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the average, we took the average of 1920 (Eagle) and 1040 (Kingfisher), which is 1429.",
+    "GT": "1,344"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total wildlife criterion for all species?",
+    "Answer": "6930",
+    "QuestionType": "Sum",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the total, we added up the values for all species: 2880 + 1930 + 1040 + 1498 + 1920 = 6930.",
+    "GT": "7,770 (GLWQI), 5,716 (Mercury)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of the wildlife criterion for Mink to Eagle?",
+    "Answer": "1.51",
+    "QuestionType": "Ratio",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the ratio, we divided 2880 (Mink) by 1920 (Eagle), which is 1.51.",
+    "GT": "1.5 (GLWQI), 0.571 (Mercury)"
+  }
+]

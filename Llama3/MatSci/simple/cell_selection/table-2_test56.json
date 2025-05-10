@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average crystallite size in nm after 30 hours of milling?",
+    "Answer": "12",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Crystallite size (nm)' column at row 3 (index 2) and column 3 (index 4), which corresponds to 30 hours of milling.",
+    "GT": "12"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the lattice strain percentage after 60 hours of milling?",
+    "Answer": "1.04",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'Lattice strain (%)' column at row 7 (index 6) and column 7 (index 7), which corresponds to 60 hours of milling.",
+    "GT": "1.04"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Is the lattice strain percentage increasing or decreasing after 20 hours of milling compared to 10 hours of milling?",
+    "Answer": "increasing",
+    "QuestionType": "comparative analysis",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the values in the 'Lattice strain (%)' column at rows 2 (index 1) and 3 (index 2), which correspond to 10 hours and 20 hours of milling, respectively. The value at 20 hours (0.55) is greater than the value at 10 hours (0.46), indicating an increase in lattice strain percentage.",
+    "GT": "increasing"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the minimum crystallite size in nm?",
+    "Answer": "10",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the minimum value in the 'Crystallite size (nm)' column, which is 10.",
+    "GT": "10"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Is there a correlation between milling time and lattice strain percentage?",
+    "Answer": "yes",
+    "QuestionType": "pattern analysis",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by observing the trend in the 'Lattice strain (%)' column, which appears to increase with increasing milling time, indicating a positive correlation between the two variables.",
+    "GT": "yes (lattice starin percentage increases with an increase in millinng time)"
+  }
+]

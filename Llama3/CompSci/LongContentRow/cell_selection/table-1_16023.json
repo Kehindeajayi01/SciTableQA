@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the supertype of the entity?",
+    "Answer": "Supertype",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The supertype is directly mentioned in the table as the first column.",
+    "GT": "Supertype"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the differentia quality that distinguishes the entity from others under the same supertype?",
+    "Answer": "Differentia quality",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The differentia quality is directly mentioned in the table as the second column.",
+    "GT": "Differentia quality"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the event that is mandatory to distinguish the entity from others under the same supertype?",
+    "Answer": "Differentia event",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The differentia event is directly mentioned in the table as the third column.",
+    "GT": "Differentia event"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the location of the differentia event?",
+    "Answer": "Event location",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The event location is directly mentioned in the table as the fourth column.",
+    "GT": "Event location"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the time in which the differentia event happens?",
+    "Answer": "Event time",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1",
+    "Explanation": "The event time is directly mentioned in the table as the fifth column.",
+    "GT": "Event time"
+  }
+]

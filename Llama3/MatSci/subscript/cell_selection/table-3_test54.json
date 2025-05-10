@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the ΔH_(mix) value for the alloy Ti40Zr10Ni40Co5Cu5?",
+    "Answer": "-34.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The ΔH_(mix) value is directly obtained from the first row of the table.",
+    "GT": "-34.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest ΔS_(mix) value?",
+    "Answer": "Ti20Zr15Hf15Ni20Co15Cu15",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The ΔS_(mix) values are compared across the table to identify the highest value, which is found in the fourth row.",
+    "GT": "Ti16.67Zr16.67Hf16.67Ni16.67Co16.67Cu16.67"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average ΔH_(mix) value for the alloys with a Ti content of 30%?",
+    "Answer": "-32.6",
+    "QuestionType": "calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The average ΔH_(mix) value is calculated by summing the ΔH_(mix) values for the alloys Ti30Zr20Ni30Co10Cu10 and Ti30Zr10Hf10Ni30Co10Cu10 and dividing by 2.",
+    "GT": "-32.6"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the Ω value for the alloy Ti25Zr25Ni16.67Co16.67Cu16.67?",
+    "Answer": "0.81",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The Ω value is directly obtained from the third row of the table.",
+    "GT": "0.81"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which alloy has the lowest VEC value?",
+    "Answer": "Ti40Zr10Ni40Co5Cu5",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The VEC values are compared across the table to identify the lowest value, which is found in the first row.",
+    "GT": "All equal"
+  }
+]

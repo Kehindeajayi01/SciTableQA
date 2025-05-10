@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest accuracy achieved by any model in the table?",
+    "Answer": "86.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The highest accuracy achieved by any model is 86.1, which is achieved by the 512-1024-2048D Shortcut-Stacked BiLSTM model.",
+    "GT": "86.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the lowest number of parameters?",
+    "Answer": "2.3M",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The 300D Gumbel Tree-LSTM, without Leaf LSTM model has the lowest number of parameters, which is 2.3M.",
+    "GT": "100D Gumbel Tree-LSTM, without Leaf LSTM (Ours)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average accuracy of the models that use Gumbel Tree-LSTM?",
+    "Answer": "83.5",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average accuracy of the models that use Gumbel Tree-LSTM is calculated by summing up the accuracies of models 2, 3, 7, and 8, and dividing by 4. The result is 83.5.",
+    "GT": "84.08"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the longest training time?",
+    "Answer": "67+",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The 300D SPINN model has the longest training time, which is 67+ hours.",
+    "GT": "100D CYK Tree-LSTM (Maillard, Clark, and Yogatama 2017)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of parameters for the models that use Tree-LSTM?",
+    "Answer": "242.5k",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The average number of parameters for the models that use Tree-LSTM is calculated by summing up the parameters of models 1, 2, and 3, and dividing by 3. The result is 242.5k.",
+    "GT": "311k"
+  }
+]

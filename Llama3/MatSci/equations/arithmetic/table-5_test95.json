@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average wear rate for Ta0.50 alloy?",
+    "Answer": 0.34,
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average wear rate for Ta0.50 alloy is calculated by taking the average of the wear rate value (0.34) and its standard deviation (0.079) in the table.",
+    "GT": "0.34 g/N.m.10^-6"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in friction coefficient between Ta0.75 and Ta1.0 alloys?",
+    "Answer": 0.252,
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The difference in friction coefficient is calculated by subtracting the friction coefficient value for Ta1.0 alloy (0.521) from the friction coefficient value for Ta0.75 alloy (0.773).",
+    "GT": "0.252"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average friction coefficient for Ta0.25, Ta0.50, and Ta0.75 alloys?",
+    "Answer": 0.653,
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average friction coefficient is calculated by taking the average of the friction coefficient values for Ta0.25, Ta0.50, and Ta0.75 alloys, which are 0.578, 0.633, and 0.773, respectively.",
+    "GT": "0.6613"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the standard deviation of the wear rate for Ta1.0 alloy?",
+    "Answer": 0.16,
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The standard deviation of the wear rate for Ta1.0 alloy is directly taken from the table as 0.16.",
+    "GT": "0.012 g/N.m.10^-6"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in wear rate between Ta0.50 and Ta0.25 alloys?",
+    "Answer": 0.05,
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The difference in wear rate is calculated by subtracting the wear rate value for Ta0.25 alloy (0.29) from the wear rate value for Ta0.50 alloy (0.34).",
+    "GT": "0.05 g/N·m·10⁻⁶"
+  }
+]

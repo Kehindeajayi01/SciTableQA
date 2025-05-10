@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the volume fraction of the B2 phase in the first alloy composition?",
+    "Answer": "69\u00b12",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the 'Volume fraction, %' column in the first row of the table.",
+    "GT": "69%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which phase has the highest volume fraction in the second alloy composition?",
+    "Answer": "C14 Laves phase",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is obtained by comparing the 'Volume fraction, %' values in the second row of the table.",
+    "GT": "B2 Phase"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the atomic percentage of Cr in the B2 phase of the third alloy composition?",
+    "Answer": "10.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the 'Cr' column in the third row of the table.",
+    "GT": "6.9%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the volume fraction of the C14 Laves phase in the fifth alloy composition?",
+    "Answer": "36\u00b11",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the 'Volume fraction, %' column in the fifth row of the table.",
+    "GT": "There is no fifth alloy composition"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the atomic percentage of Zr in the alloy composition of the twelfth row?",
+    "Answer": "22.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly obtained from the 'Zr' column in the twelfth row of the table.",
+    "GT": "22.3%"
+  }
+]

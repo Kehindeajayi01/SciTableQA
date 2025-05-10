@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the annealing temperature for the alloy NbMoCrTiAl?",
+    "Answer": "1300 °C",
+    "QuestionType": "cell selection",
+    "TableName": "alloy annealing conditions",
+    "Explanation": "The annealing temperature for the alloy NbMoCrTiAl can be found in the first column of the table.",
+    "GT": "1300 °C, 20 h"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the identified phase for the alloy NbMoCrTiAl?",
+    "Answer": "A2/B2",
+    "QuestionType": "cell selection",
+    "TableName": "alloy annealing conditions",
+    "Explanation": "The identified phase for the alloy NbMoCrTiAl can be found in the second column of the table.",
+    "GT": "A2/B2; Al(Mo,Nb)3 (A15); Laves phase, Cr2Nb (C14)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the area fraction of the identified phase A2/B2 for the alloy NbMoCrTiAl?",
+    "Answer": "99%",
+    "QuestionType": "cell selection",
+    "TableName": "alloy annealing conditions",
+    "Explanation": "The area fraction of the identified phase A2/B2 for the alloy NbMoCrTiAl can be found in the third column of the table.",
+    "GT": "99%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the identified phase for the alloy TaMoCrAl at 1400 °C?",
+    "Answer": "A2/B2",
+    "QuestionType": "cell selection",
+    "TableName": "alloy annealing conditions",
+    "Explanation": "The identified phase for the alloy TaMoCrAl at 1400 °C can be found in the third row of the table.",
+    "GT": "A2/B2+AlMo3 (A15); Laves phases, Cr2Nb, (C14)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the area fraction of the identified phase A2/B2 for the alloy TaMoCrTiAl?",
+    "Answer": "80%",
+    "QuestionType": "cell selection",
+    "TableName": "alloy annealing conditions",
+    "Explanation": "The area fraction of the identified phase A2/B2 for the alloy TaMoCrTiAl can be found in the fifth column of the table.",
+    "GT": "80%"
+  }
+]

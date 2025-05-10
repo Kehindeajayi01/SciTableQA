@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average composition of Ti in the Matrix phase compared to the C15 phase?",
+    "Answer": "32.2 \u00b1 0.42 vs 33.4 \u00b1 0.71",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average composition of Ti in the Matrix phase is calculated by averaging the values in cells 2, 5, 8, 11, and 14, which are 40.6, 30.9, 25.6, 30.4, and 20.7 respectively. The average composition of Ti in the C15 phase is calculated by averaging the values in cells 3, 6, 9, 12, and 15, which are 52.6, 37.4, 30.3, 43.1, and 31.5 respectively.",
+    "GT": "27.58% in the Matrix phase and 36.93% in the C15 phase."
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in the average composition of Ni in the Matrix phase compared to the C15 phase?",
+    "Answer": "21.4 \u00b1 0.91 vs 22.3 \u00b1 1.15",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average composition of Ni in the Matrix phase is calculated by averaging the values in cells 2, 5, 8, 11, and 14, which are 39.9, 30.1, 16.9, 30.5, and 20.2 respectively. The average composition of Ni in the C15 phase is calculated by averaging the values in cells 3, 6, 9, 12, and 15, which are 30.9, 23.8, 14.2, 23.5, and 15.1 respectively.",
+    "GT": "5.73%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average composition of Cu in the Matrix phase compared to the C15 phase?",
+    "Answer": "6.2 \u00b1 0.98 vs 5.6 \u00b1 0.53",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average composition of Cu in the Matrix phase is calculated by averaging the values in cells 2, 5, 8, 11, and 14, which are 4.7, 9.6, 16.3, 9.6, and 14.8 respectively. The average composition of Cu in the C15 phase is calculated by averaging the values in cells 3, 6, 9, 12, and 15, which are 2.4, 5.4, 10.0, 4.5, and 7.2 respectively.",
+    "GT": "11.92% in the Matrix phase and 6.22% in the C15 phase"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average composition of Hf in the Matrix phase compared to the C15 phase?",
+    "Answer": "9.9 \u00b1 0.34 vs 12.9 \u00b1 1.65",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average composition of Hf in the Matrix phase is calculated by averaging the values in cells 2, 5, 8, 11, and 14, which are - , 9.9, 9.9, 9.9, and - respectively. The average composition of Hf in the C15 phase is calculated by averaging the values in cells 3, 6, 9, 12, and 15, which are - , 8.3, 12.9, 7.2, and - respectively.",
+    "GT": "13.63% in the Matrix phase and 12.33% in the C15 phase"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average composition of Zr in the Matrix phase compared to the C15 phase?",
+    "Answer": "15.4 \u00b1 0.61 vs 22.6 \u00b1 1.14",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average composition of Zr in the Matrix phase is calculated by averaging the values in cells 2, 5, 8, 11, and 14, which are 9.6, 19.0, 24.3, 15.1, and 15.1 respectively. The average composition of Zr in the C15 phase is calculated by averaging the values in cells 3, 6, 9, 12, and 15, which are 10.9, 25.9, 31.9, 22.6, and - respectively.",
+    "GT": "15.62% in the Matrix phase and 21.47% in the C15 phase"
+  }
+]

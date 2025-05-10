@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What was the total population in 2000?",
+    "Answer": "33,686",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total population in 2000 can be found in the 'Total' column of the 6th row.",
+    "GT": "47,204"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What was the percentage of Asian/Pacific Islander population in 2001?",
+    "Answer": "1,408",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of Asian/Pacific Islander population in 2001 can be found in the 'Asian/ Pacific Islander' column of the 7th row.",
+    "GT": "4.2%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the total population of White race in 1999?",
+    "Answer": "20,313",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total population of White race in 1999 can be found in the 'White' column of the 5th row.",
+    "GT": "29,032"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the total population of Two or more races in 2008?",
+    "Answer": "410",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total population of Two or more races in 2008 can be found in the 'Two or more races' column of the 14th row.",
+    "GT": "244"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the total population in 2015?",
+    "Answer": "35,735",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total population in 2015 can be found in the 'Total' column of the 22nd row.",
+    "GT": "50,773"
+  }
+]

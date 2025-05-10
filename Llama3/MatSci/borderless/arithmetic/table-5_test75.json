@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average density of the alloys with compressive strain less than 50%?",
+    "Answer": "6.14",
+    "QuestionType": "average",
+    "TableName": "table-5.csv",
+    "Explanation": "The average density is calculated by summing the densities of alloys 1-3 and 6-8 and dividing by 7.",
+    "GT": "8.22 gm/cm^3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in density between the alloy with the highest compressive strain and the alloy with the lowest compressive strain?",
+    "Answer": "3.96",
+    "QuestionType": "difference",
+    "TableName": "table-5.csv",
+    "Explanation": "The alloy with the highest compressive strain is AlCoCrFeNi with 22.7% and the alloy with the lowest compressive strain is NbMoTaW with 2.6%. The difference in density is calculated by subtracting the density of NbMoTaW (13.75) from the density of AlCoCrFeNi (7.00).",
+    "GT": "2.42 gm/cm^3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average compressive strain of the alloys with density greater than 6.5 g/cm3?",
+    "Answer": "14.2",
+    "QuestionType": "average",
+    "TableName": "table-5.csv",
+    "Explanation": "The average compressive strain is calculated by summing the compressive strains of alloys 4, 5, 6, 7, 8, 9, 10, 14, 15, and 16 and dividing by 10.",
+    "GT": "24.49%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of the density of Ti40Al10V20Nb20Mo10 to the density of Ti35Al15V20Nb20Mo10?",
+    "Answer": "0.99",
+    "QuestionType": "ratio",
+    "TableName": "table-5.csv",
+    "Explanation": "The ratio is calculated by dividing the density of Ti40Al10V20Nb20Mo10 (6.10) by the density of Ti35Al15V20Nb20Mo10 (6.03).",
+    "GT": "1.01"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average compressive strain of the alloys with compressive strain greater than 10%?",
+    "Answer": "12.1",
+    "QuestionType": "average",
+    "TableName": "table-5.csv",
+    "Explanation": "The average compressive strain is calculated by summing the compressive strains of alloys 9, 14, 15, and 17 and dividing by 4.",
+    "GT": "43.76%"
+  }
+}

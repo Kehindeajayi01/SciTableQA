@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the \u03c3_0.2 (MPa) value for NbTiZrV alloy?",
+    "Answer": "467",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is directly obtained from the table by looking at the value in the row labeled 'NbTiZrV' and the column labeled '\u03c3_0.2 (MPa)'",
+    "GT": "75"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest \u03c3_p (MPa) value?",
+    "Answer": "NbTiZrVMo",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by comparing the values in the '\u03c3_p (MPa)' column and identifying the row with the highest value, which is 'NbTiZrVMo'",
+    "GT": "NbTiZrVMo"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average \u03c3_10 (MPa) value for the alloys?",
+    "Answer": "134",
+    "QuestionType": "calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by calculating the average of the values in the '\u03c3_10 (MPa)' column, which is (110 + 68 + 438 + 124 + 205) / 5 = 134",
+    "GT": "168.8"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the lowest \u03c3_20 (MPa) value?",
+    "Answer": "NbTiZrVAl0.24",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by comparing the values in the '\u03c3_20 (MPa)' column and identifying the row with the lowest value, which is 'NbTiZrVAl0.24'",
+    "GT": "NbTiZrVAl0.24"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of \u03c3_0.2 (MPa) values for the alloys?",
+    "Answer": "82-259",
+    "QuestionType": "calculation",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is obtained by finding the minimum and maximum values in the '\u03c3_0.2 (MPa)' column, which are 82 and 259, respectively",
+    "GT": "75-467"
+  }
+]

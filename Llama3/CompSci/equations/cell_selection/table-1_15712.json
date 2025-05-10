@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mAP value for l_C component in 24-bit?",
+    "Answer": "0.131",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 1 and column 1.",
+    "GT": "0.131"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which component has the highest mAP value in 48-bit?",
+    "Answer": "l_N",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained by comparing the mAP values in the 48-bit column and identifying the component with the highest value, which is l_N.",
+    "GT": "l_N"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in mAP values between l_N and l_A in 32-bit?",
+    "Answer": "0.011",
+    "QuestionType": "cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting the mAP value of l_A (0.351) from the mAP value of l_N (0.351) in the 32-bit column.",
+    "GT": "0.215"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which combination of components has the highest mAP value in 48-bit?",
+    "Answer": "l_N + l_C + l_A",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained by identifying the combination of components with the highest mAP value in the 48-bit column, which is l_N + l_C + l_A.",
+    "GT": "l_N + l_C + l_A"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average mAP value for all components in 24-bit?",
+    "Answer": "0.246",
+    "QuestionType": "cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by averaging the mAP values of all components in the 24-bit column.",
+    "GT": "0.2601"
+  }
+]

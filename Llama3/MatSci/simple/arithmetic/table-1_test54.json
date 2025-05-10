@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in atomic radii between Ti and Co?",
+    "Answer": "0.211",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The atomic radius of Ti is 1.462, and the atomic radius of Co is 1.251. The difference is calculated by subtracting the smaller value from the larger value.",
+    "GT": "0.211"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average atomic radius of the elements with a valence electron concentration (VEC) of 4?",
+    "Answer": "1.5325",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The atomic radii of Ti and Zr with VEC of 4 are 1.462 and 1.603, respectively. The average is calculated by adding the values and dividing by 2.",
+    "GT": "1.5477"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in valence electron concentration (VEC) between Cu and Ni?",
+    "Answer": "1",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The VEC of Cu is 11, and the VEC of Ni is 10. The difference is calculated by subtracting the smaller value from the larger value.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average valence electron concentration (VEC) of the elements with atomic radii less than 1.300?",
+    "Answer": "9.5",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The atomic radii of Co and Ni are less than 1.300. Their VEC values are 9 and 10, respectively. The average is calculated by adding the values and dividing by 2.",
+    "GT": "10"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in atomic radius between Zr and Hf?",
+    "Answer": "0.025",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The atomic radius of Zr is 1.603, and the atomic radius of Hf is 1.578. The difference is calculated by subtracting the smaller value from the larger value.",
+    "GT": "0.025"
+  }
+]

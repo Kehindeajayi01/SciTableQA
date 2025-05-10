@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What was the total alternative fuel use in FY 2005?",
+    "Answer": "44,594",
+    "QuestionType": "Cell selection",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 5, column 1.",
+    "GT": "44,594"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which fuel type had the highest usage in FY 2010?",
+    "Answer": "E85",
+    "QuestionType": "Cell selection",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 1, column 6.",
+    "GT": "E85"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the total biodiesel usage in FY 2007?",
+    "Answer": "2,050",
+    "QuestionType": "Cell selection",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 2, column 3.",
+    "GT": "2,050"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the total electricity usage in FY 2014?",
+    "Answer": "240",
+    "QuestionType": "Cell selection",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 4, column 7.",
+    "GT": "240"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the total petroleum usage in FY 2016?",
+    "Answer": "316,035",
+    "QuestionType": "Cell selection",
+    "TableName": "table-B-2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 6, column 12.",
+    "GT": "316,035"
+  }
+]

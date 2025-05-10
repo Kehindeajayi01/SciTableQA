@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of data sets available at the end of FY 2011?",
+    "Answer": "389,933",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 0 of the table.",
+    "GT": "389,933"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of data set downloads during the period from May 21, 2009 to September 30, 2011?",
+    "Answer": "2,348,928",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 2 of the table.",
+    "GT": "2,348,928"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many cities in North America had open data sites at the end of FY 2011?",
+    "Answer": "11",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 5 of the table.",
+    "GT": "11"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of states offering open data sites at the end of FY 2011?",
+    "Answer": "29",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 4 of the table.",
+    "GT": "29"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of applications and mashups developed by the public and government during the period from May 21, 2009 to September 30, 2011?",
+    "Answer": "1,079",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 1 of the table.",
+    "GT": "1,079"
+  }
+]

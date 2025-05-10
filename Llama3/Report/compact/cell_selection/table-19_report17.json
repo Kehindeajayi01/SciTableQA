@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the SO2 concentration value when very low sulfur fuels are combusted?",
+    "Answer": "2.0 ppm",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The question is based on the information provided in the table, specifically the SO2 Concentration Value of 2.0 ppm during hours when very low sulfur fuels are combusted.",
+    "GT": "2.0 ppm"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the default high range value used when a high range monitor is unavailable?",
+    "Answer": "200 percent of MPC",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The question is based on the information provided in the table, specifically the default high range value of 200 percent of MPC.",
+    "GT": "200 percent of MPC"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is used to replace negative hourly average concentrations?",
+    "Answer": "Zero",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The question is based on the information provided in the table, specifically the replacement of negative hourly average concentrations with zero.",
+    "GT": "Zero"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is used when flue gases are routed through an unmonitored bypass stack?",
+    "Answer": "MPC",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The question is based on the information provided in the table, specifically the use of MPC when flue gases are routed through an unmonitored bypass stack.",
+    "GT": "MPC"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What are the other quality-assured methodologies approved through petition by EPA?",
+    "Answer": "All",
+    "QuestionType": "cell selection",
+    "TableName": "table-19.csv",
+    "Explanation": "The question is based on the information provided in the table, specifically the other quality-assured methodologies approved through petition by EPA.",
+    "GT": "All"
+  }
+]

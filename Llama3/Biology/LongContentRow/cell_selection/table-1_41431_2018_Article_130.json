@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average age at disease onset for patients with Cutaneous involvement?",
+    "Answer": "3.5",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average age at disease onset for patients with Cutaneous involvement can be calculated by selecting the 'Age at disease onset (years)' column and summing up the values for patients with 'Cutaneous involvement' as 'Yes'.",
+    "GT": "12.9"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the most common CRP level for patients with Fever?",
+    "Answer": "100",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The most common CRP level for patients with Fever can be determined by selecting the 'CRP level mg/L' column and identifying the most frequent value among patients with 'Fever' as 'Yes'.",
+    "GT": ">5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of patients with Musculo-skeletal disorders?",
+    "Answer": "3/9",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of patients with Musculo-skeletal disorders can be calculated by dividing the number of patients with 'Musculo-skeletal disorders' as 'Yes' (3) by the total number of patients (9) and multiplying by 100.",
+    "GT": "69.23%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the most common current treatment for patients with Immunologic/haematologic involvement?",
+    "Answer": "TNF alpha blockade",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The most common current treatment for patients with Immunologic/haematologic involvement can be determined by selecting the 'Current treatment' column and identifying the most frequent value among patients with 'Immunologic/haematologic involvement' as 'Yes'.",
+    "GT": "TNF alpha blockade"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the most common ADA2 genotypes and predicted protein alterations?",
+    "Answer": "c.[1358A>G]; [(Tyr453Cys)]",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The most common ADA2 genotypes and predicted protein alterations can be determined by selecting the 'ADA2 genotypes and predicted protein alterations' column and identifying the most frequent value.",
+    "GT": "c.[1358A>G]; [(Tyr453Cys)]"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean accuracy of the 'Hand-crafted + SVM' classifier in the test set?",
+    "Answer": "67.26%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'test' column under the 'Hand-crafted + SVM' row.",
+    "GT": "67.26%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which classifier has the highest mean accuracy in the test set?",
+    "Answer": "Picasso VS. all",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by comparing the values in the 'test' column across different classifiers and selecting the one with the highest value.",
+    "GT": Picasso VS. all""
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of the mean accuracy of the 'Matisse vs. all' classifier in the test set?",
+    "Answer": "8.71%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'test' column under the 'Matisse vs. all' row and the standard deviation value is given in the parentheses.",
+    "GT": "8.71%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which classifier has the lowest standard deviation of mean accuracy in the test set?",
+    "Answer": "Picasso VS. all",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by comparing the values in the 'test' column across different classifiers and selecting the one with the lowest standard deviation value.",
+    "GT": "Picasso VS. all"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the mean accuracy of the 'Combined' classifier in the train set?",
+    "Answer": "86.05%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the value in the 'train' column under the 'Combined' row.",
+    "GT": "86.05%"
+  }
+]

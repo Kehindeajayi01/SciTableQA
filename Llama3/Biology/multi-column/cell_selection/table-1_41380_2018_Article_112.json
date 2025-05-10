@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean age of Cognitively Normal Controls?",
+    "Answer": "86.53",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The mean age of Cognitively Normal Controls can be found in the 'Age' column of row 3 in the 'EA' ancestry group.",
+    "GT": "78.85 (Average of Discovery Sample and Replication Sample ages)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of EA cases are female?",
+    "Answer": "55.8%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of female cases can be found in the 'Sex (%F)' column of row 3 in the 'EA' ancestry group.",
+    "GT": "60.4% (Average of AD case and Cognivity Normal Controls on both EA groups)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of APOE E4 carriers among Hispanic case-control samples?",
+    "Answer": "43.5%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of APOE E4 carriers can be found in the '%carrier' column of row 5 in the 'Hispanic' ancestry group.",
+    "GT": "30.1% (Average of AD case and Cognivity Normal Controls)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of ADES-FR samples?",
+    "Answer": "1,142",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The number of ADES-FR samples can be found in the 'N' column of row 12.",
+    "GT": "2,246 (Sum of AD case and Cognivity Normal Controls)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of APOE \u03b54 carriers among CHARGE WES samples?",
+    "Answer": "54%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of APOE \u03b54 carriers can be found in the '%carrier' column of row 11 in the 'CHARGE' ancestry group.",
+    "GT": "39% (Average of AD case and Cognivity Normal Controls)"
+  }
+]

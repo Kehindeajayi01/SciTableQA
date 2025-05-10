@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "Which company has the highest total sales in EU food manufacturing?",
+    "Answer": "Unilever",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The answer is derived from the 'Total sales in EU food manufacturing (bn ecus)' column, where Unilever has the highest value of 14.6.",
+    "GT": "Unilever"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which company has the lowest total sales in EU food manufacturing?",
+    "Answer": "Cargill",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The answer is derived from the 'Total sales in EU food manufacturing (bn ecus)' column, where Cargill has the lowest value of 2.4.",
+    "GT": "Sara Lee"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which company is one of the 5 leaders in the most markets?",
+    "Answer": "Danone",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The answer is derived from the 'Markets in which firm is one of the 5 leaders (NACE 3 digit)' column, where Danone has the most markets listed, 5.",
+    "GT": "Nestle"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total sales of Nestle in World food sales?",
+    "Answer": "38.8",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The answer is derived from the 'World food sales ($US bn)' column, where Nestle has a total sales value of 38.8.",
+    "GT": "38.8"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which company has the highest total sales in World food sales?",
+    "Answer": "Nestle",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The answer is derived from the 'World food sales ($US bn)' column, where Nestle has the highest value of 38.8.",
+    "GT": "Nestle"
+  }
+]

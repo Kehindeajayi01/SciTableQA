@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the mean age of women in the study?",
+    "Answer": "52.10",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly taken from the table, specifically from the cell at row 0 and column 1.",
+    "GT": "52.10"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the mean waist circumference of men in the study?",
+    "Answer": "86.95",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly taken from the table, specifically from the cell at row 1 and column 1.",
+    "GT": "86.95"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What percentage of women in the study have a family history of ASCVD?",
+    "Answer": "3.64",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly taken from the table, specifically from the cell at row 6 and column 2.",
+    "GT": "3.64"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of person years for men in the study?",
+    "Answer": "9231.16",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly taken from the table, specifically from the cell at row 10 and column 2.",
+    "GT": "9231.16"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the 5-year Kaplan-Meier ASCVD rate for women in the study?",
+    "Answer": "8.4",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly taken from the table, specifically from the cell at row 11 and column 1.",
+    "GT": "8.4"
+  }
+]

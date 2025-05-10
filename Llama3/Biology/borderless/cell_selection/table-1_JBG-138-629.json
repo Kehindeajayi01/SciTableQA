@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of cows on a farm?",
+    "Answer": "134.45",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "To answer this question, I calculated the average number of cows on a farm by summing up all the 'No. of cows on farm' values and dividing by the total number of farms (11).",
+    "GT": "126.08"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which farm has the most cows?",
+    "Answer": "H",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "To answer this question, I selected the farm with the highest number of cows, which is farm H with 189 cows.",
+    "GT": "H"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of observations per farm?",
+    "Answer": "11",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "To answer this question, I selected the 'No. of observations/farm' column and calculated the average value, which is 11.",
+    "GT": "10.75"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which farm has the highest average At (days)?",
+    "Answer": "F",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "To answer this question, I selected the farm with the highest average At (days), which is farm F with 15.6 days.",
+    "GT": "F"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of cows on all farms?",
+    "Answer": "1513",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "To answer this question, I summed up all the 'No. of cows on farm' values, which is 1513.",
+    "GT": "1513"
+  }
+]

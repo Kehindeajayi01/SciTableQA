@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the differential privacy level for \u03b5?",
+    "Answer": "ln(2), ln(4), ln(6), ln(8)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The differential privacy level for \u03b5 is directly stated in the table.",
+    "GT": "ln(2), ln(4), ln(6), ln(8)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the threshold for frequent locations (\u03b4)?",
+    "Answer": "0.5,0.6, 0.7, 0.8",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The threshold for frequent locations (\u03b4) is directly stated in the table.",
+    "GT": "0.5,0.6, 0.7, 0.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many total users are there in each dataset (N)?",
+    "Answer": "1083 (FS), 1315 (CMCC), 5378 (D4D)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of users for each dataset (N) is directly stated in the table.",
+    "GT": "1083 (FS), 1315 (CMCC), 5378 (D4D)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of selected users (\u03b1) as a percentage of total users?",
+    "Answer": "5%.N",
+    "QuestionType": "Cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The number of selected users (\u03b1) is given as a percentage of total users (N).",
+    "GT": "5%.N"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the probability for user selection (\u03c1)?",
+    "Answer": "95%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The probability for user selection (\u03c1) is directly stated in the table.",
+    "GT": "95%"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What phenomenon occurs when waves of two different frequencies interfere?",
+    "Answer": "beating",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly taken from the first row of the table, where the phenomenon that occurs when waves of two different frequencies interfere is described as 'beating'.",
+    "GT": "beating"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What occurs when cutting down forests, according to the text?",
+    "Answer": "drought",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly taken from the second row of the table, where it is stated that cutting down forests leads to longer periods of drought.",
+    "GT": "drought"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What material comprises the sun and other stars, as well as lightning and the northern lights?",
+    "Answer": "plasma",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer is directly taken from the third row of the table, where it is stated that plasma comprises the sun and other stars, as well as lightning and the northern lights.",
+    "GT": "plasma"
+  }
+]

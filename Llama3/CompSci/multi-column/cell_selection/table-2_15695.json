@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of P@5 for the MF metric when K=5?",
+    "Answer": "0.0291",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The value of P@5 for the MF metric when K=5 can be found in the cell at row 1 and column 1 of the table.",
+    "GT": "0.0291"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which metric has the highest value of R@10 when K=10?",
+    "Answer": "DMF",
+    "QuestionType": "cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To answer this question, I compared the values of R@10 for each metric when K=10. The highest value is found for the DMF metric, which is 0.2418.",
+    "GT": "DMF"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of R@5 for the GDMF metric when K=15?",
+    "Answer": "0.1388",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The value of R@5 for the GDMF metric when K=15 can be found in the cell at row 15 and column 2 of the table.",
+    "GT": "0.1388"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which metric has the lowest value of P@10 when K=5?",
+    "Answer": "LDMF",
+    "QuestionType": "cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To answer this question, I compared the values of P@10 for each metric when K=5. The lowest value is found for the LDMF metric, which is 0.0025.",
+    "GT": "LDMF"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of P@5 for the BPR metric when K=10?",
+    "Answer": "0.0370",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The value of P@5 for the BPR metric when K=10 can be found in the cell at row 8 and column 1 of the table.",
+    "GT": "0.0370"
+  }
+]

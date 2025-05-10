@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What are the substitutes for R-448A in Ice Skating Rinks (Retrofit)?",
+    "Answer": "R-449A, R-449B",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the 'Substitutes' column for row 0, which corresponds to Ice Skating Rinks (Retrofit) and R-448A.",
+    "GT": "R-449A, R-449B"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What are the end-uses for R-450A?",
+    "Answer": "Ice Skating Rinks (New & Retrofit)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the 'End-Use' column for row 1, which corresponds to R-450A.",
+    "GT": "Ice Skating Rinks (New & Retrofit)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the substitute for Acetone/Isopentane blend in Rigid Polyurethane and Polyisocyanurate Laminated Boardstock?",
+    "Answer": "Acetone/Isopentane blend",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the 'Substitutes' column for row 2, which corresponds to Acetone/Isopentane blend.",
+    "GT": "Acetone/Isopentane blend"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What are the end-uses for HFO-1336mzz(Z)?",
+    "Answer": "Aerosol Solvents, Electronics Cleaning, Metals Cleaning, Precision Cleaning",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the 'Sector' column for row 5, which corresponds to HFO-1336mzz(Z).",
+    "GT": "Aerosol Solvents, Electronics Cleaning, Metals Cleaning, Precision Cleaning"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total flooding end-use for Fire Suppression?",
+    "Answer": "Total Flooding",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the 'End-Use' column for row 3, which corresponds to Fire Suppression.",
+    "GT": "Total Flooding"
+  }
+]

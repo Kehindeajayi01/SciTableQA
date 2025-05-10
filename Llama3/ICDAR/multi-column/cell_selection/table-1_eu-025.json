@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the most common symptom that people experience?",
+    "Answer": "Sleeping Difficulties",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the row with the highest count, which is Sleeping Difficulties with 458 occurrences.",
+    "GT": "Sleeping Difficulties"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many people experience Headache symptoms occasionally?",
+    "Answer": "163",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table cell where the value is 163.",
+    "GT": "163"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the frequency of people experiencing Stomach-ache symptoms?",
+    "Answer": "Frequently",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the table cell where the value is 99, which corresponds to the 'Frequently' frequency.",
+    "GT": "78 every week, 120 every month, 284 rarely/never"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many people experience Nenousness symptoms?",
+    "Answer": "449",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table cell where the value is 449.",
+    "GT": "483"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the frequency of people who have never experienced any symptoms?",
+    "Answer": "Unknown_3",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the table cell where the value is Unknown_3, indicating that the frequency is unknown.",
+    "GT": "1,722 rarely/never symptoms reported out of 4,361 total answers given."
+  }
+]

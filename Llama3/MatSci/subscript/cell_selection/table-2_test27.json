@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the oxidation rate constant k for the alloy TaMoCrTiAl?",
+    "Answer": "k_p=3.34.10^-2[mg^2/cm^4h^2]",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the cell where the alloy name is 'TaMoCrTiAl' and the column is 'oxidation rate constant k'.",
+    "GT": "k_p=3.34*10^-2[mg^2/cm^4h^2]"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the value of n for the alloy with the highest n?",
+    "Answer": "4.55",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found by identifying the alloy with the highest value of n, which is found in the cell where the column 'n' is '4.5'.",
+    "GT": "4.55"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the oxidation rate constant k for the alloy with the lowest value of R2?",
+    "Answer": "k_p=1.91.10^-4[mg^4/cm^8h^2]",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found by identifying the alloy with the lowest value of R2, which is found in the cell where the column 'R2' is '4.35'.",
+    "GT": "k_p=6.95*10^-2[mg^2/cm^4h^2]"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of k_l for the alloy NbMoCrTiAl?",
+    "Answer": "1.24.10-1[mg/cm^2h]",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the cell where the alloy name is 'NbMoCrTiAl' and the column is 'k_l'.",
+    "GT": "1.24*10^-1[mg/cm^2h] (If the first k_l is picked)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of k_p for the alloy with the highest value of h?",
+    "Answer": "k_p=3.45.10^-1[mg/cm^2h]",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found by identifying the alloy with the highest value of h, which is found in the cell where the column 'h' is '100.0'.",
+    "GT": "Irrelevant question"
+  }
+]

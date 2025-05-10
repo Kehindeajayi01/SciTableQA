@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the yield strength of TiZrVNb at room temperature?",
+    "Answer": "1229",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by looking at the cell at row 0 and column 2 of the table.",
+    "GT": "1229"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which material has the highest compressive strength at 600\u00b0C?",
+    "Answer": "Ti1.5ZrVNb",
+    "QuestionType": "cell comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by comparing the values in the 'Compressive strength / MPa' column at row 4. Ti1.5ZrVNb has the highest value.",
+    "GT": "TiZrVNb"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the compressive ductility of Ti2ZrVNb at 800\u00b0C?",
+    "Answer": ">50",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by looking at the cell at row 7 and column 3 of the table.",
+    "GT": ">50"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which material has the lowest yield strength at 600\u00b0C?",
+    "Answer": "TiZrVNb",
+    "QuestionType": "cell comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by comparing the values in the 'Yield strength / MPa' column at row 4. TiZrVNb has the lowest value.",
+    "GT": "TiZrVNb"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the compressive strength of Ti1.5ZrVNb at room temperature?",
+    "Answer": "-",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by looking at the cell at row 1 and column 2 of the table, which is empty.",
+    "GT": "Irrelevant question"
+  }
+]

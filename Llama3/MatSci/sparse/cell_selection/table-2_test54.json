@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the enthalpy of mixing for the Ti-Co atomic pair?",
+    "Answer": "-35",
+    "QuestionType": "Cell selection",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The answer can be found in the cell where the row for Ti and the column for Co intersect.",
+    "GT": "-28"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which metal has the most negative enthalpy of mixing with Cu?",
+    "Answer": "Ni",
+    "QuestionType": "Cell selection",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The answer can be found by identifying the metal with the most negative enthalpy of mixing with Cu, which is Ni.",
+    "GT": "Zr"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the enthalpy of mixing for the Co-Ni atomic pair?",
+    "Answer": "6",
+    "QuestionType": "Cell selection",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The answer can be found in the cell where the row for Co and the column for Ni intersect.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which metal has the highest enthalpy of mixing with Cu?",
+    "Answer": "Cr",
+    "QuestionType": "Cell selection",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The answer can be found by identifying the metal with the highest enthalpy of mixing with Cu, which is Cr.",
+    "GT": "Co (or Zr if absolute value is taken)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average enthalpy of mixing for the metals with Cu?",
+    "Answer": "-20",
+    "QuestionType": "Cell selection",
+    "TableName": "Mixing enthalpies of binary atomic pairs",
+    "Explanation": "The average enthalpy of mixing can be calculated by summing the enthalpies of mixing for the metals with Cu and dividing by the number of metals. In this case, the average is (-23 + -17) / 2 = -20.",
+    "GT": "-6.5"
+  }
+]

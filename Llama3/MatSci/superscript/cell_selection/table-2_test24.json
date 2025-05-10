@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the lattice type of Ti at room temperature?",
+    "Answer": "HCP",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice type of Ti at room temperature can be found in the first row of the table, under the 'Lattice type' column.",
+    "GT": "HCP"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the density of Zr in g/cm³?",
+    "Answer": "6.52",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The density of Zr can be found in the second row of the table, under the 'ρ' column.",
+    "GT": "6.52"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which element has the highest melting temperature?",
+    "Answer": "Ta",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The melting temperatures of the elements can be found in the last column of the table. Ta has the highest melting temperature at 3020 °C.",
+    "GT": "Ta"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the lattice parameter 'a' of Hf in nm?",
+    "Answer": "0.3195",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The lattice parameters of Hf can be found in the fourth row of the table, under the 'Lattice parameters' column. The value of 'a' is 0.3195 nm.",
+    "GT": "0.3195"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which element has a density less than 5 g/cm³?",
+    "Answer": "Ti",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The density of Ti can be found in the first row of the table, under the '\u03c1' column. It is 4.50 g/cm³, which is less than 5 g/cm³.",
+    "GT": "Ti"
+  }
+]

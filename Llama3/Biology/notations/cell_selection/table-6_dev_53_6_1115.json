@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of -2LL for the first model?",
+    "Answer": "140275.80",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The value of -2LL is directly obtained from the table, in the 'Model' column for the first row.",
+    "GT": "140275.80",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many parameters are included in the third model?",
+    "Answer": "49",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The number of parameters is directly obtained from the table, in the 'Parameters' column for the third row.",
+    "GT": "49",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the p-value for the comparison between models 1 and 2?",
+    "Answer": "<.0001",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The p-value is directly obtained from the table, in the 'p-value' column for the second row.",
+    "GT": "<.0001",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in -2LL between models 1 and 3?",
+    "Answer": "438.45",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The difference in -2LL is directly obtained from the table, by subtracting the value in the '-2LL' column for the first row from the value in the '-2LL' column for the third row.",
+    "GT": "438.5",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which model has the lowest BIC value?",
+    "Answer": "1. Cholesky ACE",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The model with the lowest BIC value is directly obtained from the table, by comparing the values in the 'BIC' column.",
+    "GT": "Cholesky CE, 2 Factor",
+    "RV": "2"
+  }
+]

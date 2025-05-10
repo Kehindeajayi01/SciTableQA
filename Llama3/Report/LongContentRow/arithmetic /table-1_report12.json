@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What percentage of non-exempt light-duty vehicles acquired in FY 2017 were AFVs?",
+    "Answer": "79.1%",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The question is based on the information in the table, where it is stated that 75% of non-exempt light-duty vehicles acquired in FY 2017 were AFVs, and the actual number of AFVs acquired was 53 out of 67 non-exempt vehicles.",
+    "GT": "79.1%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What was the percentage reduction in per-mile GHG emissions from the 2014 baseline?",
+    "Answer": "9.39%",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The question is based on the information in the table, where it is stated that the target was a 4% reduction from the 2014 baseline of 416.89 gCO2e/mile, and the actual reduction was 9.39% from the baseline of 416.89 gCO2e/mile.",
+    "GT": "9.39%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the actual percentage of non-exempt vehicle acquisitions that were LGHGVs?",
+    "Answer": "100%",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The question is based on the information in the table, where it is stated that 100% of non-exempt light-duty and medium-duty passenger vehicles must be LGHGVs, and the actual achievement was 100% LGHGV acquisition rate for non-exempt vehicle acquisitions.",
+    "GT": "100%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the target per-mile GHG emissions in FY 2017?",
+    "Answer": "400.22 gCO2e/mile",
+    "QuestionType": "identification",
+    "TableName": "table-1",
+    "Explanation": "The question is based on the information in the table, where it is stated that the target per-mile GHG emissions in FY 2017 was 4% reduction from the 2014 baseline of 416.89 gCO2e/mile, which translates to a target of 400.22 gCO2e/mile.",
+    "GT": "400.22 gCO2e/mile"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the actual per-mile GHG emissions in FY 2017?",
+    "Answer": "377.74 gCO2e/mile",
+    "QuestionType": "identification",
+    "TableName": "table-1",
+    "Explanation": "The question is based on the information in the table, where it is stated that the actual per-mile GHG emissions in FY 2017 was reduced by 9.39% from the 2014 baseline, which translates to an actual per-mile GHG emissions of 377.74 gCO2e/mile.",
+    "GT": "377.74 gCO2e/mile"
+  }
+]

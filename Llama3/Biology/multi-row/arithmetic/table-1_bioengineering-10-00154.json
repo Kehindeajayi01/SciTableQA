@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of autosomal dominant cases in the table?",
+    "Answer": "14",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of autosomal dominant cases is calculated by counting the number of rows where the 'Inheritance' column is 'AD'.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of cases with a known OMIM number?",
+    "Answer": "23/25 = 92%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of cases with a known OMIM number is calculated by dividing the number of rows with a non-NaN OMIM number (23) by the total number of rows (25) and multiplying by 100.",
+    "GT": "17/19 = 89%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of genes associated with autosomal recessive cases?",
+    "Answer": "2",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The average number of genes associated with autosomal recessive cases is calculated by summing the number of genes for each AR case (NOP10, NHP2, WRAP53, PARN) and dividing by the number of AR cases (4).",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of cases with a known location on chromosome 12?",
+    "Answer": "3",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of cases with a known location on chromosome 12 is calculated by counting the number of rows where the 'Location' column is '12q13.13'.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of cases with a known OMIM number and a gene associated with autosomal dominant inheritance?",
+    "Answer": "10",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of cases with a known OMIM number and a gene associated with autosomal dominant inheritance is calculated by counting the number of rows where the 'OMIM' column is not NaN and the 'Inheritance' column is 'AD'.",
+    "GT": "5"
+  }
+]

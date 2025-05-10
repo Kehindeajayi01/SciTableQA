@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage difference in perceived benefit between districts and schools in terms of giving a more complete picture of effectiveness?",
+    "Answer": "24%",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The percentage of districts agreeing (69%) is 24% higher than the percentage of schools agreeing (65%).",
+    "GT": "4%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage difference in perceived drawback between districts and schools in terms of staff confusion about targets?",
+    "Answer": "9%",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The percentage of districts agreeing (46%) is 9% higher than the percentage of schools agreeing (37%).",
+    "GT": "9%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average perceived benefit of allowing multiple accountability systems?",
+    "Answer": "65%",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The average of the percentages of districts and schools agreeing is calculated by adding the two percentages (69% + 65%) and dividing by 2.",
+    "GT": "67%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of districts and schools that agree that allowing multiple accountability systems helps make effective decisions about improving student achievement?",
+    "Answer": "65.5%",
+    "QuestionType": "average",
+    "TableName": "table-1",
+    "Explanation": "The average of the percentages of districts and schools agreeing is calculated by adding the two percentages (71% + 60%) and dividing by 2.",
+    "GT": "65.5%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in perceived benefit between districts and schools in terms of reducing community support for public schools?",
+    "Answer": "1%",
+    "QuestionType": "comparison",
+    "TableName": "table-1",
+    "Explanation": "The percentage of districts agreeing (23%) is 1% lower than the percentage of schools agreeing (24%).",
+    "GT": "1%"
+  }
+]

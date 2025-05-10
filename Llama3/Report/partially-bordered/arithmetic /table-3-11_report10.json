@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in NPV-10 between the carbon price of $0 and $5?",
+    "Answer": "4,594",
+    "QuestionType": "Comparison",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The difference in NPV-10 between the carbon price of $0 and $5 is calculated by subtracting the NPV-10 for carbon price $0 (4,594) from the NPV-10 for carbon price $5 (7,089).",
+    "GT": "7,393"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the increase in IRR when the carbon price increases from $0 to $10?",
+    "Answer": "73%",
+    "QuestionType": "Comparison",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The increase in IRR is calculated by subtracting the IRR for carbon price $0 (87%) from the IRR for carbon price $10 (160%).",
+    "GT": "73%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in NPV-10 between the carbon price of $1 and $15?",
+    "Answer": "7,296",
+    "QuestionType": "Comparison",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The difference in NPV-10 between the carbon price of $1 and $15 is calculated by subtracting the NPV-10 for carbon price $1 (5,093) from the NPV-10 for carbon price $15 (12,079).",
+    "GT": "20,700"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average change in IRR for every $5 increase in carbon price?",
+    "Answer": "31.2%",
+    "QuestionType": "Average",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The average change in IRR is calculated by averaging the differences in IRR for every $5 increase in carbon price: ((124%-94%)/$5) + ((160%-124%)/$5) = 31.2%",
+    "GT": "36.67%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in NPV-10 between the carbon price of $5 and $10?",
+    "Answer": "2,495",
+    "QuestionType": "Comparison",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The difference in NPV-10 between the carbon price of $5 and $10 is calculated by subtracting the NPV-10 for carbon price $5 (7,089) from the NPV-10 for carbon price $10 (9,584).",
+    "GT": "7,393"
+  }
+]

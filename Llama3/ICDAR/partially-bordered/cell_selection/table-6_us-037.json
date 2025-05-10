@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the body weight of male pups on Postnatal Day 1?",
+    "Answer": "39",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 1, column 2.",
+    "GT": "5.77 (Average)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the weight relative to controls (%) of female pups on Postnatal Day 4?",
+    "Answer": "104",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 10, column 3.",
+    "GT": "98.2 (Average)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the body weight (g) of male pups on Postnatal Day 20?",
+    "Answer": "35",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 2, column 5.",
+    "GT": "31.9 (Average)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the weight relative to controls (%) of male pups on Postnatal Day 14?",
+    "Answer": "101",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 3, column 6.",
+    "GT": "96.2 (Average)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the concentration (ppm) of the substance in the treatment group 4,000?",
+    "Answer": "4,000",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 7, column 1.",
+    "GT": "4,000"
+  }
+]

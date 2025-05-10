@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of Fe in 'Particle'?",
+    "Answer": "0.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 0 and column 3, which corresponds to the value of Fe in 'Particle'.",
+    "GT": "0.3%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which material has the highest percentage of Ti?",
+    "Answer": "Matrix",
+    "QuestionType": "cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the values in the Ti column across different materials. The material with the highest value in the Ti column is 'Matrix'.",
+    "GT": "Particle"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average percentage of Nb across all materials?",
+    "Answer": "4.35",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by calculating the average of the Nb values across all rows in the table. The average is calculated as (4.2 + 37.0 + 68.0) / 3 = 4.35.",
+    "GT": "36.4%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which material has the lowest percentage of N?",
+    "Answer": "Matrix",
+    "QuestionType": "cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by comparing the values in the N column across different materials. The material with the lowest value in the N column is 'Matrix'.",
+    "GT": "Matrix"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of Nb values across all materials?",
+    "Answer": "37.0 - 4.2 = 32.8",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by calculating the range of Nb values across all rows in the table. The range is calculated as the maximum value (37.0) minus the minimum value (4.2) = 32.8.",
+    "GT": "63.8"
+  }
+]

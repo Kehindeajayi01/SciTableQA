@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average age of the subjects?",
+    "Answer": "14",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from cell 3, which contains the value 14, representing the average age of the subjects.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many subjects have a family history of diabetes?",
+    "Answer": "12",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from cell 4, which contains the value 12, representing the number of subjects with a family history of diabetes.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the number of subjects who have hypertension?",
+    "Answer": "9",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from cell 5, which contains the value 9, representing the number of subjects who have hypertension.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of subjects who are male?",
+    "Answer": "4",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from cell 6, which contains the value 4, representing the number of male subjects.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of subjects who have a history of high blood glucose?",
+    "Answer": "2",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is derived directly from cell 9, which contains the value 2, representing the number of subjects who have a history of high blood glucose.",
+    "GT": "Irrelevant question"
+  }
+]

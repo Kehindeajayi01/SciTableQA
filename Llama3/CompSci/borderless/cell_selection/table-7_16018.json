@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest F1 score achieved by a fully-supervised model?",
+    "Answer": "91.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer can be found in the first row of the table, where the model is 'fully-supervised' and the F1 score is 91.7.",
+    "GT": "91.9"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model achieved the lowest F1 score among all the neural models?",
+    "Answer": "90.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer can be found in the first row of the table, where the model is 'Petrov and Klein (2007)' and the F1 score is 90.1.",
+    "GT": "90.1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average F1 score of the ensemble models?",
+    "Answer": "91.5",
+    "QuestionType": "cell calculation",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer can be found by summing up the F1 scores of the ensemble models (Q13, Q14, Q15, Q16) and dividing by the number of ensemble models.",
+    "GT": "91.35"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model achieved the highest F1 score among all the feature-rich models?",
+    "Answer": "92.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer can be found in the 20th row of the table, where the model is 'Choe and Charniak (2016)' and the F1 score is 92.6.",
+    "GT": "92.6"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the highest F1 score achieved by a semi-supervised model?",
+    "Answer": "93.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer can be found in the 27th row of the table, where the model is 'Choe and Charniak (2016)' and the F1 score is 93.8.",
+    "GT": "93.8"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What was the average percentage of women in the agriculture industry in 1991?",
+    "Answer": "16.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 1, column 3.",
+    "GT": "6.6"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What was the total percentage of men in the agriculture industry in 1996?",
+    "Answer": "39.4",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 3, column 3.",
+    "GT": "9.5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the percentage of women in the agriculture industry in 2001?",
+    "Answer": "13.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 7, column 3.",
+    "GT": "3.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the average percentage of total employees in the agriculture industry from 1991 to 2003?",
+    "Answer": "28.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 2, column 3.",
+    "GT": "6.75"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the percentage of men in the agriculture industry in 2003?",
+    "Answer": "38.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 9, column 3.",
+    "GT": "6.7"
+  }
+]

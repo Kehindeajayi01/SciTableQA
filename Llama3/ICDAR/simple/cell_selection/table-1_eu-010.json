@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total amount of EUR m signed for FEMIP in Morocco?",
+    "Answer": "21.09",
+    "QuestionType": "cell selection",
+    "TableName": "FEMIP Country Signed TA (EUR m)",
+    "Explanation": "The answer is directly obtained from the cell at row 5 and column 1 of the table.",
+    "GT": "21.09"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country has the lowest amount of EUR m signed for FEMIP?",
+    "Answer": "Gaza & West Bank",
+    "QuestionType": "cell selection",
+    "TableName": "FEMIP Country Signed TA (EUR m)",
+    "Explanation": "The answer is directly obtained by identifying the country with the lowest value in the table, which is Gaza & West Bank with a value of 2.60.",
+    "GT": "Gaza & West Bank"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total amount of EUR m signed for FEMIP in the Regional category?",
+    "Answer": "7.29",
+    "QuestionType": "cell selection",
+    "TableName": "FEMIP Country Signed TA (EUR m)",
+    "Explanation": "The answer is directly obtained from the cell at row 6 and column 1 of the table.",
+    "GT": "7.29"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which country has the highest amount of EUR m signed for FEMIP?",
+    "Answer": "Syria",
+    "QuestionType": "cell selection",
+    "TableName": "FEMIP Country Signed TA (EUR m)",
+    "Explanation": "The answer is directly obtained by identifying the country with the highest value in the table, which is Syria with a value of 33.42.",
+    "GT": "Syria"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total amount of EUR m signed for FEMIP in all countries?",
+    "Answer": "98.46",
+    "QuestionType": "cell selection",
+    "TableName": "FEMIP Country Signed TA (EUR m)",
+    "Explanation": "The answer is directly obtained from the cell at row 9 and column 1 of the table.",
+    "GT": "98.46"
+  }
+]

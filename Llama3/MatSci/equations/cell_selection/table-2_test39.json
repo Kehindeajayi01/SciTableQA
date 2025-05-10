@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the lattice parameter 'a' for the BCC phase in NbTiZr after 1400 \u00b0C annealing?",
+    "Answer": "340.1 pm",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly taken from the table cell at row 0, column 2.",
+    "GT": "340.1 pm"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy composition has the largest lattice parameter 'a' for the BCC phase after 55% compression at 1000 \u00b0C?",
+    "Answer": "NbTiZrTa",
+    "QuestionType": "Cell comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is determined by comparing the lattice parameters 'a' for each alloy composition after 55% compression at 1000 \u00b0C, and NbTiZrTa has the largest value.",
+    "GT": "NbTiZrTa"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the phase present in NbTiZrV after 1400 \u00b0C annealing?",
+    "Answer": "BCC, a = 332.5 pm",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly taken from the table cell at row 1, column 2.",
+    "GT": "BCC, a = 332.5 pm"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which phase is present in NbTiZrVMo after 55% compression at 1000 \u00b0C?",
+    "Answer": "BCC1, a = 324.3 pm",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly taken from the table cell at row 4, column 3.",
+    "GT": "BCC1, a = 324.3 pm"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lattice parameter 'a' for the Laves C15 phase in NbTiZr after 55% compression at 1000 \u00b0C?",
+    "Answer": "757.1 pm",
+    "QuestionType": "Cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly taken from the table cell at row 5, column 3.",
+    "GT": "The NbTiZr alloy does not contain a Laves C15 phase after 55% compression at 1000 °C.
+  }
+]

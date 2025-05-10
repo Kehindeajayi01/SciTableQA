@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average fold change of genes with a p-value less than 1.30E-06?",
+    "Answer": "2.53",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average fold change was calculated by summing the fold change values of genes with a p-value less than 1.30E-06 and dividing by the number of genes.",
+    "GT": "-1.04"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average p-value of genes with a fold change greater than 2.0?",
+    "Answer": "2.45E-04",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average p-value was calculated by summing the p-value values of genes with a fold change greater than 2.0 and dividing by the number of genes.",
+    "GT": "3.24E-05"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of genes with a p-value less than 1.0E-03?",
+    "Answer": "7",
+    "QuestionType": "counting",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of genes was counted by manually reviewing the table and counting the number of genes with a p-value less than 1.0E-03.",
+    "GT": "26"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average fold change of genes with a gene symbol starting with 'C'?",
+    "Answer": "2.11",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average fold change was calculated by summing the fold change values of genes with a gene symbol starting with 'C' and dividing by the number of genes.",
+    "GT": "-1.97"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of genes with a fold change less than -2.5?",
+    "Answer": "5",
+    "QuestionType": "counting",
+    "TableName": "table-1.csv",
+    "Explanation": "The total number of genes was counted by manually reviewing the table and counting the number of genes with a fold change less than -2.5.",
+    "GT": "7"
+  }
+]

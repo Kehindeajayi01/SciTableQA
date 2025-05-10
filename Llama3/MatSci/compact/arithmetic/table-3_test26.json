@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of \u03c3_(0.2) for the alloys with NbTiVTaAl composition?",
+    "Answer": "1241.33",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value of \u03c3_(0.2) is calculated by summing the values of \u03c3_(0.2) for the alloys with NbTiVTaAl composition (rows 6-9) and dividing by the number of rows.",
+    "GT": "1106.25 MPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the ratio of \u03c3_(0.2) to P for the alloy with Al0.5NbTiMoV composition?",
+    "Answer": "1625 / 207 = 7.85",
+    "QuestionType": "ratio",
+    "TableName": "table-3.csv",
+    "Explanation": "The ratio of \u03c3_(0.2) to P is calculated by dividing the value of \u03c3_(0.2) for the alloy with Al0.5NbTiMoV composition by the value of P for the same alloy.",
+    "GT": "238.97"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of \u03b5_f for the alloys with TiZrNb composition?",
+    "Answer": "41.5",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value of \u03b5_f is calculated by summing the values of \u03b5_f for the alloys with TiZrNb composition (rows 22-26) and dividing by the number of rows.",
+    "GT": "37%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in \u03c3_(0.2) between the alloys with Ti40 and Al0.5NbTiMoV compositions?",
+    "Answer": "1122 - 1625 = -503",
+    "QuestionType": "difference",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference in \u03c3_(0.2) is calculated by subtracting the value of \u03c3_(0.2) for the alloy with Ti40 composition from the value of \u03c3_(0.2) for the alloy with Al0.5NbTiMoV composition.",
+    "GT": "503 MPa"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of \u03c3_(0.2)/P for the alloys with Mo0.5NbHf0.5ZrTi composition?",
+    "Answer": "149 / 1176 = 0.126",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value of \u03c3_(0.2)/P is calculated by summing the values of \u03c3_(0.2)/P for the alloys with Mo0.5NbHf0.5ZrTi composition (rows 15) and dividing by the number of rows.",
+    "GT": "148.86"
+  }
+]

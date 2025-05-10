@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average dairy cattle density in the top 5 states with the highest beef cattle density?",
+    "Answer": "3.13E+0",
+    "QuestionType": "Comparison",
+    "TableName": "table-4-10.csv",
+    "Explanation": "To find the top 5 states with the highest beef cattle density, I sorted the table by the Beef cattle density #/km^2 column in descending order. Then, I selected the top 5 states and calculated the average dairy cattle density for these states.",
+    "GT": "2.72E+0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total area of vegetable crops in the states with a dairy cattle density greater than 3.5E-1 #/km^2?",
+    "Answer": "2.83E-2 km^2/km^2",
+    "QuestionType": "Comparison",
+    "TableName": "table-4-10.csv",
+    "Explanation": "To find the states with a dairy cattle density greater than 3.5E-1 #/km^2, I filtered the table by the Dairy cattle density #/km^2 column. Then, I calculated the total area of vegetable crops for these states by summing up the Vegetable crop fraction km^2/km^2 values.",
+    "GT": "8.93E-1 km^2/km^2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average beef cattle density in the states with a vegetable crop fraction greater than 1.5E-2 km^2/km^2?",
+    "Answer": "1.44E+1 #/km^2",
+    "QuestionType": "Comparison",
+    "TableName": "table-4-10.csv",
+    "Explanation": "To find the states with a vegetable crop fraction greater than 1.5E-2 km^2/km^2, I filtered the table by the Vegetable crop fraction km^2/km^2 column. Then, I calculated the average beef cattle density for these states by averaging the Beef cattle density #/km^2 values.",
+    "GT": "3.31E+1 #/km^2""
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total area of vegetable crops in the states with a beef cattle density greater than 2.5E+1 #/km^2?",
+    "Answer": "1.13E-1 km^2/km^2",
+    "QuestionType": "Comparison",
+    "TableName": "table-4-10.csv",
+    "Explanation": "To find the states with a beef cattle density greater than 2.5E+1 #/km^2, I filtered the table by the Beef cattle density #/km^2 column. Then, I calculated the total area of vegetable crops for these states by summing up the Vegetable crop fraction km^2/km^2 values.",
+    "GT": "8.43E-2 km^2/km^2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average dairy cattle density in the states with a beef cattle density less than 1.5E+1 #/km^2 and a vegetable crop fraction greater than 1.0E-2 km^2/km^2?",
+    "Answer": "2.75E-1 #/km^2",
+    "QuestionType": "Comparison",
+    "TableName": "table-4-10.csv",
+    "Explanation": "To find the states that meet both conditions, I filtered the table by the Beef cattle density #/km^2 and Vegetable crop fraction km^2/km^2 columns. Then, I calculated the average dairy cattle density for these states by averaging the Dairy cattle density #/km^2 values.",
+    "GT": "2.81E+0 #/km^2"
+  }
+]

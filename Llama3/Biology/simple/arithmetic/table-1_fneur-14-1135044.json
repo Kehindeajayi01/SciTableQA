@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average age of onset of generalized seizures for children who were born full term?",
+    "Answer": "4 months",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by taking the average of the 'Age2 of onset' column for children who were born full term (rows 1, 2, 3, 5, and 6).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of children who had a birth history of cesarean section and developed focal seizures?",
+    "Answer": "60%",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by dividing the number of children who had a birth history of cesarean section and developed focal seizures (rows 1, 3, and 4) by the total number of children with a birth history of cesarean section (rows 1, 3, and 4).",
+    "GT": "50%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average weight of children at the initial physical examination for those who had a history of asphyxia or resuscitation?",
+    "Answer": "6.9kg",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by taking the average of the 'W' column for children who had a history of asphyxia or resuscitation (rows 0 and 2).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of children who had abnormal initial physical examination findings and were prescribed LEV?",
+    "Answer": "50%",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by dividing the number of children who had abnormal initial physical examination findings and were prescribed LEV (rows 0, 1, and 4) by the total number of children with abnormal initial physical examination findings (rows 0, 1, 3, and 4).",
+    "GT": "75%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average head circumference of children at the initial physical examination for those who had bilateral frontotemporal subarachnoid space widened?",
+    "Answer": "40.5 cm",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by taking the average of the 'HC' column for children who had bilateral frontotemporal subarachnoid space widened (rows 0, 2, and 5).",
+    "GT": "40.3 cm"
+  }
+]

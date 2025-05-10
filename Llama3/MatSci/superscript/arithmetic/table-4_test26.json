@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average density of the alloys in the table, and how does it compare to the density of alloy 7?",
+    "Answer": "8.45 g/cm³, which is slightly higher than the density of alloy 7 (8.4 g/cm³)",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average density was calculated by summing the densities of all alloys and dividing by the number of alloys. The comparison was made by referencing the density of alloy 7.",
+    "GT": "8.37 g/cm³, which is slightly lower than the density of alloy 7 (8.4 g/cm³)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average yield strength of the alloys in the table, and how does it compare to the yield strength of alloy 1?",
+    "Answer": "154.4 MPa, which is higher than the yield strength of alloy 1 (960 MPa)",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average yield strength was calculated by summing the yield strengths of all alloys and dividing by the number of alloys. The comparison was made by referencing the yield strength of alloy 1.",
+    "GT": "984.3 MPa, which is higher than the yield strength of alloy 1 (1000 MPa)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average elongation at break of the alloys in the table, and how does it compare to the elongation at break of alloy 2?",
+    "Answer": "12.5%, which is lower than the elongation at break of alloy 2 (28%)",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average elongation at break was calculated by summing the elongations at break of all alloys and dividing by the number of alloys. The comparison was made by referencing the elongation at break of alloy 2.",
+    "GT": "15.3%%, which is higher than the elongation at break of alloy 2 (5%)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of alloys in the table, and what is the average yield strength of the alloys with a density greater than 9 g/cm³?",
+    "Answer": "7, 122.1 MPa",
+    "QuestionType": "arithmetic",
+    "TableName": "table-4.csv",
+    "Explanation": "The total number of alloys was counted by summing the number of rows in the table. The average yield strength of the alloys with a density greater than 9 g/cm³ was calculated by summing the yield strengths of alloys 3, 5, and 6 and dividing by 3.",
+    "GT": "8, 1124.5 MPa"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average yield strength of the alloys in the table, and what is the percentage of alloys with a yield strength greater than 1000 MPa?",
+    "Answer": "154.4 MPa, 28.6%",
+    "QuestionType": "arithmetic",
+    "TableName": "table-4.csv",
+    "Explanation": "The average yield strength was calculated by summing the yield strengths of all alloys and dividing by the number of alloys. The percentage of alloys with a yield strength greater than 1000 MPa was calculated by summing the number of alloys with a yield strength greater than 1000 MPa (alloys 1 and 5) and dividing by the total number of alloys.",
+    "GT": "154.4 MPa, 25%%"
+  }
+]

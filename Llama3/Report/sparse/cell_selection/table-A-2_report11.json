@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What was the total GHGI emissions in 2002?",
+    "Answer": "18,305,657",
+    "QuestionType": "Cell selection",
+    "TableName": "Emission Source Data Source",
+    "Explanation": "The answer can be found in the cell at row 0, column 2002.",
+    "GT": "37,136,714 The answer can be found in the cell at last row , column 2002"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What was the total Gas STAR emissions in 2012?",
+    "Answer": "-1,129,832",
+    "QuestionType": "Cell selection",
+    "TableName": "Emission Source Data Source",
+    "Explanation": "The answer can be found in the cell at row 15, column 2012.",
+    "GT": "-1,129,832"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the difference in GHGI emissions between 2002 and 2010?",
+    "Answer": "-1,899,300",
+    "QuestionType": "Calculation",
+    "TableName": "Emission Source Data Source",
+    "Explanation": "The difference was calculated by subtracting the GHGI emissions in 2002 (18,305,657) from the GHGI emissions in 2010 (16,406,145).",
+    "GT": "2,313,134 The difference was calculated by subtracting the GHGI emissions in 2002 (37,136,714) from the GHGI emissions in 2010 (34,823,580)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the total GHGI emissions from M&R Stations in 2004?",
+    "Answer": "14,652,125",
+    "QuestionType": "Cell selection",
+    "TableName": "Emission Source Data Source",
+    "Explanation": "The answer can be found in the cell at row 2, column 2004.",
+    "GT": "14,652,125"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the total Gas STAR emissions from Pipeline Leaks in 2008?",
+    "Answer": "-1,279",
+    "QuestionType": "Cell selection",
+    "TableName": "Emission Source Data Source",
+    "Explanation": "The answer can be found in the cell at row 1, column 2008.",
+    "GT": "-1,279"
+  }
+]

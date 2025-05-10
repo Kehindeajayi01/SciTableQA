@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the age of the child in row 3?",
+    "Answer": "6 y 1 month",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The age of the child in row 3 is directly mentioned in the 'Age' column.",
+    "GT": "6 y 1 month"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many rows in the table have missing values in the 'Sex' column?",
+    "Answer": "3",
+    "QuestionType": "cell count",
+    "TableName": "table-3.csv",
+    "Explanation": "We can count the number of rows with missing values in the 'Sex' column by checking the NaN values.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the 'S' value for the child in row 6?",
+    "Answer": "5 mon",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The 'S' value for the child in row 6 is directly mentioned in the 'S' column.",
+    "GT": "5 mon"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many children in the table are not going to school?",
+    "Answer": "2",
+    "QuestionType": "cell count",
+    "TableName": "table-3.csv",
+    "Explanation": "We can count the number of children who are not going to school by checking the 'Not go to school' values in the 'WE' column.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the 'Age' range of the children in the table?",
+    "Answer": "3 y 8 mon - 15 y 10 mon",
+    "QuestionType": "range selection",
+    "TableName": "table-3.csv",
+    "Explanation": "We can find the 'Age' range by checking the minimum and maximum values in the 'Age' column.",
+    "GT": "9 mon - 15 y 10 mon"
+  }
+]

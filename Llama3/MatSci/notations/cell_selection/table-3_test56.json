@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the relative density of the material in the first row?",
+    "Answer": "99.80%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The relative density is obtained by comparing the experimental density with the theoretical density, which is calculated as (\u03c1_exp / \u03c1_the) * 100%",
+    "GT": "99.80%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the microhardness of the material in the first row?",
+    "Answer": "5.06 \u00b1 0.013 GPa",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The microhardness value is obtained directly from the table, which corresponds to the first row",
+    "GT": "5.06 \u00b1 0.013 GPa"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the compressive strength of the material in the first row?",
+    "Answer": "1612 MPa",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The compressive strength value is obtained directly from the table, which corresponds to the first row",
+    "GT": "1612 MPa"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the failure strain of the material in the first row?",
+    "Answer": "~6.4%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The failure strain value is obtained directly from the table, which corresponds to the first row",
+    "GT": "~6.4%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the experimental and theoretical densities of the material in the first row?",
+    "Answer": "0.014 \u00b1 0.13 g.cm -3",
+    "QuestionType": "calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The difference is calculated by subtracting the theoretical density from the experimental density, taking into account the uncertainty in the experimental density",
+    "GT": "0.116 (Upperbound), 0.144 (Lowerbound), 0.014 (Middle)"
+  }
+]

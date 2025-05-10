@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in accuracy between the BoW and word-LSTM models?",
+    "Answer": "7.1",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference in accuracy is calculated by subtracting the accuracy of the BoW model (51.6) from the accuracy of the word-LSTM model (57.7).",
+    "GT": "6.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average AUC across all three models?",
+    "Answer": "52.7",
+    "QuestionType": "average",
+    "TableName": "table-4.csv",
+    "Explanation": "The average AUC is calculated by adding the AUC of each model (53.3, 55.5, 57.2) and dividing by 3.",
+    "GT": "55.33"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in F-score between the all-LSTM and word-LSTM models?",
+    "Answer": "3.3",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference in F-score is calculated by subtracting the F-score of the word-LSTM model (56.5) from the F-score of the all-LSTM model (53.2).",
+    "GT": "3.3"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the accuracy of the all-LSTM model?",
+    "Answer": "58.4",
+    "QuestionType": "specific value",
+    "TableName": "table-4.csv",
+    "Explanation": "The accuracy of the all-LSTM model is directly obtained from the table.",
+    "GT": "58.4"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in accuracy between the word-LSTM and BoW models?",
+    "Answer": "6.1",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference in accuracy is calculated by subtracting the accuracy of the BoW model (51.6) from the accuracy of the word-LSTM model (57.7).",
+    "GT": "6.1"
+  }
+]

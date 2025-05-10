@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the dairy cattle density in Alabama?",
+    "Answer": "7.02E-1",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-10.csv",
+    "Explanation": "The answer is directly extracted from the table, from the row corresponding to Alabama in the 'State' column and the 'Dairy cattle density' column.",
+    "GT": "7.02E-1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which state has the highest vegetable crop fraction?",
+    "Answer": "Delaware",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-10.csv",
+    "Explanation": "The answer is directly extracted from the table, by finding the state with the highest value in the 'Vegetable crop fraction' column, which is Delaware with a value of 5.85E-2.",
+    "GT": "The answer is directly extracted from the table, by finding the state with the highest value in the 'Vegetable crop fraction' column, which is Nevada with a value of 8.92E-3."
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the beef cattle density in California?",
+    "Answer": "8.81",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-10.csv",
+    "Explanation": "The answer is directly extracted from the table, from the row corresponding to California in the 'State' column and the 'Beef cattle density' column.",
+    "GT": "8.81"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which state has the lowest dairy cattle density?",
+    "Answer": "Nevada",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-10.csv",
+    "Explanation": "The answer is directly extracted from the table, by finding the state with the lowest value in the 'Dairy cattle density' column, which is Nevada with a value of 5.65E-2.",
+    "GT": "New Mexico  The answer is directly extracted from the table, by finding the state with the lowest value in the 'Dairy cattle density' column, which is New Mexico with a value of 1. 14E-l"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average vegetable crop fraction in the top 5 states with the highest vegetable crop fraction?",
+    "Answer": "1.11E-2",
+    "QuestionType": "calculation",
+    "TableName": "table-4-10.csv",
+    "Explanation": "The answer is calculated by summing the top 5 values in the 'Vegetable crop fraction' column and dividing by 5, which are Delaware, California, Colorado, Oregon, and Maryland. The sum is 1.11E-1 and the average is 1.11E-2.",
+    "GT": "1.11E-2"
+  }
+]

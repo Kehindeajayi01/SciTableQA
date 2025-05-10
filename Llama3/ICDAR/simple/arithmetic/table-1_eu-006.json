@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in market share between Monoprix and Casino?",
+    "Answer": "3%",
+    "QuestionType": "comparison",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The difference in market share between Monoprix (28%) and Casino (25%) is calculated by subtracting the lower value from the higher value, resulting in 3%.",
+    "GT": "6.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total market share of Intermarch\u00e9, Canefour, and Auchan?",
+    "Answer": "68%",
+    "QuestionType": "calculation",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The total market share is calculated by adding the market shares of Intermarch\u00e9 (23%), Canefour (22%), and Auchan (19%), resulting in 68%.",
+    "GT": "59.3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average market share of the top 3 retailers (Monoprix, Casino, and Intermarch\u00e9)?",
+    "Answer": "25.33%",
+    "QuestionType": "calculation",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The average market share is calculated by adding the market shares of the top 3 retailers (Monoprix, Casino, and Intermarch\u00e9) and dividing by 3, resulting in 25.33%.",
+    "GT": "22.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in market share between Leclere and Canefour?",
+    "Answer": "4%",
+    "QuestionType": "comparison",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The difference in market share between Leclere (10%) and Canefour (22%) is calculated by subtracting the lower value from the higher value, resulting in 4%.",
+    "GT": "4.1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the market share of the bottom 2 retailers (Leclere and Auchan) combined?",
+    "Answer": "29%",
+    "QuestionType": "calculation",
+    "TableName": "Retailer Own Brands Market Shares",
+    "Explanation": "The combined market share is calculated by adding the market shares of Leclere (10%) and Auchan (19%), resulting in 29%.",
+    "GT": "30.5"
+  }
+]

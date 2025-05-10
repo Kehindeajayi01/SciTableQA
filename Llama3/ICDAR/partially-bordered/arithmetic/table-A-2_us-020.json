@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of schools that participated in the education system in Australia?",
+    "Answer": "275",
+    "QuestionType": "Comparison",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is based on the data in the 'Schools in original sample' and 'Schools in original sample that participated' columns for Australia.",
+    "GT": "280"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of students assessed in participating schools in Canada?",
+    "Answer": "23,206",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is based on the data in the 'Sampled students in participating schools' column for Canada.",
+    "GT": "23,206"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in the number of schools that participated in the education system in Austria and Azerbaijan?",
+    "Answer": "16",
+    "QuestionType": "Comparison",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is based on the data in the 'Schools in original sample that participated' columns for Austria and Azerbaijan.",
+    "GT": "11"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of students assessed in participating schools in the United Arab Emirates?",
+    "Answer": "14,618",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is based on the data in the 'Sampled students in participating schools' column for the United Arab Emirates.",
+    "GT": "14,618"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of schools that participated in the education system in Germany compared to the total number of schools in the original sample?",
+    "Answer": "97.5% (197/200)",
+    "QuestionType": "Percentage",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The question is based on the data in the 'Schools in original sample' and 'Schools in original sample that participated' columns for Germany.",
+    "GT": "98.5% (197/200)"
+  }
+]

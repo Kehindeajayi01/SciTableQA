@@ -1,0 +1,29 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total sample size?",
+    "Answer": "39695",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.3.csv",
+    "Explanation": "The total sample size is directly obtained from the 'Status' column, where the 'Total' row indicates the total number of samples.",
+    "GT": "39695"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of the sample size is not interviewed?",
+    "Answer": "14.4",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.3.csv",
+    "Explanation": "The percentage of the sample size that is not interviewed is directly obtained from the 'Status' column, where the 'Not interviewed' row indicates the percentage.",
+    "GT": "14.4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What percentage of the sample size is examined at MEC?",
+    "Answer": "77.6",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A.3.csv",
+    "Explanation": "The percentage of the sample size that is examined at MEC is directly obtained from the 'Status' column, where the 'MEC examined' row indicates the percentage.",
+    "GT": "77.6"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest Cos score for the CBOW model?",
+    "Answer": "0.7095",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the highest Cos score for the CBOW model in the 'Cos' column.",
+    "GT": "0.7269"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest average ED score?",
+    "Answer": "Ours",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the model with the highest average ED score, which is 'Ours' with an average ED score of 0.7049.",
+    "GT": "Ours"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the highest and lowest Cos scores?",
+    "Answer": "0.1180",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting the lowest Cos score (0.6077) from the highest Cos score (0.7095).",
+    "GT": "0.1192"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the lowest average ED score?",
+    "Answer": "GloVe",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the model with the lowest average ED score, which is 'GloVe' with an average ED score of 0.3231.",
+    "GT": "CBOW"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Cos score for the SG model?",
+    "Answer": "0.7003",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the average Cos score for the SG model in the 'Cos' column.",
+    "GT": "0.5357"
+  }
+]

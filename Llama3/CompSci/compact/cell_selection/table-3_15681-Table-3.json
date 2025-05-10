@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the most common action performed in the kitchen?",
+    "Answer": "walk",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The most common action performed in the kitchen is 'walk' based on the frequency of its occurrence in the table.",
+    "GT": "walk"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the most common object manipulated in the kitchen?",
+    "Answer": "bottle",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The most common object manipulated in the kitchen is 'bottle' based on its frequency of occurrence in the table.",
+    "GT": "bottle"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the most common location in the kitchen?",
+    "Answer": "kitchen",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The most common location in the kitchen is 'kitchen' based on its frequency of occurrence in the table.",
+    "GT": "kitchen"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the most common verb used in the kitchen?",
+    "Answer": "walk",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The most common verb used in the kitchen is 'walk' based on its frequency of occurrence in the table.",
+    "GT": "walk"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the most common combination of action, object, and location?",
+    "Answer": "walk, *, kitchen",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The most common combination of action, object, and location is 'walk, *, kitchen' based on its frequency of occurrence in the table.",
+    "GT": "walk, *, kitchen"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the ratio of the maximum extent of order in the (Mo,Cr)(Ti,Al) phase to the maximum extent of order in the (Mo,Ti)(Cr,Al) phase?",
+    "Answer": "44.8 / 37.2 = 1.2",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The maximum extent of order in the (Mo,Cr)(Ti,Al) phase is 44.8, and the maximum extent of order in the (Mo,Ti)(Cr,Al) phase is 37.2.",
+    "GT": "44.8 / 37.2 = 1.2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the maximum extent of order in the (Mo,Cr)(Ti,Al) phase and the partially ordered (#) phase?",
+    "Answer": "44.8 - 6.6 = 38.2",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The maximum extent of order in the (Mo,Cr)(Ti,Al) phase is 44.8, and the partially ordered (#) phase is 6.6.",
+    "GT": "44.8 - 6.6 = 38.2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the ratio of the maximum extent of order in the (Mo,Al)(Cr,Ti) phase to the maximum extent of order in the partially ordered (#) phase?",
+    "Answer": "13.2 / 6.6 = 2",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The maximum extent of order in the (Mo,Al)(Cr,Ti) phase is 13.2, and the partially ordered (#) phase is 6.6.",
+    "GT": "13.2 / 6.6 = 2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference between the maximum extent of order in the (Mo,Cr)(Ti,Al) phase and the disordered (+) phase?",
+    "Answer": "44.8 - 0 = 44.8",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The maximum extent of order in the (Mo,Cr)(Ti,Al) phase is 44.8, and the disordered (+) phase is 0.",
+    "GT": "44.8 - 0 = 44.8"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of the maximum extent of order in the (Mo,Ti)(Cr,Al) phase to the maximum extent of order in the disordered (+) phase?",
+    "Answer": "37.2 / 0 = undefined",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The maximum extent of order in the (Mo,Ti)(Cr,Al) phase is 37.2, and the disordered (+) phase is 0, making the ratio undefined.",
+    "GT": "Irrelevant question"
+  }
+]

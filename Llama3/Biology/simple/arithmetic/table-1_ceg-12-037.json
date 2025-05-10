@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of patients with CD who have inflammatory behavior?",
+    "Answer": "66%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived by referencing cell 4 (CD behavior) and cell 0 (CD) in the table.",
+    "GT": "66%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many patients with IBD have a distribution of colonic?",
+    "Answer": "24",
+    "QuestionType": "count",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived by referencing cell 9 (Colonic) in the table.",
+    "GT": "24"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of patients with IBDU who have proctitis?",
+    "Answer": "17%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived by referencing cell 14 (Proctitis) and cell 2 (IBDU) in the table.",
+    "GT": "17%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many patients with CD receive immunomodulators as treatment?",
+    "Answer": "98",
+    "QuestionType": "count",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived by referencing cell 18 (Immunomodulators) and cell 0 (CD) in the table.",
+    "GT": "98"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of patients with UC who have left-sided colitis?",
+    "Answer": "27%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "This answer is derived by referencing cell 15 (Left sided colitis) and cell 1 (UC) in the table.",
+    "GT": "27%"
+  }
+]

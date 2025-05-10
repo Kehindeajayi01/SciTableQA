@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average MRR value for the studies published in 2015?",
+    "Answer": "0.7932",
+    "QuestionType": "calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The average MRR value for the studies published in 2015 is calculated by averaging the MRR values of rows 0, 2, and 3, which are 0.7913, 0.8200, and 0.7530 respectively.",
+    "GT": "0.8056"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the MRR values of the studies published in 2016 and 2015?",
+    "Answer": "0.0439",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference between the MRR values of the studies published in 2016 and 2015 is calculated by subtracting the average MRR value of the studies published in 2015 (0.7932) from the average MRR value of the studies published in 2016, which is (0.8447 + 0.8511 + 0.8770 + 0.8886) / 4 = 0.8367. The difference is then 0.8367 - 0.7932 = 0.0439.",
+    "GT": "0.0428"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the MRR value of the study with the highest MRR value?",
+    "Answer": "0.8886",
+    "QuestionType": "identification",
+    "TableName": "table-4.csv",
+    "Explanation": "The study with the highest MRR value is identified as row 7, which has an MRR value of 0.8886.",
+    "GT": "0.8886"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average MRR value for the studies published by Wang?",
+    "Answer": "0.7643",
+    "QuestionType": "calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The average MRR value for the studies published by Wang is calculated by averaging the MRR values of rows 0, 1, 2, and 4, which are 0.7134, 0.8208, 0.8200, and 0.8447 respectively.",
+    "GT": "0.8192"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the MRR values of the studies published by Wang and those published by Chen?",
+    "Answer": "0.0600",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference between the MRR values of the studies published by Wang and those published by Chen is calculated by subtracting the average MRR value of the studies published by Wang (0.7643) from the MRR value of the study published by Chen (0.8513). The difference is then 0.8513 - 0.7643 = 0.0600.",
+    "GT": "0.0321"
+  }
+]

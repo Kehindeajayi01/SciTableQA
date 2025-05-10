@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of international desired population coverage for Australia?",
+    "Answer": "100",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be directly obtained from the first row of the table, where the value for 'Australia' in the 'Education system Percentage of International desired population coverage' column is 100.",
+    "GT": "100"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country has a weighted school participation rate before substitution of 100%?",
+    "Answer": "Austria",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be directly obtained from the second row of the table, where the value for 'Austria' in the 'Weighted school participation rate before substitution' column is 100.",
+    "GT": "Austria, Chinese Taipei, Indonesia, Islamic Republic of Iran, Malta, Poland, Qatar, Russian Federation, Singapore, United Arab Emirates, Maltese-MLT"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the weighted student response rate for China?",
+    "Answer": "Not available (China is not listed in the table)",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The table does not include China, so the answer is not available.",
+    "GT": "99"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which country has a combined weighted school participation and student response rate of 100%?",
+    "Answer": "Azerbaijan",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be directly obtained from the third row of the table, where the value for 'Azerbaijan' in the 'Combined weighted school participation and student response rate' column is 100.",
+    "GT": "Azerbaijan"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the education system percentage of international desired population coverage for the country with the lowest weighted school participation rate before substitution?",
+    "Answer": "73",
+    "QuestionType": "cell selection",
+    "TableName": "table-A-1.csv",
+    "Explanation": "The answer can be directly obtained from the table by finding the country with the lowest weighted school participation rate before substitution (England-GBR with 73%) and then finding the corresponding value in the 'Education system Percentage of International desired population coverage' column.",
+    "GT": "100"
+  }
+]

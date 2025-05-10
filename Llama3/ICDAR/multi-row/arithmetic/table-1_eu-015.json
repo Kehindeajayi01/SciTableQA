@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of 'Other specific policies including Competition, External trade, Enlargement, Agriculture and rural development, Regional policy, information Society and media, Culture, Economic and monetary affairs, Research and innovation, Fisheries and maritime affairs, Internal Market and services and Environment' out of the total enquiries?",
+    "Answer": "18.05%",
+    "QuestionType": "percentage calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by dividing the value in row 0 (4,330) by the grand total (23,900) and multiplying by 100",
+    "GT": "18.12%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in the number of enquiries for 'EIT' and 'Research enquiry service'?",
+    "Answer": "117",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by subtracting the value in row 1 (119) from the value in row 2 (2,003)",
+    "GT": "1,884"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of enquiries per category?",
+    "Answer": "4,780",
+    "QuestionType": "average calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by dividing the grand total (23,900) by the number of categories (6)",
+    "GT": "4,780"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of 'Export Helpdesk' out of the total enquiries?",
+    "Answer": "0.71%",
+    "QuestionType": "percentage calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by dividing the value in row 3 (169) by the grand total (23,900) and multiplying by 100",
+    "GT": "0.71%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of enquiries for 'Practicalities (including complaints, OPOCE, mission, history, issues not related to the EU, bilateral agreements, national authorities, request for contact details and request for clarification)' and 'Grand Total'?",
+    "Answer": "26,417",
+    "QuestionType": "sum calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by adding the values in row 4 (2,417) and row 5 (23,900)",
+    "GT": "26,317"
+  }
+]

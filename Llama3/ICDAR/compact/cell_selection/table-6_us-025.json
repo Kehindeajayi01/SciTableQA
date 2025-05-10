@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the state with the highest rate of Coronary heart disease?",
+    "Answer": "Oklahoma",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The highest rate of Coronary heart disease is found in Oklahoma, with a rate of 177.4.",
+    "GT": "District of Columbia"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which state has the lowest rate of Coronary heart disease?",
+    "Answer": "Delaware",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The lowest rate of Coronary heart disease is found in Delaware, with a rate of 139.2.",
+    "GT": "Utah"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average rate of Coronary heart disease in the top 5 states with the highest rate?",
+    "Answer": "171.4",
+    "QuestionType": "Calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The average rate of Coronary heart disease in the top 5 states with the highest rate (Oklahoma, Tennessee, Rhode Island, Arkansas, and West Virginia) is calculated by summing the rates and dividing by 5.",
+    "GT": "176.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which state has the highest number of Coronary heart disease cases?",
+    "Answer": "New York",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The state with the highest number of Coronary heart disease cases is New York, with 39,385 cases.",
+    "GT": "California"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the state with the highest rate of Stroke?",
+    "Answer": "Mississippi",
+    "QuestionType": "Cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The highest rate of Stroke is found in Mississippi, with a rate of 146.7.",
+    "GT": "Alabama"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total quantity of recyclable materials in tons per year?",
+    "Answer": "22.4%",
+    "QuestionType": "cell selection",
+    "TableName": "Material Waste Sort Quantity",
+    "Explanation": "The total quantity of recyclable materials is calculated by multiplying the weekly quantity by 52 and then dividing by 2000. The result is 8,010.0, which is equivalent to 22.4% of the total waste.",
+    "GT": "22.4%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of compostable materials in the total waste?",
+    "Answer": "0.0%",
+    "QuestionType": "cell selection",
+    "TableName": "Material Waste Sort Quantity",
+    "Explanation": "The total quantity of compostable materials is 0, which means that there is no compostable material in the total waste, resulting in a percentage of 0.0%",
+    "GT": "0.0%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total quantity of non-divertable materials in tons per year?",
+    "Answer": "929.76",
+    "QuestionType": "cell selection",
+    "TableName": "Material Waste Sort Quantity",
+    "Explanation": "The total quantity of non-divertable materials is 929.76 tons per year, which is calculated as the total waste minus the potentially diverted waste.",
+    "GT": "721.50 The total quantity of non-divertable materials is 721.50 tons per year"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of hazardous/e-waste in the total waste?",
+    "Answer": "3.3%",
+    "QuestionType": "cell selection",
+    "TableName": "Material Waste Sort Quantity",
+    "Explanation": "The percentage of hazardous/e-waste is calculated by dividing the quantity of hazardous/e-waste by the total waste and multiplying by 100.",
+    "GT": "3.3%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total quantity of potentially diverted materials in tons per year?",
+    "Answer": "208.26",
+    "QuestionType": "cell selection",
+    "TableName": "Material Waste Sort Quantity",
+    "Explanation": "The total quantity of potentially diverted materials is 208.26 tons per year, which is calculated as the sum of the recyclable and compostable materials.",
+    "GT": "208.26"
+  }
+]

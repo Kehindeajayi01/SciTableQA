@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables or Available for sale?",
+    "Answer": "27 + 16 = 43",
+    "QuestionType": "Arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the total number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables or Available for sale. The answer is obtained by adding the number of companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables (27) and the number of companies that applied the option for reclassification from Fair value through profit and loss to Available for sale (16).",
+    "GT": "27 + 23 = 50"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage difference between the number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables and the number of financial companies that applied the option for reclassification from Fair value through profit and loss to Available for sale?",
+    "Answer": "33% - 20% = 13%",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the percentage difference between the number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables and the number of financial companies that applied the option for reclassification from Fair value through profit and loss to Available for sale. The answer is obtained by subtracting the percentage of companies that applied the option for reclassification from Fair value through profit and loss to Available for sale (20%) from the percentage of companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables (33%).",
+    "GT": "5%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of financial companies where the disclosure requirements were stricter for reclassification from Fair value through profit and loss to loans and receivables or Available for sale?",
+    "Answer": "8 + 3 + 6 + 2 = 19",
+    "QuestionType": "Arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the total number of financial companies where the disclosure requirements were stricter for reclassification from Fair value through profit and loss to loans and receivables or Available for sale. The answer is obtained by adding the number of companies where the disclosure requirements were stricter for reclassification from Fair value through profit and loss to loans and receivables (8), the number of companies where the disclosure requirements were stricter for reclassification from Fair value through profit and loss to Available for sale (3), the number of companies where the disclosure requirements were stricter for reclassification from Fair value through profit and loss to loans and receivables (6), and the number of companies where the disclosure requirements were stricter for reclassification from Fair value through profit and loss to Available for sale (2).",
+    "GT": "8 + 6 = 14"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage difference between the total number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables and the total number of financial companies where the disclosure requirements were stricter?",
+    "Answer": "81% - 23% = 58%",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the percentage difference between the total number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables and the total number of financial companies where the disclosure requirements were stricter. The answer is obtained by subtracting the percentage of companies where the disclosure requirements were stricter (23%) from the percentage of companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables (81%).",
+    "GT": "33% - 23% (Total number of companies where the the disclosure requirements were stricter divided by the total number of financial companies who applied for this option) = 10% "
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables, Available for sale, or Held to Maturity?",
+    "Answer": "27 + 16 + 23 + 15 = 81",
+    "QuestionType": "Arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the total number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables, Available for sale, or Held to Maturity. The answer is obtained by adding the number of companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables (27), the number of companies that applied the option for reclassification from Fair value through profit and loss to Available for sale (16), the number of companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables (23), and the number of companies that applied the option for reclassification from Fair value through profit and loss to Held to Maturity (15).",
+    "GT": "27 + 23 + 15 = 65"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average age of patients in the table?",
+    "Answer": "62.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average age was calculated by summing up the values in the 'Age' column and dividing by the total number of patients (199 + 209 + ... + 600 = 3419, 3419/20 = 62.2)",
+    "GT": "60.25"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What percentage of patients in the table are male?",
+    "Answer": "53.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of male patients was calculated by summing up the values in the '% male' column and dividing by the total number of patients (67 + 57.4 + ... + 59 = 1337.4, 1337.4/20 = 53.1)",
+    "GT": "54.63% (Average)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the most common type of diabetes mentioned in the table?",
+    "Answer": "T2DM",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The most common type of diabetes was determined by counting the number of occurrences of each type in the 'Population' column. T2DM was mentioned 10 times, while TIDM was mentioned 2 times.",
+    "GT": "T2DM"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the range of mGFR values reported in the table?",
+    "Answer": "80-175",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The range of mGFR values was determined by examining the values in the 'mGFR' column. The lowest value is 80, and the highest value is 175.",
+    "GT": "30-106"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the most common method used for measuring sGFR mentioned in the table?",
+    "Answer": "99m Tc-DTPA",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The most common method used for measuring sGFR was determined by counting the number of occurrences of each method in the 'sGFR measurement' column. 99m Tc-DTPA was mentioned 4 times, while other methods were mentioned fewer times.",
+    "GT": "99m Tc-DTPA"
+  }
+]

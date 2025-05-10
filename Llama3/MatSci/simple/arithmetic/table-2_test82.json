@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average power (W) of the alloys with a scan speed of 400 mm/min?",
+    "Answer": "600",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question requires referencing cells (0, 1) and (1, 1) for the power and scan speed values. The average power is calculated by adding the powers of NbxCoCrFeMnNi and TaxCoCrFeMnNi (550 and 650) and dividing by 2.",
+    "GT": "600"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in Ar flow (LPM) between the alloys with the highest and lowest O_2 (ppm) levels?",
+    "Answer": "0.7",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question requires referencing cells (0, 2) and (2, 5) for the Ar flow and O_2 levels. The difference in Ar flow is calculated by subtracting the Ar flow of NbxCoCrFeMnNi (1.0) from the Ar flow of TiAl6V4lxCoCrFeMnNi (1.0)",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total O_2 (ppm) level of the alloys with a max voltage of 4.25 V?",
+    "Answer": "63.3",
+    "QuestionType": "aggregation",
+    "TableName": "table-2.csv",
+    "Explanation": "The question requires referencing cells (0, 5) and (1, 5) for the max voltage and O_2 levels. The total O_2 level is calculated by adding the O_2 levels of NbxCoCrFeMnNi (35) and TaxCoCrFeMnNi (28)",
+    "GT": "35"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average H2O (ppm) level of the alloys with an optic size of 2.3 mm?",
+    "Answer": "0.65",
+    "QuestionType": "aggregation",
+    "TableName": "table-2.csv",
+    "Explanation": "The question requires referencing cells (0, 6) and (1, 6) for the optic size and H2O levels. The average H2O level is calculated by adding the H2O levels of NbxCoCrFeMnNi (0.5) and TaxCoCrFeMnNi (0.8) and dividing by 2",
+    "GT": "0.9"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of the power (W) of the alloy with the highest power to the power of the alloy with the lowest power?",
+    "Answer": "1.18",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question requires referencing cells (0, 1) and (1, 1) for the power values. The ratio is calculated by dividing the power of TaxCoCrFeMnNi (650) by the power of NbxCoCrFeMnNi (550)",
+    "GT": "1.18"
+  }
+]

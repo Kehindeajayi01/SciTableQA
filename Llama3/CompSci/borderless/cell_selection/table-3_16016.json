@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average message length in the Avocado email dataset?",
+    "Answer": "73.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the 'Average message length' column of the Avocado (Email) row in the table.",
+    "GT": "73.0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which dataset has the highest number of messages?",
+    "Answer": "Ubuntu Dialog (IRC)",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the 'Number of messages' column of the Ubuntu Dialog (IRC) row in the table, which has the highest value.",
+    "GT": "Ubuntu Dialog (IRC)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average thread length in the r/politics Reddit dataset?",
+    "Answer": "2.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the 'Average thread length' column of the r/politics (Reddit) row in the table.",
+    "GT": "2.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which dataset has the lowest average message length?",
+    "Answer": "r/politics (Reddit)",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is directly obtained from the 'Average message length' column of the r/politics (Reddit) row in the table, which has the lowest value.",
+    "GT": "Ubuntu Dialog (IRC)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of threads across all datasets?",
+    "Answer": "50890 + 15813 + 50812 = 117515",
+    "QuestionType": "calculation",
+    "TableName": "table-3.csv",
+    "Explanation": "The answer is calculated by summing up the 'Number of threads' values of each dataset in the table.",
+    "GT": "50890 + 15813 + 50812 = 117515"
+  }
+]

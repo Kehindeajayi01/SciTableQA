@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of defendants charged in FY 2007 and FY 2008 combined?",
+    "Answer": "549",
+    "QuestionType": "arithmetic",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The total number of defendants charged in FY 2007 is 259, and in FY 2008 is 290. Adding these values gives the total number of defendants charged in FY 2007 and FY 2008 combined.",
+    "GT": "549"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in defendants sentenced from FY 2007 to FY 2008?",
+    "Answer": "15.2%",
+    "QuestionType": "comparison",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The number of defendants sentenced in FY 2007 is 287, and in FY 2008 is 242. The percentage increase is calculated as ((242 - 287) / 287) * 100, which is 15.2%",
+    "GT": "-15.6%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of cases charged in FY 2009 and FY 2010 combined?",
+    "Answer": "350",
+    "QuestionType": "arithmetic",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The total number of cases charged in FY 2009 is 173, and in FY 2010 is 177. Adding these values gives the total number of cases charged in FY 2009 and FY 2010 combined.",
+    "GT": "350"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average number of defendants sentenced per year from FY 2007 to FY 2011?",
+    "Answer": "223",
+    "QuestionType": "arithmetic",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The total number of defendants sentenced from FY 2007 to FY 2011 is 287 + 242 + 223 + 207 + 208 = 1167. The average is calculated as 1167 / 5 = 223.",
+    "GT": "233"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of defendants who received a prison term of 1-12 months or 13-24 months in FY 2008?",
+    "Answer": "93",
+    "QuestionType": "arithmetic",
+    "TableName": "District Totals FY 2007 FY 2008 FY 2009 FY 2010 FY 2011",
+    "Explanation": "The number of defendants who received a prison term of 1-12 months in FY 2008 is 48, and the number of defendants who received a prison term of 13-24 months is 45. Adding these values gives the total number of defendants who received a prison term of 1-12 months or 13-24 months in FY 2008.",
+    "GT": "93"
+  }
+]

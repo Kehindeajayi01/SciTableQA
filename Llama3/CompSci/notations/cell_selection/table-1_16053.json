@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of words in the corpus?",
+    "Answer": "N",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 5 in the table, which represents the total number of words in the corpus.",
+    "GT": "N"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many latent topics are to be inferred?",
+    "Answer": "K",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 3 in the table, which represents the number of latent topics to be inferred.",
+    "GT": "K"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the number of scales?",
+    "Answer": "S",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 1 in the table, which represents the number of scales.",
+    "GT": "S"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the length of the smallest time epoch?",
+    "Answer": "l_min",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 0 in the table, which represents the length of the smallest time epoch.",
+    "GT": "l_min"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of documents at time epoch t with time scale S?",
+    "Answer": "D^(t,s)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from cell 7 in the table, which represents the number of documents at time epoch t with time scale S.",
+    "GT": "D^(t,s)"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in performance between the 'GloVe' and 'CBOW' models for the '3CosAdd' and '3CosMul' methods?",
+    "Answer": "0.1469",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "To calculate this, I subtracted the 'GloVe' performance from the 'CBOW' performance for both '3CosAdd' and '3CosMul' methods, then took the average of the results.",
+    "GT": 0.1469""
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in performance between the 'SG' and 'Ours' models for the '3CosAdd' method?",
+    "Answer": "0.0358",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "I subtracted the 'SG' performance from the 'Ours' performance for the '3CosAdd' method to get the difference.",
+    "GT": "0.0307"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average performance of the 'CBOW' model across all methods?",
+    "Answer": "0.7413",
+    "QuestionType": "average",
+    "TableName": "table-4.csv",
+    "Explanation": "I calculated the average of the 'CBOW' performance values for all methods.",
+    "GT": "0.7209"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in performance between the '3CosAdd' and '3CosMul' methods for the 'GloVe' model?",
+    "Answer": "0.0367",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "I subtracted the '3CosAdd' performance from the '3CosMul' performance for the 'GloVe' model to get the difference.",
+    "GT": "0.0364"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average difference in performance between the '3CosAdd' and '3CosMul' methods across all models?",
+    "Answer": "0.0335",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "I calculated the average of the differences in performance between the '3CosAdd' and '3CosMul' methods for all models.",
+    "GT": "0.0335"
+  }
+]

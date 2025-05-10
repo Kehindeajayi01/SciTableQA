@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average frequency of origin location quality modifiers for entities with 'Supertype' as 'Supertype' and 'Differentia quality' as 'Differentia quality'?",
+    "Answer": "2.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The average frequency is calculated by summing the 'Origin location Quality modifier' values for entities with 'Supertype' as 'Supertype' and 'Differentia quality' as 'Differentia quality', and then dividing by the count of such entities.",
+    "GT": "2.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of entities with 'Event location' as 'Event location' and 'Event time' as 'Event time', and 'Associated fact' as 'Associated fact'?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-1",
+    "Explanation": "The count is calculated by summing the number of entities that match the specified conditions.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average 'Purpose' value for entities with 'Differentia event' as 'Differentia event' and 'Accessory quality' as 'Accessory quality'?",
+    "Answer": "3.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The average 'Purpose' value is calculated by summing the 'Purpose' values for entities with 'Differentia event' as 'Differentia event' and 'Accessory quality' as 'Accessory quality', and then dividing by the count of such entities.",
+    "GT": "3.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of entities with 'Role' as 'Role' and 'Accessory determiner' as 'Accessory determiner'?",
+    "Answer": "2",
+    "QuestionType": "Count",
+    "TableName": "table-1",
+    "Explanation": "The count is calculated by summing the number of entities that match the specified conditions.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average 'Origin location Quality modifier' value for entities with 'Supertype' as 'Supertype' and 'Differentia quality' as 'Differentia quality', and 'Accessory quality' as 'Accessory quality'?",
+    "Answer": "2.8",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1",
+    "Explanation": "The average 'Origin location Quality modifier' value is calculated by summing the 'Origin location Quality modifier' values for entities with 'Supertype' as 'Supertype' and 'Differentia quality' as 'Differentia quality', and then dividing by the count of such entities.",
+    "GT": "2.8"
+  }
+]

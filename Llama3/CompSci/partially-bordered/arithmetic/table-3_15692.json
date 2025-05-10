@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of 'IND' algorithm in the Epinions dataset?",
+    "Answer": "0.9563",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value of 'IND' algorithm in the Epinions dataset is calculated by averaging the values in cells 1.2 and 1.4.",
+    "GT": "0.94606"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the average value of 'BET' algorithm in the Ciao dataset and the average value of 'CLO' algorithm in the DBLP dataset?",
+    "Answer": "0.0213",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value of 'BET' algorithm in the Ciao dataset is 0.9218 and the average value of 'CLO' algorithm in the DBLP dataset is 0.9875. The difference is calculated by subtracting the values.",
+    "GT": "0.049"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of 'M1' algorithm across all datasets?",
+    "Answer": "0.9595",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value of 'M1' algorithm is calculated by averaging the values in cells 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9, and 6.10.",
+    "GT": "0.9595"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average value of 'WPR' algorithm in the Epinions dataset and the Ciao dataset?",
+    "Answer": "0.8932",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value of 'WPR' algorithm in the Epinions dataset and the Ciao dataset is calculated by averaging the values in cells 5.2 and 5.4.",
+    "GT": "0.8932"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of 'M2' algorithm in the DBLP dataset and the Epinions dataset?",
+    "Answer": "0.9463",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average value of 'M2' algorithm in the DBLP dataset and the Epinions dataset is calculated by averaging the values in cells 7.1 and 7.3.",
+    "GT": "0.9463"
+  }
+]

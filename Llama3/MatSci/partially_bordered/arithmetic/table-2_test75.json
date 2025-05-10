@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average hardness of TiZrVNb and Ti1.5ZrVNb alloys compared to Ti2ZrVNb?",
+    "Answer": "TiZrVNb: 434.9, Ti1.5ZrVNb: 383.1, Ti2ZrVNb: 350.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question compares the hardness of three alloys by referencing cells (0, 1), (0, 2), and (2, 2) in the table.",
+    "GT": "Average of TiZrVNb and Ti1.5ZrVNb: 409 vs Ti2ZrVNb: 350.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in tensile yield strength between TiZrVNb and Ti2ZrVNb?",
+    "Answer": "1116 - 1058 = 58",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question compares the tensile yield strength of two alloys by referencing cells (0, 3) and (2, 3) in the table.",
+    "GT": "1116 - 1058 = 58"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average tensile ductility of TiZrVNb and Ti1.5ZrVNb alloys?",
+    "Answer": "(3.5 + 11.2) / 2 = 7.35",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "The question calculates the average tensile ductility of two alloys by referencing cells (0, 4) and (1, 4) in the table.",
+    "GT": "(3.5 + 11.2) / 2 = 7.35"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of tensile fracture strength to tensile yield strength for Ti2ZrVNb?",
+    "Answer": "1305 / 1058 = 1.23",
+    "QuestionType": "Ratio",
+    "TableName": "table-2.csv",
+    "Explanation": "The question calculates the ratio of tensile fracture strength to tensile yield strength for one alloy by referencing cells (2, 3) and (2, 2) in the table.",
+    "GT": "1305 / 1058 = 1.23"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in hardness between TiZrVNb and Ti2ZrVNb?",
+    "Answer": "434.9 - 350.4 = 84.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question compares the hardness of two alloys by referencing cells (0, 2) and (2, 2) in the table.",
+    "GT": "434.9 - 350.4 = 84.5"
+  }
+]

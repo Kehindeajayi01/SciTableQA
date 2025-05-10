@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of ICD codes for Retinopathy (RET) and Neuropathy (NEU) combined?",
+    "Answer": "6",
+    "QuestionType": "Arithmetic",
+    "TableName": "T2DM Complication",
+    "Explanation": "The ICD codes for Retinopathy (RET) are 25050, 25052, 24950, 24951, 36201-36207, E08311-E0839, and for Neuropathy (NEU) are 25060, 25062, 24960, 24961. Combining these, we get 6 unique codes.",
+    "GT": "10"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many ICD codes are shared between Vascular Disease (VAS) and Nephrology (NEP)?",
+    "Answer": "4",
+    "QuestionType": "Comparison",
+    "TableName": "T2DM Complication",
+    "Explanation": "The ICD codes for Vascular Disease (VAS) are 25070, 25072, 24970, 24971, E0851, E08621-E08622, E0859, and for Nephrology (NEP) are 25040, 25042, 24940, 24941. The shared codes are 25040, 25042, 24940, 24941.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of ICD codes for Hyperosmolar (HYPER) and Vascular Disease (VAS) combined?",
+    "Answer": "11",
+    "QuestionType": "Arithmetic",
+    "TableName": "T2DM Complication",
+    "Explanation": "The ICD codes for Hyperosmolar (HYPER) are 25020, 25022, 24920, 24921, E0800, E0900, E1100, E1300, and for Vascular Disease (VAS) are 25070, 25072, 24970, 24971, E0851, E08621-E08622, E0859. Combining these, we get 11 unique codes.",
+    "GT": "15"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How many ICD codes are specific to Retinopathy (RET) and not shared with any other complication?",
+    "Answer": "6",
+    "QuestionType": "Comparison",
+    "TableName": "T2DM Complication",
+    "Explanation": "The ICD codes for Retinopathy (RET) are 25050, 25052, 24950, 24951, 36201-36207, E08311-E0839. These codes are not shared with any other complication.",
+    "GT": "6"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of ICD codes for Nephrology (NEP) and Neuropathy (NEU) combined?",
+    "Answer": "8",
+    "QuestionType": "Arithmetic",
+    "TableName": "T2DM Complication",
+    "Explanation": "The ICD codes for Nephrology (NEP) are 25040, 25042, 24940, 24941, and for Neuropathy (NEU) are 25060, 25062, 24960, 24961. Combining these, we get 8 unique codes.",
+    "GT": ""
+  }
+]

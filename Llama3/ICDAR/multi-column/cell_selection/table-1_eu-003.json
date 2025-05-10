@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of financial companies that applied the option for reclassification from Fair value through profit and loss to loans and receivables?",
+    "Answer": "27",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the first row and first column of the table.",
+    "GT": "27"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of financial companies that applied the option for reclassification from Fair value through profit and loss to Held to Maturity?",
+    "Answer": "19%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the second row and fifth column of the table.",
+    "GT": "19%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many financial companies have stricter disclosure requirements for reclassification from Fair value through profit and loss to Available for sale?",
+    "Answer": "6",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the third row and third column of the table.",
+    "GT": "6"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of financial companies that applied the option for reclassification from Fair value through profit and loss to Available for sale?",
+    "Answer": "23",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the third row and second column of the table.",
+    "GT": "23"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total percentage of financial companies that applied the option for reclassification from Fair value through profit and loss to Available for sale?",
+    "Answer": "28%",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the second row and third column of the table.",
+    "GT": "28%"
+  }
+]

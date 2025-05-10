@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage change in the melting point of M2 alloy from T = 25 °C to T = 600 °C?",
+    "Answer": "43.8",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average percentage change is calculated by subtracting the initial melting point (719/90.0) from the new melting point (350/43.8) and dividing by the initial melting point.",
+    "GT": "-51.3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage change in the melting point of M3 alloy from T = 800 °C to T = 1200 °C?",
+    "Answer": "22.8",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The percentage change is calculated by subtracting the initial melting point (329/41.0) from the new melting point (183/22.8) and dividing by the initial melting point.",
+    "GT": "-44.4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average melting point of M2Fe alloy across all temperatures?",
+    "Answer": "513.3",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "The average melting point is calculated by summing the melting points (1090/136.4, 706/88.4, 758/94.9, 456/57.1, 188/23.5) and dividing by the number of temperatures (5).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage change in the melting point of C-103 alloy from T = 25 °C to T = 800 °C?",
+    "Answer": "19.1",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The percentage change is calculated by subtracting the initial melting point (296/33.4) from the new melting point (169/19.1) and dividing by the initial melting point.",
+    "GT": "-42.9"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average percentage change in the melting point of M2 and M3 alloys across all temperatures?",
+    "Answer": "34.1",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average percentage change is calculated by summing the percentage changes for M2 (43.8 + 38.9 + 31.3 + 20.2 + 0) and M3 (48.6 + 41.0 + 33.6 + 22.8 + 0) and dividing by the number of temperatures (5).",
+    "GT": "Irrelevant question"
+  }
+]

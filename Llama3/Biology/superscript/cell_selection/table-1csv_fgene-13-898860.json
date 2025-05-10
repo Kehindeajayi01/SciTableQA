@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of Fetal sample in the 'Fetal sample' column?",
+    "Answer": "1.44",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The average value of Fetal sample in the 'Fetal sample' column is calculated by summing up all the values and dividing by the total number of rows.",
+    "GT": "1.60"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which row has the highest value of Fetal sample in the 'Fetal sample' column?",
+    "Answer": "11",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The row with the highest value of Fetal sample in the 'Fetal sample' column is identified by finding the maximum value in the column.",
+    "GT": "F8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of Variants in the proband for the first row?",
+    "Answer": "c.149G > A",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The value of Variants in the proband for the first row is directly selected from the table.",
+    "GT": "c.149G > A and c.1184G > A"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average value of IVG (mmol/) in the 'IVG (mmol/) column?",
+    "Answer": "0.13",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The average value of IVG (mmol/) in the 'IVG (mmol/) column is calculated by summing up all the values and dividing by the total number of rows.",
+    "GT": "ND"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which row has the lowest value of Fetal sample in the 'Fetal sample' column?",
+    "Answer": "8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The row with the lowest value of Fetal sample in the 'Fetal sample' column is identified by finding the minimum value in the column.",
+    "GT": "F1a"
+  }
+]

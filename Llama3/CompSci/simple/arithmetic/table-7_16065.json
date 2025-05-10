@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage difference between the average percentage of 'I' in Sociology and Morality?",
+    "Answer": "28.1%",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "To find the answer, I subtracted the percentage of 'I' in Morality (63.6) from the percentage of 'I' in Sociology (80.4) and divided the result by the percentage of 'I' in Morality, then multiplied by 100.",
+    "GT": "16.19%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average percentage of 'P' in Government and Politics?",
+    "Answer": "61.65",
+    "QuestionType": "Average",
+    "TableName": "table-7.csv",
+    "Explanation": "To find the answer, I added the percentages of 'P' in Government (64.4) and Politics (68.8) and divided the result by 2.",
+    "GT": "66.6"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage difference between the average percentage of '%' in Economics and Culture?",
+    "Answer": "-8.9%",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "To find the answer, I subtracted the percentage of '%' in Culture (54.5) from the percentage of '%' in Economics (50.0) and divided the result by the percentage of '%' in Economics, then multiplied by 100.",
+    "GT": "-8.9%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average percentage of 'I' in Human and Model?",
+    "Answer": "64.35",
+    "QuestionType": "Average",
+    "TableName": "table-7.csv",
+    "Explanation": "To find the answer, I added the percentages of 'I' in Human (58.5) and Model (58.5) and divided the result by 2.",
+    "GT": "64.35"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage difference between the average percentage of '%' in Science and Culture?",
+    "Answer": "12.1%",
+    "QuestionType": "Comparison",
+    "TableName": "table-7.csv",
+    "Explanation": "To find the answer, I subtracted the percentage of '%' in Culture (54.5) from the percentage of '%' in Science (66.6) and divided the result by the percentage of '%' in Culture, then multiplied by 100.",
+    "GT": "12.1%"
+  }
+]

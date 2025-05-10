@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of vehicles that are leased?",
+    "Answer": "7",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by summing up the 'Leased' column values, which yields a total of 7 vehicles that are leased.",
+    "GT": "79 The answer is derived by summing up the 'Leased' column values, which yields a total of 79 vehicles that are leased. "
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of E85 FF vehicles that are purchased?",
+    "Answer": "0",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by summing up the 'Purchased' column values for E85 FF vehicles, which yields a total of 0 vehicles that are purchased.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of GAS HY vehicles that are not leased?",
+    "Answer": "3",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by summing up the 'Not Leased' (i.e., 'No' in the 'Law Enforcement' column) values for GAS HY vehicles, which yields a total of 3 vehicles that are not leased.",
+    "GT": "0 The total vehicles are 3 but all are leased so 0 are not leased"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of LD SUV 4x4 vehicles that have EPAct Credits?",
+    "Answer": "26",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by summing up the 'EPAct Credits' column values for LD SUV 4x4 vehicles, which yields a total of 26 vehicles that have EPAct Credits.",
+    "GT": "27 The answer is derived by summing up the 'EPAct Credits' column values for LD SUV 4x4 vehicles, which yields a total of 27 vehicles that have EPAct Credits"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of vehicles that have at least one EPAct Credit?",
+    "Answer": "53",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The answer is derived by summing up the 'EPAct Credits' column values, which yields a total of 53 vehicles that have at least one EPAct Credit.",
+    "GT": "53"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the proportion of individuals in the age group 30-39?",
+    "Answer": "0.2046",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell corresponding to the age group 30-39 in the table.",
+    "GT": "0.1701"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which age group has the highest proportion of individuals?",
+    "Answer": "20 - 29",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is determined by identifying the age group with the highest proportion, which is 20-29 according to the table.",
+    "GT": "30-39"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the proportion of individuals aged 60-69?",
+    "Answer": "0.1225",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell corresponding to the age group 60-69 in the table.",
+    "GT": "0.0800"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the proportion of individuals aged 80 or above?",
+    "Answer": "0.0336",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell corresponding to the age group 80+ in the table.",
+    "GT": "0.0244"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which age group has the lowest proportion of individuals?",
+    "Answer": "70 - 79",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is determined by identifying the age group with the lowest proportion, which is 70-79 according to the table.",
+    "GT": "2-11 months"
+  }
+]

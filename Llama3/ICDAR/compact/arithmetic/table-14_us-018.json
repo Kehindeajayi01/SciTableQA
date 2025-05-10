@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total actual revenue for the United States in 2003-04 and 2004-05?",
+    "Answer": "5,552,688",
+    "QuestionType": "arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the total actual revenue for the United States in 2003-04 and 2004-05, which is calculated by adding the actual revenue for the United States in these two years.",
+    "GT": "5,552,688"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in actual revenue for Northeast from 2003-04 to 2004-05?",
+    "Answer": "3.6%",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the percentage increase in actual revenue for Northeast from 2003-04 to 2004-05, which is calculated by dividing the difference in actual revenue by the initial value and multiplying by 100.",
+    "GT": "3.7%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total projected revenue for South in 2010-11 and 2011-12?",
+    "Answer": "2,219,460",
+    "QuestionType": "arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the total projected revenue for South in 2010-11 and 2011-12, which is calculated by adding the projected revenue for South in these two years.",
+    "GT": "2,219,460"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average actual revenue for the Midwest in 2003-04 to 2005-06?",
+    "Answer": "680,671",
+    "QuestionType": "arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the average actual revenue for the Midwest in 2003-04 to 2005-06, which is calculated by adding the actual revenue for the Midwest in these three years and dividing by 3.",
+    "GT": "680,338"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total actual revenue for West Virginia in 2003-04 to 2005-06?",
+    "Answer": "51,239",
+    "QuestionType": "arithmetic",
+    "TableName": "Unknown_1",
+    "Explanation": "The question asks for the total actual revenue for West Virginia in 2003-04 to 2005-06, which is calculated by adding the actual revenue for West Virginia in these three years.",
+    "GT": "51,239"
+  }
+]

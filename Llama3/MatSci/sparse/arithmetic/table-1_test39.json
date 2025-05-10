@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage of Ti in the alloy samples that have a higher Nb content compared to those with a lower Nb content?",
+    "Answer": "24.4 ± 0.2",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the Ti content in rows with higher Nb content (NbTiZr, NbTiZrV, NbTiZrVMo, NbTiZrVTa, NbTiZrVCr) to those with lower Nb content (Particles, Bright spots, Dendrites, Channels, GB particles, Bright phase, Dark phase, Needles, GB layer). The average Ti content in the higher Nb content rows is calculated as (24.4 ± 0.2).",
+    "GT": "Ti with higher Nb content: 26.9 ± 0.2, Ti with lower Nb content: 19.8 ± 0.3 "
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average percentage of V in the alloy samples that have a higher Mo content compared to those with a lower Mo content?",
+    "Answer": "21.0 ± 0.9",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the V content in rows with higher Mo content (NbTiZrVMo, NbTiZrVTa, NbTiZrVCr) to those with lower Mo content (NbTiZr, NbTiZrV, Particles, Bright spots, Dendrites, Channels, GB particles, Bright phase, Dark phase, Needles, GB layer). The average V content in the higher Mo content rows is calculated as (21.0 ± 0.9).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average percentage of Cr in the alloy samples that have a higher Al content compared to those with a lower Al content?",
+    "Answer": "5.2 ± 0.2",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the Cr content in rows with higher Al content (NbTiZrVAl0.24) to those with lower Al content (NbTiZr, NbTiZrV, Particles, Bright spots, Dendrites, Channels, GB particles, Bright phase, Dark phase, Needles, GB layer). The average Cr content in the higher Al content rows is calculated as (5.2 ± 0.2).",
+    "GT": "Irrelevannt question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average percentage of Ta in the alloy samples that have a higher Zr content compared to those with a lower Zr content?",
+    "Answer": "21.2 ± 0.4",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the Ta content in rows with higher Zr content (NbTiZr, NbTiZrV, NbTiZrVMo, NbTiZrVTa) to those with lower Zr content (Particles, Bright spots, Dendrites, Channels, GB particles, Bright phase, Dark phase, Needles, GB layer). The average Ta content in the higher Zr content rows is calculated as (21.2 ± 0.4).",
+    "GT": "21.2 ± 0.4 (Only one alloy with a Ta value)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average percentage of Al in the alloy samples that have a higher Nb content compared to those with a lower Nb content?",
+    "Answer": "5.2 ± 0.2",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the Al content in rows with higher Nb content (NbTiZr, NbTiZrV, NbTiZrVMo, NbTiZrVTa, NbTiZrVCr) to those with lower Nb content (Particles, Bright spots, Dendrites, Channels, GB particles, Bright phase, Dark phase, Needles, GB layer). The average Al content in the higher Nb content rows is calculated as (5.2 ± 0.2).",
+    "GT": "5.2 ± 0.2 (Only one alloy wiht Al value)"
+  }
+]

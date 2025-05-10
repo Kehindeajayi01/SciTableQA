@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the actual ratio of plants observed in family F2?",
+    "Answer": "156",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The actual ratio of plants observed in family F2 is found in cell (4, 3) of the table.",
+    "GT": "156"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the expected ratio of plants observed in family F2?",
+    "Answer": "36",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The expected ratio of plants observed in family F2 is found in cell (4, 4) of the table.",
+    "GT": "1:3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the p-value for the observed ratio of plants in family F2?",
+    "Answer": "0.308",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The p-value for the observed ratio of plants in family F2 is found in cell (4, 7) of the table.",
+    "GT": "0.579"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the actual ratio of plants observed in family F2:3?",
+    "Answer": "134",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The actual ratio of plants observed in family F2:3 is found in cell (5, 3) of the table.",
+    "GT": "1.04:2:0.96"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the p-value for the observed ratio of plants in family F2:3?",
+    "Answer": "0.134",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The p-value for the observed ratio of plants in family F2:3 is found in cell (5, 6) of the table.",
+    "GT": "0.935"
+  }
+]

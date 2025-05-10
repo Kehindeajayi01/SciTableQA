@@ -1,0 +1,52 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in -2LL between the Cholesky ACE model and the Cholesky ACE model with 1 Factor?",
+    "Answer": "2776.63",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The difference in -2LL is calculated by subtracting the -2LL of the Cholesky ACE model (-140275.80) from the -2LL of the Cholesky ACE model with 1 Factor (-143052.40)",
+    "GT": "2776.6",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the -2LL of the Cholesky ACE model with 2 Factors?",
+    "Answer": "140714.30",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.csv",
+    "Explanation": "The -2LL of the Cholesky ACE model with 2 Factors is directly taken from the table",
+    "GT": "140714.30",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in -2LL between the Cholesky ACE model with 2 Factors and the Cholesky ACE model with 3 Factors?",
+    "Answer": "23.17",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The difference in -2LL is calculated by subtracting the -2LL of the Cholesky ACE model with 2 Factors (-140714.30) from the -2LL of the Cholesky ACE model with 3 Factors (-140691.10)",
+    "GT": "23.2",
+    "RV": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the -2LL of the Cholesky ACE model with 1 Factor?",
+    "Answer": "143052.40",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.csv",
+    "Explanation": "The -2LL of the Cholesky ACE model with 1 Factor is directly taken from the table",
+    "GT": "143052.40",
+    "RV": "3"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of parameters in the Cholesky ACE model with 3 Factors?",
+    "Answer": "58",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.csv",
+    "Explanation": "The number of parameters is directly taken from the table",
+    "GT": "58",
+    "RV": "3"
+  }
+]

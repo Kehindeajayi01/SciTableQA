@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage change in the melting point of M2 alloy from 25\u00b0C to 600\u00b0C?",
+    "Answer": "80.0%",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The melting point of M2 alloy at 25\u00b0C is 719/90.0, and at 600\u00b0C is 350/43.8. The percentage change is calculated as ((350/43.8 - 719/90.0) / (719/90.0)) * 100% = 80.0%",
+    "GT": "51.3 %"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average melting point of M3Fe alloy at the temperatures 600\u00b0C, 800\u00b0C, and 1000\u00b0C?",
+    "Answer": "518.33",
+    "QuestionType": "average",
+    "TableName": "table-3.csv",
+    "Explanation": "The melting points of M3Fe alloy at the temperatures 600\u00b0C, 800\u00b0C, and 1000\u00b0C are 589/73.3, 522/65.0, and 445/55.4, respectively. The average is calculated as ((589/73.3 + 522/65.0 + 445/55.4) / 3) = 518.33",
+    "GT": "8.03"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the ratio of the melting point of C-103 alloy at 1200\u00b0C to the melting point of M3 alloy at 800\u00b0C?",
+    "Answer": "0.63",
+    "QuestionType": "ratio",
+    "TableName": "table-3.csv",
+    "Explanation": "The melting points of C-103 alloy at 1200\u00b0C and M3 alloy at 800\u00b0C are 115/13.0 and 329/41.0, respectively. The ratio is calculated as (115/13.0 / 329/41.0) = 0.63",
+    "GT": "1.10"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in the melting point of M2Fe alloy at 600\u00b0C and 800\u00b0C?",
+    "Answer": "48.5",
+    "QuestionType": "difference",
+    "TableName": "table-3.csv",
+    "Explanation": "The melting points of M2Fe alloy at 600\u00b0C and 800\u00b0C are 706/88.4 and 758/94.9, respectively. The difference is calculated as (758/94.9 - 706/88.4) = 48.5",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage change in the melting point of C-3009 alloy from 800\u00b0C to 1200\u00b0C?",
+    "Answer": "7.5%",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The melting points of C-3009 alloy at 800\u00b0C and 1200\u00b0C are 424/41.2 and 388/37.7, respectively. The percentage change is calculated as ((388/37.7 - 424/41.2) / (424/41.2)) * 100% = 7.5%",
+    "GT": "0%"
+  }
+]

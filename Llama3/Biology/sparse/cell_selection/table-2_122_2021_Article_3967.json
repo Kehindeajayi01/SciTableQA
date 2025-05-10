@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the chromosome for QYr.niab-1A.1?",
+    "Answer": "1A",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in the second column of the table, where the row corresponding to QYr.niab-1A.1 has the value '1A'.",
+    "GT": "1A"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What are the environments for QYr.niab-2A.1?",
+    "Answer": "1-4 1-4 1-4 1-4",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in the third column of the table, where the row corresponding to QYr.niab-2A.1 has the values '1-4 1-4 1-4 1-4'.",
+    "GT": "1-4 1-4 1-4 1-4 1-4 1-4 1-4 1-4 1-4 1-4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which QYr.niab has unknown values in the table?",
+    "Answer": "QYr.niab-3D.I",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by identifying the rows with NaN values in the table, which corresponds to QYr.niab-3D.I.",
+    "GT": "QYr.niab-3D.1, QYr.niab-4B.1, QYr.niab-4D.1, QYr.niab-5A.1, QYr.niab-6A.3,  and QYr.niab-6B.1 "
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the range of values for the environments of QYr.niab-6A.1?",
+    "Answer": "2-4 2-4 2 2 2-4 1-4",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by identifying the values in the third column of the table corresponding to QYr.niab-6A.1.",
+    "GT": "2-4 2-4 3-4 2-4 2 2 2-4 1-4 1-4 1-4"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which QYr.niab has a value of '1,2,4' in the 'Chr.' column?",
+    "Answer": "QYr.niab-4A.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by identifying the rows with the value '1,2,4' in the 'Chr.' column, which corresponds to QYr.niab-4A.1.",
+    "GT": "None"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in Cosine similarity between CBOW and GloVe for the ED metric?",
+    "Answer": "0.0418",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate this, I subtracted the Cosine similarity of CBOW for ED (0.3787) from the Cosine similarity of GloVe for ED (0.4919), then divided by 2 and took the average of the results for both metrics (0.4275 and 0.3698).",
+    "GT": "0.8175"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total Cosine similarity of our model (Ours) for both metrics?",
+    "Answer": "1.4318",
+    "QuestionType": "Sum",
+    "TableName": "table-1.csv",
+    "Explanation": "I added the Cosine similarity of our model for both metrics: 0.7095 + 0.4275 = 1.1369, then added the ED metric results: 0.2726 + 0.4028 = 0.6754, and finally added both results: 1.1369 + 0.6754 = 1.4318.",
+    "GT": "1.1341"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average difference in ED similarity between SG and GloVe?",
+    "Answer": "0.1291",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate this, I subtracted the ED similarity of SG (0.4143) from the ED similarity of GloVe (0.4919), then divided by 2 and took the average of the results for both metrics (0.3712 and 0.3698).",
+    "GT": "0.0694"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total Cosine similarity of CBOW and SG for both metrics?",
+    "Answer": "1.4098",
+    "QuestionType": "Sum",
+    "TableName": "table-1.csv",
+    "Explanation": "I added the Cosine similarity of CBOW for both metrics: 0.7095 + 0.4275 = 1.1369, then added the ED metric results: 0.3787 + 0.2726 = 0.6513, and finally added both results: 1.1369 + 0.6513 = 1.4098.",
+    "GT": "2.2085"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in total similarity between our model (Ours) and GloVe for both metrics?",
+    "Answer": "0.1241",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "I calculated the total similarity of our model: 0.7095 + 0.4275 + 0.2726 + 0.4028 = 1.4318, then subtracted the total similarity of GloVe: 0.6077 + 0.3698 + 0.4919 + 0.3231 = 1.3077, and finally took the difference: 1.4318 - 1.3077 = 0.1241.",
+    "GT": "0.1241"
+  }
+]

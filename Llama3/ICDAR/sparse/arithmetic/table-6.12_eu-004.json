@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total sales in EU food manufacturing (bn ecus) of the top 3 companies in terms of World food sales ($US bn)?",
+    "Answer": "38.8 + 33.4 + 26.7 = 98.9",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The top 3 companies in terms of World food sales ($US bn) are Nestle, Philip Morris, and Unilever. We add their total sales in EU food manufacturing (bn ecus) to get the answer.",
+    "GT": "39"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total sales in EU food manufacturing (bn ecus) of companies that are one of the 5 leaders in the markets NACE 3 digit 411, 412, and 414?",
+    "Answer": "116 + 142 + 13.1 = 271.1",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The companies that are one of the 5 leaders in the markets NACE 3 digit 411, 412, and 414 are Kinn, Danone, and Unilever. We add their total sales in EU food manufacturing (bn ecus) to get the answer.",
+    "GT": "13.1 + 11.3 + 14.6 + 2.4 = 41.4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average sales in EU food manufacturing (bn ecus) of companies that are one of the 5 leaders in the markets NACE 3 digit 411, 412, 414, and 417?",
+    "Answer": "(412 + 14.6 + 13.1 + 9.8) / 4 = 16.1",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The companies that are one of the 5 leaders in the markets NACE 3 digit 411, 412, 414, and 417 are Unilever, Danone, Nestle, and CPC International. We calculate the average of their total sales in EU food manufacturing (bn ecus) to get the answer.",
+    "GT": "(13.1 + 11.3 + 14.6 + 2.4 + 8.9) / 5 = 10.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total sales in EU food manufacturing (bn ecus) of companies that are one of the 5 leaders in the markets NACE 3 digit 423, 417, and 421?",
+    "Answer": "13.1 + 11.3 + 26.7 = 51.1",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The companies that are one of the 5 leaders in the markets NACE 3 digit 423, 417, and 421 are Philip Morris, Nestle, and Unilever. We add their total sales in EU food manufacturing (bn ecus) to get the answer.",
+    "GT": "14.6 + 13.1 + 11.3 + 8.9 + 3.1 + 1.6 + 1.3 + 1.5 = 55.4"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total sales in EU food manufacturing (bn ecus) of companies that are one of the 5 leaders in the markets NACE 3 digit 412, 414, and 421?",
+    "Answer": "14.6 + 13.1 + 26.7 = 54.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.12.csv",
+    "Explanation": "The companies that are one of the 5 leaders in the markets NACE 3 digit 412, 414, and 421 are Unilever, Nestle, and Danone. We add their total sales in EU food manufacturing (bn ecus) to get the answer.",
+    "GT": "14.6 + 13.1 + 11.3 + 8.9 + 3.1 = 51
+  }
+]

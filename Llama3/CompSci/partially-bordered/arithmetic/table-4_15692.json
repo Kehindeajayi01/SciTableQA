@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Z-score of M1, M3, and M5?",
+    "Answer": "226.13",
+    "QuestionType": "calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The average Z-score is calculated by summing up the Z-scores of M1, M3, and M5 (8.83 + 368.29 + 300.67) and dividing by 3.",
+    "GT": "225.93"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Is the Z-score of M2 greater than the sum of the Z-scores of M1 and M4?",
+    "Answer": "True",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The Z-score of M2 is 190.78, which is greater than the sum of the Z-scores of M1 (8.83) and M4 (125.15), which is 134.98.",
+    "GT": "True"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the Z-scores of M6 and M7?",
+    "Answer": "340.5",
+    "QuestionType": "calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference between the Z-scores of M6 (689.21) and M7 (348.71) is calculated by subtracting the Z-score of M7 from the Z-score of M6.",
+    "GT": "340.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Is the Z-score of Ciao (M3) greater than the Z-score of DBLP (M1) and Epinions (M2) combined?",
+    "Answer": "True",
+    "QuestionType": "comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The Z-score of Ciao (M3) is 368.29, which is greater than the sum of the Z-scores of DBLP (M1) (8.83) and Epinions (M2) (39.09), which is 48.92.",
+    "GT": "True"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Z-score of M2, M4, and M6?",
+    "Answer": "209.79",
+    "QuestionType": "calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The average Z-score is calculated by summing up the Z-scores of M2, M4, and M6 (190.78 + 125.15 + 689.21) and dividing by 3.",
+    "GT": "335.04"
+  }
+]

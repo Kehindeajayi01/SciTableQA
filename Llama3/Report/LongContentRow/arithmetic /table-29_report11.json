@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of stations at companies with M&R stations that have a flow rate greater than 300?",
+    "Answer": "59",
+    "QuestionType": "Count",
+    "TableName": "table-29.csv",
+    "Explanation": "The question is answered by referencing cell 1 (M&R Stations) and cell 3 (229 Stations at 14 companies: M&R > 300 = 59 stations)",
+    "GT": "59"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of stations at companies with M&R stations that have a flow rate between 100-300?",
+    "Answer": "10",
+    "QuestionType": "Average",
+    "TableName": "table-29.csv",
+    "Explanation": "The question is answered by referencing cell 1 (M&R Stations) and cell 3 (229 Stations at 14 companies: M&R 100-300 = 10 stations)",
+    "GT": "10"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of leaks measured?",
+    "Answer": "230",
+    "QuestionType": "Count",
+    "TableName": "table-29.csv",
+    "Explanation": "The question is answered by referencing cell 2 (Pipeline Leaks) and cell 2 (230 leaks measured)",
+    "GT": "230"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average number of meters tested for commercial meters?",
+    "Answer": "836",
+    "QuestionType": "Average",
+    "TableName": "table-29.csv",
+    "Explanation": "The question is answered by referencing cell 8 (Commercial Meters) and cell 2 (836 meters at 6 companies)",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of meters tested for industrial meters compared to the total number of meters in operation at the 5 companies?",
+    "Answer": "0.11%",
+    "QuestionType": "Percentage",
+    "TableName": "table-29.csv",
+    "Explanation": "The question is answered by referencing cell 9 (Industrial Meters) and cell 3 (46 meters at 5 companies) and cell 9 (Spread across five areas of the U.S. Randomly selected meters. The meters tested equal approximately 0.11% of the meters in operation at the 6 companies.)",
+    "GT": "Irrelevant question"
+  }
+]

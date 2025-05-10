@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average particle size of HEA-NPs synthesized using Carbothermal shock?",
+    "Answer": "2-3 nm",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The question is based on the information provided in row 1, where the particle size is mentioned as 2-3 nm.",
+    "GT": "2-3 nm"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average particle size of HEA-NPs synthesized using Fast moving bed pyrolysis?",
+    "Answer": "2 nm",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The question is based on the information provided in row 4, where the particle size is mentioned as 2 nm.",
+    "GT": "2 nm"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average particle size of HEA-NPs synthesized using Ultrashort-pulsed laser ablation?",
+    "Answer": "5 nm",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The question is based on the information provided in row 13, where the particle size is mentioned as 5 nm.",
+    "GT": "5 nm"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average particle size of HEA-NPs synthesized using Solvothermal synthesis?",
+    "Answer": "> 50 nm",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The question is based on the information provided in row 8, where the particle size is mentioned as > 50 nm.",
+    "GT": "> 50 nm"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average particle size of HEA-NPs synthesized using Milling (or melt spinning) + dealloying?",
+    "Answer": "2-3 nm",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_2",
+    "Explanation": "The question is based on the information provided in row 11, where the particle size is mentioned as ~2-3 nm.",
+    "GT": "2-3 nm"
+  }
+]

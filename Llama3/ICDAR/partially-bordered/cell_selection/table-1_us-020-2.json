@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "Which province or region has the most eligible schools in the original sample?",
+    "Answer": "Ontario-CAN",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by selecting the row with the highest number of eligible schools, which is Ontario-CAN with 191 eligible schools.",
+    "GT": "Quebec-CAN"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of schools that participated in the education system benchmarking?",
+    "Answer": "389",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by summing up the number of participating schools in each row, which is 389 (147 + 189 + 190 + 95 + 149 + 164 + 138 + 77).",
+    "GT": "1,147"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which region has the highest number of students assessed?",
+    "Answer": "Dubai-UAE",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by selecting the row with the highest number of students assessed, which is Dubai-UAE with 6,061 students.",
+    "GT": "Dubai-UAE"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average number of students assessed per participating school?",
+    "Answer": "3,464.75",
+    "QuestionType": "Calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by dividing the total number of students assessed (22,454) by the total number of participating schools (389), which is approximately 3,464.75.",
+    "GT": "4,160"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which region has the lowest number of students assessed per participating school?",
+    "Answer": "Florida-USA",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by selecting the row with the lowest number of students assessed per participating school, which is Florida-USA with 2,598 students assessed among 77 participating schools.",
+    "GT": "Florida-USA"
+  }
+]

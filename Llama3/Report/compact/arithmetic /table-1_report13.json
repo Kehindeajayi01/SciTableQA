@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total green power usage of Google LLC, Microsoft Corporation, and Intel Corporation combined?",
+    "Answer": "20,497,452,519",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by adding the green power usage of Google LLC (7,492,567,647), Microsoft Corporation (5,982,112,000), and Intel Corporation (5,022,773,872).",
+    "GT": "18,497,453,519"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of total electricity use that is green power usage for Google LLC, Microsoft Corporation, and Intel Corporation combined?",
+    "Answer": "106%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by finding the average of the GP % of Total Electricity Use for Google LLC (106%), Microsoft Corporation (100%), and Intel Corporation (100%).",
+    "GT": "306%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total green power usage of all companies in the Technology & Telecom industry?",
+    "Answer": "17,757,777,219",
+    "QuestionType": "Aggregation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing the green power usage of all companies in the Technology & Telecom industry, which includes Google LLC (7,492,567,647), Microsoft Corporation (5,982,112,000), Intel Corporation (5,022,773,872), Equinix, Inc. (2,360,296,352), and Apple Inc. (2,094,103,551).",
+    "GT": "30,850,535,829"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average green power usage of companies that use solar, wind, and small-hydro resources?",
+    "Answer": "3,764,852,546",
+    "QuestionType": "Aggregation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing the green power usage of companies that use solar, wind, and small-hydro resources, which includes Google LLC (7,492,567,647), Microsoft Corporation (5,982,112,000), Intel Corporation (5,022,773,872), Equinix, Inc. (2,360,296,352), and Apple Inc. (2,094,103,551), and then dividing by the number of companies (5).",
+    "GT": "6,772,998,714"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in green power usage between the company with the highest green power usage and the company with the lowest green power usage?",
+    "Answer": "6,789,370,096",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by subtracting the green power usage of the company with the lowest green power usage (Walmart Inc. - 2,718,227,534) from the green power usage of the company with the highest green power usage (Google LLC - 7,492,567,647).",
+    "GT": "7,387,705,208"
+  }
+]

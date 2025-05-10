@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Vf (Volume Fraction) of the BCC1 phase in the NbTiZrV and NbTiZrVMo alloys?",
+    "Answer": "0.44",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The average Vf of the BCC1 phase in the NbTiZrV alloy is (0.30 + 0.58) / 2 = 0.44, and similarly for the NbTiZrVMo alloy.",
+    "GT": "0.44"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total amount of Ti and Zr in the Laves phase of the NbTiZrVAl0.24 alloy?",
+    "Answer": "30.4 + 34.5 = 64.9",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.csv",
+    "Explanation": "The amount of Ti and Zr in the Laves phase are 30.4 and 34.5, respectively, and the total is their sum.",
+    "GT": "9.7 ± 0.4 + 21.0 ± 1.1 = 30.7 ± 1.5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in Vf between the BCC2 and BCC3 phases in the NbTiZr alloy?",
+    "Answer": "0.23 - 0.47 = -0.24",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.csv",
+    "Explanation": "The Vf of the BCC2 phase is 0.23 and the Vf of the BCC3 phase is 0.47, and the difference is their subtraction.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average amount of Nb, Ti, and Zr in the BCC1 phase of the NbTiZrV and NbTiZrVMo alloys?",
+    "Answer": "(27.9 + 25.3) / 2 + (32.5 + 22.6) / 2 + (32.2 + 8.8) / 2 = 26.6 + 27.55 + 20.5 = 74.65",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.csv",
+    "Explanation": "The average amount of Nb, Ti, and Zr in the BCC1 phase are calculated separately and then added together.",
+    "GT": "((27.9 ± 0.1) + (25.3 ± 0.2)) / 2 + ((25.6 ± 0.1) + (22.6 ± 0.7)) / 2 + ((24.0 ± 1.0) + (8.8 ± 0.4)) / 2 = (26.6 ± 0.15) + (24.1 ± 0.4) + (16.4 ± 0.7) = 67.1 ± 1.25"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of Cr in the NbTiZrVCr alloy?",
+    "Answer": "3.2 / 29.1 * 100 = 11.0",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.csv",
+    "Explanation": "The percentage of Cr is calculated by dividing the amount of Cr by the total amount of elements in the alloy and multiplying by 100.",
+    "GT": "17.5 ± 0.3"
+  }
+]

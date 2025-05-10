@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the number of samples in the Original class in the 2016-Test set?",
+    "Answer": "267",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 0, column 2 (Train) and column 3 (2016-Test) in the table.",
+    "GT": "70"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of samples in the Candidates class across all sets?",
+    "Answer": "2646",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by summing the values in the Candidates class across all rows (Train, Dev, 2016-Test, 2017-Test) in the table.",
+    "GT": "4749"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the number of samples in the PerfectMatch class in the 2017-Test set?",
+    "Answer": "24",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 2, column 4 (2017-Test) in the table.",
+    "GT": "24"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average number of samples in the Irrelevant class across all sets?",
+    "Answer": "531.5",
+    "QuestionType": "Calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is calculated by averaging the values in the Irrelevant class across all rows (Train, Dev, 2016-Test, 2017-Test) in the table.",
+    "GT": "764"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of samples in the Relevant class in the Dev set?",
+    "Answer": "155",
+    "QuestionType": "Cell Selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 3, column 1 (Train) in the table.",
+    "GT": "155"
+  }
+]

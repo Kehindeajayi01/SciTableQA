@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of models in the table?",
+    "Answer": "5",
+    "QuestionType": "count",
+    "TableName": "table-5.csv",
+    "Explanation": "The question calculates the total number of models in the table by counting the number of rows.",
+    "GT": "3"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the ratio of RNN models to attention models?",
+    "Answer": "2:3",
+    "QuestionType": "ratio",
+    "TableName": "table-5.csv",
+    "Explanation": "The question calculates the ratio of RNN models (2) to attention models (3) by dividing the number of RNN models by the number of attention models.",
+    "GT": "1:1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of questions per model?",
+    "Answer": "2.2",
+    "QuestionType": "average",
+    "TableName": "table-5.csv",
+    "Explanation": "The question calculates the average number of questions per model by summing the number of questions for each model and dividing by the total number of models.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of questions related to Snorkeling?",
+    "Answer": "2",
+    "QuestionType": "count",
+    "TableName": "table-5.csv",
+    "Explanation": "The question counts the number of questions related to Snorkeling (Q2 and Q6) in the table.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of models that mention Doha?",
+    "Answer": "80%",
+    "QuestionType": "percentage",
+    "TableName": "table-5.csv",
+    "Explanation": "The question calculates the percentage of models that mention Doha by dividing the number of models that mention Doha (4) by the total number of models (5) and multiplying by 100.",
+    "GT": "50%"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference between the median and mode of the parameter 'Mean' in the table?",
+    "Answer": "0.50",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The median is 341.50 and the mode is 341.00, so the difference is 0.50.",
+    "GT": "Irrelevant question (No mode for the data)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage difference between the standard deviation of 'Parameter' and the standard deviation of 'FLM'?",
+    "Answer": "74.42%",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The standard deviation of 'Parameter' is 5.5063 and the standard deviation of 'FLM' is 0.0305, so the percentage difference is (5.5063 - 0.0305) / 0.0305 * 100 = 74.42%.",
+    "GT": "Irrelevant question (Parameter is the title of the column)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average of the 'Mean' values for 'YW' and 'FLM'?",
+    "Answer": "341.64",
+    "QuestionType": "arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "The 'Mean' values for 'YW' and 'FLM' are 341.64 and 0.2304, respectively, so the average is (341.64 + 0.2304) / 2 = 341.64.",
+    "GT": "Irrelevant question (Need to specify whether you wanted the average of the residual, covariance, etc.)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of the 'ESS' value for 'YW' to the 'ESS' value for 'FLM'?",
+    "Answer": "25.14",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The 'ESS' values for 'YW' and 'FLM' are 1583.9 and 51.5, respectively, so the ratio is 1583.9 / 51.5 = 25.14.",
+    "GT": "Irrelevant question (Need to specify whether you wanted the average of the residual, covariance, etc.)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference between the 'U95%' value for 'Parameter' and the 'L95%' value for 'FLM'?",
+    "Answer": "0.2680",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The 'U95%' value for 'Parameter' is 352.40 and the 'L95%' value for 'FLM' is 374.00, so the difference is 352.40 - 374.00 = -0.2680.",
+    "GT": "Irrelevant question (Parameter is the title of the column)"
+  }
+]

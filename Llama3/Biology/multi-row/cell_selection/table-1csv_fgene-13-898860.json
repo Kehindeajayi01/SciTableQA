@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Fetal sample value in the table?",
+    "Answer": "1.342",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The average Fetal sample value is calculated by summing up all the values in the 'Fetal sample' column and dividing by the number of rows.",
+    "GT": "1.600"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the variant of fetus for the sample with the highest Fetal sample value?",
+    "Answer": "Exon12del c.467G > C",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The sample with the highest Fetal sample value is F7, and its variant of fetus is Exon12del c.467G > C.",
+    "GT": "c.548C > T  c.757A > G"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average Variants value in the table for the 'Carrier' status?",
+    "Answer": "0.544",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The average Variants value is calculated by summing up all the values in the 'Variants' column for the 'Carrier' status and dividing by the number of rows.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the Fetal sample value for the sample with the highest Variants value?",
+    "Answer": "3.44",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The sample with the highest Variants value is F7, and its Fetal sample value is 3.44.",
+    "GT": "4.22"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of Fetal sample values in the table?",
+    "Answer": "0.04-4.22",
+    "QuestionType": "cell selection",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The range of Fetal sample values is calculated by subtracting the minimum value from the maximum value.",
+    "GT": "0.28-4.22"
+  }
+]

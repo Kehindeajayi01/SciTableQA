@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of oocytes with premeiotic aneuploidy among all oocytes tested in female partners with primary/secondary female factor infertility?",
+    "Answer": "12.5%",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The question calculates the percentage of oocytes with premeiotic aneuploidy among all oocytes tested in female partners with primary/secondary female factor infertility by dividing the number of oocytes with premeiotic aneuploidy (6) by the total number of oocytes tested (48) and multiplying by 100.",
+    "GT": "12.5%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How many donors contributed oocytes with premeiotic aneuploidy among female partners with unknown fertility status?",
+    "Answer": "6",
+    "QuestionType": "Count",
+    "TableName": "table-2.csv",
+    "Explanation": "The question simply counts the number of donors contributing oocytes with premeiotic aneuploidy among female partners with unknown fertility status.",
+    "GT": "6"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of oocytes with Simple (SE) Errors among all oocytes tested in female partners with oocyte preservation due to social reasons?",
+    "Answer": "1",
+    "QuestionType": "Count",
+    "TableName": "table-2.csv",
+    "Explanation": "The question counts the number of oocytes with Simple (SE) Errors among all oocytes tested in female partners with oocyte preservation due to social reasons.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of oocytes with Complex (CE) Errors among all oocytes tested in female partners with unknown fertility status?",
+    "Answer": "4",
+    "QuestionType": "Count",
+    "TableName": "table-2.csv",
+    "Explanation": "The question counts the number of oocytes with Complex (CE) Errors among all oocytes tested in female partners with unknown fertility status.",
+    "GT": "4"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of oocytes with premeiotic aneuploidy among all oocytes tested in female partners with oocyte preservation due to social reasons?",
+    "Answer": "1",
+    "QuestionType": "Count",
+    "TableName": "table-2.csv",
+    "Explanation": "The question counts the number of oocytes with premeiotic aneuploidy among all oocytes tested in female partners with oocyte preservation due to social reasons.",
+    "GT": "1"
+  }
+]

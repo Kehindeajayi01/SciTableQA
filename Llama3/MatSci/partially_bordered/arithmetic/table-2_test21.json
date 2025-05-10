@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of φi for elements with a φi value greater than 0?",
+    "Answer": "0.33",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To calculate the average value of φi for elements with a φi value greater than 0, we first identified the elements with φi > 0 (Co, Ni, Cu). Then, we calculated the average of their φi values (1.2510 + 1.2459 + 1.2780) / 3 = 0.33.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the φi value of Al and the φi value of Fe?",
+    "Answer": "0.1905",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To calculate the difference between the φi value of Al and the φi value of Fe, we subtracted the φi value of Fe (1.2412) from the φi value of Al (1.4317), resulting in 0.1905.",
+    "GT": "2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average value of βi for elements with a βi value of ±0?",
+    "Answer": "7",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To calculate the average value of βi for elements with a βi value of ±0, we first identified the element with βi = ±0 (Mn). Then, we calculated the average of its βi value (7).",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the sum of the φi values of Cr and Mn?",
+    "Answer": "1.6990",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "To calculate the sum of the φi values of Cr and Mn, we added their φi values (1.2491 + 1.3500) = 1.6990.",
+    "GT": "-1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of φi for elements with a φi value less than 0?",
+    "Answer": "-0.235",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To calculate the average value of φi for elements with a φi value less than 0, we first identified the elements with φi < 0 (Cr, Fe, Mn). Then, we calculated the average of their φi values (1.2491 + 1.2412 + 1.3500) / 3 = -0.235.",
+    "GT": "-1"
+  }
+]

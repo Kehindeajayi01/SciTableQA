@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Fe content in the Nominal region?",
+    "Answer": "20.00",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Fe content is calculated by summing the Fe values for rows with 'Nominal' in the Region column and dividing by the number of rows.",
+    "GT": "19.22"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the maximum Ni content in the Si0.1 region?",
+    "Answer": "13.47",
+    "QuestionType": "maximum",
+    "TableName": "table-2.csv",
+    "Explanation": "The maximum Ni content is the highest value in the Ni column for rows with 'Si0.1' in the Region column.",
+    "GT": "19.60"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the sum of Fe and Co contents in the I region?",
+    "Answer": "40.86",
+    "QuestionType": "sum",
+    "TableName": "table-2.csv",
+    "Explanation": "The sum is calculated by summing the Fe and Co values for rows with 'I' in the Region column.",
+    "GT": "227.86"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of Ti to Si contents in the Si0.4 region?",
+    "Answer": "0.144",
+    "QuestionType": "ratio",
+    "TableName": "table-2.csv",
+    "Explanation": "The ratio is calculated by dividing the Ti value by the Si value for rows with 'Si0.4' in the Region column.",
+    "GT": "29.82(Average of Ti)/4.66(Average of Si = 6.399"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average Cu content in the III region?",
+    "Answer": "1.94",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average Cu content is calculated by summing the Cu values for rows with 'III' in the Region column and dividing by the number of rows.",
+    "GT": "1.49"
+  }
+]

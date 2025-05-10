@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the description of the Retinopathy complication?",
+    "Answer": "eye disease caused by damage to the blood vessels in the tissue at the back of the eye (retina)",
+    "QuestionType": "Cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is directly extracted from the Description column of the table, corresponding to the Retinopathy complication.",
+    "GT": "eye disease caused by damage to the blood vessels in the tissue at the back of the eye (retina)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What are the ICD codes for Neuropathy?",
+    "Answer": "25060, 25062, 24960, 24961",
+    "QuestionType": "Cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is directly extracted from the Example ICD codes column of the table, corresponding to the Neuropathy complication.",
+    "GT": "25060, 25062, 24960, 24961"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the description of the Nephrology complication?",
+    "Answer": "kidney disease characterized by hardening of the glomerulus",
+    "QuestionType": "Cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is directly extracted from the Description column of the table, corresponding to the Nephrology complication.",
+    "GT": "kidney disease characterized by hardening of the glomerulus"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the type of vascular diseases included in Vascular Disease?",
+    "Answer": "peripheral vascular disease, cardiovascular disease, and cerebrovascular diseases",
+    "QuestionType": "Cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is directly extracted from the Description column of the table, corresponding to the Vascular Disease complication.",
+    "GT": "peripheral vascular disease, cardiovascular disease, and cerebrovascular diseases"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the description of the Hyperosmolar complication?",
+    "Answer": "serious condition caused by high blood sugar levels",
+    "QuestionType": "Cell selection",
+    "TableName": "T2DM Complication",
+    "Explanation": "The answer is directly extracted from the Description column of the table, corresponding to the Hyperosmolar complication.",
+    "GT": "serious condition caused by high blood sugar levels"
+  }
+]

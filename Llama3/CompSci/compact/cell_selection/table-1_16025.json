@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average F1 score of the models in the table?",
+    "Answer": "81.5",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average F1 score is calculated by summing up all the F1 scores and dividing by the number of rows, which is 11.",
+    "GT": "80.84"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest precision in the WSJ Test?",
+    "Answer": "DEEPATT (FFN, Ensemble)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The precision of DEEPATT (FFN, Ensemble) in the WSJ Test is 85.9, which is the highest among all models.",
+    "GT": "DEEPATT (FFN, Ensemble)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of completely correct predicates (Comp.) for He et al. (Single) (2017) in the Brown Test?",
+    "Answer": "73.6",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage of completely correct predicates (Comp.) for He et al. (Single) (2017) in the Brown Test is 73.6.",
+    "GT": "44.8"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the lowest recall in the Combined Test?",
+    "Answer": "Zhou and Xu (2015)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The recall of Zhou and Xu (2015) in the Combined Test is 44.8, which is the lowest among all models.",
+    "GT": "Zhou and Xu (2015)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average precision of the models in the table?",
+    "Answer": "81.1",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average precision is calculated by summing up all the precision values and dividing by the number of rows, which is 11.",
+    "GT": "81.1"
+  }
+]

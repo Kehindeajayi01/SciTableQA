@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of experiments performed for tumor antigen selection methods, excluding the 'Totals' row?",
+    "Answer": "3.0",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the average, I summed up the number of experiments for each cell line (excluding the 'Totals' row) and divided by the number of cell lines.",
+    "GT": "2.2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which cell line has the highest number of single tumor cells isolated, and what is the corresponding tumor antigen selection method?",
+    "Answer": "Kelly, GD2, CD56",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "I compared the number of single tumor cells isolated for each cell line and found that Kelly has the highest number (43).",
+    "GT": "Kelly"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of experiments performed for tumor antigen selection methods, including the 'Totals' row?",
+    "Answer": "24",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "I summed up the number of experiments for each cell line (including the 'Totals' row) to get the total number of experiments.",
+    "GT": "48"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which cell lines have ALK mutations, and what are the corresponding mutation types?",
+    "Answer": "SY5Y, Kelly, NB1643/1643M, LAN5, CHLA90",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "I identified the cell lines with ALK mutations by looking at the 'Mutation' column and found that SY5Y, Kelly, NB1643/1643M, LAN5, and CHLA90 have ALK mutations with different types (F1174L, F1174L, R1275Q, R1275Q, and F1245V, respectively).",
+    "GT": "SY5Y (F1174L), Kelly (F1174L), NB1643/1643M (R1275Q), LAN5 (R1275Q), CHLA90 (F1245V)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of single tumor cells isolated for cell lines with ALK mutations?",
+    "Answer": "24.6",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "I summed up the number of single tumor cells isolated for cell lines with ALK mutations (SY5Y, Kelly, NB1643/1643M, LAN5, and CHLA90) and divided by the number of cell lines to get the average.",
+    "GT": "22.8"
+  }
+]

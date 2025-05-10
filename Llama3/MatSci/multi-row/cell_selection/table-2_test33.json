@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the lattice parameter 'a' (in nm) for the oxide at temperature 600\u00b0C?",
+    "Answer": "0.4593",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from row 1, column 1 of the table.",
+    "GT": "0.4593 nm"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which oxide is present at temperature 700\u00b0C?",
+    "Answer": "+",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from row 6, column 5 of the table.",
+    "GT": "TiO2, V2O5, Nb2O5, VO2, ZrO2, TiNb2O7, AlNbO4, Nb2Zr6O17"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the lattice parameter 'c' (in nm) for the oxide at temperature 800\u00b0C?",
+    "Answer": "0.5320",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from row 7, column 6 of the table.",
+    "GT": "0.7326 nm"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Is the oxide present at temperature 900\u00b0C (after 50 hours)?",
+    "Answer": "-",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from row 8, column 5 of the table.",
+    "GT": "TiNb2O7, AlNbO4, Nb2Zr6O17"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which oxide has a lattice parameter 'b' (in nm) of 0.5208?",
+    "Answer": "oxide at temperature 700\u00b0C",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is directly obtained from row 1, column 4 of the table.",
+    "GT": "ZrO2"
+  }
+]

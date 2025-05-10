@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average sintering temperature of the alloys with grain size greater than 600 nm?",
+    "Answer": "1150",
+    "QuestionType": "comparison",
+    "TableName": "Alloys Sintering temperature (°C) Grain size (nm)  Ref.",
+    "Explanation": "The average sintering temperature of the alloys with grain size greater than 600 nm is calculated by taking the average of the sintering temperatures of rows 1, 3, and 4, which are 1200, 1200, and 1150 respectively.",
+    "GT": "1116.67"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in sintering temperature between the alloy with the smallest grain size and the alloy with the largest grain size?",
+    "Answer": "900",
+    "QuestionType": "comparison",
+    "TableName": "Alloys Sintering temperature (°C) Grain size (nm)  Ref.",
+    "Explanation": "The difference in sintering temperature is calculated by subtracting the smallest grain size (327 nm) from the largest grain size (1050 nm), which results in a difference of 723 nm. The corresponding sintering temperatures are 1200°C and 1200°C respectively, resulting in a difference of 0°C.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average grain size of the alloys with sintering temperature greater than 1150°C?",
+    "Answer": "825",
+    "QuestionType": "comparison",
+    "TableName": "Alloys Sintering temperature (°C) Grain size (nm)  Ref.",
+    "Explanation": "The average grain size of the alloys with sintering temperature greater than 1150°C is calculated by taking the average of the grain sizes of rows 1, 3, and 4, which are 600, 1050, and 800 respectively.",
+    "GT": "659"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the sintering temperature of the alloy with the largest grain size?",
+    "Answer": "1200",
+    "QuestionType": "specific",
+    "TableName": "Alloys Sintering temperature (°C) Grain size (nm)  Ref.",
+    "Explanation": "The sintering temperature of the alloy with the largest grain size (1050 nm) is found in row 3.",
+    "GT": "1200"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average sintering temperature of the alloys with grain size less than 400 nm?",
+    "Answer": "1075",
+    "QuestionType": "comparison",
+    "TableName": "Alloys Sintering temperature (°C) Grain size (nm)  Ref.",
+    "Explanation": "The average sintering temperature of the alloys with grain size less than 400 nm is calculated by taking the average of the sintering temperatures of rows 0, 2, and 5, which are 1200, 950, and 1000 respectively.",
+    "GT": "1075"
+  }
+]

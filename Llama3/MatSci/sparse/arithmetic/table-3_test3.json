@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in Wigner-Seitz radius between Ti and V?",
+    "Answer": "0.14",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The Wigner-Seitz radius for Ti is 1.63 and for V is 1.49, so the difference is 1.63 - 1.49 = 0.14",
+    "GT": "0.14"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average Wigner-Seitz radius of the elements in the row labeled 'HfNbTaTiZr'?",
+    "Answer": "1.67",
+    "QuestionType": "Average",
+    "TableName": "Unknown_1",
+    "Explanation": "The Wigner-Seitz radii for the elements in the row labeled 'HfNbTaTiZr' are 1.67, 1.70, 1.66, 1.70, and 1.66. The average is (1.67 + 1.70 + 1.66 + 1.70 + 1.66) / 5 = 1.67",
+    "GT": "1.68"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in Wigner-Seitz radius between the elements Mo and Nb?",
+    "Answer": "0.07",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The Wigner-Seitz radius for Mo is 1.55 and for Nb is 1.62, so the difference is 1.62 - 1.55 = 0.07",
+    "GT": "0.07"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the Wigner-Seitz radius of the element Zr?",
+    "Answer": "1.78",
+    "QuestionType": "Single Value",
+    "TableName": "Unknown_1",
+    "Explanation": "The Wigner-Seitz radius for Zr is 1.78, as listed in the table",
+    "GT": "1.78"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in Wigner-Seitz radius between the elements Ta and Hf?",
+    "Answer": "0.01",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The Wigner-Seitz radius for Ta is 1.63 and for Hf is 1.62, so the difference is 1.63 - 1.62 = 0.01",
+    "GT": "0.15"
+  }
+]

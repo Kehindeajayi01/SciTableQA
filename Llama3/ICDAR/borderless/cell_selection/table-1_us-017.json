@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of students in Public schools in 1996?",
+    "Answer": "51,544",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the year is 1996 and the school type is Public.",
+    "GT": "91,222"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of students in Private schools in 2005?",
+    "Answer": "16,283",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the year is 2005 and the school type is Private.",
+    "GT": "12,146"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of students in PK-8 schools in 2003?",
+    "Answer": "38,962",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the school type is PK-8 and the year is 2003.",
+    "GT": "38,962"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of students in 9-12 schools in 2012?",
+    "Answer": "15,976",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the school type is 9-12 and the year is 2012.",
+    "GT": "15,976"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of students in PK-12 schools in 2006?",
+    "Answer": "55,307",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the cell where the school type is PK-12 and the year is 2006.",
+    "GT": "55,307"
+  }
+]

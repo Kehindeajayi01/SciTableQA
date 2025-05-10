@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in the complexity of LSTM and AP-BiLSTM models?",
+    "Answer": "1.79M - 5.86M = -4.07M",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The complexity of LSTM and AP-BiLSTM models is calculated by subtracting the complexity of LSTM from the complexity of AP-BiLSTM.",
+    "GT": "1.79M - 5.86M = -4.07M"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average complexity of QRNN and CTRN models?",
+    "Answer": "(1.05M + 1.05M) / 2 = 1.05M",
+    "QuestionType": "Average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average complexity of QRNN and CTRN models is calculated by adding their complexities and dividing by 2.",
+    "GT": "(1.05M + 1.05M) / 2 = 1.05M"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Is the complexity of AP-BiLSTM model greater than the sum of the complexities of LSTM and QRNN models?",
+    "Answer": "5.86M > 1.79M + 1.05M",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The complexity of AP-BiLSTM model is compared to the sum of the complexities of LSTM and QRNN models.",
+    "GT": "5.86M > 1.79M + 1.05M"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in the number of parameters between LSTM and QRNN models?",
+    "Answer": "1.79M - 1.05M = 0.74M",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in the number of parameters between LSTM and QRNN models is calculated by subtracting the complexity of QRNN from the complexity of LSTM.",
+    "GT": "1.79M - 1.05M = 0.74M"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Is the complexity of CTRN model greater than the complexity of LSTM model?",
+    "Answer": "1.05M > 1.79M",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The complexity of CTRN model is compared to the complexity of LSTM model.",
+    "GT": "1.05M < 1.79M"
+  }
+]

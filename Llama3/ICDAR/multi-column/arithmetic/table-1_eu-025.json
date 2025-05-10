@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in the frequency of 'Headache' symptoms between those who take medicine occasionally and those who take medicine frequently?",
+    "Answer": "99 - 163 = -64",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the frequency of 'Headache' symptoms for those who take medicine occasionally (163) and those who take medicine frequently (99). The difference is calculated by subtracting the frequency of frequent medicine takers from the frequency of occasional medicine takers.",
+    "GT": "64 more headaches for those who take medicine occasionally."
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total number of individuals experiencing 'Stomach-ache' symptoms?",
+    "Answer": "421 + 49 + 16 = 486",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the frequency of 'Stomach-ache' symptoms for unknown (421), no (49), and frequently (16). The total number of individuals experiencing 'Stomach-ache' symptoms is calculated by adding the frequencies of each group.",
+    "GT": "421 + 49 + 16 = 482"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average frequency of 'Nenousness' symptoms?",
+    "Answer": "(449 + 20 + 14) / 3 = 291.67",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the frequency of 'Nenousness' symptoms for unknown (449), no (20), and frequently (14). The average frequency is calculated by adding the frequencies and dividing by the number of groups (3).",
+    "GT": "(449 + 20 + 14) / 3 = 161"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in the frequency of 'Sleeping Difficulties' symptoms between those who take medicine frequently and those who take medicine occasionally?",
+    "Answer": "7 - 16 = -9",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the frequency of 'Sleeping Difficulties' symptoms for those who take medicine frequently (7) and those who take medicine occasionally (16). The difference is calculated by subtracting the frequency of frequent medicine takers from the frequency of occasional medicine takers.",
+    "GT": "9 more individuals report having sleeping difficulties if they take medicine occasionally versus those who take medicine frequently."
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of individuals experiencing 'Headache' or 'Stomach-ache' symptoms?",
+    "Answer": "228 + 421 = 649",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the frequency of 'Headache' (228) and 'Stomach-ache' (421) symptoms. The total number of individuals experiencing either symptom is calculated by adding the frequencies.",
+    "GT": "228 + 163 + 99 = 490"
+  }
+]

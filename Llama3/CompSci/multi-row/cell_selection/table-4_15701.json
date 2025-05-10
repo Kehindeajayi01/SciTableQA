@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of 'Karate club' dataset's original data?",
+    "Answer": "100",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by looking at the 'Original' column for the 'Karate club' dataset in the table.",
+    "GT": "100"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which dataset has the highest ratio of original data?",
+    "Answer": "Friendship7",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by comparing the 'Ratio (%)' column for all datasets in the table and finding the one with the highest value, which is 'Friendship7'.",
+    "GT": "Friendship7"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average time (in seconds) for 'NetMRF' and 'Original' methods for all datasets?",
+    "Answer": "Not a single cell answer, as it requires calculation",
+    "QuestionType": "calculation",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer cannot be obtained by looking at a single cell in the table, as it requires calculation of the average time for both 'NetMRF' and 'Original' methods for all datasets.",
+    "GT": "Not a single cell answer, as it requires calculation"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which dataset has the lowest percentage of 'NetMRF' data?",
+    "Answer": "Political books",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by looking at the 'NetMRF' column for all datasets in the table and finding the one with the lowest value, which is 'Political books'.",
+    "GT": "PubMed"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the time (in seconds) for 'NetMRF' method for 'US Football' dataset?",
+    "Answer": "0.222",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The answer is obtained by looking at the 'NetMRF' column for 'US Football' dataset in the table.",
+    "GT": "0.222"
+  }
+]

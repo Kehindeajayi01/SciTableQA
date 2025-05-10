@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average population per enterprise for EU15 and Japan, and how does it compare to the average population per enterprise for US A?",
+    "Answer": "EU15: 146, Japan: 82, US A: 171",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The average population per enterprise for EU15 is 146, for Japan is 82, and for US A is 171. This question compares these values to show the difference in population per enterprise among these countries.",
+    "GT": "EU15: 146, Japan: 82, USA: 171"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total population of enterprises for EU15 and Japan, and what is the difference between these two values?",
+    "Answer": "EU15: 372.3, Japan: 125.2, Difference: 247.1",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The total population of enterprises for EU15 is 372.3, and for Japan is 125.2. The difference between these two values is 247.1.",
+    "GT": "EU15: 372.3, Japan: 125.2, Difference: 247.1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average turnover per enterprise for EU15 and Japan, and how does it compare to the average turnover per enterprise for US A?",
+    "Answer": "EU15: 1261, Japan: 682, US A: 1350",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The average turnover per enterprise for EU15 is 1261, for Japan is 682, and for US A is 1350. This question compares these values to show the difference in turnover per enterprise among these countries.",
+    "GT": "EU15: 494, Japan: 449, USA: 883 (The average turnover per enterprise for EU15 and Japan combined is 943 which is higher than the USA's 883.)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total turnover for EU15 and Japan, and what is the difference between these two values?",
+    "Answer": "EU15: 494, Japan: 449, Difference: 45",
+    "QuestionType": "Comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The total turnover for EU15 is 494, and for Japan is 449. The difference between these two values is 45.",
+    "GT": "EU15: 1261, Japan: 682, Difference: 579"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of turnover per enterprise to population per enterprise for EU15 and Japan?",
+    "Answer": "EU15: 8.56, Japan: 8.33",
+    "QuestionType": "Ratio",
+    "TableName": "Unknown_1",
+    "Explanation": "The ratio of turnover per enterprise to population per enterprise for EU15 is 8.56 (1261/146), and for Japan is 8.33 (682/82).",
+    "GT": "EU15: 3.38, Japan: 5.48"
+  }
+]

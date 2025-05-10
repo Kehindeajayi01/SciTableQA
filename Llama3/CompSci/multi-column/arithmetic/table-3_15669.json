@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average certainty-weighted accuracy of the classifiers across all validation methods?",
+    "Answer": "82.83%",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The certainty-weighted accuracy is calculated by multiplying the accuracy by the certainty for each row, and then averaging the results.",
+    "GT": "82.83%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "How does the accuracy of the 'Posterior' method compare to the '85%-certain' method for the 'Schiele-vs-All' validation method?",
+    "Answer": "Posterior method has a 2.67% higher accuracy (79.12% vs 76.45%)",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The accuracy of the 'Posterior' method (79.12%) is compared to the accuracy of the '85%-certain' method (76.45%) for the 'Schiele-vs-All' validation method.",
+    "GT": "Posterior method has a 2.67% higher accuracy (79.12% vs 76.45%)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average accuracy of the 'Hand-crafted' method across all validation methods?",
+    "Answer": "74.41%",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The average accuracy of the 'Hand-crafted' method is calculated by averaging the accuracy values for each validation method.",
+    "GT": "74.41%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "How does the accuracy of the 'GRU' method compare to the 'Combined' method for the 'Picasso-vs-All' validation method?",
+    "Answer": "GRU method has a 2.91% higher accuracy (81.14% vs 78.23%)",
+    "QuestionType": "comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "The accuracy of the 'GRU' method (81.14%) is compared to the accuracy of the 'Combined' method (78.23%) for the 'Picasso-vs-All' validation method.",
+    "GT": "GRU method has a 2.91% higher accuracy (81.14% vs 78.23%)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the accuracy of the 'Detection of Fakes' method for the 'Matisse-vs-All' validation method?",
+    "Answer": "76.92%",
+    "QuestionType": "simple",
+    "TableName": "table-3.csv",
+    "Explanation": "The accuracy of the 'Detection of Fakes' method is extracted directly from the table for the 'Matisse-vs-All' validation method.",
+    "GT": "76.92%"
+  }
+]

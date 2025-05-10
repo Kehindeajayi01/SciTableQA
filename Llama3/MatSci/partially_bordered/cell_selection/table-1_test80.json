@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the value of ΔS_min (J/(K mol)) for Si0?",
+    "Answer": "13.377",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the first row of the table under the ΔS_min (J/(K mol)) column.",
+    "GT": "13.377"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the value of \ΔH_min (kJ/mol) for Si0.5?",
+    "Answer": "-22.23",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the fifth row of the table under the ΔH_min (kJ/mol) column.",
+    "GT": "-22.23"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the value of T_m (K) for Si0.2?",
+    "Answer": "1444.42",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the third row of the table under the T_m (K) column.",
+    "GT": "1444.42"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the value of Ω for Si0.1?",
+    "Answer": "1.468",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the second row of the table under the Ω column.",
+    "GT": "1.468"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the value of VEC MD (eV) for Si0?",
+    "Answer": "8.40",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the first row of the table under the VEC MD (eV) column.",
+    "GT": "Irrelevant question (Need to either pick VEC or MD)"
+  }
+]

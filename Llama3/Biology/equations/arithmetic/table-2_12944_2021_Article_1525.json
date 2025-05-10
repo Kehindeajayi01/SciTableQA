@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of subjects studied in the USA across all publications?",
+    "Answer": "1456",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average number of subjects studied in the USA is calculated by summing the number of subjects for each publication in the USA and dividing by the number of publications in the USA.",
+    "GT": "453,946.33"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average TG concentration in mg/dL for all subjects with TG > 400 mg/dL?",
+    "Answer": "1115.5",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average TG concentration is calculated by summing the TG concentrations for all subjects with TG > 400 mg/dL and dividing by the number of subjects.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of subjects with TG > 400 mg/dL among all subjects studied?",
+    "Answer": "13.3%",
+    "QuestionType": "percentage",
+    "TableName": "table-2.csv",
+    "Explanation": "The percentage of subjects with TG > 400 mg/dL is calculated by dividing the number of subjects with TG > 400 mg/dL by the total number of subjects studied and multiplying by 100.",
+    "GT": "0.9%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average TG concentration in mg/dL for all subjects studied in Japan?",
+    "Answer": "NaN",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "There is no data available for subjects studied in Japan, so the average TG concentration cannot be calculated.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of subjects studied in India?",
+    "Answer": "2008",
+    "QuestionType": "count",
+    "TableName": "table-2.csv",
+    "Explanation": "The number of subjects studied in India is directly obtained from the table.",
+    "GT": "2008"
+  }
+]

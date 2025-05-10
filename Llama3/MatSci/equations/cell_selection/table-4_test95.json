@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average maximum compressive strength of the material?",
+    "Answer": "1686",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The average maximum compressive strength is calculated by taking the average of the values in the 'Maximum compressive strength, \u03c3_m (MPa)' column.",
+    "GT": "1660.25 MPa."
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which row has the highest plastic strain?",
+    "Answer": "3",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The row with the highest plastic strain is identified by comparing the values in the 'Plastic strain, \u03b5_p (%)' column.",
+    "GT": "MoTa0.25NbVTi"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average compression modulus of the material?",
+    "Answer": "59.5",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The average compression modulus is calculated by taking the average of the values in the 'Compression modulus, E_comp (GPa)' column.",
+    "GT": "55.75 GPa"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which row has the highest fracture energy per unit volume?",
+    "Answer": "3",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The row with the highest fracture energy per unit volume is identified by comparing the values in the 'Fracture energy per unit volume, W (kJ/m\u00b3)' column.",
+    "GT": "MoTa0.25NbVTi"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average plastic strain of the material?",
+    "Answer": "7.62",
+    "QuestionType": "cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The average plastic strain is calculated by taking the average of the values in the 'Plastic strain, \u03b5_p (%)' column.",
+    "GT": "8.14 %"
+  }
+]

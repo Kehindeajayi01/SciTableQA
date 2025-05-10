@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of unexplained/discarded observations in the optimal plan (Disc) for scenarios granted (Scen) when the number of actions in the optimal plan (Act) is greater than 10?",
+    "Answer": "4.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the 'Disc' column, which represents the number of unexplained/discarded observations in the optimal plan. The condition 'number of actions in the optimal plan (Act) is greater than 10' is applied to filter the rows. The average 'Disc' value for these rows is calculated, which is 4.5.",
+    "GT": "4.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average time (sec) taken by the optimal plan to complete when the number of unexplained/discarded observations in the optimal plan (Disc) is less than 5?",
+    "Answer": "0.03",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the 'Time (sec)' column, which represents the time taken by the optimal plan to complete. The condition 'number of unexplained/discarded observations in the optimal plan (Disc) is less than 5' is applied to filter the rows. The average 'Time (sec)' value for these rows is calculated, which is 0.03.",
+    "GT": "0.03"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of members in the optimal plan when the number of actions in the optimal plan (Act) is greater than 15?",
+    "Answer": "30.1",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the 'Members' column, which represents the number of members in the optimal plan. The condition 'number of actions in the optimal plan (Act) is greater than 15' is applied to filter the rows. The average 'Members' value for these rows is calculated, which is 30.1.",
+    "GT": "30.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average number of predicates in the optimal plan when the number of unexplained/discarded observations in the optimal plan (Disc) is greater than 10?",
+    "Answer": "4.20",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the 'Predicates' column, which represents the number of predicates in the optimal plan. The condition 'number of unexplained/discarded observations in the optimal plan (Disc) is greater than 10' is applied to filter the rows. The average 'Predicates' value for these rows is calculated, which is 4.20.",
+    "GT": "4.20"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of bis goals in the optimal plan when the number of actions in the optimal plan (Act) is less than 5?",
+    "Answer": "2.60",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the 'Bis goals' column, which represents the number of bis goals in the optimal plan. The condition 'number of actions in the optimal plan (Act) is less than 5' is applied to filter the rows. The average 'Bis goals' value for these rows is calculated, which is 2.60.",
+    "GT": "2.60"
+  }
+]

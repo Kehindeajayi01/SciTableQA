@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total population of individuals under 10 years old?",
+    "Answer": "3,533,692 + 3,269,557 + 3,223,816 + 3,179,441 + 3,141,748 = 17,348,454",
+    "QuestionType": "Comparison",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer is calculated by summing up the total population of individuals under 1, 2, 3, 4, and 5 years old.",
+    "GT": "33,048,210"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average population increase per year for individuals between 10 and 20 years old?",
+    "Answer": "(3,716,530 - 3,580,644) / 2 + (3,760,120 - 3,716,530) / 1 = 68,443.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer is calculated by finding the average population increase per year for individuals between 10 and 20 years old, using the population figures for 10, 11, and 12 years old, and 19 and 20 years old.",
+    "GT": "67,057"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total population of individuals between 25 and 35 years old?",
+    "Answer": "4,116,218 + 3,977,515 + 3,931,620 + 3,708,968 + 3,786,598 + 3,726,525 + 3,607,610 + 3,712,217 + 3,663,921 = 33,520,432",
+    "QuestionType": "Comparison",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer is calculated by summing up the total population of individuals between 25, 26, 27, 28, 29, 30, 31, 32, and 33 years old.",
+    "GT": "39,984,170"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage increase in population from 20 to 25 years old?",
+    "Answer": "((4,387,100 - 4,251,779) / 4,251,779) * 100 = 3.33%",
+    "QuestionType": "Percentage",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer is calculated by finding the percentage increase in population from 20 to 25 years old, using the population figures for 20 and 25 years old.",
+    "GT": "-6.175%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total population of individuals above 35 years old?",
+    "Answer": "2,860,647 + 2,902,331 + 2,929,040 + 2,982,533 = 11,674,551",
+    "QuestionType": "Comparison",
+    "TableName": "table-A.2.1.csv",
+    "Explanation": "The answer is calculated by summing up the total population of individuals above 35 years old, using the population figures for 35, 36, 37, and 38 years old.",
+    "GT": "101,457,331"
+  }
+]

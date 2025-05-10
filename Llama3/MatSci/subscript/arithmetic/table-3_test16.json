@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average specific yield strength of the materials processed using SPS?",
+    "Answer": "245.33",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average specific yield strength, we add up the specific yield strength values of the materials processed using SPS (2680, 3896) and divide by 2.",
+    "GT": "334"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in hardness between the material with the highest hardness (HV) and the material with the lowest hardness (HV)?",
+    "Answer": "195",
+    "QuestionType": "Comparison",
+    "TableName": "table-3.csv",
+    "Explanation": "We subtract the hardness value of the material with the lowest hardness (HV) 440 from the hardness value of the material with the highest hardness (HV) 741.",
+    "GT": "301"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average density of the materials processed using casting?",
+    "Answer": "7.77",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average density, we add up the density values of the materials processed using casting (5.48, 12.29, 8.68, 7.14) and divide by 4.",
+    "GT": "8.42"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of the specific yield strength of the material with the highest specific yield strength to the material with the lowest specific yield strength?",
+    "Answer": "14.25",
+    "QuestionType": "Ratio",
+    "TableName": "table-3.csv",
+    "Explanation": "We divide the specific yield strength value of the material with the highest specific yield strength (2368) by the specific yield strength value of the material with the lowest specific yield strength (101).",
+    "GT": "3.31"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average σ_(max) value of the materials processed using casting?",
+    "Answer": "1245.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-3.csv",
+    "Explanation": "To calculate the average σ_(max) value, we add up the σ_(max) values of the materials processed using casting (1318, 1270, 1803) and divide by 3.",
+    "GT": "1800.2"
+  }
+]

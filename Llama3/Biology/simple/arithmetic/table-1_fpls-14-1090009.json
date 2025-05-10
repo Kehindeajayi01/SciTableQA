@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the expected segregation ratio for F2:3?",
+    "Answer": "3:1 (0.78:0.22)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The expected segregation ratio is derived from the F2:3 row in the table, which shows a 3:1 ratio of 78:22.",
+    "GT": "3:1 (0.78:0.22)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in the number of observations between F1 and F2?",
+    "Answer": "31",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the number of observations in F1 (6) from the number of observations in F2 (137).",
+    "GT": "131"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of observations that are not 0 in the P1 x P2 row?",
+    "Answer": "100%",
+    "QuestionType": "Percentage",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage is calculated by dividing the number of non-zero observations (6) by the total number of observations (6) and multiplying by 100.",
+    "GT": "50%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the expected segregation ratio for BC1P2?",
+    "Answer": "1:1 (0.39:0.61)",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The expected segregation ratio is derived from the BC1P2 row in the table, which shows a 1:1 ratio of 39:61.",
+    "GT": "1:1 (0.39:0.61)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of observations in F2 to F1?",
+    "Answer": "22.83",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The ratio is calculated by dividing the number of observations in F2 (137) by the number of observations in F1 (6).",
+    "GT": "22.83"
+  }
+]

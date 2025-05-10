@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average density of the metals in the table?",
+    "Answer": "5.31",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The average density is calculated by adding the densities of all metals (0.146, 0.160, 0.159, 0.147, 0.147, 0.140) and dividing by the number of metals (6)",
+    "GT": "9.92"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in lattice parameters between Ti and Zr?",
+    "Answer": "0.1234",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in lattice parameters is calculated by subtracting the lattice parameter of Ti (a=0.2950, c=0.4686) from that of Zr (a=0.3232, c=0.5147)",
+    "GT": "0.0014"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average melting temperature of the metals in the table?",
+    "Answer": "1843.33",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The average melting temperature is calculated by adding the melting temperatures of all metals (1660, 882, 1849, 863, 2231, 1743, 2467, 3020) and dividing by the number of metals (8)",
+    "GT": "2307.33"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of the lattice parameter 'a' of Hf to that of Nb?",
+    "Answer": "0.9697",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The ratio of the lattice parameter 'a' of Hf (0.3195) to that of Nb (0.330) is calculated by dividing the lattice parameter of Hf by that of Nb",
+    "GT": "0.9682"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in transition temperature between Mo and Ta?",
+    "Answer": "303",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in transition temperature is calculated by subtracting the transition temperature of Mo (2617) from that of Ta (3020)",
+    "GT": "Irrelevant question"
+  }
+]

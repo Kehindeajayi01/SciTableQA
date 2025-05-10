@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average annual change in the total population from 1996 to 2021?",
+    "Answer": "144.6",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average annual change in the total population is calculated by taking the average of the differences between consecutive years, i.e., (13,517 - 12,849) / 1 + (13,736 - 13,517) / 1 + ... + (15,515 - 15,410) / 1 = 144.6.",
+    "GT": "133.4"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in the Hispanic population from 1996 to 2021?",
+    "Answer": "143.4%",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The percentage increase in the Hispanic population is calculated as ((3,925 - 1,608) / 1,608) * 100 = 143.4%.",
+    "GT": "149.4%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average annual change in the Asian population from 1996 to 2021?",
+    "Answer": "10.5",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average annual change in the Asian population is calculated by taking the average of the differences between consecutive years, i.e., (601 - 526) / 1 + (709 - 601) / 1 + ... + (983 - 958) / 1 = 10.5.",
+    "GT": "17.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total population in 2004?",
+    "Answer": "14,618",
+    "QuestionType": "arithmetic",
+    "TableName": "table-5.csv",
+    "Explanation": "The total population in 2004 is directly obtained from the table.",
+    "GT": "14,618"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average annual change in the Black population from 1996 to 2021?",
+    "Answer": "13.1",
+    "QuestionType": "comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "The average annual change in the Black population is calculated by taking the average of the differences between consecutive years, i.e., (2,119 - 2,043) / 1 + (2,173 - 2,119) / 1 + ... + (2,315 - 2,283) / 1 = 13.1.",
+    "GT": "37.2"
+  }
+]

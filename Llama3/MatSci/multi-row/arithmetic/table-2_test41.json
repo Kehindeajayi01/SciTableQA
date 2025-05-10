@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage of Ti in the Bcc dendrite phase across all alloys?",
+    "Answer": "42.4%",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average percentage of Ti in the Bcc dendrite phase is calculated by taking the average of the Ti values in rows 2 and 7, which are 46.6% and 41.5%, respectively.",
+    "GT": "41.85%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total percentage of Cr and V in the alloy composition of row 4?",
+    "Answer": "21.1%",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The total percentage of Cr and V is calculated by adding the percentage of Cr (10.5%) and V (10.6%) in row 4.",
+    "GT": "20.0%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in the percentage of Ni between the Bcc interdendrite phase in row 3 and the \u03c3-phase in row 9?",
+    "Answer": "12.6%",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in the percentage of Ni is calculated by subtracting the percentage of Ni in the Bcc interdendrite phase (14.9%) from the percentage of Ni in the \u03c3-phase (22.5%).",
+    "GT": "15.5%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average percentage of Al in the alloy compositions of rows 4 and 12?",
+    "Answer": "5.75%",
+    "QuestionType": "average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average percentage of Al is calculated by taking the average of the Al values in rows 4 and 12, which are 0% and 5%, respectively.",
+    "GT": "8.45%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of Ti2Ni in row 10?",
+    "Answer": "<1%",
+    "QuestionType": "specific",
+    "TableName": "table-2.csv",
+    "Explanation": "The percentage of Ti2Ni in row 10 is directly taken from the table.",
+    "GT": "12%"
+  }
+]

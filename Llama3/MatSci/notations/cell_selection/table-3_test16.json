@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the specific yield strength of the Nb42Mo20Ti13Cr12V12Ta1 alloy?",
+    "Answer": "334",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The specific yield strength is found in the 'Specific yield strength (MPa cm^3 / g)' column of the table, and the answer is directly extracted from the cell corresponding to the Nb42Mo20Ti13Cr12V12Ta1 alloy.",
+    "GT": "334"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest \u03c3_max value?",
+    "Answer": "Nb42Mo20Ti13Cr12V12Ta1",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The \u03c3_max values are found in the '\u03c3_max (MPa)' column of the table, and the answer is directly extracted from the cell corresponding to the alloy with the highest \u03c3_max value, which is Nb42Mo20Ti13Cr12V12Ta1.",
+    "GT": "Nb42Mo20Ti13Cr12V12Ta1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the density of the AlNbTiV alloy?",
+    "Answer": "5.48",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The density is found in the 'Density (g/cm\u00b3)' column of the table, and the answer is directly extracted from the cell corresponding to the AlNbTiV alloy.",
+    "GT": "5.48"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the lowest hardness value?",
+    "Answer": "WNbMoTaV",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The hardness values are found in the 'Hardness (HV)' column of the table, and the answer is directly extracted from the cell corresponding to the alloy with the lowest hardness value, which is WNbMoTaV.",
+    "GT": "AlNbTiV"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the \u03c3_y value of the MoNbHfZrTi alloy?",
+    "Answer": "1719",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The \u03c3_y values are found in the '\u03c3_y (MPa)' column of the table, and the answer is directly extracted from the cell corresponding to the MoNbHfZrTi alloy.",
+    "GT": "1719"
+  }
+]

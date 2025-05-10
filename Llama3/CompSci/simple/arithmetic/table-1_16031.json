@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in the number of Original samples between 2016-Test and 2017-Test?",
+    "Answer": "118.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference is calculated by taking the average of the differences between 2016-Test and 2017-Test for Original samples, which is ((70-267) + (88-267))/2 = 118.5",
+    "GT": "188"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage increase in the number of Candidates samples between 2016-Test and 2017-Test?",
+    "Answer": "65.5%",
+    "QuestionType": "Percentage increase",
+    "TableName": "table-1.csv",
+    "Explanation": "The percentage increase is calculated by dividing the difference in the number of Candidates samples between 2016-Test and 2017-Test by the original value and multiplying by 100, which is ((700-2669)/2669)*100 = 65.5%",
+    "GT": "20.45"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of PerfectMatch samples across all test years?",
+    "Answer": "66.0",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average is calculated by taking the average of the PerfectMatch samples across all test years, which is (235+59+81+24)/4 = 66.0",
+    "GT": "52.5"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of Irrelevant samples across all test years?",
+    "Answer": "1763",
+    "QuestionType": "Total",
+    "TableName": "table-1.csv",
+    "Explanation": "The total is calculated by summing up the Irrelevant samples across all test years, which is 286+467+717 = 1763",
+    "GT": "1470"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average number of Relevant samples across 2016-Test and 2017-Test?",
+    "Answer": "145.5",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average is calculated by taking the average of the Relevant samples across 2016-Test and 2017-Test, which is (152+139)/2 = 145.5",
+    "GT": "145.5"
+  }
+]

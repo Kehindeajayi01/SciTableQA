@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage difference in market share between the UK and Belgium/Lux in 1997?",
+    "Answer": "17.4%",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.10.csv",
+    "Explanation": "Calculated by subtracting the market share of Belgium/Lux (24.9) from the market share of the UK (42.3) and dividing by the market share of the UK, then multiplying by 100.",
+    "GT": "41.1%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average market share of the top 3 retailers in France in 1997?",
+    "Answer": "22.5",
+    "QuestionType": "Average",
+    "TableName": "table-6.10.csv",
+    "Explanation": "Calculated by adding the market shares of Monoprix, Casino, and Intermache (28+25+23=76) and dividing by 3.",
+    "GT": "25.3"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total market share of Germany and Finland in 1997?",
+    "Answer": "21.2",
+    "QuestionType": "Addition",
+    "TableName": "table-6.10.csv",
+    "Explanation": "Calculated by adding the market shares of Germany (12.6) and Finland (8).",
+    "GT": "12.6 (Only German data available)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in market share between France and Italy in 1997?",
+    "Answer": "12.2",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.10.csv",
+    "Explanation": "Calculated by subtracting the market share of Italy (6) from the market share of France (18.2).",
+    "GT": "18.2 (Only given data from France)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average market share of the top 3 retailers in Spain in 1997?",
+    "Answer": "11.7",
+    "QuestionType": "Average",
+    "TableName": "table-6.10.csv",
+    "Explanation": "Calculated by adding the market shares of Eroski, Pryca, and Alcampo (24+20+15=59) and dividing by 3.",
+    "GT": "19.7"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the composition of the matrix in sample Ti40Zr10Ni40C05Cu5?",
+    "Answer": "40.6 \u00b1 0.53",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The composition of the matrix in sample Ti40Zr10Ni40C05Cu5 is found in row 2, column 2 of the table.",
+    "GT": "20%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of Zr in the C15 phase of sample Ti30Zr20Ni30Co10CU10?",
+    "Answer": "25.9 \u00b1 1.15",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The percentage of Zr in the C15 phase of sample Ti30Zr20Ni30Co10CU10 is found in row 6, column 2 of the table.",
+    "GT": "25.9 ± 1.15 %"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the composition of the C15 phase in sample Ti25Zr25Ni16.67Co16.67C16.67?",
+    "Answer": "30.3 \u00b1 1.17",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The composition of the C15 phase in sample Ti25Zr25Ni16.67Co16.67C16.67 is found in row 9, column 2 of the table.",
+    "GT": "20"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of Ni in the matrix of sample Ti30Zr10Hf10Ni30Co10Cu10?",
+    "Answer": "30.5 \u00b1 1.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The percentage of Ni in the matrix of sample Ti30Zr10Hf10Ni30Co10Cu10 is found in row 11, column 4 of the table.",
+    "GT": "30.5 ± 0.12"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the composition of the matrix in sample Ti16.67Zr16.67Ni16.67Co16.67C16.67?",
+    "Answer": "17.3 \u00b1 0.05",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The composition of the matrix in sample Ti16.67Zr16.67Ni16.67Co16.67C16.67 is found in row 17, column 2 of the table.",
+    "GT": "16.68%"
+  }
+]

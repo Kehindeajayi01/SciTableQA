@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the ρ value of alloy NMZ1?",
+    "Answer": "8.52",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The ρ value of alloy NMZ1 is directly found in the first row of the table.",
+    "GT": "8.52"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest σy/ρ value at 25°C?",
+    "Answer": "NMZ4",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The σy/ρ value of NMZ4 at 25°C is the highest among all the alloys, as found in the table.",
+    "GT": "NMZ5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the σy/ρ value of alloy C-103 at 600°C?",
+    "Answer": "19.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The σy/ρ value of alloy C-103 at 600°C is directly found in the table.",
+    "GT": "21.8"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the lowest σy/ρ value at 1200°C?",
+    "Answer": "NMZ1",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The σy/ρ value of NMZ1 at 1200°C is the lowest among all the alloys, as found in the table.",
+    "GT": "C-103"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the σy/ρ value of alloy NMZ5 at 1400°C?",
+    "Answer": "3.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-5.csv",
+    "Explanation": "The σy/ρ value of alloy NMZ5 at 1400°C is directly found in the table.",
+    "GT": "11.0"
+  }
+]

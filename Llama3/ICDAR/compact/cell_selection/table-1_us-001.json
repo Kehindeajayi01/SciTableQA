@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of individuals aged 15 and older with a disability in 2010?",
+    "Answer": "51,454",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the cell at row 7 and column 2, which represents the number of individuals aged 15 and older with a disability in 2010.",
+    "GT": "51,454"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of individuals aged 6 and older with severe disability in 2005?",
+    "Answer": "12.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the cell at row 3 and column 3, which represents the percentage of individuals aged 6 and older with severe disability in 2005.",
+    "GT": "Irrelevannt question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the number of individuals aged 21 to 64 with no disability in 2005?",
+    "Answer": "142,208",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the cell at row 20 and column 2, which represents the number of individuals aged 21 to 64 with no disability in 2005.",
+    "GT": "142,208"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of individuals aged 65 and older with severe disability in 2010?",
+    "Answer": "36.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the cell at row 24 and column 3, which represents the percentage of individuals aged 65 and older with severe disability in 2010.",
+    "GT": "49.8%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in the number of individuals with severe disability aged 15 and older between 2005 and 2010?",
+    "Answer": "2,912",
+    "QuestionType": "cell calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by subtracting the number of individuals with severe disability aged 15 and older in 2005 (39,294) from the number in 2010 (42,206), which is 2,912.",
+    "GT": "2,912"
+  }
+]

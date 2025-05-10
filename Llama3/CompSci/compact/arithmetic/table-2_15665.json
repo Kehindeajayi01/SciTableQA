@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in L2 values between FGM-L1 and FGM-L2 methods?",
+    "Answer": "0.704",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The average difference in L2 values between FGM-L1 and FGM-L2 methods is calculated by taking the average of the differences between the L2 values of FGM-L1 and FGM-L2 methods for each attack method.",
+    "GT": "0.902"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total L1 value for the I-FGM-L1 method?",
+    "Answer": "526.4",
+    "QuestionType": "Sum",
+    "TableName": "table-2.csv",
+    "Explanation": "The total L1 value for the I-FGM-L1 method is the sum of the L1 values for each attack method.",
+    "GT": "576.87"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average L\u221e value for the EAD (EN rule) method?",
+    "Answer": "0.064",
+    "QuestionType": "Average",
+    "TableName": "table-2.csv",
+    "Explanation": "The average L\u221e value for the EAD (EN rule) method is calculated by taking the average of the L\u221e values for each attack method.",
+    "GT": "0.064"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in L1 values between C&W (L2) and FGM-L methods?",
+    "Answer": "190.7",
+    "QuestionType": "Comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "The difference in L1 values between C&W (L2) and FGM-L methods is calculated by subtracting the L1 value of C&W (L2) from the L1 value of FGM-L method for each attack method, and then taking the average of these differences.",
+    "GT": "190.7"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total L2 value for all attack methods?",
+    "Answer": "2322.9",
+    "QuestionType": "Sum",
+    "TableName": "table-2.csv",
+    "Explanation": "The total L2 value for all attack methods is the sum of the L2 values for each attack method.",
+    "GT": "60.44"
+  }
+]

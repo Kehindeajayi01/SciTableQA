@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average MAP score for all models?",
+    "Answer": "0.1762",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average MAP score is calculated by taking the average of the MAP scores in the 'MAP' column.",
+    "GT": "0.1762"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which model has the highest AUC score?",
+    "Answer": "0.7168",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The model with the highest AUC score is selected by finding the maximum value in the 'AUC' column.",
+    "GT": "0.7168"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the improvement in MAP score for the 'Improve' model compared to the 'Opt-AUC' model?",
+    "Answer": "5.13%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The improvement in MAP score is calculated by subtracting the MAP score of the 'Opt-AUC' model from the MAP score of the 'Improve' model and then dividing by the MAP score of the 'Opt-AUC' model.",
+    "GT": "5.13%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which model has the lowest Pre@10 score?",
+    "Answer": "0.0107",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The model with the lowest Pre@10 score is selected by finding the minimum value in the 'Pre@10' column.",
+    "GT": "Opt-AUC"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average improvement in AUC score for all models?",
+    "Answer": "3.17%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The average improvement in AUC score is calculated by taking the average of the improvement values in the 'Improve' column.",
+    "GT": "4.78%"
+  }
+]

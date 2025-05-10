@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "Which company produces Ariel?",
+    "Answer": "Procter & Gamble",
+    "QuestionType": "cell selection",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer can be found in the first row of the first column.",
+    "GT": "Procter & Gamble"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the name of the product produced by Henkel?",
+    "Answer": "Le Chat",
+    "QuestionType": "cell selection",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer can be found in the third row of the second column.",
+    "GT": "Le Chat and Super Croix"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which company produces Omo?",
+    "Answer": "Lever",
+    "QuestionType": "cell selection",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer can be found in the second row of the third column.",
+    "GT": "Lever"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the name of the product produced by Colgate-Palmolive?",
+    "Answer": "Dash",
+    "QuestionType": "cell selection",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer can be found in the fourth row of the third column.",
+    "GT": "Dash, Axion, and Gama"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which company produces Bonux?",
+    "Answer": "Unknown_1",
+    "QuestionType": "cell selection",
+    "TableName": "table-8.18.csv",
+    "Explanation": "The answer can be found in the first row of the fourth column.",
+    "GT": "Procter & Gamble"
+  }
+]

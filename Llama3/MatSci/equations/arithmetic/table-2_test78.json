@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average Ecorr value for Re673 and Re873?",
+    "Answer": "785",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "To calculate the average Ecorr value, we take the sum of Ecorr values for Re673 and Re873 (785 + 693 = 1478) and divide it by 2, which gives us the average Ecorr value of 785.",
+    "GT": "-739 mV"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total \u03bcA/cm2 value for Re293 and Re1073?",
+    "Answer": "14.32 + 7.04 = 21.36",
+    "QuestionType": "arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "We simply add the \u03bcA/cm2 values for Re293 and Re1073 to get the total \u03bcA/cm2 value.",
+    "GT": "21.36 \u03bcA/cm2"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in R_s values between Re873 and Re1273?",
+    "Answer": "668.1 - 26.87 = 641.23",
+    "QuestionType": "comparison",
+    "TableName": "table-2.csv",
+    "Explanation": "We subtract the R_s value for Re1273 from the R_s value for Re873 to get the difference.",
+    "GT": "5.5 Ωcm^2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average R_ct value for Re673 and Re1073?",
+    "Answer": "(197.3 + 12.83) / 2 = 105.07",
+    "QuestionType": "arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "We take the sum of R_ct values for Re673 and Re1073 (197.3 + 12.83 = 210.13) and divide it by 2 to get the average R_ct value.",
+    "GT": "105.065Ω⋅cm^2"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total R_s + R_ct value for Re293 and Re1073?",
+    "Answer": "950.5 + 12.83 = 963.33",
+    "QuestionType": "arithmetic",
+    "TableName": "table-2.csv",
+    "Explanation": "We simply add the R_s + R_ct values for Re293 and Re1073 to get the total R_s + R_ct value.",
+    "GT": "966.73Ω⋅cm^ 2"
+  }
+]

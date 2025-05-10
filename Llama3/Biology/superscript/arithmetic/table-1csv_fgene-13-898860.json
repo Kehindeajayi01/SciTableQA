@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average concentration of Fetal sample F1a in umol/L?",
+    "Answer": "0.28",
+    "QuestionType": "calculation",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The average concentration is calculated by taking the value in cell 3 and referencing the unit in cell 4, which is umol/L.",
+    "GT": "0.28"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the concentration of Fetal sample F3 and F2b in umol/L?",
+    "Answer": "0.07",
+    "QuestionType": "comparison",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The difference is calculated by subtracting the value in cell 5 (0.24) from the value in cell 6 (0.31).",
+    "GT": "0.07"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average concentration of Fetal samples F4 to F6 in umol/L?",
+    "Answer": "0.851",
+    "QuestionType": "calculation",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The average concentration is calculated by taking the average of the values in cells 8 (0.946), 10 (2.7), and 11 (3.44), and then dividing by 3.",
+    "GT": "1.435"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of the concentration of Fetal sample F8 to Fetal sample F1a in umol/L?",
+    "Answer": "15.07",
+    "QuestionType": "calculation",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The ratio is calculated by dividing the value in cell 12 (4.22) by the value in cell 3 (0.28).",
+    "GT": "15.07"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the range of concentrations for Fetal samples in umol/L?",
+    "Answer": "0.04-3.44",
+    "QuestionType": "comparison",
+    "TableName": "table-1csv.csv",
+    "Explanation": "The range is calculated by referencing the values in cells 13 (0.04-1.00) and 11 (3.44).",
+    "GT": "0.28-4.22"
+  }
+]

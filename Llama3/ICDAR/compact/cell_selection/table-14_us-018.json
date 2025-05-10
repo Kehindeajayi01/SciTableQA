@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of students in the United States from 2003-04 to 2012-13?",
+    "Answer": "3,092,290",
+    "QuestionType": "cell selection",
+    "TableName": "table-14.csv",
+    "Explanation": "The total number of students in the United States can be calculated by summing up the values in the 'Actual' column for the row corresponding to 'United States' from 2003-04 to 2012-13.",
+    "GT": "29,666,519"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which state had the highest number of students in 2009-10?",
+    "Answer": "Texas",
+    "QuestionType": "cell selection",
+    "TableName": "table-14.csv",
+    "Explanation": "The state with the highest number of students in 2009-10 can be determined by finding the maximum value in the 'Actual' column for the rows corresponding to the states from 2009-10.",
+    "GT": "California"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of students in the Northeast region from 2003-04 to 2012-13?",
+    "Answer": "549,890",
+    "QuestionType": "cell selection",
+    "TableName": "table-14.csv",
+    "Explanation": "The average number of students in the Northeast region can be calculated by summing up the values in the 'Actual' column for the rows corresponding to the states in the Northeast region from 2003-04 to 2012-13 and dividing by the number of years.",
+    "GT": "537,600"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which state had the lowest number of students in 2004-05?",
+    "Answer": "Vermont",
+    "QuestionType": "cell selection",
+    "TableName": "table-14.csv",
+    "Explanation": "The state with the lowest number of students in 2004-05 can be determined by finding the minimum value in the 'Actual' column for the rows corresponding to the states from 2004-05.",
+    "GT": "District of Columbia"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of students in the South region from 2003-04 to 2012-13?",
+    "Answer": "1,120,870",
+    "QuestionType": "cell selection",
+    "TableName": "table-14.csv",
+    "Explanation": "The total number of students in the South region can be calculated by summing up the values in the 'Actual' column for the rows corresponding to the states in the South region from 2003-04 to 2012-13.",
+    "GT": "10,376,515"
+  }
+]

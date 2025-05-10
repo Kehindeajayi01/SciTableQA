@@ -1,0 +1,38 @@
+[
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of non-actionable genes that have been identified as having recessive conditions?",
+    "Answer": "22.7%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the data in rows 28-30, specifically the columns 'Number of variants with recessive conditions' and 'Total number of non-actionable genes'.",
+    "GT": "NA (There is no category for non-actionable genes with recessive conditions)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of genes that have analysis criteria not identified by the oncologist among all actionable genes?",
+    "Answer": "60.0%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the data in rows 1-17, specifically the columns 'Number of variants with analysis criteria not identified by the oncologist' and 'Number of actionable genes'.",
+    "GT": "26.7%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the percentage of genes that have been identified as having recessive conditions among all non-actionable genes?",
+    "Answer": "31.8%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the data in rows 28-30, specifically the columns 'Number of variants with recessive conditions' and 'Total number of non-actionable genes'.",
+    "GT": "NA (There is no category for non-actionable genes with recessive conditions)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of genes that have been identified as having recessive conditions among all genes?",
+    "Answer": "26.0%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is based on the data in rows 28-30, specifically the columns 'Number of variants with recessive conditions' and 'Total number of genes'.",
+    "GT": "18.5%"
+  }
+]

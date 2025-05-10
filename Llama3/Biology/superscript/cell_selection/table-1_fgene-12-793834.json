@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the name of the medical faculty in Bosnia and Herzegovina that offers a course on Human Genetics?",
+    "Answer": "Faculty of Medicine, University of Banja Luka",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Names of medical faculties in country' column of the table, where the row corresponding to Bosnia and Herzegovina has the value 'Faculty of Medicine, University of Banja Luka'.",
+    "GT": "Faculty of Medicine, University of Banja Luka"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the number of contact hours in the course 'Biology with Human Genetics' offered by the Faculty of Medicine, University of Tuzla?",
+    "Answer": "75",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Number of contact hours in course' column of the table, where the row corresponding to the Faculty of Medicine, University of Tuzla has the value '75'.",
+    "GT": "75"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which country has a medical faculty that offers a course on Medical Genetics with 4 ECTS?",
+    "Answer": "North Macedonia",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Country' column of the table, where the row corresponding to the course 'Medical Genetics' has the value 'North Macedonia' and the 'Number of ECTS for the course' column has the value '4'.",
+    "GT": "Bosnia and Herzegovina"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of ECTS for the courses offered by the Faculty of Medicine, University of Novi Sad?",
+    "Answer": "8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Number of ECTS for the course' column of the table, where the row corresponding to the Faculty of Medicine, University of Novi Sad has the value '8'.",
+    "GT": "8"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "In which year is the course 'Human Genetics' offered by the Faculty of Medicine, University of Belgrade?",
+    "Answer": "1st",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer can be found in the 'Study year at which the course is offered' column of the table, where the row corresponding to the Faculty of Medicine, University of Belgrade has the value '1st'.",
+    "GT": "1st"
+  }
+]

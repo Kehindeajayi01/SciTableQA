@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the maximum voltage of the RHEA Power (W) Ar Flow (LPM) system?",
+    "Answer": "4.25",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found in the 'Max Voltage (V)' column of the table, where the value is 4.25.",
+    "GT": "4.25"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest scan speed?",
+    "Answer": "TiAl6V4lxCoCrFeMnNi",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by comparing the 'Scan Speed (mm/min)' column for each alloy, where TiAl6V4lxCoCrFeMnNi has the highest value of 500.",
+    "GT": "TiAl6V4lxCoCrFeMnNi"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average oxygen concentration (O_2 ppm) for all alloys?",
+    "Answer": "31.1",
+    "QuestionType": "calculation",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer is calculated by summing up the O_2 ppm values (35 + 28 + 36.3) and dividing by the number of alloys (3), resulting in an average of 31.1.",
+    "GT": "33.1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the highest water concentration (H2O ppm)?",
+    "Answer": "TiAl6V4lxCoCrFeMnNi",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by comparing the 'H2O (ppm)' column for each alloy, where TiAl6V4lxCoCrFeMnNi has the highest value of 1.4.",
+    "GT": "TiAl6V4lxCoCrFeMnNi"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the minimum power output (W) for all alloys?",
+    "Answer": "550",
+    "QuestionType": "cell selection",
+    "TableName": "table-2.csv",
+    "Explanation": "The answer can be found by selecting the lowest value in the 'RHEA Power (W)' column, which is 550 for the NbxCoCrFeMnNi alloy.",
+    "GT": "550"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What percentage of the total imports does Norway have?",
+    "Answer": "72.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The answer is derived directly from the 'Imported(%)' column in the row corresponding to Norway.",
+    "GT": "72.2"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country has the highest percentage of domestic production?",
+    "Answer": "Spain",
+    "QuestionType": "cell selection",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The answer is derived directly from the 'Country' column and the 'Domestic (%)' column. Spain has the highest percentage of domestic production at 100.0.",
+    "GT": "Spain"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of countries with unknown production?",
+    "Answer": "3",
+    "QuestionType": "cell selection",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The answer is derived directly from the 'Unknown(%)' column. There are three countries with unknown production.",
+    "GT": "18"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of countries with 100% unknown production?",
+    "Answer": "5",
+    "QuestionType": "cell selection",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The answer is derived directly from the 'Unknown(%)' column. There are five countries with 100% unknown production.",
+    "GT": "8"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of countries with more than 50% unknown production?",
+    "Answer": "7",
+    "QuestionType": "cell selection",
+    "TableName": "table-SA3.csv",
+    "Explanation": "The answer is derived directly from the 'Unknown(%)' column. There are seven countries with more than 50% unknown production.",
+    "GT": "11"
+  }
+]

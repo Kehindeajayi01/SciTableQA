@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the most commonly used substance among the options listed in the table?",
+    "Answer": "Cannabis",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.3.csv",
+    "Explanation": "This answer is derived from the 'Frequency of substance abuse' column, where Cannabis has the highest percentage of 9.6%.",
+    "GT": "Cannabis"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which substance has the lowest frequency of use in the last year?",
+    "Answer": "Heroin",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.3.csv",
+    "Explanation": "This answer is derived from the 'In the last year' column, where Heroin has the lowest percentage of 0.0%.",
+    "GT": "Heroin, Ketamine, GHB, Ritalin"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of individuals who have never used any of the substances listed in the table?",
+    "Answer": "80.1%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.3.csv",
+    "Explanation": "This answer is derived from the 'Never' column, where the percentage is 80.1%.",
+    "GT": "94.6% (Average of all percentages for the never used column)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which substance has the highest frequency of use more than a year ago?",
+    "Answer": "Cannabis",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.3.csv",
+    "Explanation": "This answer is derived from the 'More than a year' column, where Cannabis has the highest percentage of 6.3%.",
+    "GT": "Cannabis"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of individuals who have used Anabolic steroids in the last month?",
+    "Answer": "2.1%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3.3.csv",
+    "Explanation": "This answer is derived from the 'In the last month' column, where Anabolic steroids have a percentage of 2.1%.",
+    "GT": "2.1%"
+  }
+]

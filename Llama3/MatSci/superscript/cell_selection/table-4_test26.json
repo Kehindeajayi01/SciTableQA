@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the density of the alloy in g/cm³ for the first entry?",
+    "Answer": "5.09",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The first entry in the table is at row 0, column 2.",
+    "GT": "5.09"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the yield strength in MPa for the alloy with the highest yield strength?",
+    "Answer": "1500",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The alloy with the highest yield strength is found at row 2, column 3.",
+    "GT": "1500"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of elongation for the alloy with the lowest percentage of elongation?",
+    "Answer": "5",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The alloy with the lowest percentage of elongation is found at row 2, column 5.",
+    "GT": "4.7"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the yield strength in MPa for the alloy with the name 'Ti60'?",
+    "Answer": "960",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The alloy with the name 'Ti60' is found at row 0, column 3.",
+    "GT": "960"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the density of the alloy in g/cm³ for the alloy with the name 'Hf25Nb25Ti25Zr25'?",
+    "Answer": "8.4",
+    "QuestionType": "Cell selection",
+    "TableName": "table-4.csv",
+    "Explanation": "The alloy with the name 'Hf25Nb25Ti25Zr25' is found at row 7, column 2.",
+    "GT": "8.4"
+  }
+]

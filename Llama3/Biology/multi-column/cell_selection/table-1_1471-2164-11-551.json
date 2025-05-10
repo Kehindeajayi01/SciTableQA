@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average size of loci for Group G1?",
+    "Answer": "108.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the cell at row 2 and column 2 of the table.",
+    "GT": "110.6"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which group has the highest number of skewed markers?",
+    "Answer": "G8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the cells at rows 8 and 9 and comparing the values in column 5.",
+    "GT": "G7"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of loci for all groups?",
+    "Answer": "157",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the cell at row 10 and column 1 of the table.",
+    "GT": "157 (One-step), 160 (Two-step)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average distance of markers for Group G6?",
+    "Answer": "2.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the cell at row 7 and column 4 of the table.",
+    "GT": "2.55"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "Which group has the highest average marker distance?",
+    "Answer": "G8",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by looking at the cells at rows 8 and 9 and comparing the values in column 4.",
+    "GT": "G8"
+  }
+]

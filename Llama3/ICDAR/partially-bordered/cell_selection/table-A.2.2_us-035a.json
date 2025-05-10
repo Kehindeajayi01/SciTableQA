@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total population of people aged 40 years?",
+    "Answer": "2,468,083",
+    "QuestionType": "cell selection",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 0 and column 1 of the table.",
+    "GT": "2,468,083"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total population of people aged 60 years?",
+    "Answer": "2,160,937",
+    "QuestionType": "cell selection",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 20 and column 1 of the table.",
+    "GT": "2,160,937"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total population of people aged 75 years?",
+    "Answer": "1,111,480",
+    "QuestionType": "cell selection",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 35 and column 1 of the table.",
+    "GT": "1,111,480"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total population of people aged 50 years?",
+    "Answer": "2,347,068",
+    "QuestionType": "cell selection",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 10 and column 1 of the table.",
+    "GT": "2,347,068"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total population of people aged 78 years?",
+    "Answer": "828,866",
+    "QuestionType": "cell selection",
+    "TableName": "table-A.2.2.csv",
+    "Explanation": "The answer is directly obtained from the cell at row 38 and column 1 of the table.",
+    "GT": "828,866"
+  }
+]

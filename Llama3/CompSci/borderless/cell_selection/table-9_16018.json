@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of 'Attach' errors in the 'error type' column?",
+    "Answer": "21%",
+    "QuestionType": "cell selection",
+    "TableName": "table-9.csv",
+    "Explanation": "Answer is derived by selecting the value in the 'error type' column for 'Attach' and calculating the percentage of total errors.",
+    "GT": "21%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the number of rows in the table with '1-word Span' as the error type?",
+    "Answer": "687",
+    "QuestionType": "cell selection",
+    "TableName": "table-9.csv",
+    "Explanation": "Answer is derived by selecting the row count for the '1-word Span' error type.",
+    "GT": "687"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average number of errors in the 'NP Int' error type?",
+    "Answer": "129",
+    "QuestionType": "cell calculation",
+    "TableName": "table-9.csv",
+    "Explanation": "Answer is derived by calculating the average of the error counts for the 'NP Int' error type.",
+    "GT": "129"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the number of rows in the table with 'Clause Att' as the error type?",
+    "Answer": "376",
+    "QuestionType": "cell selection",
+    "TableName": "table-9.csv",
+    "Explanation": "Answer is derived by selecting the row count for the 'Clause Att' error type.",
+    "GT": "376"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of 'Different label' errors in the 'error type' column?",
+    "Answer": "28%",
+    "QuestionType": "cell selection",
+    "TableName": "table-9.csv",
+    "Explanation": "Answer is derived by selecting the value in the 'error type' column for 'Different label' and calculating the percentage of total errors.",
+    "GT": "28%"
+  }
+]

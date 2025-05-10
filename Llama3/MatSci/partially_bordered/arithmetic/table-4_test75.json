@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average yield strength of Ti1.5ZrVNb and Ti2ZrVNb at room temperature?",
+    "Answer": "1132.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The average yield strength is calculated by averaging the yield strength values of Ti1.5ZrVNb (1119) and Ti2ZrVNb (1086) at room temperature.",
+    "GT": "1102.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in compressive strength between TiZrVNb and Ti2ZrVNb at 600°C?",
+    "Answer": "37",
+    "QuestionType": "Comparison",
+    "TableName": "table-4.csv",
+    "Explanation": "The difference in compressive strength is calculated by subtracting the compressive strength value of Ti2ZrVNb (922) from the compressive strength value of TiZrVNb (923) at 600°C.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average compressive ductility of TiZrVNb, Ti1.5ZrVNb, and Ti2ZrVNb at 800°C?",
+    "Answer": "50",
+    "QuestionType": "Average",
+    "TableName": "table-4.csv",
+    "Explanation": "The average compressive ductility is calculated by averaging the compressive ductility values of TiZrVNb, Ti1.5ZrVNb, and Ti2ZrVNb at 800°C, all of which are >50.",
+    "GT": ">50"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the ratio of yield strength at 800°C to room temperature for TiZrVNb?",
+    "Answer": "0.31",
+    "QuestionType": "Ratio",
+    "TableName": "table-4.csv",
+    "Explanation": "The ratio of yield strength at 800°C to room temperature is calculated by dividing the yield strength value at 800°C (233) by the yield strength value at room temperature (1229).",
+    "GT": "Irrelevant question (Need to numbers for a ratio)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average compressive strength of TiZrVNb, Ti1.5ZrVNb, and Ti2ZrVNb at room temperature?",
+    "Answer": "1118",
+    "QuestionType": "Average",
+    "TableName": "table-4.csv",
+    "Explanation": "The average compressive strength is calculated by averaging the compressive strength values of TiZrVNb, Ti1.5ZrVNb, and Ti2ZrVNb at room temperature, which are 2287, 1119, and 1086, respectively.",
+    "GT": "Irrelevant question (Only  TiZrVNb has data)"
+  }
+]

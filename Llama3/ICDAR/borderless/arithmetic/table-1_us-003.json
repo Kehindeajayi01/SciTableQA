@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average income range for individuals in the 'Lower middle' category in 1994, 1997, and 2003?",
+    "Answer": "$14,293.67",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the average income range, I added the income ranges for 'Lower middle' category in 1994 ($9,595-$17,992), 1997 ($22,401-$29,992), and 2003 ($34,001-$48,000) and divided by 3.",
+    "GT": "$21,999-$31,994 (Calculated by taking the average of the lower bound for the three years and the mean of the upper bound for the three years)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Is the income range for 'Highest' category in 1994 greater than the income range for 'Upper middle' category in 2003?",
+    "Answer": "Yes",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To compare the income ranges, I compared the value 'Greater than $25,771' for 'Highest' category in 1994 with the value '$48,001-$66,900' for 'Upper middle' category in 2003.",
+    "GT": "No"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total income range for 'Lower middle' category across all three years?",
+    "Answer": "$41,588",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the total income range, I added the income ranges for 'Lower middle' category in 1994 ($9,595-$17,992), 1997 ($22,401-$29,992), and 2003 ($34,001-$48,000).",
+    "GT": "$65,997-$95,984"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Is the income range for 'Upper middle' category in 1997 greater than the income range for 'Lower middle' category in 1994?",
+    "Answer": "Yes",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "To compare the income ranges, I compared the value '$29,993-$40,888' for 'Upper middle' category in 1997 with the value '$9,595-$17,992' for 'Lower middle' category in 1994.",
+    "GT": "Yes"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average income range for 'Highest' category across all three years?",
+    "Answer": "$66,860",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "To calculate the average income range, I took the average of the income ranges for 'Highest' category in 1994 (Greater than $25,771), 1997 (Greater than $40,888), and 2003 (Greater than $66,900).",
+    "GT": "Greater than $44,520"
+  }
+]

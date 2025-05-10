@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the NMI index for Karate club?",
+    "Answer": "83.72",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The NMI index for Karate club is directly retrieved from the table's cell at row 1, column 1.",
+    "GT": "83.72"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which method (SNMF, BNMTF, MNDP, DNRL2, DNRCE, NetMRF) has the highest NMI index for Friendship6?",
+    "Answer": "100",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The highest NMI index for Friendship6 is retrieved from the table's cells at row 2, columns 2-7.",
+    "GT": "NetMRF"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average NMI index for the methods SNMF, BNMTF, MNDP, DNRL2, DNRCE, and NetMRF for Political books?",
+    "Answer": "56.88",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The average NMI index is calculated by summing the NMI indices for the methods SNMF, BNMTF, MNDP, DNRL2, DNRCE, and NetMRF, and then dividing by 6. This is done by summing the cells at row 4, columns 2-7, and then dividing by 6.",
+    "GT": "55.02"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which method has the lowest NMI index for Cora?",
+    "Answer": "17.06",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The lowest NMI index for Cora is retrieved from the table's cell at row 7, column 2.",
+    "GT": "Karrer"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the NMI index for US Football using the method NetMRF?",
+    "Answer": "92.42",
+    "QuestionType": "cell selection",
+    "TableName": "Unknown_2",
+    "Explanation": "The NMI index for US Football using the method NetMRF is retrieved from the table's cell at row 5, column 7.",
+    "GT": "92.42"
+  }
+]

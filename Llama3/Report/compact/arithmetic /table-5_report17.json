@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage of SO2 and NOX in the EPA Protocol Certified Gas Component?",
+    "Answer": "15.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "To calculate the average percentage, we added the values in cells 0 (SO2) and 3 (NOX) and divided by 2, resulting in 15.5.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the total percentage of CO2, CO, and O2 in the EPA Protocol Certified Gas Component?",
+    "Answer": "20.5",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-5.csv",
+    "Explanation": "To calculate the total percentage, we added the values in cells 5 (CO2), 6 (CO), and 7 (O2) and divided by 3, resulting in 20.5.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference between the percentage of NO and NO2 in the EPA Protocol Certified Gas Component?",
+    "Answer": "2.5",
+    "QuestionType": "Comparison",
+    "TableName": "table-5.csv",
+    "Explanation": "To calculate the difference, we subtracted the value in cell 1 (NO) from the value in cell 2 (NO2), resulting in 2.5.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average percentage of CH4, PPN, and HE in the EPA Protocol Certified Gas Component?",
+    "Answer": "6.3",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-5.csv",
+    "Explanation": "To calculate the average percentage, we added the values in cells 9 (CH4), 8 (PPN), and 10 (HE) and divided by 3, resulting in 6.3.",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total percentage of N2O, H2S, and BALA in the EPA Protocol Certified Gas Component?",
+    "Answer": "4.2",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-5.csv",
+    "Explanation": "To calculate the total percentage, we added the values in cells 4 (N2O), 11 (H2S), and 12 (BALA) and divided by 3, resulting in 4.2.",
+    "GT": "Irrelevant question"
+  }
+]

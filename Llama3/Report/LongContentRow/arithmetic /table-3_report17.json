@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total count of codes that meet the standard performance specification?",
+    "Answer": "3",
+    "QuestionType": "Count",
+    "TableName": "table-3.csv",
+    "Explanation": "The codes 'PASSED', 'PASSAPS', and 'INC' meet the standard performance specification.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage of codes that do not meet the standard performance specification?",
+    "Answer": "50%",
+    "QuestionType": "Percentage",
+    "TableName": "table-3.csv",
+    "Explanation": "The codes 'FAILED' and 'ABORTED' do not meet the standard performance specification. Out of 5 codes, 2 do not meet the standard performance specification.",
+    "GT": "40%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the count of codes that are reported as 'INC'?",
+    "Answer": "1",
+    "QuestionType": "Count",
+    "TableName": "table-3.csv",
+    "Explanation": "The code 'INC' is reported only once.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the count of codes that are reported as 'ABORTED'?",
+    "Answer": "1",
+    "QuestionType": "Count",
+    "TableName": "table-3.csv",
+    "Explanation": "The code 'ABORTED' is reported only once.",
+    "GT": "1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total count of codes that do not meet the standard performance specification?",
+    "Answer": "2",
+    "QuestionType": "Count",
+    "TableName": "table-3.csv",
+    "Explanation": "The codes 'FAILED' and 'ABORTED' do not meet the standard performance specification.",
+    "GT": "2"
+  }
+]

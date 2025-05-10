@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total population of enterprises in the EU15 region?",
+    "Answer": "372.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.3.csv",
+    "Explanation": "The answer can be found in the first row and first column of the table.",
+    "GT": "2553"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which region has the highest number of enterprises per population?",
+    "Answer": "USA",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.3.csv",
+    "Explanation": "To answer this question, we need to compare the 'number of enterprises' column with the 'population' column. US A has the highest number of enterprises per population.",
+    "GT": "USA"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average turnover per enterprise in the EU15 region?",
+    "Answer": "146",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.3.csv",
+    "Explanation": "To calculate the average turnover per enterprise, we need to add the 'turnover per enterprise' column values and divide by the 'number of enterprises' column values. For the EU15 region, the average is 146.",
+    "GT": "494"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which region has the highest turnover per enterprise?",
+    "Answer": "USA",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.3.csv",
+    "Explanation": "To answer this question, we need to compare the 'turnover per enterprise' column values. US A has the highest turnover per enterprise.",
+    "GT": "USA"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the ratio of population per enterprise in Japan compared to the EU15 region?",
+    "Answer": "0.34",
+    "QuestionType": "calculation",
+    "TableName": "table-6.3.csv",
+    "Explanation": "To calculate the ratio, we need to divide the 'population per enterprise' value of Japan (82) by the 'population per enterprise' value of the EU15 region (146). The result is 0.34.",
+    "GT": "0.56"
+  }
+]

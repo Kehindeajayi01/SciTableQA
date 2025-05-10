@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average change in household income inequality (Gini index) from 1997 to 2007?",
+    "Answer": "0.0070",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average change in household income inequality (Gini index) is calculated by subtracting the 1997 value from the 2007 value and averaging the result with the other values in the series.",
+    "GT": "0.0004"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average difference in premature mortality (years of potential life lost before age 75 yrs/100,000 population) between 1997 and 2007?",
+    "Answer": "4.4",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The average difference in premature mortality is calculated by subtracting the 1997 value from the 2007 value and averaging the result with the other values in the series.",
+    "GT": "59.4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the correlation between household income inequality (Gini index) and premature mortality (years of potential life lost before age 75 yrs/100,000 population) in 2001?",
+    "Answer": "0.4590",
+    "QuestionType": "Correlation",
+    "TableName": "table-1.csv",
+    "Explanation": "The correlation between household income inequality (Gini index) and premature mortality (years of potential life lost before age 75 yrs/100,000 population) is calculated by dividing the product of the two values by the product of their standard deviations.",
+    "GT": "Cannot calculate, need two set of numbers."
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference between the mean Health and Activities Limitation Index (HALex) ages 18-65 yrs in 2002 and 2006?",
+    "Answer": "0.0046",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference between the mean Health and Activities Limitation Index (HALex) ages 18-65 yrs in 2002 and 2006 is calculated by subtracting the 2002 value from the 2006 value.",
+    "GT": "0.0038"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average inequality in HALex (Gini index), ages 18-65 yrs, from 1997 to 2007?",
+    "Answer": "0.0831",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The average inequality in HALex (Gini index), ages 18-65 yrs, is calculated by averaging the values in the series.",
+    "GT": "0.1717"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average accuracy difference between JT-BS and ST-BS training methodologies across all social media platforms?",
+    "Answer": "1.35%",
+    "QuestionType": "Comparison",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The average accuracy difference was calculated by subtracting the accuracy of JT-BS from ST-BS for each platform and then taking the mean of the differences.",
+    "GT": "1.27%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the maximum accuracy achieved by the ST-BC training methodology across all social media platforms?",
+    "Answer": "97.14%",
+    "QuestionType": "Maximum/Minimum",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The maximum accuracy achieved by the ST-BC training methodology was found by identifying the highest accuracy value in the table.",
+    "GT": "97.14%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average accuracy difference between Facebook and Twitter for the JT-BC training methodology?",
+    "Answer": "0.25%",
+    "QuestionType": "Comparison",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The average accuracy difference was calculated by subtracting the accuracy of Facebook from Twitter for the JT-BC training methodology.",
+    "GT": "0.25%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the minimum accuracy achieved by the JT-BS training methodology across all social media platforms?",
+    "Answer": "92.93%",
+    "QuestionType": "Maximum/Minimum",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The minimum accuracy achieved by the JT-BS training methodology was found by identifying the lowest accuracy value in the table.",
+    "GT": "92.93%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average accuracy of the Weibo platform for all training methodologies?",
+    "Answer": "94.81%",
+    "QuestionType": "Average",
+    "TableName": "Table 4: Comparing Training Methodologies Unknown_5",
+    "Explanation": "The average accuracy of the Weibo platform was calculated by taking the mean of the accuracy values for each training methodology.",
+    "GT": "95.002%"
+  }
+]

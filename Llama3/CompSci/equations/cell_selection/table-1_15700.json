@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the AUC p-value for Horizontal Anomaly Detection (HOAD) at 0%?",
+    "Answer": "0.6512 \u00b1 0.0445 (2.15x10-15)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is directly obtained from the table by selecting the cell at row 0 and column '0%' for the 'AUC p-value' metric for Horizontal Anomaly Detection (HOAD).",
+    "GT": "0.6512 \u00b1 0.0445 (2.15x10-15)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which algorithm has the highest AUC p-value at 75%?",
+    "Answer": "0.8055\u00b10.0243",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 4 and column '75%' for the 'AUC p-value' metric. The algorithm with the highest AUC p-value at 75% is Ours.",
+    "GT": "Ours"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in AUC p-value between Anomaly detection via Affinity Propagation (AP) and Horizontal Anomaly Detection (HOAD) at 30%?",
+    "Answer": "0.5815 \u00b1 0.0429 (1.16x10-12) - 0.6512 \u00b1 0.0445 (2.15x10-15) = -0.0697",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by subtracting the AUC p-value for Horizontal Anomaly Detection (HOAD) at 30% from the AUC p-value for Anomaly detection via Affinity Propagation (AP) at 30%.",
+    "GT": "0.5815 \u00b1 0.0429 (1.16x10-12) - 0.6512 \u00b1 0.0445 (2.15x10-15) = -0.0697"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which algorithm has the lowest AUC p-value at 45%?",
+    "Answer": "0.5598 \u00b1 0.0461 (9.24x10-6)",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 2 and column '45%' for the 'AUC p-value' metric. The algorithm with the lowest AUC p-value at 45% is Multi-view Low-Rank Analysis (MLRA).",
+    "GT": "HOAD"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average AUC p-value for all algorithms at 60%?",
+    "Answer": "(0.5302\u00b10.0470 (4.10x10-17) + 0.8017\u00b10.0554 (5.98x10-11) + 0.5984\u00b10.0476 (2.58x10-15) + 0.6590\u00b10.0582 (8.77x10-14) + 0.8291\u00b10.0258) / 5 = 0.6651",
+    "QuestionType": "calculation",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is obtained by calculating the average of the AUC p-values for all algorithms at 60%.",
+    "GT": "(0.5302\u00b10.0470 (4.10x10-17) + 0.8017\u00b10.0554 (5.98x10-11) + 0.5984\u00b10.0476 (2.58x10-15) + 0.6590\u00b10.0582 (8.77x10-14) + 0.8291\u00b10.0258) / 5 = 0.68368"
+  }
+]

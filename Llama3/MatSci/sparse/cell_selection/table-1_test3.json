@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average value of Hf in the DR alloy region?",
+    "Answer": "20.1 ± 0.7",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the value in the Hf column for the DR alloy region in the first row.",
+    "GT": "22.1 ± 0.5"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy region has the highest value of Mo in the IR group?",
+    "Answer": "MoNbTaV",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the row with the highest value of Mo in the IR group, which is MoNbTaV.",
+    "GT": "MoNbReTaW"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of Ti in the NbTiVZr alloy region?",
+    "Answer": "0.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the value in the Ti column for the NbTiVZr alloy region and calculating the standard deviation.",
+    "GT": "0 ± 0.25"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy region has the lowest value of V in the DR group?",
+    "Answer": "HfNbTaTiZr",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the row with the lowest value of V in the DR group, which is HfNbTaTiZr.",
+    "GT": "MoNbTaTiVW"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of Zr in the MoNbReTaTi-VW alloy region?",
+    "Answer": "22.1 ± 0.6",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived by selecting the value in the Zr column for the MoNbReTaTi-VW alloy region.",
+    "GT": "Irrelevant question"
+  }
+]

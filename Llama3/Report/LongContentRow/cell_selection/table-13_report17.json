@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the missing data instruction for NO_x emission rate only?",
+    "Answer": "Blank (Report the NO_x-diluent monitoring system ID in DHV record)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-13.csv",
+    "Explanation": "The answer can be found in the 'Missing Data Instructions' column of the table, where the instruction for NO_x emission rate only is 'Blank (Report the NO_x-diluent monitoring system ID in DHV record)'",
+    "GT": "Blank (Report the NO_x-diluent monitoring system ID in DHV record)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the missing data instruction for NO_x mass calculation using NO_x emission rate X Heat input rate?",
+    "Answer": "Do not report an MHV record for the hour. Perform NO_x missing data substitution in DHV record (if NO_x or diluent concentration is unavailable)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-13.csv",
+    "Explanation": "The answer can be found in the 'Missing Data Instructions' column of the table, where the instruction for NO_x mass calculation using NO_x emission rate X Heat input rate is 'Do not report an MHV record for the hour. Perform NO_x missing data substitution in DHV record (if NO_x or diluent concentration is unavailable)'",
+    "GT": "Do not report an MHV record for the hour. Perform NO_x missing data substitution in DHV record (if NO_x or diluent concentration is unavailable)""
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the missing data instruction for NO_x mass calculation using NO_x concentration X stack flow?",
+    "Answer": "Perform missing data substitution for NO_x concentration in an MHV record",
+    "QuestionType": "Cell selection",
+    "TableName": "table-13.csv",
+    "Explanation": "The answer can be found in the 'Missing Data Instructions' column of the table, where the instruction for NO_x mass calculation using NO_x concentration X stack flow is 'Perform missing data substitution for NO_x concentration in an MHV record'",
+    "GT": "Perform missing data substitution for NO_x concentration in an MHV record""
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the missing data instruction for Both NO_x emission rate and NO_x mass calculation using NO_x concentration X stack flow?",
+    "Answer": "Perform missing data substitution for NO_x concentration in an MHV record. Also perform missing data substitution in the DHV record for NO_x emission rate if either the NO_x or diluent concentration is missing",
+    "QuestionType": "Cell selection",
+    "TableName": "table-13.csv",
+    "Explanation": "The answer can be found in the 'Missing Data Instructions' column of the table, where the instruction for Both NO_x emission rate and NO_x mass calculation using NO_x concentration X stack flow is 'Perform missing data substitution for NO_x concentration in an MHV record. Also perform missing data substitution in the DHV record for NO_x emission rate if either the NO_x or diluent concentration is missing'",
+    "GT": "Perform missing data substitution for NO_x concentration in an MHV record. Also perform missing data substitution in the DHV record for NO_x emission rate if either the NO_x or diluent concentration is missing","
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the missing data instruction for Both NO_x emission rate and NO_x mass calculation using NO_x emission rate X Heat input rate?",
+    "Answer": "Blank (Report the NO_x-diluent monitoring system ID in DHV record)",
+    "QuestionType": "Cell selection",
+    "TableName": "table-13.csv",
+    "Explanation": "The answer can be found in the 'Missing Data Instructions' column of the table, where the instruction for Both NO_x emission rate and NO_x mass calculation using NO_x emission rate X Heat input rate is 'Blank (Report the NO_x-diluent monitoring system ID in DHV record)'",
+    "GT": "What is the missing data instruction for Both NO_x emission rate and NO_x mass calculation using NO_x emission rate X Heat input rate?"
+  }
+]

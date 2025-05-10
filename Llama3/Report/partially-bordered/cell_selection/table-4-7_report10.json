@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the baseline electricity generation capacity?",
+    "Answer": "14.4 MW",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The answer is directly obtained from cell 1 of the table.",
+    "GT": "14.4 MW"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the power sales price?",
+    "Answer": "$0.0817/kWh",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The answer is directly obtained from cell 2 of the table.",
+    "GT": "$0.0817/kWh"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the generator efficiency?",
+    "Answer": "35%",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The answer is directly obtained from cell 3 of the table.",
+    "GT": "35%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the run time of the generator?",
+    "Answer": "80%",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The answer is directly obtained from cell 4 of the table.",
+    "GT": "80%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the cost factor for generator relocation?",
+    "Answer": "$100/kW",
+    "QuestionType": "cell selection",
+    "TableName": "table-4-7.csv",
+    "Explanation": "The answer is directly obtained from cell 7 of the table.",
+    "GT": "$100/kW"
+  }
+]

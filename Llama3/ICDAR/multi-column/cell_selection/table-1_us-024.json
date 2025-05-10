@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of unhealthy housing units among total occupied housing units for females?",
+    "Answer": "24.9%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is derived from cell (4,2) in the table, which shows 12,303 unhealthy housing units out of 49,486 total occupied housing units for females, and then calculated the percentage.",
+    "GT": "24.9% (2007), 24.6% (2009)"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the unadjusted odds ratio for unhealthy housing units among Black, non-Hispanic individuals compared to White, non-Hispanic individuals?",
+    "Answer": "1.3",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is derived from cells (8,3) and (6,3) in the table, which show the unadjusted odds ratio for Black, non-Hispanic and White, non-Hispanic individuals respectively.",
+    "GT": "1.3 (2007), 1.3 (2009)"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of unhealthy housing units among total occupied housing units for individuals with annual income <=24,999?",
+    "Answer": "27.2%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is derived from cell (25,2) in the table, which shows 8,004 unhealthy housing units out of 46,912 total occupied housing units for individuals with annual income <=24,999, and then calculated the percentage.",
+    "GT": "27.2% (2007), 26.6% (2009)"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the unadjusted odds ratio for unhealthy housing units among individuals with a disability status of Yes compared to No?",
+    "Answer": "1.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is derived from cells (39,3) and (40,3) in the table, which show the unadjusted odds ratio for individuals with a disability status of Yes and No respectively.",
+    "GT": "1.2 (2007), 1.4 (2009)"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of unhealthy housing units among total occupied housing units for individuals with education level less than high school?",
+    "Answer": "25.5%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "Answer is derived from cell (30,2) in the table, which shows 4,283 unhealthy housing units out of 16,779 total occupied housing units for individuals with education level less than high school, and then calculated the percentage.",
+    "GT": "25.5% (2007), 24.9% (2009)"
+  }
+]

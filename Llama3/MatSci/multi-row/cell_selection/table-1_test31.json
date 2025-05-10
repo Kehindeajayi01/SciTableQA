@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of tables that report the use of a conductive substrate in the synthesis process?",
+    "Answer": "2",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The table reports the use of a conductive substrate in the synthesis process for two samples (rows 1 and 4).",
+    "GT": "33.33%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average particle size (P.S.) of the samples synthesized using the solvothermal synthesis method?",
+    "Answer": "> 50 nm",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The table reports the particle size of the samples synthesized using the solvothermal synthesis method as > 50 nm for row 8.",
+    "GT": "> 50 nm"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "Which samples were synthesized using the milling (or melt spinning) + dealloying method?",
+    "Answer": "AuPdPtAlCuNi, AuPdPtAlCoCuFeNi, AlCoCuFeNiMo, IrAlCoMoNi, PtAlCuMnNi, IrOsPtRuCu",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The table reports the samples synthesized using the milling (or melt spinning) + dealloying method as listed above.",
+    "GT": "AuPdPtAlCuNi, AuPdPtAlCoCuFeNi, AlCoCuFeNiMo, IrAlCoMoNi, PtAlCuMnNi, IrOsPtRuCu"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average particle size (P.S.) of the samples synthesized using the wet chemistry method?",
+    "Answer": "26.7 nm",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The table reports the particle size of the sample synthesized using the wet chemistry method as 26.7 nm for row 12.",
+    "GT": "26.7 nm"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average particle size (P.S.) of the samples synthesized using the wet chemistry method?",
+    "Answer": "CoCrFeMnNi",
+    "QuestionType": "Cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The table reports the sample synthesized using the ultrashort-pulsed laser ablation method as CoCrFeMnNi for row 13.",
+    "GT": "26.7 nm"
+  }
+]

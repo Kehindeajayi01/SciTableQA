@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of 'High' interactions for GPX1?",
+    "Answer": "90%",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Low' column of GPX1, where 9 out of 10 interactions are 'Low'.",
+    "GT": "10%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which protein has the highest percentage of 'High' interactions?",
+    "Answer": "CAT",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'High' column, where CAT has 100% 'High' interactions.",
+    "GT": "GPX2, GPX4, GPX6, GPX7, PRDX5, and SRXN1"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of interactions for PRDX2?",
+    "Answer": "60",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Total' column of PRDX2.",
+    "GT": "60"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which protein has the lowest percentage of unique interactions?",
+    "Answer": "NOX4",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Unique' column, where NOX4 has 0 unique interactions.",
+    "GT": "GPX5 and NOX4"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the number of publications for SRXN1?",
+    "Answer": "2",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The answer is derived from the 'Publications' column of SRXN1.",
+    "GT": "2"
+  }
+]

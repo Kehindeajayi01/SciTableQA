@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of schools in the original sample from Australia?",
+    "Answer": "290",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The answer can be found in the first row of the table, under the column 'Schools in original sample' for Australia.",
+    "GT": "290"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which country has the highest number of eligible schools in the original sample?",
+    "Answer": "United States",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The answer can be found by comparing the values in the column 'Eligible schools in original sample' across all rows.",
+    "GT": "Canada"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of students assessed in participating schools from Canada?",
+    "Answer": "6,126",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The answer can be found in the row for Canada, under the columns 'Sampled students in participating schools' and 'Students assessed'.",
+    "GT": "23,206"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which country has the lowest number of schools that participated in the original sample?",
+    "Answer": "Malta",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The answer can be found by comparing the values in the column 'Total schools that participated' across all rows.",
+    "GT": "Norway"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the total number of students assessed in participating schools from the Russian Federation?",
+    "Answer": "4,693",
+    "QuestionType": "Cell selection",
+    "TableName": "table-A-2.csv",
+    "Explanation": "The answer can be found in the row for the Russian Federation, under the columns 'Sampled students in participating schools' and 'Students assessed'.",
+    "GT": "4,461"
+  }
+]

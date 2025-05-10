@@ -1,0 +1,49 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the carbon price when the NPV-10 is $4,594?",
+    "Answer": "0",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The answer can be found in the first row of the table, where the carbon price is 0 and the NPV-10 is 4,594.",
+    "GT": "0"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "At what carbon price does the IRR reach 124%?",
+    "Answer": "5",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The answer can be found in the third row of the table, where the carbon price is 5 and the IRR is 124%.",
+    "GT": "5"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the NPV-10 when the IRR is 160%?",
+    "Answer": "9,584",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The answer can be found in the fourth row of the table, where the IRR is 160% and the NPV-10 is 9,584.",
+    "GT": "The answer can be found in the third row of the table, where the IRR is 160% and the NPV-10 is 24,324."
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the highest IRR in the table?",
+    "Answer": "197%",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The answer can be found in the last row of the table, where the IRR is 197%.",
+    "GT": "202%
+The answer can be found in the last row of the table, where the IRR is 202%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the NPV-10 when the carbon price is 15?",
+    "Answer": "12,079",
+    "QuestionType": "cell selection",
+    "TableName": "table-3-11.csv",
+    "Explanation": "The answer can be found in the fifth row of the table, where the carbon price is 15 and the NPV-10 is 12,079.",
+    "GT": "39,110
+The answer can be found in the fifth row of the table, where the carbon price is 15 and the NPV-10 is 39,110"
+  }
+]

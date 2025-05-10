@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the proportion of individuals in the 40-49 age group compared to the 20-29 age group?",
+    "Answer": "0.1477 / 0.2650 = 0.557",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the proportion of individuals in the 40-49 age group (0.1477) to the 20-29 age group (0.2650).",
+    "GT": "The proportion of individuals in the 40-49 age group out of the total population is 0.1322 and the proportion of the 20-29 age group out of the total population is 0.1560."
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average proportion of individuals in the 50-59 and 60-69 age groups?",
+    "Answer": "(0.1514 + 0.1225) / 2 = 0.1369",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the average proportion of individuals in the 50-59 (0.1514) and 60-69 (0.1225) age groups by taking the average of the two proportions.",
+    "GT": "0.0838"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the difference in proportion between the 30-39 and 70-79 age groups?",
+    "Answer": "0.2046 - 0.0752 = 0.1294",
+    "QuestionType": "difference",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the difference in proportion between the 30-39 (0.2046) and 70-79 (0.0752) age groups.",
+    "GT": "0.1149"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the proportion of individuals in the 50-59 age group compared to the 80+ age group?",
+    "Answer": "0.1514 / 0.0336 = 4.51",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The question compares the proportion of individuals in the 50-59 age group (0.1514) to the 80+ age group (0.0336).",
+    "GT": "The proportion of individuals in the 50-59 age group out of the total population is 0.0876 and the proportion of the 80+ age group out of the total population is 0.0244."
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the proportion of individuals in the 20-29 and 40-49 age groups combined?",
+    "Answer": "0.2650 + 0.1477 = 0.4127",
+    "QuestionType": "combination",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the proportion of individuals in the 20-29 (0.2650) and 40-49 (0.1477) age groups combined by adding the two proportions.",
+    "GT": "0.2882"
+  }
+]

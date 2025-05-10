@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in Polygenic Risk Score Max R2 between EUR and AFR populations?",
+    "Answer": "1.24%",
+    "QuestionType": "Comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The Polygenic Risk Score Max R2 for EUR is 2.37%, and for AFR is 1.13%, so the difference is 2.37% - 1.13% = 1.24%",
+    "GT": "Irrelevant question"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average Heritability for EUR population?",
+    "Answer": "0.12",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The Heritability values for EUR are 0.17, 0.11, 0.10, 0.10, 0.08, and 0.02. The average is (0.17 + 0.11 + 0.10 + 0.10 + 0.08 + 0.02) / 6 = 0.12",
+    "GT": "0.97"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total number of Gene-based GWAS for EUR and AFR populations combined?",
+    "Answer": "53",
+    "QuestionType": "Count",
+    "TableName": "table-1.csv",
+    "Explanation": "The number of Gene-based GWAS for EUR is 2, and for AFR is 2. The total is 2 + 2 = 4",
+    "GT": "405"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the maximum value of Polygenic Risk Score Max R2 for EUR population?",
+    "Answer": "2.37%",
+    "QuestionType": "Maximum",
+    "TableName": "table-1.csv",
+    "Explanation": "The Polygenic Risk Score Max R2 values for EUR are 2.37%, 1.13%, 1.38%, 1.07%, 0.76%, and 1.62%. The maximum value is 2.37%",
+    "GT": "2.37%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of Colocalisation for EUR population?",
+    "Answer": "1.5",
+    "QuestionType": "Average",
+    "TableName": "table-1.csv",
+    "Explanation": "The Colocalisation values for EUR are 0, 0, 0, 6, 0, and 0. The average is (0 + 0 + 0 + 6 + 0 + 0) / 6 = 1.5",
+    "GT": "1.3"
+  }
+]

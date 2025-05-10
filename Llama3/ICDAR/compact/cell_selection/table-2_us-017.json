@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What was the total enrollment in the year 2001?",
+    "Answer": "47,672",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the cell at row 7, column 1.",
+    "GT": "47,672"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What was the grade 1 enrollment in the year 2005?",
+    "Answer": "3,619",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the cell at row 11, column 3.",
+    "GT": "3,691"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What was the average increase in total enrollment from 1996 to 2001?",
+    "Answer": "1,061",
+    "QuestionType": "Calculation",
+    "TableName": "Unknown_1",
+    "Explanation": "The average increase in total enrollment can be calculated by subtracting the total enrollment in 1996 (45,611) from the total enrollment in 2001 (47,672) and dividing by the number of years (5).",
+    "GT": "412.2"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What was the projected total enrollment in the year 2015?",
+    "Answer": "50,773",
+    "QuestionType": "Cell selection",
+    "TableName": "Unknown_1",
+    "Explanation": "The answer can be found in the cell at row 22, column 1.",
+    "GT": "50,773"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What was the average change in grade 4 enrollment from 2000 to 2005?",
+    "Answer": "143",
+    "QuestionType": "Calculation",
+    "TableName": "Unknown_1",
+    "Explanation": "The average change in grade 4 enrollment can be calculated by subtracting the grade 4 enrollment in 2000 (3,692) from the grade 4 enrollment in 2005 (3,686) and dividing by the number of years (5).",
+    "GT": "126"
+  }
+]

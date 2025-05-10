@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average number of total alleles in the Parr/fry sample type?",
+    "Answer": "8.51",
+    "QuestionType": "average",
+    "TableName": "table-A1.csv",
+    "Explanation": "The average number of total alleles in the Parr/fry sample type is calculated by summing up all the values in the 'No total alleles' column and dividing by the number of samples (32).",
+    "GT": "200.10"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in the number of total alleles between the river 'Kovda' and 'Kanda'?",
+    "Answer": "4.56",
+    "QuestionType": "comparison",
+    "TableName": "table-A1.csv",
+    "Explanation": "The difference in the number of total alleles between the river 'Kovda' and 'Kanda' is calculated by subtracting the value in the 'No total alleles' column for 'Kovda' (78) from the value in the 'No total alleles' column for 'Kanda' (186).",
+    "GT": "108"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage of total alleles in the Parr/fry sample type that are after fullsib removal?",
+    "Answer": "76.15%",
+    "QuestionType": "percentage",
+    "TableName": "table-A1.csv",
+    "Explanation": "The percentage of total alleles in the Parr/fry sample type that are after fullsib removal is calculated by dividing the number of total alleles after fullsib removal (sum of values in the 'No samples after fullsib removal' column) by the total number of alleles (sum of values in the 'No total alleles' column), and multiplying by 100.",
+    "GT": "23.59%"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average number of total alleles in the rivers with a latitude greater than 68.5?",
+    "Answer": "9.42",
+    "QuestionType": "average",
+    "TableName": "table-A1.csv",
+    "Explanation": "The average number of total alleles in the rivers with a latitude greater than 68.5 is calculated by summing up all the values in the 'No total alleles' column for the rivers with a latitude greater than 68.5 (16 rivers) and dividing by the number of rivers (16).",
+    "GT": "213.67"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in the number of total alleles between the river 'Ponoi' and 'Rynda'?",
+    "Answer": "0.29",
+    "QuestionType": "comparison",
+    "TableName": "table-A1.csv",
+    "Explanation": "The difference in the number of total alleles between the river 'Ponoi' and 'Rynda' is calculated by subtracting the value in the 'No total alleles' column for 'Ponoi' (251) from the value in the 'No total alleles' column for 'Rynda' (242).",
+    "GT": "9"
+  }
+]

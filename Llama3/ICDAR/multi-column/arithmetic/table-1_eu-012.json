@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average percentage of females and males in the 15-24 age group in EU-15 in the year 2000?",
+    "Answer": "9.3",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the average percentage of females and males in the 15-24 age group in EU-15 in the year 2000 by taking the average of the values in cells (2, 3) and (2, 4) which are 9.3 and 6.4 respectively.",
+    "GT": "7.85"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in percentage of females in the 15-24 age group between EU-15 and EU-25 in the year 2005?",
+    "Answer": "0.9",
+    "QuestionType": "difference",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the difference in percentage of females in the 15-24 age group between EU-15 and EU-25 in the year 2005 by subtracting the values in cells (3, 2) and (3, 7) which are 8.6 and 8.7 respectively.",
+    "GT": "0.9"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the total percentage of males in the 15-24 age group in EU-25 in the year 2000?",
+    "Answer": "7.7",
+    "QuestionType": "total",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the total percentage of males in the 15-24 age group in EU-25 in the year 2000 by taking the value in cell (2, 4) which is 7.7.",
+    "GT": "7.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average percentage of females and males in the 15-24 age group in EU-25 in the year 2005?",
+    "Answer": "8.7",
+    "QuestionType": "average",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the average percentage of females and males in the 15-24 age group in EU-25 in the year 2005 by taking the average of the values in cells (3, 2) and (3, 7) which are 8.6 and 8.7 respectively.",
+    "GT": "7.95"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the difference in percentage of males in the 15-24 age group between EU-15 and EU-25 in the year 1995?",
+    "Answer": "0.6",
+    "QuestionType": "difference",
+    "TableName": "table-1.csv",
+    "Explanation": "The question calculates the difference in percentage of males in the 15-24 age group between EU-15 and EU-25 in the year 1995 by subtracting the values in cells (1, 2) and (1, 7) which are 15.7 and 15.1 respectively.",
+    "GT": "0.9"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the SIR value for 'Vocal'?",
+    "Answer": "6.46",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the first row and first column of the table, where the category is 'Vocal' and the metric is 'Source to interference ratio (SIR)'",
+    "GT": "6.46"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average SDR value across all categories?",
+    "Answer": "2.21",
+    "QuestionType": "cell selection and calculation",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found by calculating the average of the SDR values in the table, which are 1.62, 2.05, 1.33, 2.25, 2.12, 2.18, 1.57, 1.24, 1.77, and 1.87. The average is (1.62 + 2.05 + ... + 1.87) / 10 = 2.21",
+    "GT": "2.305"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the highest SAR value?",
+    "Answer": "7.66",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the table by identifying the highest SAR value, which is 7.66 in the row corresponding to 'Source to artifact ratio (SAR)' and category 'Bass'",
+    "GT": "7.66"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the SDR value for 'Drum'?",
+    "Answer": "3.27",
+    "QuestionType": "cell selection",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found in the row corresponding to 'Drum' and the column corresponding to 'Source to distortion ratio (SDR)'",
+    "GT": "3.27"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average SIR value for 'Bass', 'Drum', and 'Other'?",
+    "Answer": "2.44",
+    "QuestionType": "cell selection and calculation",
+    "TableName": "table-1",
+    "Explanation": "The answer can be found by calculating the average of the SIR values for 'Bass', 'Drum', and 'Other', which are 2.56, 1.17, and 1.57. The average is (2.56 + 1.17 + 1.57) / 3 = 2.44",
+    "GT": "3.16"
+  }
+]

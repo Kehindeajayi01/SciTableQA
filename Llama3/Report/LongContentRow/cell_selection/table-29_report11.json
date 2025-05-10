@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the total number of stations used for measuring emissions in the M&R Stations category?",
+    "Answer": "229",
+    "QuestionType": "cell selection",
+    "TableName": "table-29.csv",
+    "Explanation": "The answer can be found in the 'M&R Stations' row of the table, under the 'Number of Sources' column.",
+    "GT": "229"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which category has the highest number of leaks measured for emissions?",
+    "Answer": "Pipeline Leaks",
+    "QuestionType": "cell selection",
+    "TableName": "table-29.csv",
+    "Explanation": "The answer can be found by comparing the number of leaks measured in each category, which is highest in the 'Pipeline Leaks' category.",
+    "GT": "Pipeline Leaks"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "How many companies estimated emissions for the survey in the Pipeline Blowdowns category?",
+    "Answer": "4",
+    "QuestionType": "cell selection",
+    "TableName": "table-29.csv",
+    "Explanation": "The answer can be found in the 'Pipeline Blowdowns' row of the table, under the 'Number of Sources' column.",
+    "GT": "4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total number of meters tested in the Residential Meters category?",
+    "Answer": "2400",
+    "QuestionType": "cell selection",
+    "TableName": "table-29.csv",
+    "Explanation": "The answer can be found in the 'Residential Meters' row of the table, under the 'Number of Sources' column.",
+    "GT": "2400"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What method was used by GTI to develop the weighted average EF in the Residential Meters category?",
+    "Answer": "based on number of meters tested",
+    "QuestionType": "cell selection",
+    "TableName": "table-29.csv",
+    "Explanation": "The answer can be found in the 'Residential Meters' row of the table, under the 'EF Calculation Method' column.",
+    "GT": "based on number of meters tested"
+  }
+]

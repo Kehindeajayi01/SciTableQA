@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in lattice parameter A between BCC and FCC structures when strain is 0.1%?",
+    "Answer": "0.88",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The lattice parameter A for BCC structure is 2.89 and for FCC structure is 3.77, when strain is 0.1%. The difference is calculated as 3.77 - 2.89 = 0.88.",
+    "GT": "0.8654 A˚"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the percentage difference in lattice parameter A between SPS and MA for FCC structure when strain is 0.2?",
+    "Answer": "6.75%",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The lattice parameter A for FCC structure under SPS is 3.7254 and under MA is 3.77. The percentage difference is calculated as ((3.77-3.7254)/3.7254)*100 = 6.75%",
+    "GT": "1.18%"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average lattice parameter A for BCC and FCC structures when strain is 0.1?",
+    "Answer": "2.83",
+    "QuestionType": "average",
+    "TableName": "Unknown_1",
+    "Explanation": "The lattice parameter A for BCC structure is 2.89 and for FCC structure is 3.77, when strain is 0.1. The average is calculated as (2.89+3.77)/2 = 2.83",
+    "GT": "3.2927 Å"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in lattice parameter A between MA and SPS for BCC structure when strain is 0.2?",
+    "Answer": "0.33",
+    "QuestionType": "comparison",
+    "TableName": "Unknown_1",
+    "Explanation": "The lattice parameter A for BCC structure under MA is 2.86 and under SPS is 2.89, when strain is 0.2. The difference is calculated as 2.89 - 2.86 = 0.33",
+    "GT": "0.03 A˚"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lattice parameter A for FCC structure under MA when strain is 0.1?",
+    "Answer": "3.79",
+    "QuestionType": "specific value",
+    "TableName": "Unknown_1",
+    "Explanation": "The lattice parameter A for FCC structure under MA is 3.79, when strain is 0.1.",
+    "GT": "3.77 Å"
+  }
+]

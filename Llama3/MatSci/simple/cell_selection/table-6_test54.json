@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the highest ultimate compressive strength (σ_UCS) recorded in the table?",
+    "Answer": "2200",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer can be found in the σ_UCS column, where the value 2200 is recorded for the row labeled 'Ti25Ni16.67-5'.",
+    "GT": "2200"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which alloy has the highest proof stress (σ_0.2) value?",
+    "Answer": "1630",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer can be found in the σ_0.2 column, where the value 1630 is recorded for the row labeled 'Ti30Ni30-5'.",
+    "GT": "Ti20NNi20-6"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the percentage elongation at fracture (ε_f) for the alloy labeled 'Equi-6'?",
+    "Answer": "2.8",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer can be found in the ε_f column, where the value 2.8 is recorded for the row labeled 'Equi-6'.",
+    "GT": "2.8"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which alloy has the highest percentage elongation at proof stress (ε_p) value?",
+    "Answer": "7.2",
+    "QuestionType": "cell selection",
+    "TableName": "table-6.csv",
+    "Explanation": "The answer can be found in the ε_p column, where the value 7.2 is recorded for the row labeled 'Ti40Ni40-5'.",
+    "GT": "Ti40Ni40-5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average value of σ_UCS for the alloys with 30% Ni content?",
+    "Answer": "1935",
+    "QuestionType": "calculation",
+    "TableName": "table-6.csv",
+    "Explanation": "The average value of σ_UCS can be calculated by adding the values for 'Ti30Ni30-5' and 'Ti30Ni30-6' (1935 + 1933 = 3868) and then dividing by 2 (3868 / 2 = 1935).",
+    "GT": "1934"
+  }
+]

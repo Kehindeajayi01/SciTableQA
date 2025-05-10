@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average score for Emergent Literacy Scale (parent report) and Letter Naming?",
+    "Answer": "0.35 + 0.24 = 0.59",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2b.csv",
+    "Explanation": "The average score for Emergent Literacy Scale (parent report) is 0.35 and for Letter Naming is 0.24. The question is asking for the sum of these two scores.",
+    "GT": "(0.35 + 0.24)/2 = 0.295"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference between the scores for Test of Phonological Processing (CTOPPP Elision) and Receptive Vocabulary (PPVT)?",
+    "Answer": "0.10 - 0.18 = -0.08",
+    "QuestionType": "Comparison",
+    "TableName": "table-2b.csv",
+    "Explanation": "The scores for Test of Phonological Processing (CTOPPP Elision) and Receptive Vocabulary (PPVT) are 0.10 and 0.18 respectively. The question is asking for the difference between these two scores.",
+    "GT": "0.10 - 0.18 = -0.08"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average score for Phonetic Skills/Word Attack (WJII), Academic Applications (WJIII), and Passage Comprehension (WJIII)?",
+    "Answer": "NA + NA + NA = NA",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2b.csv",
+    "Explanation": "The scores for Phonetic Skills/Word Attack (WJII), Academic Applications (WJIII), and Passage Comprehension (WJIII) are all NA. The question is asking for the sum of these scores, but since they are all NA, the answer is also NA.",
+    "GT": "NA + NA + NA = NA"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference between the scores for Oral C Comprehension (WJIII) and Pre-Academic Skills (WJIII)?",
+    "Answer": "0.08 - 0.22 = -0.14",
+    "QuestionType": "Comparison",
+    "TableName": "table-2b.csv",
+    "Explanation": "The scores for Oral C Comprehension (WJIII) and Pre-Academic Skills (WJIII) are 0.08 and 0.22 respectively. The question is asking for the difference between these two scores.",
+    "GT": "0.08 - 0.22 = -0.14"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the sum of the scores for Letter-Word Identification (WJIII), Spelling (WJIII), and Writing Sample (WJIII)?",
+    "Answer": "0.26 + NA + NA = 0.26",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-2b.csv",
+    "Explanation": "The scores for Letter-Word Identification (WJIII), Spelling (WJIII), and Writing Sample (WJIII) are 0.26, NA, and NA respectively. The question is asking for the sum of these scores, and since one of the scores is NA, the answer is only the non-NA score.",
+    "GT": "0.26 + NA + NA = 0.26"
+  }
+]

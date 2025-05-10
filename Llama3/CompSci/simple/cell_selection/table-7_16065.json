@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage of responses that are 'Model' for the 'Government' category?",
+    "Answer": "55.1",
+    "QuestionType": "cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 1 and column 2, which corresponds to the 'Government' category and the 'Model' response.",
+    "GT": "55.1"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which category has the highest percentage of responses that are 'I'?",
+    "Answer": "Sociology",
+    "QuestionType": "cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is obtained by comparing the percentages of 'I' responses across categories and selecting the category with the highest percentage, which is Sociology.",
+    "GT": "Sociology"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average percentage of responses that are 'P' for all categories?",
+    "Answer": "63.2",
+    "QuestionType": "calculation",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is obtained by calculating the average of the percentages of 'P' responses across all categories, which is (76.3 + 71.7 + 72.7 + 50.0 + 62.5 + 66.6 + 54.5) / 7 = 63.2.",
+    "GT": "75.71"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which category has the lowest number of responses?",
+    "Answer": "Science",
+    "QuestionType": "cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is obtained by selecting the category with the lowest number of responses, which is Science.",
+    "GT": "Science"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage of responses that are 'I' for the 'Economics' category?",
+    "Answer": "50.0",
+    "QuestionType": "cell selection",
+    "TableName": "table-7.csv",
+    "Explanation": "The answer is obtained by selecting the cell at row 4 and column 3, which corresponds to the 'Economics' category and the 'I' response.",
+    "GT": "50.0"
+  }
+]

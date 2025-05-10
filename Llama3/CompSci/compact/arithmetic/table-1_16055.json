@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average difference in model accuracy between the top-performing models (85.6% and 86.1%) and the bottom-performing models (80.5%)?",
+    "Answer": "4.8%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by subtracting the average accuracy of the bottom-performing models (80.5%) from the average accuracy of the top-performing models ((85.6% + 86.1%) / 2).",
+    "GT": "4.8%"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average number of parameters in the top-performing models compared to the bottom-performing models?",
+    "Answer": "1.34M",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by averaging the number of parameters in the top-performing models (11.6M and 140.2M) and subtracting the average number of parameters in the bottom-performing models (500k and 231k).",
+    "GT": "1.34M"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average time taken to train the top-performing models compared to the bottom-performing models?",
+    "Answer": "4.2 hours",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by averaging the time taken to train the top-performing models (8.5 hours and 3.8 hours) and subtracting the average time taken to train the bottom-performing models (72 hours and 240 hours).",
+    "GT": "4.2 hours"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in model accuracy between the 100D Gumbel Tree-LSTM (Ours) and the 300D Gumbel Tree-LSTM (Ours)?",
+    "Answer": "1.0%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by subtracting the model accuracy of the 100D Gumbel Tree-LSTM (Ours) from the model accuracy of the 300D Gumbel Tree-LSTM (Ours).",
+    "GT": "3%"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the average model accuracy of the top-performing models (85.6% and 86.1%) compared to the average model accuracy of the bottom-performing models (80.5%)?",
+    "Answer": "85.85%",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "Calculated by averaging the model accuracy of the top-performing models and subtracting the average model accuracy of the bottom-performing models.",
+    "GT": "85.85%"
+  }
+]

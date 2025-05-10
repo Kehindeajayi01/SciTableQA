@@ -1,0 +1,42 @@
+[
+  {
+    "Question": "What is the total production of fused aluminum oxide in the United States and Canada in 2009 and 2010?",
+    "Answer": "60,400",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cells (1, 1) and (1, 2) in the table, which provide the production values for the United States and Canada in 2009 and 2010, respectively.",
+    "GT": "120,800"
+  },
+  {
+    "Question": "What is the total production of fused aluminum oxide in China and the United States and Canada combined in 2010?",
+    "Answer": "455,000 + 60,400 = 515,400",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cells (6, 2) and (1, 2) in the table, which provide the production values for China and the United States and Canada in 2010, respectively. The values are then added together to get the total production.",
+    "GT": "760,400"
+  },
+  {
+    "Question": "What is the average production of fused aluminum oxide in Europe (France, Germany, and Austria) in 2009?",
+    "Answer": "(16,000 + 36,000 + 60,000) / 3 = 24,000",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cells (7, 1), (8, 1), and (4, 1) in the table, which provide the production values for France, Germany, and Austria in 2009, respectively. The values are then added together and divided by 3 to get the average production.",
+    "GT": "180,000"
+  },
+  {
+    "Question": "What is the total production of fused aluminum oxide in all countries except China, India, and Mexico in 2010?",
+    "Answer": "1,190,000 - 455,000 - 40,000 - 45,000 = 650,000",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cells (15, 2), (6, 2), (9, 2), and (11, 2) in the table, which provide the production values for the World total, China, India, and Mexico in 2010, respectively. The values are then subtracted from the World total to get the total production in all countries except China, India, and Mexico.",
+    "GT": "445,400"
+  },
+  {
+    "Question": "What is the percentage change in production of fused aluminum oxide in Brazil from 2009 to 2010?",
+    "Answer": "((43,000 - 50,000) / 50,000) * 100 = -14%",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The question is answered by referencing cells (5, 1) and (5, 2) in the table, which provide the production values for Brazil in 2009 and 2010, respectively. The change in production is calculated by subtracting the 2009 value from the 2010 value, and then dividing by the 2009 value and multiplying by 100 to get the percentage change.",
+    "GT": "0%"
+  }
+]

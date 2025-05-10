@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the OMIM number for White Sponge Nevus 1?",
+    "Answer": "#193900",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The OMIM number for White Sponge Nevus 1 is found in the OMIM column of the table.",
+    "GT": "#193900"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the gene associated with Pachyonychia congenita 1/PC1?",
+    "Answer": "KRT16",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The gene associated with Pachyonychia congenita 1/PC1 is found in the Gene column of the table.",
+    "GT": "KRT16"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the inheritance pattern of Pachyonychia congenita, autosomal recessive?",
+    "Answer": "AR",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The inheritance pattern of Pachyonychia congenita, autosomal recessive is found in the Inheritance column of the table.",
+    "GT": "AR"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the OMIM number for DKC, autosomal dominant 2/DKCA2?",
+    "Answer": "#613989",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The OMIM number for DKC, autosomal dominant 2/DKCA2 is found in the OMIM column of the table.",
+    "GT": "#613989"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the location of the KRT4 gene?",
+    "Answer": "12q13.13",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The location of the KRT4 gene is found in the Location column of the table.",
+    "GT": "12q13.13"
+  }
+]

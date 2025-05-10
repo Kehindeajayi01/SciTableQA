@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the percentage growth in total retail sales volume of Austria and France from 1990 to 1994?",
+    "Answer": "5.8",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The question compares the percentage growth in total retail sales volume of Austria and France from 1990 to 1994. The answer is derived from the values in cells 0 and 4, which are 6.9 and 5.8 respectively.",
+    "GT": "Austria: n.a., France: 5.8"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the difference in total retail sales volume between Germany and Greece in 1996?",
+    "Answer": "36.0",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The question compares the total retail sales volume of Germany and Greece in 1996. The answer is derived from the values in cells 5 and 6, which are 111.4 and 147.2 respectively.",
+    "GT": "35.8"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the average percentage growth in total retail sales volume of Denmark, Finland, and Sweden from 1990 to 1994?",
+    "Answer": "n.a",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The question calculates the average percentage growth in total retail sales volume of Denmark, Finland, and Sweden from 1990 to 1994. The answer is derived from the values in cells 2, 3, and 12, which are all 'n.a'.",
+    "GT": "6.4"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the total retail sales volume of the UK and Ireland in 1996?",
+    "Answer": "270.1",
+    "QuestionType": "Arithmetic",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The question calculates the total retail sales volume of the UK and Ireland in 1996. The answer is derived from the values in cells 13 and 7, which are 140.0 and 130.1 respectively.",
+    "GT": "270.1"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the percentage growth in total retail sales volume of Austria and Ireland from 1990 to 1994?",
+    "Answer": "10.0",
+    "QuestionType": "Comparison",
+    "TableName": "table-6.4.csv",
+    "Explanation": "The question compares the percentage growth in total retail sales volume of Austria and Ireland from 1990 to 1994. The answer is derived from the values in cells 0 and 7, which are 6.9 and 12.0 respectively.",
+    "GT": "Austria: n.a., Ireland: 12.0"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the average hardness value in MPa for System MoTa1.0?",
+    "Answer": "5925",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The average hardness value is obtained from the row labeled 'Average value' in the table.",
+    "GT": "5925 MPa"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the highest hardness value in MPa for System MoTa1.0?",
+    "Answer": "6096",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The highest hardness value is obtained from the cell at row 1, column 3 in the table.",
+    "GT": "5999 MPa"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the standard deviation of hardness values in MPa for System MoTa1.0?",
+    "Answer": "84",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The standard deviation of hardness values is obtained from the row labeled 'Average value' in the table.",
+    "GT": "83.84 MPa."
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the average hardness value in HRC for System MoTa1.0?",
+    "Answer": "58",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The average hardness value in HRC is obtained from the row labeled 'Average value' in the table.",
+    "GT": "58.2 HRC"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the lowest hardness value in MPa for System MoTa1.0?",
+    "Answer": "5728",
+    "QuestionType": "Cell selection",
+    "TableName": "table-3.csv",
+    "Explanation": "The lowest hardness value is obtained from the cell at row 5, column 5 in the table.",
+    "GT": "5765 MPa"
+  }
+]

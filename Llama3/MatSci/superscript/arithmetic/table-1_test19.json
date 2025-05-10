@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the difference in σ_0.2 (MPa) between As-annealed MEA and CrNbTiZr at 600 °C?",
+    "Answer": "893 - 1035 = -142",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the σ_0.2 (MPa) value of CrNbTiZr (1035) from the σ_0.2 (MPa) value of As-annealed MEA (893) at 600 °C.",
+    "GT": "1035 - 813 = 222"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "What is the average σ_0.2 (MPa) of the alloys at 800 °C?",
+    "Answer": "(550 + 240 + 187 + 615 + 685) / 5 = 497",
+    "QuestionType": "arithmetic",
+    "TableName": "table-1.csv",
+    "Explanation": "The average σ_0.2 (MPa) is calculated by summing the σ_0.2 (MPa) values of the alloys at 800 °C (550, 240, 187, 615, 685) and dividing by the number of alloys (5).",
+    "GT": "550 + 240 + 187 + 300 + 615 + 685 + 825 + 796 + 1597 + 728 + 552 + 846 = 660"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the highest σ_0.2 (MPa) value among all alloys at 1200 °C?",
+    "Answer": "225",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The highest σ_0.2 (MPa) value at 1200 °C is 225, which is found in the alloy AlMo0.5NbTa0.5TiZr.",
+    "GT": "735"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "What is the difference in σ_0.2 (MPa) between AlNb1.5Ta0.5Ti1.5Zr0.5 and MoNbTaW at 25 °C?",
+    "Answer": "1280 - 1058 = 222",
+    "QuestionType": "comparison",
+    "TableName": "table-1.csv",
+    "Explanation": "The difference is calculated by subtracting the σ_0.2 (MPa) value of MoNbTaW (1058) from the \u03c3_0.2 (MPa) value of AlNb1.5Ta0.5Ti1.5Zr0.5 (1280) at 25 °C.",
+    "GT": "1280 - 1058 = 222"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the σ_0.2 (MPa) value of HfMoNbTiZr at 1000 °C?",
+    "Answer": "635",
+    "QuestionType": "specific value",
+    "TableName": "table-1.csv",
+    "Explanation": "The σ_0.2 (MPa) value of HfMoNbTiZr at 1000 °C is directly found in the table.",
+    "GT": "635"
+  }
+]

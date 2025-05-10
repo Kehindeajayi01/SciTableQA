@@ -1,0 +1,47 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Question": "What is the forward primer sequence for the promoter and exon 1 region?",
+    "Answer": "GAAACCTAATAAAGCTCCACCTTC",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The forward primer sequence for the promoter and exon 1 region is directly retrieved from the 'Forward primer (5' 3')' column of the table.",
+    "GT": "GAAACCTAATAAAGCTCCACCTTC"
+  },
+  {
+    "QuestionID": "Q2",
+    "Question": "Which region has the longest reverse primer sequence?",
+    "Answer": "Exon 3 & Exon 4",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The reverse primer sequence for the Exon 3 & Exon 4 region is the longest among all regions.",
+    "GT": "Exon 3 & Exon 4"
+  },
+  {
+    "QuestionID": "Q3",
+    "Question": "What is the reverse primer sequence for the exon 2 region?",
+    "Answer": "GGAAAAGCCAAATCTAAGGTTCC",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The reverse primer sequence for the exon 2 region is directly retrieved from the 'Reverse primer (5' 3')' column of the table.",
+    "GT": "GGAAAAGCCAAATCTAAGGTTCC"
+  },
+  {
+    "QuestionID": "Q4",
+    "Question": "Which region has a forward primer sequence starting with 'GAA'?",
+    "Answer": "Promoter & Exon 1, Exon 3 & Exon 4, Exon 5",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The forward primer sequences for the Promoter & Exon 1, Exon 3 & Exon 4, and Exon 5 regions all start with 'GAA'.",
+    "GT": "Promoter & Exon 1/Exon 5"
+  },
+  {
+    "QuestionID": "Q5",
+    "Question": "What is the forward primer sequence for the exon 5 region?",
+    "Answer": "GAAACAGGTTTCCTTTCCCAAG",
+    "QuestionType": "cell selection",
+    "TableName": "table-1.csv",
+    "Explanation": "The forward primer sequence for the exon 5 region is directly retrieved from the 'Forward primer (5' 3')' column of the table.",
+    "GT": "GAAACAGGTTTCCTTTCCCAAG"
+  }
+]
